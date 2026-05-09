@@ -218,3 +218,6 @@
 [2026-05-09T16:37:12.792Z] [INFO] ✅ Socket.IO initialized
 [2026-05-09T16:37:12.827Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /messaging, /chat, /notifications
 [2026-05-09T16:37:12.861Z] [INFO] ✅ Socket.IO initialized
+[2026-05-09T16:41:45.428Z] [INFO] 💚 Health: 304MB heap | 0h 5m uptime | 0 tracked errors
+[2026-05-09T16:46:45.435Z] [INFO] 💚 Health: 304MB heap | 0h 10m uptime | 0 tracked errors
+[2026-05-09T16:51:45.439Z] [INFO] 💚 Health: 305MB heap | 0h 15m uptime | 0 tracked errors

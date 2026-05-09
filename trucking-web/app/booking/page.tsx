@@ -118,7 +118,6 @@ export default function BookingPage() {
   const [couponDiscount, setCouponDiscount] = useState(0)
   const [couponApplied, setCouponApplied] = useState(false)
 
-  const distance = 1200
   const selectedTruck = availableTrucks.find(t => t.id === form.selected_truck_id) || TRUCK_TYPES[0]
 
   // Real pricing from API
