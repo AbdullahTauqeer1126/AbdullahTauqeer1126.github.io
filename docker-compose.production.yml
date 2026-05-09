@@ -1,0 +1,129 @@
+version: '3.8'
+
+services:
+  # Trucking API Service
+  api:
+    image: trucking-api:production
+    container_name: trucking-api-prod
+    ports:
+      - "3001:3001"
+    environment:
+      - NODE_ENV=production
+      - DATABASE_URL=${DATABASE_URL}
+      - JWT_SECRET=${JWT_SECRET}
+      - SUPABASE_URL=${SUPABASE_URL}
+      - SUPABASE_KEY=${SUPABASE_KEY}
+      - FIREBASE_PROJECT_ID=${FIREBASE_PROJECT_ID}
+      - FIREBASE_PRIVATE_KEY=${FIREBASE_PRIVATE_KEY}
+      - FIREBASE_CLIENT_EMAIL=${FIREBASE_CLIENT_EMAIL}
+      - REDIS_URL=${REDIS_URL:-redis://redis:6379}
+      - PORT=3001
+    depends_on:
+      - redis
+    restart: always
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:3001/api/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
+    networks:
+      - trucking-network
+
+  # Frontend Next.js Service
+  web:
+    image: trucking-web:production
+    container_name: trucking-web-prod
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+      - NEXT_PUBLIC_API_URL=${NEXT_PUBLIC_API_URL:-http://api:3001}
+      - NEXT_PUBLIC_SUPABASE_URL=${SUPABASE_URL}
+      - NEXT_PUBLIC_SUPABASE_KEY=${SUPABASE_KEY}
+    depends_on:
+      - api
+    restart: always
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:3000"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
+    networks:
+      - trucking-network
+
+  # Redis Cache
+  redis:
+    image: redis:7-alpine
+    container_name: trucking-redis-prod
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis-data:/data
+    restart: always
+    command: redis-server --appendonly yes --requirepass ${REDIS_PASSWORD:-redis123}
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "5m"
+        max-file: "2"
+    networks:
+      - trucking-network
+
+  # Nginx Reverse Proxy
+  nginx:
+    image: nginx:alpine
+    container_name: trucking-nginx-prod
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf:ro
+      - ./nginx/ssl:/etc/nginx/ssl:ro
+    depends_on:
+      - api
+      - web
+    restart: always
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
+    networks:
+      - trucking-network
+
+  # Database Backup Service
+  backup:
+    image: node:18-alpine
+    container_name: trucking-backup-prod
+    entrypoint: /bin/sh
+    command: -c "while true; do pg_dump $DATABASE_URL > /backups/db-$(date +%Y%m%d-%H%M%S).sql; sleep 86400; done"
+    environment:
+      - DATABASE_URL=${DATABASE_URL}
+    volumes:
+      - backup-data:/backups
+    depends_on:
+      - api
+    restart: always
+    networks:
+      - trucking-network
+
+volumes:
+  redis-data:
+    driver: local
+  backup-data:
+    driver: local
+
+networks:
+  trucking-network:
+    driver: bridge

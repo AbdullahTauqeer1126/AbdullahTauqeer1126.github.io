@@ -1,0 +1,103 @@
+[2026-05-07T13:34:26.668Z] [INFO] 🔌 Initializing Supabase...
+[2026-05-07T13:34:26.680Z] [INFO] 📍 URL Present: true
+[2026-05-07T13:34:26.683Z] [INFO] 🔑 Keys Present: true (service: true)
+[2026-05-07T13:36:09.032Z] [WARN] ⚠️ Users table query result: {"message":"TypeError: fetch failed","details":"TypeError: fetch failed\n\nCaused by: ConnectTimeoutError: Connect Timeout Error (attempted addresses: 104.18.38.10:443, 172.64.149.246:443, timeout: 10000ms) (UND_ERR_CONNECT_TIMEOUT)\nConnectTimeoutError: Connect Timeout Error (attempted addresses: 104.18.38.10:443, 172.64.149.246:443, timeout: 10000ms)\n    at onConnectTimeout (node:internal/deps/undici/undici:1690:23)\n    at Immediate._onImmediate (node:internal/deps/undici/undici:1656:35)\n    at processImmediate (node:internal/timers:504:21)","hint":"","code":""}
+[2026-05-07T13:36:09.039Z] [INFO] ✅ Supabase initialized (table check skipped)
+[2026-05-07T13:36:09.051Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-05-07T13:36:09.053Z] [INFO] ✅ Database connection established
+[2026-05-07T13:36:09.082Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-05-07T13:36:09.091Z] [INFO] ✅ Socket.IO initialized
+[2026-05-07T13:36:09.109Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-05-07T13:36:09.115Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-05-07T13:36:09.121Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-05-07T13:36:09.137Z] [INFO] 🔌 Socket.IO: ws://localhost:3001
+[2026-05-07T13:36:09.142Z] [INFO] 📝 Environment: development
+[2026-05-07T13:39:16.429Z] [INFO] 💚 Health: 216MB heap | 0h 5m uptime | 0 tracked errors
+[2026-05-07T13:44:16.426Z] [INFO] 💚 Health: 216MB heap | 0h 10m uptime | 0 tracked errors
+[2026-05-07T13:45:20.914Z] [HTTP] GET /system/settings - 200 (39137ms)
+[2026-05-07T13:45:32.470Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-05-07T13:45:32.474Z] [HTTP] POST /logout - 401 (7ms)
+[2026-05-07T13:45:32.618Z] [ERROR] Get profile error:
+{
+  "statusCode": 404,
+  "code": "USER_NOT_FOUND"
+}
+[2026-05-07T13:45:32.672Z] [HTTP] GET /profile - 404 (47935ms)
+[2026-05-07T13:46:05.791Z] [ERROR] Get profile error:
+{
+  "statusCode": 404,
+  "code": "USER_NOT_FOUND"
+}
+[2026-05-07T13:46:05.804Z] [HTTP] GET /profile - 404 (48537ms)
+[2026-05-07T13:46:09.402Z] [ERROR] Get profile error:
+{
+  "statusCode": 404,
+  "code": "USER_NOT_FOUND"
+}
+[2026-05-07T13:46:09.412Z] [HTTP] GET /profile - 404 (48689ms)
+[2026-05-07T13:46:22.090Z] [ERROR] Get profile error:
+{
+  "statusCode": 404,
+  "code": "USER_NOT_FOUND"
+}
+[2026-05-07T13:46:22.097Z] [HTTP] GET /profile - 404 (49384ms)
+[2026-05-07T13:49:16.439Z] [INFO] 💚 Health: 219MB heap | 0h 15m uptime | 5 tracked errors
+[2026-05-07T13:50:23.098Z] [HTTP] GET /system/settings - 304 (29822ms)
+[2026-05-07T13:54:16.448Z] [INFO] 💚 Health: 219MB heap | 0h 20m uptime | 6 tracked errors
+[2026-05-07T13:54:59.758Z] [HTTP] GET /system/settings - 200 (2177ms)
+[2026-05-07T13:59:16.542Z] [INFO] 💚 Health: 220MB heap | 0h 25m uptime | 6 tracked errors
+[2026-05-07T14:04:16.500Z] [INFO] 💚 Health: 220MB heap | 0h 30m uptime | 6 tracked errors
+[2026-05-07T14:09:16.546Z] [INFO] 💚 Health: 220MB heap | 0h 35m uptime | 6 tracked errors
+[2026-05-07T14:09:46.141Z] [HTTP] GET /system/settings - 200 (21504ms)
+[2026-05-07T14:14:16.516Z] [INFO] 💚 Health: 220MB heap | 0h 40m uptime | 7 tracked errors
+[2026-05-07T14:17:00.902Z] [HTTP] GET /system/settings - 304 (9694ms)
+[2026-05-07T14:17:10.926Z] [INFO] 🔐 Login attempt: admin@test.com
+[2026-05-07T14:17:52.498Z] [INFO] ✅ User logged in: admin@test.com
+[2026-05-07T14:17:52.557Z] [HTTP] POST /login - 200 (41726ms)
+[2026-05-07T14:17:55.667Z] [INFO] 👑 Admin Action: GET /users
+[2026-05-07T14:17:57.111Z] [HTTP] GET /users - 200 (1456ms)
+[2026-05-07T14:17:57.116Z] [INFO] 👑 Admin Action: GET /users
+[2026-05-07T14:17:57.420Z] [HTTP] GET /users - 304 (304ms)
+[2026-05-07T14:17:58.122Z] [HTTP] GET /shipments - 200 (2386ms)
+[2026-05-07T14:18:00.002Z] [HTTP] GET /shipments - 304 (1872ms)
+[2026-05-07T14:18:00.697Z] [HTTP] GET /trucks - 200 (4988ms)
+[2026-05-07T14:18:03.624Z] [HTTP] GET /trucks - 200 (2920ms)
+[2026-05-07T14:19:16.523Z] [INFO] 💚 Health: 221MB heap | 0h 45m uptime | 10 tracked errors
+[2026-05-07T14:24:16.549Z] [INFO] 💚 Health: 222MB heap | 0h 50m uptime | 10 tracked errors
+[2026-05-07T14:26:04.385Z] [HTTP] GET /system/settings - 304 (1647ms)
+[2026-05-07T14:26:04.434Z] [HTTP] GET /profile - 200 (1502ms)
+[2026-05-07T14:34:15.113Z] [INFO] 💚 Health: 222MB heap | 1h 0m uptime | 10 tracked errors
+[2026-05-07T14:35:55.825Z] [INFO] 🔌 Initializing Supabase...
+[2026-05-07T14:35:55.860Z] [INFO] 📍 URL Present: true
+[2026-05-07T14:35:55.860Z] [INFO] 🔑 Keys Present: true (service: true)
+[2026-05-07T14:37:30.013Z] [WARN] ⚠️ Users table query result: {"message":"TypeError: fetch failed","details":"TypeError: fetch failed\n\nCaused by: ConnectTimeoutError: Connect Timeout Error (attempted addresses: 104.18.38.10:443, 172.64.149.246:443, timeout: 10000ms) (UND_ERR_CONNECT_TIMEOUT)\nConnectTimeoutError: Connect Timeout Error (attempted addresses: 104.18.38.10:443, 172.64.149.246:443, timeout: 10000ms)\n    at onConnectTimeout (node:internal/deps/undici/undici:1690:23)\n    at Immediate._onImmediate (node:internal/deps/undici/undici:1656:35)\n    at processImmediate (node:internal/timers:504:21)","hint":"","code":""}
+[2026-05-07T14:37:30.016Z] [INFO] ✅ Supabase initialized (table check skipped)
+[2026-05-07T14:37:30.018Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-05-07T14:37:30.018Z] [INFO] ✅ Database connection established
+[2026-05-07T14:37:30.022Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-05-07T14:37:30.022Z] [INFO] ✅ Socket.IO initialized
+[2026-05-07T14:37:30.027Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-05-07T14:37:30.030Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-05-07T14:37:30.030Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-05-07T14:37:30.031Z] [INFO] 🔌 Socket.IO: ws://localhost:3001
+[2026-05-07T14:37:30.031Z] [INFO] 📝 Environment: development
+[2026-05-07T21:15:37.062Z] [INFO] 🔌 Initializing Supabase...
+[2026-05-07T21:15:37.070Z] [INFO] 📍 URL Present: true
+[2026-05-07T21:15:37.071Z] [INFO] 🔑 Keys Present: true (service: true)
+[2026-05-07T21:15:43.651Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-05-07T21:15:43.655Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-05-07T21:15:43.670Z] [INFO] ✅ Database connection established
+[2026-05-07T21:15:43.685Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-05-07T21:15:43.688Z] [INFO] ✅ Socket.IO initialized
+[2026-05-07T21:15:43.704Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-05-07T21:15:43.714Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-05-07T21:15:43.729Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-05-07T21:15:43.735Z] [INFO] 🔌 Socket.IO: ws://localhost:3001
+[2026-05-07T21:15:43.739Z] [INFO] 📝 Environment: development
+[2026-05-07T21:16:47.181Z] [HTTP] GET /system/settings - 304 (1858ms)
+[2026-05-07T21:20:28.546Z] [INFO] 💚 Health: 217MB heap | 0h 5m uptime | 0 tracked errors
+[2026-05-07T21:25:28.522Z] [INFO] 💚 Health: 217MB heap | 0h 10m uptime | 0 tracked errors
+[2026-05-07T21:30:28.542Z] [INFO] 💚 Health: 217MB heap | 0h 15m uptime | 0 tracked errors
+[2026-05-07T21:35:28.531Z] [INFO] 💚 Health: 216MB heap | 0h 20m uptime | 0 tracked errors
+[2026-05-07T21:40:28.591Z] [INFO] 💚 Health: 216MB heap | 0h 25m uptime | 0 tracked errors

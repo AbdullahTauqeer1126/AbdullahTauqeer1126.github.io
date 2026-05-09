@@ -1,0 +1,1592 @@
+[2026-05-02T12:08:13.316Z] [INFO] 🔌 Initializing Supabase...
+[2026-05-02T12:08:13.320Z] [INFO] 📍 URL Present: true
+[2026-05-02T12:08:13.323Z] [INFO] 🔑 Keys Present: true (service: true)
+[2026-05-02T12:08:14.507Z] [INFO] 🔌 Initializing Supabase...
+[2026-05-02T12:08:14.513Z] [INFO] 📍 URL Present: true
+[2026-05-02T12:08:14.530Z] [INFO] 🔑 Keys Present: true (service: true)
+[2026-05-02T12:08:17.479Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-05-02T12:08:17.479Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-05-02T12:08:17.480Z] [INFO] ✅ Database connection established
+[2026-05-02T12:08:17.486Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-05-02T12:08:17.487Z] [INFO] ✅ Socket.IO initialized
+[2026-05-02T12:08:17.495Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-05-02T12:08:17.496Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-05-02T12:08:17.497Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-05-02T12:08:17.497Z] [INFO] 🔌 Socket.IO: ws://localhost:3001
+[2026-05-02T12:08:17.498Z] [INFO] 📝 Environment: development
+[2026-05-02T12:08:17.526Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-05-02T12:08:17.537Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-05-02T12:08:17.550Z] [INFO] ✅ Database connection established
+[2026-05-02T12:08:17.565Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-05-02T12:08:17.570Z] [INFO] ✅ Socket.IO initialized
+[2026-05-02T12:09:25.994Z] [INFO] 🔐 Login attempt: fleet@gmail.com
+[2026-05-02T12:09:27.260Z] [INFO] ✅ User logged in: fleet@gmail.com
+[2026-05-02T12:09:27.292Z] [HTTP] POST /login - 200 (1301ms)
+[2026-05-02T12:09:29.187Z] [HTTP] GET /trucks - 200 (536ms)
+[2026-05-02T12:09:29.881Z] [HTTP] GET /trucks - 304 (650ms)
+[2026-05-02T12:09:29.935Z] [HTTP] GET /shipments - 200 (1277ms)
+[2026-05-02T12:09:29.953Z] [WARN] ⚠️ Unauthorized access attempt by fleet@gmail.com (fleet_owner)
+[2026-05-02T12:09:29.955Z] [HTTP] GET / - 403 (4ms)
+[2026-05-02T12:09:31.054Z] [HTTP] GET /shipments - 304 (1116ms)
+[2026-05-02T12:09:31.453Z] [HTTP] GET /trucks - 304 (1076ms)
+[2026-05-02T12:09:31.481Z] [WARN] ⚠️ Unauthorized access attempt by fleet@gmail.com (fleet_owner)
+[2026-05-02T12:09:31.506Z] [HTTP] GET / - 403 (46ms)
+[2026-05-02T12:09:33.626Z] [HTTP] GET /trucks - 304 (2106ms)
+[2026-05-02T12:09:35.691Z] [HTTP] GET /shipments - 304 (282ms)
+[2026-05-02T12:09:35.996Z] [HTTP] GET /shipments - 304 (302ms)
+[2026-05-02T12:09:36.826Z] [HTTP] GET /profile - 200 (1105ms)
+[2026-05-02T12:09:37.109Z] [HTTP] GET /trucks/undefined - 404 (269ms)
+[2026-05-02T12:09:37.126Z] [WARN] ⚠️ Unauthorized access attempt by fleet@gmail.com (fleet_owner)
+[2026-05-02T12:09:37.127Z] [HTTP] GET / - 403 (2ms)
+[2026-05-02T12:09:37.368Z] [HTTP] GET /profile - 304 (540ms)
+[2026-05-02T12:09:37.624Z] [HTTP] GET /trucks/undefined - 404 (249ms)
+[2026-05-02T12:09:37.727Z] [WARN] ⚠️ Unauthorized access attempt by fleet@gmail.com (fleet_owner)
+[2026-05-02T12:09:37.728Z] [HTTP] GET / - 403 (2ms)
+[2026-05-02T12:09:53.255Z] [INFO] 🔌 Initializing Supabase...
+[2026-05-02T12:09:53.262Z] [INFO] 📍 URL Present: true
+[2026-05-02T12:09:53.265Z] [INFO] 🔑 Keys Present: true (service: true)
+[2026-05-02T12:09:53.957Z] [INFO] 🔌 Initializing Supabase...
+[2026-05-02T12:09:53.965Z] [INFO] 📍 URL Present: true
+[2026-05-02T12:09:53.969Z] [INFO] 🔑 Keys Present: true (service: true)
+[2026-05-02T12:09:54.093Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-05-02T12:09:54.094Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-05-02T12:09:54.095Z] [INFO] ✅ Database connection established
+[2026-05-02T12:09:54.100Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-05-02T12:09:54.101Z] [INFO] ✅ Socket.IO initialized
+[2026-05-02T12:09:54.105Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-05-02T12:09:54.106Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-05-02T12:09:54.107Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-05-02T12:09:54.108Z] [INFO] 🔌 Socket.IO: ws://localhost:3001
+[2026-05-02T12:09:54.109Z] [INFO] 📝 Environment: development
+[2026-05-02T12:09:54.799Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-05-02T12:09:54.800Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-05-02T12:09:54.806Z] [INFO] ✅ Database connection established
+[2026-05-02T12:09:54.816Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-05-02T12:09:54.818Z] [INFO] ✅ Socket.IO initialized
+[2026-05-02T12:10:35.960Z] [INFO] 🔌 Initializing Supabase...
+[2026-05-02T12:10:35.965Z] [INFO] 📍 URL Present: true
+[2026-05-02T12:10:35.969Z] [INFO] 🔑 Keys Present: true (service: true)
+[2026-05-02T12:10:35.996Z] [INFO] 🔌 Initializing Supabase...
+[2026-05-02T12:10:36.002Z] [INFO] 📍 URL Present: true
+[2026-05-02T12:10:36.008Z] [INFO] 🔑 Keys Present: true (service: true)
+[2026-05-02T12:10:37.069Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-05-02T12:10:37.070Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-05-02T12:10:37.070Z] [INFO] ✅ Database connection established
+[2026-05-02T12:10:37.076Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-05-02T12:10:37.076Z] [INFO] ✅ Socket.IO initialized
+[2026-05-02T12:10:37.081Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-05-02T12:10:37.082Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-05-02T12:10:37.082Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-05-02T12:10:37.084Z] [INFO] 🔌 Socket.IO: ws://localhost:3001
+[2026-05-02T12:10:37.084Z] [INFO] 📝 Environment: development
+[2026-05-02T12:10:37.084Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-05-02T12:10:37.097Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-05-02T12:10:37.099Z] [INFO] ✅ Database connection established
+[2026-05-02T12:10:37.109Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-05-02T12:10:37.112Z] [INFO] ✅ Socket.IO initialized
+[2026-05-02T12:34:27.251Z] [INFO] 🔌 Initializing Supabase...
+[2026-05-02T12:34:27.256Z] [INFO] 📍 URL Present: true
+[2026-05-02T12:34:27.260Z] [INFO] 🔑 Keys Present: true (service: true)
+[2026-05-02T12:34:27.463Z] [INFO] 🔌 Initializing Supabase...
+[2026-05-02T12:34:27.466Z] [INFO] 📍 URL Present: true
+[2026-05-02T12:34:27.467Z] [INFO] 🔑 Keys Present: true (service: true)
+[2026-05-02T12:34:29.434Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-05-02T12:34:29.435Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-05-02T12:34:29.444Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-05-02T12:34:29.442Z] [INFO] ✅ Database connection established
+[2026-05-02T12:34:29.445Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-05-02T12:34:29.445Z] [INFO] ✅ Database connection established
+[2026-05-02T12:34:29.451Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-05-02T12:34:29.452Z] [INFO] ✅ Socket.IO initialized
+[2026-05-02T12:34:29.450Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-05-02T12:34:29.454Z] [INFO] ✅ Socket.IO initialized
+[2026-05-02T12:34:29.456Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-05-02T12:34:29.457Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-05-02T12:34:29.458Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-05-02T12:34:29.459Z] [INFO] 🔌 Socket.IO: ws://localhost:3001
+[2026-05-02T12:34:29.459Z] [INFO] 📝 Environment: development
+[2026-05-02T12:34:40.355Z] [INFO] 🔌 Initializing Supabase...
+[2026-05-02T12:34:40.359Z] [INFO] 📍 URL Present: true
+[2026-05-02T12:34:40.361Z] [INFO] 🔑 Keys Present: true (service: true)
+[2026-05-02T12:34:40.570Z] [INFO] 🔌 Initializing Supabase...
+[2026-05-02T12:34:40.613Z] [INFO] 📍 URL Present: true
+[2026-05-02T12:34:40.663Z] [INFO] 🔑 Keys Present: true (service: true)
+[2026-05-02T12:34:41.663Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-05-02T12:34:41.663Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-05-02T12:34:41.664Z] [INFO] ✅ Database connection established
+[2026-05-02T12:34:41.670Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-05-02T12:34:41.671Z] [INFO] ✅ Socket.IO initialized
+[2026-05-02T12:34:41.675Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-05-02T12:34:41.676Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-05-02T12:34:41.677Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-05-02T12:34:41.678Z] [INFO] 🔌 Socket.IO: ws://localhost:3001
+[2026-05-02T12:34:41.678Z] [INFO] 📝 Environment: development
+[2026-05-02T12:34:41.783Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-05-02T12:34:41.784Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-05-02T12:34:41.785Z] [INFO] ✅ Database connection established
+[2026-05-02T12:34:41.792Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-05-02T12:34:41.797Z] [INFO] ✅ Socket.IO initialized
+[2026-05-02T12:34:57.122Z] [INFO] 🔌 Initializing Supabase...
+[2026-05-02T12:34:57.128Z] [INFO] 📍 URL Present: true
+[2026-05-02T12:34:57.137Z] [INFO] 🔑 Keys Present: true (service: true)
+[2026-05-02T12:34:57.293Z] [INFO] 🔌 Initializing Supabase...
+[2026-05-02T12:34:57.297Z] [INFO] 📍 URL Present: true
+[2026-05-02T12:34:57.298Z] [INFO] 🔑 Keys Present: true (service: true)
+[2026-05-02T12:34:58.022Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-05-02T12:34:58.024Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-05-02T12:34:58.026Z] [INFO] ✅ Database connection established
+[2026-05-02T12:34:58.034Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-05-02T12:34:58.038Z] [INFO] ✅ Socket.IO initialized
+[2026-05-02T12:34:58.045Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-05-02T12:34:58.046Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-05-02T12:34:58.050Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-05-02T12:34:58.052Z] [INFO] 🔌 Socket.IO: ws://localhost:3001
+[2026-05-02T12:34:58.054Z] [INFO] 📝 Environment: development
+[2026-05-02T12:34:58.665Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-05-02T12:34:58.665Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-05-02T12:34:58.666Z] [INFO] ✅ Database connection established
+[2026-05-02T12:34:58.673Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-05-02T12:34:58.674Z] [INFO] ✅ Socket.IO initialized
+[2026-05-02T12:39:53.733Z] [INFO] 🔌 Initializing Supabase...
+[2026-05-02T12:39:53.738Z] [INFO] 📍 URL Present: true
+[2026-05-02T12:39:53.739Z] [INFO] 🔑 Keys Present: true (service: true)
+[2026-05-02T12:39:54.033Z] [INFO] 🔌 Initializing Supabase...
+[2026-05-02T12:39:54.037Z] [INFO] 📍 URL Present: true
+[2026-05-02T12:39:54.039Z] [INFO] 🔑 Keys Present: true (service: true)
+[2026-05-02T12:39:57.585Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-05-02T12:39:57.586Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-05-02T12:39:57.586Z] [INFO] ✅ Database connection established
+[2026-05-02T12:39:57.593Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-05-02T12:39:57.594Z] [INFO] ✅ Socket.IO initialized
+[2026-05-02T12:39:57.599Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-05-02T12:39:57.599Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-05-02T12:39:57.600Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-05-02T12:39:57.601Z] [INFO] 🔌 Socket.IO: ws://localhost:3001
+[2026-05-02T12:39:57.602Z] [INFO] 📝 Environment: development
+[2026-05-02T12:39:58.457Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-05-02T12:39:58.458Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-05-02T12:39:58.463Z] [INFO] ✅ Database connection established
+[2026-05-02T12:39:58.473Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-05-02T12:39:58.474Z] [INFO] ✅ Socket.IO initialized
+[2026-05-02T12:40:16.969Z] [HTTP] GET /profile - 200 (3902ms)
+[2026-05-02T12:40:17.412Z] [HTTP] GET /shipments - 200 (399ms)
+[2026-05-02T12:40:17.430Z] [WARN] ⚠️ Unauthorized access attempt by fleet@gmail.com (fleet_owner)
+[2026-05-02T12:40:17.433Z] [HTTP] GET / - 403 (7ms)
+[2026-05-02T12:40:26.760Z] [HTTP] GET /trucks - 304 (1342ms)
+[2026-05-02T12:40:27.152Z] [HTTP] GET /trucks - 304 (388ms)
+[2026-05-02T12:40:32.656Z] [HTTP] GET /shipments - 304 (1683ms)
+[2026-05-02T12:40:32.676Z] [WARN] ⚠️ Unauthorized access attempt by fleet@gmail.com (fleet_owner)
+[2026-05-02T12:40:32.678Z] [HTTP] GET / - 403 (5ms)
+[2026-05-02T12:40:33.053Z] [HTTP] GET /shipments - 304 (393ms)
+[2026-05-02T12:40:33.066Z] [WARN] ⚠️ Unauthorized access attempt by fleet@gmail.com (fleet_owner)
+[2026-05-02T12:40:33.068Z] [HTTP] GET / - 403 (4ms)
+[2026-05-02T12:50:24.462Z] [HTTP] GET /profile - 304 (1748ms)
+[2026-05-02T12:50:25.129Z] [HTTP] GET /shipments - 304 (282ms)
+[2026-05-02T12:50:25.262Z] [WARN] ⚠️ Unauthorized access attempt by fleet@gmail.com (fleet_owner)
+[2026-05-02T12:50:25.264Z] [HTTP] GET / - 403 (3ms)
+[2026-05-02T13:35:39.846Z] [INFO] 🔌 Initializing Supabase...
+[2026-05-02T13:35:39.851Z] [INFO] 📍 URL Present: true
+[2026-05-02T13:35:39.851Z] [INFO] 🔑 Keys Present: true (service: true)
+[2026-05-02T13:35:40.212Z] [INFO] 🔌 Initializing Supabase...
+[2026-05-02T13:35:40.217Z] [INFO] 📍 URL Present: true
+[2026-05-02T13:35:40.218Z] [INFO] 🔑 Keys Present: true (service: true)
+[2026-05-02T13:35:42.628Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-05-02T13:35:42.628Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-05-02T13:35:42.629Z] [INFO] ✅ Database connection established
+[2026-05-02T13:35:42.635Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-05-02T13:35:42.636Z] [INFO] ✅ Socket.IO initialized
+[2026-05-02T13:35:42.640Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-05-02T13:35:42.641Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-05-02T13:35:42.641Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-05-02T13:35:42.642Z] [INFO] 🔌 Socket.IO: ws://localhost:3001
+[2026-05-02T13:35:42.642Z] [INFO] 📝 Environment: development
+[2026-05-02T13:35:42.815Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-05-02T13:35:42.822Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-05-02T13:35:42.831Z] [INFO] ✅ Database connection established
+[2026-05-02T13:35:42.844Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-05-02T13:35:42.848Z] [INFO] ✅ Socket.IO initialized
+[2026-05-02T13:36:09.417Z] [INFO] 🔌 Initializing Supabase...
+[2026-05-02T13:36:09.422Z] [INFO] 📍 URL Present: true
+[2026-05-02T13:36:09.424Z] [INFO] 🔑 Keys Present: true (service: true)
+[2026-05-02T13:36:09.585Z] [INFO] 🔌 Initializing Supabase...
+[2026-05-02T13:36:09.587Z] [INFO] 📍 URL Present: true
+[2026-05-02T13:36:09.588Z] [INFO] 🔑 Keys Present: true (service: true)
+[2026-05-02T13:36:11.060Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-05-02T13:36:11.061Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-05-02T13:36:11.064Z] [INFO] ✅ Database connection established
+[2026-05-02T13:36:11.073Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-05-02T13:36:11.074Z] [INFO] ✅ Socket.IO initialized
+[2026-05-02T13:36:11.088Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-05-02T13:36:11.089Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-05-02T13:36:11.090Z] [INFO] ✅ Database connection established
+[2026-05-02T13:36:11.083Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-05-02T13:36:11.095Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-05-02T13:36:11.096Z] [INFO] ✅ Socket.IO initialized
+[2026-05-02T13:36:11.093Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-05-02T13:36:11.097Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-05-02T13:36:11.104Z] [INFO] 🔌 Socket.IO: ws://localhost:3001
+[2026-05-02T13:36:11.109Z] [INFO] 📝 Environment: development
+[2026-05-02T13:38:40.563Z] [INFO] 🔌 Initializing Supabase...
+[2026-05-02T13:38:40.567Z] [INFO] 📍 URL Present: true
+[2026-05-02T13:38:40.567Z] [INFO] 🔑 Keys Present: true (service: true)
+[2026-05-02T13:38:41.172Z] [INFO] 🔌 Initializing Supabase...
+[2026-05-02T13:38:41.176Z] [INFO] 📍 URL Present: true
+[2026-05-02T13:38:41.178Z] [INFO] 🔑 Keys Present: true (service: true)
+[2026-05-02T13:38:42.579Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-05-02T13:38:42.580Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-05-02T13:38:42.581Z] [INFO] ✅ Database connection established
+[2026-05-02T13:38:42.588Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-05-02T13:38:42.589Z] [INFO] ✅ Socket.IO initialized
+[2026-05-02T13:38:42.595Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-05-02T13:38:42.596Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-05-02T13:38:42.597Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-05-02T13:38:42.597Z] [INFO] 🔌 Socket.IO: ws://localhost:3001
+[2026-05-02T13:38:42.598Z] [INFO] 📝 Environment: development
+[2026-05-02T13:38:46.307Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-05-02T13:38:46.309Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-05-02T13:38:46.313Z] [INFO] ✅ Database connection established
+[2026-05-02T13:38:46.323Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-05-02T13:38:46.325Z] [INFO] ✅ Socket.IO initialized
+[2026-05-02T13:39:03.508Z] [INFO] 🔌 Initializing Supabase...
+[2026-05-02T13:39:03.514Z] [INFO] 📍 URL Present: true
+[2026-05-02T13:39:03.523Z] [INFO] 🔑 Keys Present: true (service: true)
+[2026-05-02T13:39:03.572Z] [INFO] 🔌 Initializing Supabase...
+[2026-05-02T13:39:03.577Z] [INFO] 📍 URL Present: true
+[2026-05-02T13:39:03.583Z] [INFO] 🔑 Keys Present: true (service: true)
+[2026-05-02T13:39:05.258Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-05-02T13:39:05.259Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-05-02T13:39:05.261Z] [INFO] ✅ Database connection established
+[2026-05-02T13:39:05.270Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-05-02T13:39:05.271Z] [INFO] ✅ Socket.IO initialized
+[2026-05-02T13:39:05.278Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-05-02T13:39:05.280Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-05-02T13:39:05.282Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-05-02T13:39:05.284Z] [INFO] 🔌 Socket.IO: ws://localhost:3001
+[2026-05-02T13:39:05.285Z] [INFO] 📝 Environment: development
+[2026-05-02T13:39:07.857Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-05-02T13:39:07.858Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-05-02T13:39:07.859Z] [INFO] ✅ Database connection established
+[2026-05-02T13:39:07.864Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-05-02T13:39:07.865Z] [INFO] ✅ Socket.IO initialized
+[2026-05-02T13:44:15.842Z] [INFO] 🔌 Initializing Supabase...
+[2026-05-02T13:44:15.847Z] [INFO] 📍 URL Present: true
+[2026-05-02T13:44:15.849Z] [INFO] 🔑 Keys Present: true (service: true)
+[2026-05-02T13:44:15.908Z] [INFO] 🔌 Initializing Supabase...
+[2026-05-02T13:44:15.927Z] [INFO] 📍 URL Present: true
+[2026-05-02T13:44:15.930Z] [INFO] 🔑 Keys Present: true (service: true)
+[2026-05-02T13:44:17.234Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-05-02T13:44:17.235Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-05-02T13:44:17.236Z] [INFO] ✅ Database connection established
+[2026-05-02T13:44:17.251Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-05-02T13:44:17.252Z] [INFO] ✅ Socket.IO initialized
+[2026-05-02T13:44:17.266Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-05-02T13:44:17.269Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-05-02T13:44:17.270Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-05-02T13:44:17.281Z] [INFO] 🔌 Socket.IO: ws://localhost:3001
+[2026-05-02T13:44:17.287Z] [INFO] 📝 Environment: development
+[2026-05-02T13:44:17.265Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-05-02T13:44:17.303Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-05-02T13:44:17.316Z] [INFO] ✅ Database connection established
+[2026-05-02T13:44:17.336Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-05-02T13:44:17.343Z] [INFO] ✅ Socket.IO initialized
+[2026-05-02T13:44:45.691Z] [INFO] 🔌 Initializing Supabase...
+[2026-05-02T13:44:45.720Z] [INFO] 📍 URL Present: true
+[2026-05-02T13:44:45.724Z] [INFO] 🔑 Keys Present: true (service: true)
+[2026-05-02T13:44:45.887Z] [INFO] 🔌 Initializing Supabase...
+[2026-05-02T13:44:45.890Z] [INFO] 📍 URL Present: true
+[2026-05-02T13:44:45.891Z] [INFO] 🔑 Keys Present: true (service: true)
+[2026-05-02T13:44:46.457Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-05-02T13:44:46.458Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-05-02T13:44:46.460Z] [INFO] ✅ Database connection established
+[2026-05-02T13:44:46.465Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-05-02T13:44:46.466Z] [INFO] ✅ Socket.IO initialized
+[2026-05-02T13:44:46.474Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-05-02T13:44:46.476Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-05-02T13:44:46.479Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-05-02T13:44:46.481Z] [INFO] 🔌 Socket.IO: ws://localhost:3001
+[2026-05-02T13:44:46.483Z] [INFO] 📝 Environment: development
+[2026-05-02T13:44:46.553Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-05-02T13:44:46.554Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-05-02T13:44:46.555Z] [INFO] ✅ Database connection established
+[2026-05-02T13:44:46.565Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-05-02T13:44:46.571Z] [INFO] ✅ Socket.IO initialized
+[2026-05-02T13:44:59.319Z] [INFO] 🔌 Initializing Supabase...
+[2026-05-02T13:44:59.323Z] [INFO] 📍 URL Present: true
+[2026-05-02T13:44:59.323Z] [INFO] 🔑 Keys Present: true (service: true)
+[2026-05-02T13:44:59.538Z] [INFO] 🔌 Initializing Supabase...
+[2026-05-02T13:44:59.542Z] [INFO] 📍 URL Present: true
+[2026-05-02T13:44:59.545Z] [INFO] 🔑 Keys Present: true (service: true)
+[2026-05-02T13:45:01.116Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-05-02T13:45:01.117Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-05-02T13:45:01.118Z] [INFO] ✅ Database connection established
+[2026-05-02T13:45:01.124Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-05-02T13:45:01.125Z] [INFO] ✅ Socket.IO initialized
+[2026-05-02T13:45:01.130Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-05-02T13:45:01.131Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-05-02T13:45:01.132Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-05-02T13:45:01.133Z] [INFO] 🔌 Socket.IO: ws://localhost:3001
+[2026-05-02T13:45:01.134Z] [INFO] 📝 Environment: development
+[2026-05-02T13:45:01.569Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-05-02T13:45:01.570Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-05-02T13:45:01.572Z] [INFO] ✅ Database connection established
+[2026-05-02T13:45:01.583Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-05-02T13:45:01.584Z] [INFO] ✅ Socket.IO initialized
+[2026-05-02T13:48:56.686Z] [HTTP] GET /profile - 304 (1515ms)
+[2026-05-02T13:48:57.205Z] [HTTP] GET /shipments - 304 (452ms)
+[2026-05-02T13:48:57.350Z] [WARN] ⚠️ Unauthorized access attempt by fleet@gmail.com (fleet_owner)
+[2026-05-02T13:48:57.353Z] [HTTP] GET / - 403 (6ms)
+[2026-05-02T13:48:57.385Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-05-02T13:48:57.387Z] [HTTP] POST /logout - 401 (3ms)
+[2026-05-02T13:49:07.787Z] [INFO] Forgot password requested for non-existent email: abdullah.tauqeer.chh@gmail.com
+[2026-05-02T13:49:07.789Z] [HTTP] POST /forgot-password - 200 (1702ms)
+[2026-05-02T13:53:46.965Z] [INFO] 🔌 Initializing Supabase...
+[2026-05-02T13:53:46.969Z] [INFO] 📍 URL Present: true
+[2026-05-02T13:53:46.971Z] [INFO] 🔑 Keys Present: true (service: true)
+[2026-05-02T13:53:48.314Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-05-02T13:53:48.316Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-05-02T13:53:48.317Z] [INFO] ✅ Database connection established
+[2026-05-02T13:53:48.329Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-05-02T13:53:48.334Z] [INFO] ✅ Socket.IO initialized
+[2026-05-02T13:54:11.847Z] [HTTP] GET /api/health - 200 (3ms)
+[2026-05-02T13:55:33.338Z] [INFO] 🔌 Initializing Supabase...
+[2026-05-02T13:55:33.341Z] [INFO] 📍 URL Present: true
+[2026-05-02T13:55:33.343Z] [INFO] 🔑 Keys Present: true (service: true)
+[2026-05-02T13:55:34.672Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-05-02T13:55:34.673Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-05-02T13:55:34.674Z] [INFO] ✅ Database connection established
+[2026-05-02T13:55:34.680Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-05-02T13:55:34.681Z] [INFO] ✅ Socket.IO initialized
+[2026-05-02T13:57:32.453Z] [INFO] 🔌 Initializing Supabase...
+[2026-05-02T13:57:32.460Z] [INFO] 📍 URL Present: true
+[2026-05-02T13:57:32.466Z] [INFO] 🔑 Keys Present: true (service: true)
+[2026-05-02T13:57:32.594Z] [INFO] 🔌 Initializing Supabase...
+[2026-05-02T13:57:32.598Z] [INFO] 📍 URL Present: true
+[2026-05-02T13:57:32.599Z] [INFO] 🔑 Keys Present: true (service: true)
+[2026-05-02T13:57:33.772Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-05-02T13:57:33.775Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-05-02T13:57:33.784Z] [INFO] ✅ Database connection established
+[2026-05-02T13:57:33.792Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-05-02T13:57:33.798Z] [INFO] ✅ Socket.IO initialized
+[2026-05-02T13:57:33.827Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-05-02T13:57:33.831Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-05-02T13:57:33.839Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-05-02T13:57:33.848Z] [INFO] 🔌 Socket.IO: ws://localhost:3001
+[2026-05-02T13:57:33.855Z] [INFO] 📝 Environment: development
+[2026-05-02T13:57:34.681Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-05-02T13:57:34.682Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-05-02T13:57:34.683Z] [INFO] ✅ Database connection established
+[2026-05-02T13:57:34.690Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-05-02T13:57:34.691Z] [INFO] ✅ Socket.IO initialized
+[2026-05-02T13:58:33.461Z] [INFO] Forgot password requested for non-existent email: abdullah.tauqeer.chh@gmail.com
+[2026-05-02T13:58:33.468Z] [HTTP] POST /forgot-password - 200 (829ms)
+[2026-05-02T13:59:10.625Z] [INFO] 🔌 Initializing Supabase...
+[2026-05-02T13:59:10.630Z] [INFO] 📍 URL Present: true
+[2026-05-02T13:59:10.631Z] [INFO] 🔑 Keys Present: true (service: true)
+[2026-05-02T13:59:10.888Z] [INFO] 🔌 Initializing Supabase...
+[2026-05-02T13:59:10.891Z] [INFO] 📍 URL Present: true
+[2026-05-02T13:59:10.893Z] [INFO] 🔑 Keys Present: true (service: true)
+[2026-05-02T13:59:12.184Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-05-02T13:59:12.186Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-05-02T13:59:12.190Z] [INFO] ✅ Database connection established
+[2026-05-02T13:59:12.200Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-05-02T13:59:12.203Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-05-02T13:59:12.204Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-05-02T13:59:12.205Z] [INFO] ✅ Database connection established
+[2026-05-02T13:59:12.211Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-05-02T13:59:12.212Z] [INFO] ✅ Socket.IO initialized
+[2026-05-02T13:59:12.203Z] [INFO] ✅ Socket.IO initialized
+[2026-05-02T13:59:12.216Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-05-02T13:59:12.217Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-05-02T13:59:12.218Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-05-02T13:59:12.219Z] [INFO] 🔌 Socket.IO: ws://localhost:3001
+[2026-05-02T13:59:12.220Z] [INFO] 📝 Environment: development
+[2026-05-02T14:02:30.442Z] [INFO] Forgot password requested for non-existent email: abdullah.tauqeer.chh@gmail.com
+[2026-05-02T14:02:30.448Z] [HTTP] POST /forgot-password - 200 (1365ms)
+[2026-05-02T14:03:45.462Z] [INFO] Forgot password requested for non-existent email: abdullah.tauqeer.chh@gmail.com
+[2026-05-02T14:03:45.465Z] [HTTP] POST /forgot-password - 200 (707ms)
+[2026-05-02T14:04:17.565Z] [INFO] 🔌 Initializing Supabase...
+[2026-05-02T14:04:17.569Z] [INFO] 📍 URL Present: true
+[2026-05-02T14:04:17.572Z] [INFO] 🔑 Keys Present: true (service: true)
+[2026-05-02T14:04:19.728Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-05-02T14:04:19.748Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-05-02T14:04:19.758Z] [INFO] ✅ Database connection established
+[2026-05-02T14:04:19.778Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-05-02T14:04:19.780Z] [INFO] ✅ Socket.IO initialized
+[2026-05-02T14:04:41.090Z] [INFO] Forgot password requested for non-existent email: abdullah.tauqeer.chh@gmail.com
+[2026-05-02T14:04:41.094Z] [HTTP] POST /forgot-password - 200 (993ms)
+[2026-05-02T14:09:48.281Z] [INFO] 🔌 Initializing Supabase...
+[2026-05-02T14:09:48.288Z] [INFO] 📍 URL Present: true
+[2026-05-02T14:09:48.289Z] [INFO] 🔑 Keys Present: true (service: true)
+[2026-05-02T14:09:48.774Z] [INFO] 🔌 Initializing Supabase...
+[2026-05-02T14:09:48.789Z] [INFO] 📍 URL Present: true
+[2026-05-02T14:09:48.801Z] [INFO] 🔑 Keys Present: true (service: true)
+[2026-05-02T14:09:50.311Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-05-02T14:09:50.314Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-05-02T14:09:50.321Z] [INFO] ✅ Database connection established
+[2026-05-02T14:09:50.332Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-05-02T14:09:50.337Z] [INFO] ✅ Socket.IO initialized
+[2026-05-02T14:09:50.350Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-05-02T14:09:50.351Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-05-02T14:09:50.352Z] [INFO] ✅ Database connection established
+[2026-05-02T14:09:50.347Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-05-02T14:09:50.361Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-05-02T14:09:50.361Z] [INFO] ✅ Socket.IO initialized
+[2026-05-02T14:09:50.361Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-05-02T14:09:50.370Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-05-02T14:09:50.383Z] [INFO] 🔌 Socket.IO: ws://localhost:3001
+[2026-05-02T14:09:50.389Z] [INFO] 📝 Environment: development
+[2026-05-02T14:14:33.581Z] [INFO] 🔌 Initializing Supabase...
+[2026-05-02T14:14:33.586Z] [INFO] 📍 URL Present: true
+[2026-05-02T14:14:33.587Z] [INFO] 🔑 Keys Present: true (service: true)
+[2026-05-02T14:14:33.644Z] [INFO] 🔌 Initializing Supabase...
+[2026-05-02T14:14:33.653Z] [INFO] 📍 URL Present: true
+[2026-05-02T14:14:33.661Z] [INFO] 🔑 Keys Present: true (service: true)
+[2026-05-02T14:14:35.345Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-05-02T14:14:35.345Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-05-02T14:14:35.346Z] [INFO] ✅ Database connection established
+[2026-05-02T14:14:35.353Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-05-02T14:14:35.354Z] [INFO] ✅ Socket.IO initialized
+[2026-05-02T14:14:35.354Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-05-02T14:14:35.363Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-05-02T14:14:35.364Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-05-02T14:14:35.365Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-05-02T14:14:35.365Z] [INFO] 🔌 Socket.IO: ws://localhost:3001
+[2026-05-02T14:14:35.366Z] [INFO] 📝 Environment: development
+[2026-05-02T14:14:35.357Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-05-02T14:14:35.383Z] [INFO] ✅ Database connection established
+[2026-05-02T14:14:35.394Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-05-02T14:14:35.396Z] [INFO] ✅ Socket.IO initialized
+[2026-05-02T14:15:42.116Z] [WARN] Auth middleware error:
+"jwt malformed"
+[2026-05-02T14:15:42.224Z] [HTTP] GET /profile - 401 (232ms)
+[2026-05-02T14:16:00.215Z] [WARN] Auth middleware error:
+"jwt malformed"
+[2026-05-02T14:16:00.230Z] [HTTP] GET /profile - 401 (20ms)
+[2026-05-02T14:16:31.915Z] [WARN] Auth middleware error:
+"jwt malformed"
+[2026-05-02T14:16:31.917Z] [HTTP] GET /profile - 401 (2ms)
+[2026-05-02T14:17:48.968Z] [INFO] 🔐 Login attempt: admin@test.com
+[2026-05-02T14:17:55.719Z] [INFO] ✅ User logged in: admin@test.com
+[2026-05-02T14:17:55.769Z] [HTTP] POST /login - 200 (6892ms)
+[2026-05-02T14:17:59.522Z] [HTTP] GET /users - 200 (2560ms)
+[2026-05-02T14:18:00.583Z] [HTTP] GET /users - 304 (1051ms)
+[2026-05-02T14:18:02.889Z] [HTTP] GET /shipments - 200 (5437ms)
+[2026-05-02T14:18:05.267Z] [HTTP] GET /shipments - 304 (2368ms)
+[2026-05-02T14:18:05.299Z] [HTTP] GET /trucks - 200 (8270ms)
+[2026-05-02T14:18:10.207Z] [HTTP] GET /trucks - 304 (4899ms)
+[2026-05-02T14:18:22.795Z] [HTTP] GET /profile - 200 (2351ms)
+[2026-05-02T14:20:00.618Z] [HTTP] POST /send-sms - 400 (9ms)
+[2026-05-02T14:20:18.726Z] [ERROR] ❌ Brevo SMS failed for +923297333609: We have detected you are using an unrecognised IP address 103.153.39.144. If you performed this action make sure to add the new IP address in this link: https://app.brevo.com/security/authorised_ips
+[2026-05-02T14:20:18.728Z] [HTTP] POST /send-sms - 500 (4856ms)
+[2026-05-02T14:20:32.020Z] [ERROR] ❌ Brevo SMS failed for +923297333609: We have detected you are using an unrecognised IP address 103.153.39.144. If you performed this action make sure to add the new IP address in this link: https://app.brevo.com/security/authorised_ips
+[2026-05-02T14:20:32.021Z] [HTTP] POST /send-otp - 500 (788ms)
+[2026-05-02T14:30:51.280Z] [INFO] 🔐 Login attempt: admin@test.com
+[2026-05-02T14:30:53.196Z] [WARN] ⚠️ Invalid password for: admin@test.com
+[2026-05-02T14:30:53.200Z] [ERROR] Login error:
+{
+  "statusCode": 401,
+  "code": "INVALID_CREDENTIALS"
+}
+[2026-05-02T14:30:53.242Z] [HTTP] POST /login - 401 (1963ms)
+[2026-05-02T14:31:06.123Z] [ERROR] ❌ Brevo SMS failed for +923297333609: You do not have sufficient credits in your account. Please buy the credits from https://app.sendinblue.com/billing/addon/customize/sms .
+[2026-05-02T14:31:06.125Z] [HTTP] POST /send-sms - 500 (1657ms)
+[2026-05-02T14:31:13.908Z] [HTTP] GET /profile - 304 (1713ms)
+[2026-05-02T14:31:21.322Z] [HTTP] GET /profile - 304 (1171ms)
+[2026-05-02T14:32:19.165Z] [ERROR] ❌ Brevo SMS failed for +923297333609: You do not have sufficient credits in your account. Please buy the credits from https://app.sendinblue.com/billing/addon/customize/sms .
+[2026-05-02T14:32:19.168Z] [HTTP] POST /send-sms - 500 (1482ms)
+[2026-05-02T14:32:26.892Z] [ERROR] ❌ Brevo SMS failed for +923297333609: You do not have sufficient credits in your account. Please buy the credits from https://app.sendinblue.com/billing/addon/customize/sms .
+[2026-05-02T14:32:26.893Z] [HTTP] POST /send-otp - 500 (1125ms)
+[2026-05-02T14:32:54.427Z] [ERROR] ❌ Brevo SMS failed for +923297333609: You do not have sufficient credits in your account. Please buy the credits from https://app.sendinblue.com/billing/addon/customize/sms .
+[2026-05-02T14:32:54.429Z] [HTTP] POST /booking-notification - 500 (1127ms)
+[2026-05-02T14:37:15.387Z] [INFO] Forgot password requested for non-existent email: abdullah.tauqeer.chh@gmail.com
+[2026-05-02T14:37:15.389Z] [HTTP] POST /forgot-password - 200 (2308ms)
+[2026-05-02T14:39:31.930Z] [INFO] Forgot password requested for non-existent email: driver@gmail.com
+[2026-05-02T14:39:31.933Z] [HTTP] POST /forgot-password - 200 (856ms)
+[2026-05-02T14:45:02.130Z] [HTTP] GET /profile - 304 (780ms)
+[2026-05-02T14:45:16.093Z] [INFO] Forgot password requested for non-existent email: test@example.com
+[2026-05-02T14:45:16.097Z] [HTTP] POST /forgot-password - 200 (786ms)
+[2026-05-02T14:45:59.763Z] [HTTP] GET /profile - 304 (916ms)
+[2026-05-02T14:46:17.992Z] [INFO] Forgot password requested for non-existent email: test@example.com
+[2026-05-02T14:46:17.994Z] [HTTP] POST /forgot-password - 200 (346ms)
+[2026-05-02T14:46:58.045Z] [ERROR] Reset password error:
+{
+  "statusCode": 400,
+  "code": "INVALID_OTP"
+}
+[2026-05-02T14:46:58.049Z] [HTTP] POST /reset-password - 400 (1817ms)
+[2026-05-02T14:52:39.440Z] [HTTP] GET /profile - 304 (802ms)
+[2026-05-02T14:53:18.467Z] [HTTP] GET /profile - 304 (566ms)
+[2026-05-02T14:53:43.629Z] [HTTP] GET /profile - 304 (582ms)
+[2026-05-02T14:55:45.193Z] [ERROR] ❌ Brevo SMS failed for +923287333609: You do not have sufficient credits in your account. Please buy the credits from https://app.sendinblue.com/billing/addon/customize/sms .
+[2026-05-02T14:55:45.196Z] [WARN] ⚠️ Brevo SMS failed for +923287333609, OTP: 172023 — Error: You do not have sufficient credits in your account. Please buy the credits from https://app.sendinblue.com/billing/addon/customize/sms .
+[2026-05-02T14:55:45.198Z] [INFO] 🔑 [DEV] OTP for +923287333609: 172023
+[2026-05-02T14:55:45.200Z] [HTTP] POST /login-phone - 200 (4610ms)
+[2026-05-02T14:55:55.496Z] [INFO] ✅ Phone login successful: 03287333609
+[2026-05-02T14:55:55.509Z] [HTTP] POST /verify-phone-login - 200 (758ms)
+[2026-05-02T14:57:00.892Z] [ERROR] ❌ Brevo SMS failed for +923297333609: You do not have sufficient credits in your account. Please buy the credits from https://app.sendinblue.com/billing/addon/customize/sms .
+[2026-05-02T14:57:00.895Z] [WARN] ⚠️ Brevo SMS failed for +923297333609, OTP: 229114 — Error: You do not have sufficient credits in your account. Please buy the credits from https://app.sendinblue.com/billing/addon/customize/sms .
+[2026-05-02T14:57:00.895Z] [INFO] 🔑 [DEV] OTP for +923297333609: 229114
+[2026-05-02T14:57:00.897Z] [HTTP] POST /send-otp - 200 (798ms)
+[2026-05-02T14:57:22.414Z] [ERROR] Verify OTP error:
+{
+  "statusCode": 400,
+  "code": "INVALID_OTP"
+}
+[2026-05-02T14:57:22.426Z] [HTTP] POST /verify-otp - 400 (19ms)
+[2026-05-02T14:57:27.827Z] [HTTP] POST /verify-otp - 200 (1ms)
+[2026-05-02T14:57:38.341Z] [INFO] 📝 Signup attempt: customer@test.com
+[2026-05-02T14:57:55.682Z] [INFO] ✅ User registered: customer@test.com
+[2026-05-02T14:57:55.688Z] [HTTP] POST /signup - 201 (17359ms)
+[2026-05-02T14:57:56.580Z] [ERROR] ❌ Brevo SMS failed for +923297333609: You do not have sufficient credits in your account. Please buy the credits from https://app.sendinblue.com/billing/addon/customize/sms .
+[2026-05-02T14:57:56.824Z] [HTTP] GET /shipments - 200 (289ms)
+[2026-05-02T14:57:57.077Z] [HTTP] GET /shipments - 304 (223ms)
+[2026-05-02T14:57:58.466Z] [INFO] ✅ KYC document uploaded for user 7bde7130-0275-4ee7-aa55-27568315bbf8
+[2026-05-02T14:57:58.468Z] [HTTP] POST /upload - 200 (2690ms)
+[2026-05-02T14:58:01.341Z] [HTTP] GET /shipments - 304 (479ms)
+[2026-05-02T14:58:01.833Z] [HTTP] GET /shipments - 304 (490ms)
+[2026-05-02T14:58:01.960Z] [INFO] ✅ KYC document uploaded for user 7bde7130-0275-4ee7-aa55-27568315bbf8
+[2026-05-02T14:58:01.961Z] [HTTP] POST /upload - 200 (3487ms)
+[2026-05-02T14:58:04.223Z] [HTTP] GET / - 200 (339ms)
+[2026-05-02T14:58:04.485Z] [HTTP] GET / - 304 (261ms)
+[2026-05-02T14:58:16.339Z] [HTTP] GET /wallet - 200 (2ms)
+[2026-05-02T14:58:16.368Z] [HTTP] GET /wallet - 304 (1ms)
+[2026-05-02T14:58:16.689Z] [HTTP] GET /payments - 200 (348ms)
+[2026-05-02T14:58:16.912Z] [HTTP] GET /payments - 304 (207ms)
+[2026-05-02T14:58:22.252Z] [HTTP] POST /wallet/topup - 200 (2ms)
+[2026-05-02T14:58:28.493Z] [HTTP] POST /wallet/topup - 200 (1ms)
+[2026-05-02T14:58:32.703Z] [HTTP] POST /wallet/topup - 200 (2ms)
+[2026-05-02T14:58:51.020Z] [HTTP] GET /shipments - 304 (702ms)
+[2026-05-02T14:58:51.351Z] [HTTP] GET /shipments - 304 (329ms)
+[2026-05-02T14:58:53.469Z] [HTTP] GET /shipments - 304 (366ms)
+[2026-05-02T14:58:53.882Z] [HTTP] GET /shipments - 304 (411ms)
+[2026-05-02T14:58:55.603Z] [HTTP] GET /shipments - 304 (293ms)
+[2026-05-02T14:58:55.881Z] [HTTP] GET /shipments - 304 (273ms)
+[2026-05-02T14:58:57.485Z] [HTTP] GET /shipments - 304 (331ms)
+[2026-05-02T14:58:58.211Z] [HTTP] GET /shipments - 304 (724ms)
+[2026-05-02T14:59:01.621Z] [HTTP] GET /shipments - 304 (746ms)
+[2026-05-02T14:59:03.639Z] [HTTP] GET /shipments - 304 (2016ms)
+[2026-05-02T14:59:03.831Z] [HTTP] GET /trucks - 304 (732ms)
+[2026-05-02T14:59:04.174Z] [HTTP] GET /trucks - 304 (332ms)
+[2026-05-02T14:59:12.467Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-05-02T14:59:12.468Z] [HTTP] POST /logout - 401 (1ms)
+[2026-05-02T14:59:17.359Z] [INFO] 🔐 Login attempt: fleet@test.com
+[2026-05-02T14:59:20.090Z] [WARN] ⚠️ Invalid password for: fleet@test.com
+[2026-05-02T14:59:20.092Z] [ERROR] Login error:
+{
+  "statusCode": 401,
+  "code": "INVALID_CREDENTIALS"
+}
+[2026-05-02T14:59:20.097Z] [HTTP] POST /login - 401 (2740ms)
+[2026-05-02T14:59:32.070Z] [INFO] 🔐 Login attempt: admin@test.com
+[2026-05-02T14:59:33.026Z] [INFO] ✅ User logged in: admin@test.com
+[2026-05-02T14:59:33.030Z] [HTTP] POST /login - 200 (960ms)
+[2026-05-02T14:59:33.855Z] [HTTP] GET /trucks - 304 (314ms)
+[2026-05-02T14:59:34.089Z] [HTTP] GET /users - 200 (543ms)
+[2026-05-02T14:59:34.116Z] [HTTP] GET /shipments - 304 (573ms)
+[2026-05-02T14:59:34.463Z] [HTTP] GET /trucks - 304 (595ms)
+[2026-05-02T14:59:34.478Z] [HTTP] GET /shipments - 304 (352ms)
+[2026-05-02T14:59:34.481Z] [HTTP] GET /users - 304 (380ms)
+[2026-05-02T14:59:36.078Z] [HTTP] GET /users - 304 (228ms)
+[2026-05-02T14:59:36.360Z] [HTTP] GET /users - 304 (276ms)
+[2026-05-02T14:59:44.447Z] [HTTP] PUT /users/22ef5802-bd7f-4ca3-8171-9f0aa3210a52 - 200 (466ms)
+[2026-05-02T14:59:44.699Z] [HTTP] GET /users - 200 (233ms)
+[2026-05-02T14:59:59.466Z] [HTTP] GET /users/cb3aec96-ffce-4612-b347-c93790d55c11 - 200 (621ms)
+[2026-05-02T14:59:59.929Z] [HTTP] GET /users/cb3aec96-ffce-4612-b347-c93790d55c11 - 304 (461ms)
+[2026-05-02T15:00:08.374Z] [HTTP] GET /users - 304 (348ms)
+[2026-05-02T15:00:08.594Z] [HTTP] GET /users - 304 (218ms)
+[2026-05-02T15:00:11.832Z] [HTTP] GET /users/7bde7130-0275-4ee7-aa55-27568315bbf8 - 200 (868ms)
+[2026-05-02T15:00:12.650Z] [HTTP] GET /users/7bde7130-0275-4ee7-aa55-27568315bbf8 - 200 (809ms)
+[2026-05-02T15:00:20.368Z] [HTTP] GET /users - 304 (410ms)
+[2026-05-02T15:00:20.634Z] [HTTP] GET /users - 304 (264ms)
+[2026-05-02T15:00:27.642Z] [HTTP] GET /trucks - 304 (352ms)
+[2026-05-02T15:00:27.889Z] [HTTP] GET /trucks - 304 (241ms)
+[2026-05-02T15:00:32.316Z] [HTTP] GET /users - 304 (393ms)
+[2026-05-02T15:00:32.574Z] [HTTP] GET /users - 304 (256ms)
+[2026-05-02T15:21:22.601Z] [HTTP] GET /profile - 304 (2018ms)
+[2026-05-02T15:21:52.163Z] [INFO] 🔌 Initializing Supabase...
+[2026-05-02T15:21:52.190Z] [INFO] 📍 URL Present: true
+[2026-05-02T15:21:52.193Z] [INFO] 🔑 Keys Present: true (service: true)
+[2026-05-02T15:21:52.844Z] [INFO] 🔌 Initializing Supabase...
+[2026-05-02T15:21:52.862Z] [INFO] 📍 URL Present: true
+[2026-05-02T15:21:52.867Z] [INFO] 🔑 Keys Present: true (service: true)
+[2026-05-02T15:21:54.717Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-05-02T15:21:54.719Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-05-02T15:21:54.730Z] [INFO] ✅ Database connection established
+[2026-05-02T15:21:54.746Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-05-02T15:21:54.749Z] [INFO] ✅ Socket.IO initialized
+[2026-05-02T15:21:54.758Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-05-02T15:21:54.759Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-05-02T15:21:54.764Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-05-02T15:21:54.765Z] [INFO] 🔌 Socket.IO: ws://localhost:3001
+[2026-05-02T15:21:54.766Z] [INFO] 📝 Environment: development
+[2026-05-02T15:21:54.983Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-05-02T15:21:54.984Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-05-02T15:21:54.985Z] [INFO] ✅ Database connection established
+[2026-05-02T15:21:54.991Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-05-02T15:21:54.992Z] [INFO] ✅ Socket.IO initialized
+[2026-05-02T15:27:09.889Z] [INFO] 🔌 Initializing Supabase...
+[2026-05-02T15:27:09.893Z] [INFO] 📍 URL Present: true
+[2026-05-02T15:27:09.895Z] [INFO] 🔑 Keys Present: true (service: true)
+[2026-05-02T15:27:10.012Z] [INFO] 🔌 Initializing Supabase...
+[2026-05-02T15:27:10.017Z] [INFO] 📍 URL Present: true
+[2026-05-02T15:27:10.020Z] [INFO] 🔑 Keys Present: true (service: true)
+[2026-05-02T15:27:11.494Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-05-02T15:27:11.495Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-05-02T15:27:11.496Z] [INFO] ✅ Database connection established
+[2026-05-02T15:27:11.504Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-05-02T15:27:11.505Z] [INFO] ✅ Socket.IO initialized
+[2026-05-02T15:27:11.510Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-05-02T15:27:11.511Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-05-02T15:27:11.511Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-05-02T15:27:11.512Z] [INFO] 🔌 Socket.IO: ws://localhost:3001
+[2026-05-02T15:27:11.513Z] [INFO] 📝 Environment: development
+[2026-05-02T15:27:11.503Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-05-02T15:27:11.518Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-05-02T15:27:11.522Z] [INFO] ✅ Database connection established
+[2026-05-02T15:27:11.529Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-05-02T15:27:11.536Z] [INFO] ✅ Socket.IO initialized
+[2026-05-02T15:51:20.828Z] [INFO] 🔌 Initializing Supabase...
+[2026-05-02T15:51:20.832Z] [INFO] 📍 URL Present: true
+[2026-05-02T15:51:20.833Z] [INFO] 🔑 Keys Present: true (service: true)
+[2026-05-02T15:51:20.896Z] [INFO] 🔌 Initializing Supabase...
+[2026-05-02T15:51:20.909Z] [INFO] 📍 URL Present: true
+[2026-05-02T15:51:20.916Z] [INFO] 🔑 Keys Present: true (service: true)
+[2026-05-02T15:51:30.378Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-05-02T15:51:30.379Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-05-02T15:51:30.380Z] [INFO] ✅ Database connection established
+[2026-05-02T15:51:30.385Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-05-02T15:51:30.386Z] [INFO] ✅ Socket.IO initialized
+[2026-05-02T15:51:30.393Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-05-02T15:51:30.394Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-05-02T15:51:30.394Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-05-02T15:51:30.395Z] [INFO] 🔌 Socket.IO: ws://localhost:3001
+[2026-05-02T15:51:30.396Z] [INFO] 📝 Environment: development
+[2026-05-02T15:51:30.380Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-05-02T15:51:30.402Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-05-02T15:51:30.407Z] [INFO] ✅ Database connection established
+[2026-05-02T15:51:30.420Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-05-02T15:51:30.424Z] [INFO] ✅ Socket.IO initialized
+[2026-05-02T15:56:14.143Z] [INFO] 💚 Health: 216MB heap | 0h 5m uptime | 0 tracked errors
+[2026-05-02T16:01:14.155Z] [INFO] 💚 Health: 216MB heap | 0h 10m uptime | 0 tracked errors
+[2026-05-02T16:05:31.027Z] [ERROR] 🚨 [MONITOR] Cannot set property query of #<IncomingMessage> which has only a getter
+{
+  "url": "/api/auth/profile",
+  "method": "GET",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+}
+[2026-05-02T16:05:31.029Z] [ERROR] 500 INTERNAL_ERROR:
+{}
+[2026-05-02T16:05:46.198Z] [ERROR] 🚨 [MONITOR] Cannot set property query of #<IncomingMessage> which has only a getter
+{
+  "url": "/api/auth/login-phone",
+  "method": "POST",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+}
+[2026-05-02T16:05:46.199Z] [ERROR] 500 INTERNAL_ERROR:
+{}
+[2026-05-02T16:05:52.980Z] [ERROR] 🚨 [MONITOR] Cannot set property query of #<IncomingMessage> which has only a getter
+{
+  "url": "/api/auth/login-phone",
+  "method": "POST",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+}
+[2026-05-02T16:05:52.981Z] [ERROR] 500 INTERNAL_ERROR:
+{}
+[2026-05-02T16:06:07.696Z] [ERROR] 🚨 [MONITOR] Cannot set property query of #<IncomingMessage> which has only a getter
+{
+  "url": "/api/auth/login-phone",
+  "method": "POST",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+}
+[2026-05-02T16:06:07.697Z] [ERROR] 500 INTERNAL_ERROR:
+{}
+[2026-05-02T16:06:08.881Z] [ERROR] 🚨 [MONITOR] Cannot set property query of #<IncomingMessage> which has only a getter
+{
+  "url": "/api/auth/login-phone",
+  "method": "POST",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+}
+[2026-05-02T16:06:08.882Z] [ERROR] 500 INTERNAL_ERROR:
+{}
+[2026-05-02T16:06:09.062Z] [ERROR] 🚨 [MONITOR] Cannot set property query of #<IncomingMessage> which has only a getter
+{
+  "url": "/api/auth/login-phone",
+  "method": "POST",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+}
+[2026-05-02T16:06:09.063Z] [ERROR] 500 INTERNAL_ERROR:
+{}
+[2026-05-02T16:06:09.274Z] [ERROR] 🚨 [MONITOR] Cannot set property query of #<IncomingMessage> which has only a getter
+{
+  "url": "/api/auth/login-phone",
+  "method": "POST",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+}
+[2026-05-02T16:06:09.274Z] [ERROR] 500 INTERNAL_ERROR:
+{}
+[2026-05-02T16:06:09.415Z] [ERROR] 🚨 [MONITOR] Cannot set property query of #<IncomingMessage> which has only a getter
+{
+  "url": "/api/auth/login-phone",
+  "method": "POST",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+}
+[2026-05-02T16:06:09.416Z] [ERROR] 500 INTERNAL_ERROR:
+{}
+[2026-05-02T16:06:09.613Z] [ERROR] 🚨 [MONITOR] Cannot set property query of #<IncomingMessage> which has only a getter
+{
+  "url": "/api/auth/login-phone",
+  "method": "POST",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+}
+[2026-05-02T16:06:09.614Z] [ERROR] 500 INTERNAL_ERROR:
+{}
+[2026-05-02T16:06:09.757Z] [ERROR] 🚨 [MONITOR] Cannot set property query of #<IncomingMessage> which has only a getter
+{
+  "url": "/api/auth/login-phone",
+  "method": "POST",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+}
+[2026-05-02T16:06:09.758Z] [ERROR] 500 INTERNAL_ERROR:
+{}
+[2026-05-02T16:06:14.169Z] [INFO] 💚 Health: 218MB heap | 0h 15m uptime | 10 tracked errors
+[2026-05-02T16:08:39.530Z] [INFO] 🔌 Initializing Supabase...
+[2026-05-02T16:08:39.535Z] [INFO] 📍 URL Present: true
+[2026-05-02T16:08:39.539Z] [INFO] 🔑 Keys Present: true (service: true)
+[2026-05-02T16:08:39.553Z] [INFO] 🔌 Initializing Supabase...
+[2026-05-02T16:08:39.562Z] [INFO] 📍 URL Present: true
+[2026-05-02T16:08:39.566Z] [INFO] 🔑 Keys Present: true (service: true)
+[2026-05-02T16:08:43.354Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-05-02T16:08:43.362Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-05-02T16:08:43.363Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-05-02T16:08:43.364Z] [INFO] ✅ Database connection established
+[2026-05-02T16:08:43.369Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-05-02T16:08:43.370Z] [INFO] ✅ Socket.IO initialized
+[2026-05-02T16:08:43.374Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-05-02T16:08:43.375Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-05-02T16:08:43.376Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-05-02T16:08:43.377Z] [INFO] 🔌 Socket.IO: ws://localhost:3001
+[2026-05-02T16:08:43.377Z] [INFO] 📝 Environment: development
+[2026-05-02T16:08:43.355Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-05-02T16:08:43.398Z] [INFO] ✅ Database connection established
+[2026-05-02T16:08:43.408Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-05-02T16:08:43.413Z] [INFO] ✅ Socket.IO initialized
+[2026-05-02T16:09:07.180Z] [INFO] 🔌 Initializing Supabase...
+[2026-05-02T16:09:07.183Z] [INFO] 📍 URL Present: true
+[2026-05-02T16:09:07.187Z] [INFO] 🔑 Keys Present: true (service: true)
+[2026-05-02T16:09:07.218Z] [INFO] 🔌 Initializing Supabase...
+[2026-05-02T16:09:07.229Z] [INFO] 📍 URL Present: true
+[2026-05-02T16:09:07.236Z] [INFO] 🔑 Keys Present: true (service: true)
+[2026-05-02T16:09:08.631Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-05-02T16:09:08.632Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-05-02T16:09:08.633Z] [INFO] ✅ Database connection established
+[2026-05-02T16:09:08.639Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-05-02T16:09:08.640Z] [INFO] ✅ Socket.IO initialized
+[2026-05-02T16:09:08.644Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-05-02T16:09:08.645Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-05-02T16:09:08.646Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-05-02T16:09:08.646Z] [INFO] 🔌 Socket.IO: ws://localhost:3001
+[2026-05-02T16:09:08.647Z] [INFO] 📝 Environment: development
+[2026-05-02T16:09:08.641Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-05-02T16:09:08.666Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-05-02T16:09:08.670Z] [INFO] ✅ Database connection established
+[2026-05-02T16:09:08.684Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-05-02T16:09:08.688Z] [INFO] ✅ Socket.IO initialized
+[2026-05-02T16:09:21.357Z] [HTTP] GET /profile - 200 (2603ms)
+[2026-05-02T16:09:22.770Z] [HTTP] POST /login-phone - 404 (2860ms)
+[2026-05-02T16:09:42.068Z] [ERROR] ❌ Brevo SMS failed for +923287333609: You do not have sufficient credits in your account. Please buy the credits from https://app.sendinblue.com/billing/addon/customize/sms .
+[2026-05-02T16:09:42.069Z] [WARN] ⚠️ Brevo SMS failed for +923287333609, OTP: 377106 — Error: You do not have sufficient credits in your account. Please buy the credits from https://app.sendinblue.com/billing/addon/customize/sms .
+[2026-05-02T16:09:42.070Z] [INFO] 🔑 [DEV] OTP for +923287333609: 377106
+[2026-05-02T16:09:42.072Z] [HTTP] POST /login-phone - 200 (1371ms)
+[2026-05-02T16:09:47.535Z] [INFO] ✅ Phone login successful: 03287333609
+[2026-05-02T16:09:47.541Z] [HTTP] POST /verify-phone-login - 200 (589ms)
+[2026-05-02T16:09:49.875Z] [HTTP] GET /trucks - 304 (254ms)
+[2026-05-02T16:09:49.955Z] [HTTP] GET /shipments - 304 (327ms)
+[2026-05-02T16:09:49.977Z] [WARN] ⚠️ Unauthorized access attempt by fleet@gmail.com (fleet_owner)
+[2026-05-02T16:09:49.979Z] [HTTP] GET / - 403 (5ms)
+[2026-05-02T16:09:50.198Z] [HTTP] GET /trucks - 304 (239ms)
+[2026-05-02T16:09:50.202Z] [HTTP] GET /shipments - 304 (240ms)
+[2026-05-02T16:09:50.267Z] [WARN] ⚠️ Unauthorized access attempt by fleet@gmail.com (fleet_owner)
+[2026-05-02T16:09:50.269Z] [HTTP] GET / - 403 (5ms)
+[2026-05-02T16:09:53.162Z] [HTTP] GET /trucks - 304 (228ms)
+[2026-05-02T16:09:53.410Z] [HTTP] GET /trucks - 304 (233ms)
+[2026-05-02T16:09:55.152Z] [HTTP] GET /shipments - 304 (239ms)
+[2026-05-02T16:09:55.213Z] [WARN] ⚠️ Unauthorized access attempt by fleet@gmail.com (fleet_owner)
+[2026-05-02T16:09:55.215Z] [HTTP] GET / - 403 (3ms)
+[2026-05-02T16:09:55.396Z] [HTTP] GET /shipments - 304 (223ms)
+[2026-05-02T16:09:55.411Z] [WARN] ⚠️ Unauthorized access attempt by fleet@gmail.com (fleet_owner)
+[2026-05-02T16:09:55.412Z] [HTTP] GET / - 403 (2ms)
+[2026-05-02T16:09:56.978Z] [HTTP] GET /trucks - 304 (232ms)
+[2026-05-02T16:09:57.227Z] [HTTP] GET /trucks - 304 (244ms)
+[2026-05-02T16:10:50.177Z] [INFO] 📦 Creating truck: ACE 8193
+[2026-05-02T16:11:00.845Z] [WARN] Truck create falling back to memory store: TypeError: fetch failed
+[2026-05-02T16:11:00.848Z] [HTTP] POST /trucks - 201 (10675ms)
+[2026-05-02T16:11:05.361Z] [HTTP] GET /profile - 200 (13663ms)
+[2026-05-02T16:11:05.363Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-05-02T16:11:05.365Z] [HTTP] POST /logout - 401 (2ms)
+[2026-05-02T16:11:05.627Z] [HTTP] GET /profile - 200 (260ms)
+[2026-05-02T16:11:05.951Z] [HTTP] GET /profile - 304 (40714ms)
+[2026-05-02T16:11:06.162Z] [HTTP] GET /profile - 200 (11964ms)
+[2026-05-02T16:11:06.246Z] [HTTP] GET /profile - 304 (268ms)
+[2026-05-02T16:11:06.559Z] [HTTP] GET /profile - 200 (7913ms)
+[2026-05-02T16:11:07.470Z] [HTTP] GET /profile - 200 (19384ms)
+[2026-05-02T16:11:07.945Z] [INFO] 🔐 Login attempt: admin@test.com
+[2026-05-02T16:11:08.900Z] [INFO] ✅ User logged in: admin@test.com
+[2026-05-02T16:11:08.906Z] [HTTP] POST /login - 200 (962ms)
+[2026-05-02T16:11:09.291Z] [HTTP] GET /profile - 200 (7932ms)
+[2026-05-02T16:11:18.876Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-05-02T16:11:18.878Z] [HTTP] POST /logout - 401 (2ms)
+[2026-05-02T16:11:21.446Z] [INFO] 🔐 Login attempt: admin@test.com
+[2026-05-02T16:11:22.121Z] [INFO] ✅ User logged in: admin@test.com
+[2026-05-02T16:11:22.126Z] [HTTP] POST /login - 200 (680ms)
+[2026-05-02T16:11:22.604Z] [HTTP] GET /users - 200 (249ms)
+[2026-05-02T16:11:22.671Z] [HTTP] GET /shipments - 304 (306ms)
+[2026-05-02T16:11:22.688Z] [HTTP] GET /trucks - 200 (329ms)
+[2026-05-02T16:11:23.014Z] [HTTP] GET /shipments - 304 (342ms)
+[2026-05-02T16:11:23.032Z] [HTTP] GET /users - 304 (417ms)
+[2026-05-02T16:11:23.039Z] [HTTP] GET /trucks - 304 (349ms)
+[2026-05-02T16:11:25.046Z] [HTTP] GET /trucks - 304 (213ms)
+[2026-05-02T16:11:25.272Z] [HTTP] GET /trucks - 304 (225ms)
+[2026-05-02T16:11:29.243Z] [HTTP] GET /profile - 200 (229ms)
+[2026-05-02T16:11:31.356Z] [HTTP] GET /trucks - 304 (226ms)
+[2026-05-02T16:11:31.600Z] [HTTP] GET /trucks - 304 (238ms)
+[2026-05-02T16:11:35.128Z] [HTTP] GET /users - 304 (210ms)
+[2026-05-02T16:11:35.366Z] [HTTP] GET /users - 304 (237ms)
+[2026-05-02T16:11:42.086Z] [HTTP] GET /users/13628f9d-76ec-4b9a-8edc-e560c70ce6be - 200 (1112ms)
+[2026-05-02T16:11:42.854Z] [HTTP] GET /users/13628f9d-76ec-4b9a-8edc-e560c70ce6be - 200 (763ms)
+[2026-05-02T16:11:43.822Z] [HTTP] GET /users - 304 (295ms)
+[2026-05-02T16:11:44.136Z] [HTTP] GET /users - 304 (312ms)
+[2026-05-02T16:11:52.028Z] [HTTP] GET /users/22ef5802-bd7f-4ca3-8171-9f0aa3210a52 - 200 (1354ms)
+[2026-05-02T16:11:54.150Z] [HTTP] GET /users/22ef5802-bd7f-4ca3-8171-9f0aa3210a52 - 304 (2118ms)
+[2026-05-02T16:11:55.064Z] [HTTP] PUT /users/22ef5802-bd7f-4ca3-8171-9f0aa3210a52 - 200 (911ms)
+[2026-05-02T16:11:56.753Z] [INFO] 📋 AUDIT: PUT /users/22ef5802-bd7f-4ca3-8171-9f0aa3210a52 by 5eaf5b56-215a-43ac-a000-41e8c5b5ba44 on 22ef5802-bd7f-4ca3-8171-9f0aa3210a52/22ef5802-bd7f-4ca3-8171-9f0aa3210a52
+[2026-05-02T16:11:58.843Z] [HTTP] GET /trucks - 304 (240ms)
+[2026-05-02T16:11:59.089Z] [HTTP] GET /trucks - 304 (233ms)
+[2026-05-02T16:12:15.532Z] [HTTP] GET /reports - 200 (494ms)
+[2026-05-02T16:12:15.780Z] [HTTP] GET /reports - 304 (244ms)
+[2026-05-02T16:12:23.974Z] [HTTP] GET /users - 200 (436ms)
+[2026-05-02T16:12:24.235Z] [HTTP] GET /users - 304 (255ms)
+[2026-05-02T16:12:25.514Z] [HTTP] GET /trucks - 304 (234ms)
+[2026-05-02T16:12:25.726Z] [HTTP] GET /trucks - 304 (210ms)
+[2026-05-02T16:14:01.418Z] [INFO] 💚 Health: 222MB heap | 0h 5m uptime | 7 tracked errors
+[2026-05-02T16:18:08.854Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-05-02T16:18:08.862Z] [HTTP] POST /logout - 401 (12ms)
+[2026-05-02T16:18:13.000Z] [HTTP] GET /profile - 304 (6164ms)
+[2026-05-02T16:18:14.059Z] [INFO] 🔐 Login attempt: fleet@test.com
+[2026-05-02T16:18:15.507Z] [WARN] ⚠️ Invalid password for: fleet@test.com
+[2026-05-02T16:18:15.509Z] [ERROR] Login error:
+{
+  "statusCode": 401,
+  "code": "INVALID_CREDENTIALS"
+}
+[2026-05-02T16:18:15.550Z] [HTTP] POST /login - 401 (1503ms)
+[2026-05-02T16:18:28.600Z] [INFO] 🔐 Login attempt: fleetowner@gmail.com
+[2026-05-02T16:18:29.040Z] [WARN] ⚠️ User not found: fleetowner@gmail.com
+[2026-05-02T16:18:29.041Z] [ERROR] Login error:
+{
+  "statusCode": 401,
+  "code": "INVALID_CREDENTIALS"
+}
+[2026-05-02T16:18:29.043Z] [HTTP] POST /login - 401 (443ms)
+[2026-05-02T16:18:31.827Z] [INFO] 🔐 Login attempt: fleetowner@gmail.com
+[2026-05-02T16:18:33.349Z] [WARN] ⚠️ User not found: fleetowner@gmail.com
+[2026-05-02T16:18:33.350Z] [ERROR] Login error:
+{
+  "statusCode": 401,
+  "code": "INVALID_CREDENTIALS"
+}
+[2026-05-02T16:18:33.352Z] [HTTP] POST /login - 401 (1525ms)
+[2026-05-02T16:18:37.601Z] [INFO] 🔐 Login attempt: fleet@gmail.com
+[2026-05-02T16:18:38.420Z] [INFO] ✅ User logged in: fleet@gmail.com
+[2026-05-02T16:18:38.432Z] [HTTP] POST /login - 200 (831ms)
+[2026-05-02T16:18:39.515Z] [HTTP] GET /shipments - 304 (231ms)
+[2026-05-02T16:18:39.710Z] [HTTP] GET /trucks - 304 (418ms)
+[2026-05-02T16:18:39.731Z] [WARN] ⚠️ Unauthorized access attempt by fleet@gmail.com (fleet_owner)
+[2026-05-02T16:18:39.734Z] [HTTP] GET / - 403 (6ms)
+[2026-05-02T16:18:39.761Z] [HTTP] GET /shipments - 304 (238ms)
+[2026-05-02T16:18:39.951Z] [HTTP] GET /trucks - 304 (233ms)
+[2026-05-02T16:18:39.962Z] [WARN] ⚠️ Unauthorized access attempt by fleet@gmail.com (fleet_owner)
+[2026-05-02T16:18:39.964Z] [HTTP] GET / - 403 (3ms)
+[2026-05-02T16:18:42.452Z] [HTTP] GET /trucks - 304 (244ms)
+[2026-05-02T16:18:42.754Z] [HTTP] GET /trucks - 304 (248ms)
+[2026-05-02T16:19:01.422Z] [INFO] 💚 Health: 223MB heap | 0h 10m uptime | 8 tracked errors
+[2026-05-02T16:19:28.458Z] [INFO] 📦 Creating truck: ACE 8193
+[2026-05-02T16:19:34.356Z] [HTTP] GET /profile - 200 (4317ms)
+[2026-05-02T16:19:35.325Z] [HTTP] GET /profile - 200 (11664ms)
+[2026-05-02T16:19:35.518Z] [HTTP] GET /profile - 200 (390ms)
+[2026-05-02T16:19:38.726Z] [WARN] Truck create falling back to memory store: TypeError: fetch failed
+[2026-05-02T16:19:38.731Z] [HTTP] POST /trucks - 201 (10285ms)
+[2026-05-02T16:19:38.743Z] [HTTP] GET /profile - 200 (221ms)
+[2026-05-02T16:19:39.979Z] [HTTP] GET /profile - 200 (11543ms)
+[2026-05-02T16:19:40.433Z] [HTTP] GET /profile - 200 (39121ms)
+[2026-05-02T16:19:40.666Z] [HTTP] GET /profile - 304 (231ms)
+[2026-05-02T16:19:40.899Z] [HTTP] GET /profile - 304 (231ms)
+[2026-05-02T16:19:41.795Z] [HTTP] GET /trucks - 200 (245ms)
+[2026-05-02T16:19:42.016Z] [HTTP] GET /trucks - 304 (219ms)
+[2026-05-02T16:19:44.923Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-05-02T16:19:44.924Z] [HTTP] POST /logout - 401 (2ms)
+[2026-05-02T16:19:48.309Z] [INFO] 🔐 Login attempt: admin@test.com
+[2026-05-02T16:19:49.069Z] [INFO] ✅ User logged in: admin@test.com
+[2026-05-02T16:19:49.074Z] [HTTP] POST /login - 200 (765ms)
+[2026-05-02T16:19:50.186Z] [HTTP] GET /users - 304 (345ms)
+[2026-05-02T16:19:50.197Z] [HTTP] GET /shipments - 304 (345ms)
+[2026-05-02T16:19:50.215Z] [HTTP] GET /trucks - 304 (367ms)
+[2026-05-02T16:19:50.928Z] [HTTP] GET /trucks - 304 (712ms)
+[2026-05-02T16:19:50.955Z] [HTTP] GET /shipments - 304 (756ms)
+[2026-05-02T16:19:50.959Z] [HTTP] GET /users - 304 (772ms)
+[2026-05-02T16:19:53.430Z] [HTTP] GET /trucks - 304 (206ms)
+[2026-05-02T16:19:53.668Z] [HTTP] GET /trucks - 304 (236ms)
+[2026-05-02T16:23:43.875Z] [HTTP] GET /profile - 200 (1146ms)
+[2026-05-02T16:23:44.392Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-05-02T16:23:44.394Z] [HTTP] POST /logout - 401 (2ms)
+[2026-05-02T16:23:48.281Z] [INFO] 🔐 Login attempt: admin@test.com
+[2026-05-02T16:23:50.285Z] [INFO] ✅ User logged in: admin@test.com
+[2026-05-02T16:23:50.288Z] [HTTP] POST /login - 200 (2008ms)
+[2026-05-02T16:23:50.821Z] [HTTP] GET /users - 200 (238ms)
+[2026-05-02T16:23:50.930Z] [HTTP] GET /shipments - 200 (332ms)
+[2026-05-02T16:23:50.947Z] [HTTP] GET /trucks - 304 (360ms)
+[2026-05-02T16:23:51.054Z] [HTTP] GET /users - 304 (228ms)
+[2026-05-02T16:23:51.188Z] [HTTP] GET /shipments - 304 (251ms)
+[2026-05-02T16:23:51.191Z] [HTTP] GET /trucks - 304 (239ms)
+[2026-05-02T16:23:52.075Z] [HTTP] GET /users - 304 (234ms)
+[2026-05-02T16:23:52.285Z] [HTTP] GET /users - 304 (206ms)
+[2026-05-02T16:23:54.282Z] [HTTP] GET /shipments - 304 (211ms)
+[2026-05-02T16:23:54.301Z] [HTTP] GET /trucks - 304 (232ms)
+[2026-05-02T16:23:54.308Z] [HTTP] GET /users - 304 (243ms)
+[2026-05-02T16:23:54.505Z] [HTTP] GET /shipments - 304 (215ms)
+[2026-05-02T16:23:54.558Z] [HTTP] GET /trucks - 304 (229ms)
+[2026-05-02T16:23:54.563Z] [HTTP] GET /users - 304 (232ms)
+[2026-05-02T16:24:01.428Z] [INFO] 💚 Health: 225MB heap | 0h 15m uptime | 13 tracked errors
+[2026-05-02T16:24:08.823Z] [HTTP] GET /shipments - 304 (424ms)
+[2026-05-02T16:24:08.836Z] [HTTP] GET /trucks - 304 (441ms)
+[2026-05-02T16:24:08.917Z] [HTTP] GET /users - 304 (527ms)
+[2026-05-02T16:24:09.029Z] [HTTP] GET /shipments - 304 (197ms)
+[2026-05-02T16:24:09.071Z] [HTTP] GET /trucks - 304 (221ms)
+[2026-05-02T16:24:09.167Z] [HTTP] GET /users - 304 (248ms)
+[2026-05-02T16:24:57.411Z] [HTTP] GET /profile - 304 (369ms)
+[2026-05-02T16:24:58.879Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-05-02T16:24:58.880Z] [HTTP] POST /logout - 401 (1ms)
+[2026-05-02T16:25:31.104Z] [ERROR] ❌ Brevo SMS failed for +923297333609: You do not have sufficient credits in your account. Please buy the credits from https://app.sendinblue.com/billing/addon/customize/sms .
+[2026-05-02T16:25:31.105Z] [WARN] ⚠️ Brevo SMS failed for +923297333609, OTP: 403900 — Error: You do not have sufficient credits in your account. Please buy the credits from https://app.sendinblue.com/billing/addon/customize/sms .
+[2026-05-02T16:25:31.107Z] [INFO] 🔑 [DEV] OTP for +923297333609: 403900
+[2026-05-02T16:25:31.110Z] [HTTP] POST /send-otp - 200 (1095ms)
+[2026-05-02T16:25:35.548Z] [HTTP] POST /verify-otp - 200 (6ms)
+[2026-05-02T16:25:45.140Z] [INFO] 📝 Signup attempt: abdullah.tauqeer.chh@gmail.com
+[2026-05-02T16:26:02.916Z] [INFO] ✅ User registered: abdullah.tauqeer.chh@gmail.com
+[2026-05-02T16:26:02.921Z] [HTTP] POST /signup - 201 (17836ms)
+[2026-05-02T16:26:03.693Z] [HTTP] GET /trucks - 304 (490ms)
+[2026-05-02T16:26:04.430Z] [HTTP] GET /trucks - 304 (735ms)
+[2026-05-02T16:26:04.449Z] [HTTP] GET /shipments - 304 (1244ms)
+[2026-05-02T16:26:04.463Z] [WARN] ⚠️ Unauthorized access attempt by abdullah.tauqeer.chh@gmail.com (fleet_owner)
+[2026-05-02T16:26:04.465Z] [HTTP] GET / - 403 (4ms)
+[2026-05-02T16:26:05.080Z] [HTTP] GET /shipments - 304 (626ms)
+[2026-05-02T16:26:05.176Z] [ERROR] ❌ Brevo SMS failed for +923297333609: You do not have sufficient credits in your account. Please buy the credits from https://app.sendinblue.com/billing/addon/customize/sms .
+[2026-05-02T16:26:05.209Z] [WARN] ⚠️ Unauthorized access attempt by abdullah.tauqeer.chh@gmail.com (fleet_owner)
+[2026-05-02T16:26:05.210Z] [HTTP] GET / - 403 (2ms)
+[2026-05-02T16:26:08.286Z] [HTTP] GET /trucks - 304 (1723ms)
+[2026-05-02T16:26:09.796Z] [HTTP] GET /shipments - 304 (1500ms)
+[2026-05-02T16:26:09.806Z] [HTTP] GET /trucks - 304 (1518ms)
+[2026-05-02T16:26:10.034Z] [HTTP] GET /trucks - 304 (217ms)
+[2026-05-02T16:26:10.036Z] [HTTP] GET /shipments - 304 (233ms)
+[2026-05-02T16:26:10.117Z] [WARN] ⚠️ Unauthorized access attempt by abdullah.tauqeer.chh@gmail.com (fleet_owner)
+[2026-05-02T16:26:10.118Z] [HTTP] GET / - 403 (2ms)
+[2026-05-02T16:26:10.312Z] [HTTP] GET /trucks - 304 (254ms)
+[2026-05-02T16:26:10.321Z] [WARN] ⚠️ Unauthorized access attempt by abdullah.tauqeer.chh@gmail.com (fleet_owner)
+[2026-05-02T16:26:10.324Z] [HTTP] GET / - 403 (4ms)
+[2026-05-02T16:26:12.448Z] [INFO] ✅ KYC document uploaded for user 97aa8433-0387-4ad7-8277-5e091c8367e2
+[2026-05-02T16:26:12.450Z] [HTTP] POST /upload - 200 (9478ms)
+[2026-05-02T16:26:20.104Z] [INFO] ✅ KYC document uploaded for user 97aa8433-0387-4ad7-8277-5e091c8367e2
+[2026-05-02T16:26:20.106Z] [HTTP] POST /upload - 200 (7639ms)
+[2026-05-02T16:26:24.160Z] [HTTP] GET /trucks - 304 (452ms)
+[2026-05-02T16:26:25.137Z] [HTTP] GET /trucks - 304 (975ms)
+[2026-05-02T16:26:25.245Z] [HTTP] GET /shipments - 304 (1535ms)
+[2026-05-02T16:26:25.259Z] [WARN] ⚠️ Unauthorized access attempt by abdullah.tauqeer.chh@gmail.com (fleet_owner)
+[2026-05-02T16:26:25.260Z] [HTTP] GET / - 403 (2ms)
+[2026-05-02T16:26:25.541Z] [HTTP] GET /shipments - 304 (294ms)
+[2026-05-02T16:26:25.584Z] [WARN] ⚠️ Unauthorized access attempt by abdullah.tauqeer.chh@gmail.com (fleet_owner)
+[2026-05-02T16:26:25.586Z] [HTTP] GET / - 403 (3ms)
+[2026-05-02T16:26:25.812Z] [HTTP] GET /shipments - 304 (269ms)
+[2026-05-02T16:26:25.866Z] [WARN] ⚠️ Unauthorized access attempt by abdullah.tauqeer.chh@gmail.com (fleet_owner)
+[2026-05-02T16:26:25.867Z] [HTTP] GET / - 403 (2ms)
+[2026-05-02T16:26:26.184Z] [HTTP] GET /trucks - 304 (433ms)
+[2026-05-02T16:26:26.228Z] [HTTP] GET /shipments - 304 (377ms)
+[2026-05-02T16:26:26.241Z] [WARN] ⚠️ Unauthorized access attempt by abdullah.tauqeer.chh@gmail.com (fleet_owner)
+[2026-05-02T16:26:26.243Z] [HTTP] GET / - 403 (2ms)
+[2026-05-02T16:26:26.834Z] [HTTP] GET /trucks - 304 (641ms)
+[2026-05-02T16:27:08.641Z] [INFO] 📦 Creating truck: ACE 8193
+[2026-05-02T16:27:18.762Z] [HTTP] GET /profile - 200 (14617ms)
+[2026-05-02T16:27:18.947Z] [WARN] Truck create falling back to memory store: TypeError: fetch failed
+[2026-05-02T16:27:18.949Z] [HTTP] POST /trucks - 201 (10310ms)
+[2026-05-02T16:27:19.234Z] [HTTP] GET /profile - 200 (428ms)
+[2026-05-02T16:27:19.334Z] [HTTP] GET /profile - 200 (12031ms)
+[2026-05-02T16:27:19.835Z] [HTTP] GET /profile - 200 (39244ms)
+[2026-05-02T16:27:20.042Z] [HTTP] GET /profile - 200 (3258ms)
+[2026-05-02T16:27:20.569Z] [HTTP] GET /profile - 304 (722ms)
+[2026-05-02T16:27:20.872Z] [HTTP] GET /profile - 304 (257ms)
+[2026-05-02T16:27:21.748Z] [HTTP] GET /profile - 200 (11751ms)
+[2026-05-02T16:27:24.402Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-05-02T16:27:24.403Z] [HTTP] POST /logout - 401 (2ms)
+[2026-05-02T16:27:26.856Z] [INFO] 🔐 Login attempt: admin@test.com
+[2026-05-02T16:27:28.533Z] [INFO] ✅ User logged in: admin@test.com
+[2026-05-02T16:27:28.538Z] [HTTP] POST /login - 200 (1682ms)
+[2026-05-02T16:27:29.642Z] [HTTP] GET /trucks - 200 (894ms)
+[2026-05-02T16:27:30.799Z] [HTTP] GET /trucks - 304 (1150ms)
+[2026-05-02T16:27:31.228Z] [HTTP] GET /users - 200 (2477ms)
+[2026-05-02T16:27:31.247Z] [HTTP] GET /shipments - 304 (2493ms)
+[2026-05-02T16:27:31.480Z] [HTTP] GET /users - 304 (250ms)
+[2026-05-02T16:27:31.487Z] [HTTP] GET /shipments - 304 (222ms)
+[2026-05-02T16:27:33.712Z] [HTTP] GET /users - 304 (1094ms)
+[2026-05-02T16:27:34.240Z] [HTTP] GET /users - 304 (525ms)
+[2026-05-02T16:27:37.065Z] [HTTP] PUT /users/97aa8433-0387-4ad7-8277-5e091c8367e2 - 200 (279ms)
+[2026-05-02T16:27:37.309Z] [INFO] 📋 AUDIT: PUT /users/97aa8433-0387-4ad7-8277-5e091c8367e2 by 5eaf5b56-215a-43ac-a000-41e8c5b5ba44 on 97aa8433-0387-4ad7-8277-5e091c8367e2/97aa8433-0387-4ad7-8277-5e091c8367e2
+[2026-05-02T16:27:37.460Z] [HTTP] GET /users - 200 (387ms)
+[2026-05-02T16:27:42.231Z] [HTTP] GET /users/97aa8433-0387-4ad7-8277-5e091c8367e2 - 200 (1198ms)
+[2026-05-02T16:27:43.159Z] [HTTP] GET /users/97aa8433-0387-4ad7-8277-5e091c8367e2 - 200 (922ms)
+[2026-05-02T16:27:59.041Z] [HTTP] GET /trucks - 304 (1149ms)
+[2026-05-02T16:28:00.014Z] [HTTP] GET /trucks - 304 (966ms)
+[2026-05-02T16:29:01.432Z] [INFO] 💚 Health: 229MB heap | 0h 20m uptime | 22 tracked errors
+[2026-05-02T16:30:32.607Z] [HTTP] GET /profile - 200 (899ms)
+[2026-05-02T16:31:43.686Z] [HTTP] GET /profile - 304 (413ms)
+[2026-05-02T16:31:45.125Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-05-02T16:31:45.126Z] [HTTP] POST /logout - 401 (2ms)
+[2026-05-02T16:32:02.184Z] [INFO] 🔐 Login attempt: fleet@gmail.com
+[2026-05-02T16:32:02.606Z] [WARN] ⚠️ User not found: fleet@gmail.com
+[2026-05-02T16:32:02.607Z] [ERROR] Login error:
+{
+  "statusCode": 401,
+  "code": "INVALID_CREDENTIALS"
+}
+[2026-05-02T16:32:02.622Z] [HTTP] POST /login - 401 (439ms)
+[2026-05-02T16:32:12.649Z] [INFO] 🔐 Login attempt: abdullah.tauqeer@gmail.com
+[2026-05-02T16:32:13.006Z] [WARN] ⚠️ User not found: abdullah.tauqeer@gmail.com
+[2026-05-02T16:32:13.007Z] [ERROR] Login error:
+{
+  "statusCode": 401,
+  "code": "INVALID_CREDENTIALS"
+}
+[2026-05-02T16:32:13.015Z] [HTTP] POST /login - 401 (366ms)
+[2026-05-02T16:32:20.086Z] [INFO] 🔐 Login attempt: admin@test.com
+[2026-05-02T16:32:20.738Z] [INFO] ✅ User logged in: admin@test.com
+[2026-05-02T16:32:20.743Z] [HTTP] POST /login - 200 (657ms)
+[2026-05-02T16:32:21.255Z] [HTTP] GET /users - 304 (256ms)
+[2026-05-02T16:32:21.356Z] [HTTP] GET /shipments - 304 (338ms)
+[2026-05-02T16:32:21.382Z] [HTTP] GET /trucks - 304 (380ms)
+[2026-05-02T16:32:22.253Z] [HTTP] GET /shipments - 304 (896ms)
+[2026-05-02T16:32:22.274Z] [HTTP] GET /trucks - 304 (886ms)
+[2026-05-02T16:32:22.284Z] [HTTP] GET /users - 304 (1024ms)
+[2026-05-02T16:32:22.786Z] [HTTP] GET /users - 304 (436ms)
+[2026-05-02T16:32:23.057Z] [HTTP] GET /users - 304 (248ms)
+[2026-05-02T16:32:32.034Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-05-02T16:32:32.036Z] [HTTP] POST /logout - 401 (2ms)
+[2026-05-02T16:32:37.032Z] [INFO] 🔐 Login attempt: abdullah.tauqeer.chh@gmail.com
+[2026-05-02T16:32:37.717Z] [INFO] ✅ User logged in: abdullah.tauqeer.chh@gmail.com
+[2026-05-02T16:32:37.720Z] [HTTP] POST /login - 200 (688ms)
+[2026-05-02T16:32:38.407Z] [HTTP] GET /shipments - 304 (388ms)
+[2026-05-02T16:32:38.500Z] [HTTP] GET /trucks - 304 (484ms)
+[2026-05-02T16:32:38.515Z] [WARN] ⚠️ Unauthorized access attempt by abdullah.tauqeer.chh@gmail.com (fleet_owner)
+[2026-05-02T16:32:38.517Z] [HTTP] GET / - 403 (3ms)
+[2026-05-02T16:32:38.654Z] [HTTP] GET /shipments - 304 (243ms)
+[2026-05-02T16:32:38.727Z] [HTTP] GET /trucks - 304 (222ms)
+[2026-05-02T16:32:38.735Z] [WARN] ⚠️ Unauthorized access attempt by abdullah.tauqeer.chh@gmail.com (fleet_owner)
+[2026-05-02T16:32:38.736Z] [HTTP] GET / - 403 (2ms)
+[2026-05-02T16:32:41.097Z] [HTTP] GET /trucks - 304 (201ms)
+[2026-05-02T16:32:41.337Z] [HTTP] GET /trucks - 304 (230ms)
+[2026-05-02T16:33:40.438Z] [HTTP] GET /profile - 200 (4154ms)
+[2026-05-02T16:33:40.483Z] [HTTP] GET /profile - 200 (39608ms)
+[2026-05-02T16:33:40.805Z] [HTTP] GET /profile - 304 (312ms)
+[2026-05-02T16:33:40.858Z] [HTTP] GET /profile - 200 (13598ms)
+[2026-05-02T16:33:41.150Z] [HTTP] GET /profile - 304 (341ms)
+[2026-05-02T16:33:41.195Z] [HTTP] GET /profile - 200 (754ms)
+[2026-05-02T16:33:41.723Z] [INFO] 📁 Created storage bucket: kyc-documents
+[2026-05-02T16:33:42.100Z] [HTTP] GET /profile - 200 (11804ms)
+[2026-05-02T16:33:44.142Z] [HTTP] GET /profile - 200 (20146ms)
+[2026-05-02T16:33:46.960Z] [INFO] 📄 KYC document uploaded: 97aa8433-0387-4ad7-8277-5e091c8367e2/truck_photo_c37aeceb.png by 97aa8433-0387-4ad7-8277-5e091c8367e2
+[2026-05-02T16:33:46.962Z] [HTTP] POST /upload - 200 (15927ms)
+[2026-05-02T16:33:56.624Z] [INFO] 📄 KYC document uploaded: 97aa8433-0387-4ad7-8277-5e091c8367e2/truck_photo_e82d88b3.png by 97aa8433-0387-4ad7-8277-5e091c8367e2
+[2026-05-02T16:33:56.626Z] [HTTP] POST /upload - 200 (9653ms)
+[2026-05-02T16:34:01.444Z] [INFO] 💚 Health: 223MB heap | 0h 25m uptime | 29 tracked errors
+[2026-05-02T16:34:09.724Z] [INFO] 📄 KYC document uploaded: 97aa8433-0387-4ad7-8277-5e091c8367e2/truck_photo_6afdbbb4.png by 97aa8433-0387-4ad7-8277-5e091c8367e2
+[2026-05-02T16:34:09.726Z] [HTTP] POST /upload - 200 (13088ms)
+[2026-05-02T16:34:23.533Z] [INFO] 📄 KYC document uploaded: 97aa8433-0387-4ad7-8277-5e091c8367e2/truck_photo_93923e3b.png by 97aa8433-0387-4ad7-8277-5e091c8367e2
+[2026-05-02T16:34:23.535Z] [HTTP] POST /upload - 200 (13798ms)
+[2026-05-02T16:34:27.303Z] [INFO] 📄 KYC document uploaded: 97aa8433-0387-4ad7-8277-5e091c8367e2/truck_document_4bf3377e.pdf by 97aa8433-0387-4ad7-8277-5e091c8367e2
+[2026-05-02T16:34:27.305Z] [HTTP] POST /upload - 200 (3754ms)
+[2026-05-02T16:34:31.304Z] [INFO] 📄 KYC document uploaded: 97aa8433-0387-4ad7-8277-5e091c8367e2/truck_document_bd660dbe.pdf by 97aa8433-0387-4ad7-8277-5e091c8367e2
+[2026-05-02T16:34:31.306Z] [HTTP] POST /upload - 200 (3993ms)
+[2026-05-02T16:34:34.788Z] [INFO] 📄 KYC document uploaded: 97aa8433-0387-4ad7-8277-5e091c8367e2/truck_document_4e21ba19.pdf by 97aa8433-0387-4ad7-8277-5e091c8367e2
+[2026-05-02T16:34:34.791Z] [HTTP] POST /upload - 200 (3471ms)
+[2026-05-02T16:34:38.033Z] [INFO] 📄 KYC document uploaded: 97aa8433-0387-4ad7-8277-5e091c8367e2/truck_document_5a80a91b.pdf by 97aa8433-0387-4ad7-8277-5e091c8367e2
+[2026-05-02T16:34:38.034Z] [HTTP] POST /upload - 200 (3232ms)
+[2026-05-02T16:34:38.053Z] [INFO] 📦 Creating truck: ACE 8193
+[2026-05-02T16:34:38.266Z] [WARN] Truck create falling back to memory store: Could not find the 'condition' column of 'trucks' in the schema cache
+[2026-05-02T16:34:38.267Z] [HTTP] POST /trucks - 201 (215ms)
+[2026-05-02T16:35:21.343Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-05-02T16:35:21.345Z] [HTTP] POST /logout - 401 (2ms)
+[2026-05-02T16:35:23.941Z] [INFO] 🔐 Login attempt: admin@test.com
+[2026-05-02T16:35:24.774Z] [INFO] ✅ User logged in: admin@test.com
+[2026-05-02T16:35:24.777Z] [HTTP] POST /login - 200 (836ms)
+[2026-05-02T16:35:25.241Z] [HTTP] GET /trucks - 200 (247ms)
+[2026-05-02T16:35:25.318Z] [HTTP] GET /users - 304 (322ms)
+[2026-05-02T16:35:25.329Z] [HTTP] GET /shipments - 304 (327ms)
+[2026-05-02T16:35:25.470Z] [HTTP] GET /trucks - 304 (225ms)
+[2026-05-02T16:35:25.554Z] [HTTP] GET /users - 304 (232ms)
+[2026-05-02T16:35:25.571Z] [HTTP] GET /shipments - 304 (235ms)
+[2026-05-02T16:35:27.102Z] [HTTP] GET /trucks - 304 (232ms)
+[2026-05-02T16:35:27.335Z] [HTTP] GET /trucks - 304 (223ms)
+[2026-05-02T16:35:29.843Z] [HTTP] GET /users - 304 (360ms)
+[2026-05-02T16:35:29.974Z] [HTTP] GET /shipments - 304 (486ms)
+[2026-05-02T16:35:29.977Z] [HTTP] GET /trucks - 304 (491ms)
+[2026-05-02T16:35:30.151Z] [HTTP] GET /users - 304 (306ms)
+[2026-05-02T16:35:30.226Z] [HTTP] GET /shipments - 304 (245ms)
+[2026-05-02T16:35:30.239Z] [HTTP] GET /trucks - 304 (247ms)
+[2026-05-02T16:35:31.040Z] [HTTP] GET /users - 304 (250ms)
+[2026-05-02T16:35:31.676Z] [HTTP] GET /users - 304 (629ms)
+[2026-05-02T16:35:31.965Z] [HTTP] GET /trucks - 304 (248ms)
+[2026-05-02T16:35:32.216Z] [HTTP] GET /trucks - 304 (241ms)
+[2026-05-02T16:55:15.711Z] [INFO] 🔌 Initializing Supabase...
+[2026-05-02T16:55:15.737Z] [INFO] 📍 URL Present: true
+[2026-05-02T16:55:15.739Z] [INFO] 🔑 Keys Present: true (service: true)
+[2026-05-02T16:55:16.415Z] [INFO] 🔌 Initializing Supabase...
+[2026-05-02T16:55:16.418Z] [INFO] 📍 URL Present: true
+[2026-05-02T16:55:16.419Z] [INFO] 🔑 Keys Present: true (service: true)
+[2026-05-02T16:55:16.889Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-05-02T16:55:16.892Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-05-02T16:55:16.899Z] [INFO] ✅ Database connection established
+[2026-05-02T16:55:16.909Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-05-02T16:55:16.912Z] [INFO] ✅ Socket.IO initialized
+[2026-05-02T16:55:16.923Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-05-02T16:55:16.928Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-05-02T16:55:16.935Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-05-02T16:55:16.946Z] [INFO] 🔌 Socket.IO: ws://localhost:3001
+[2026-05-02T16:55:16.947Z] [INFO] 📝 Environment: development
+[2026-05-02T16:55:17.508Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-05-02T16:55:17.509Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-05-02T16:55:17.509Z] [INFO] ✅ Database connection established
+[2026-05-02T16:55:17.515Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-05-02T16:55:17.516Z] [INFO] ✅ Socket.IO initialized
+[2026-05-02T16:55:17.572Z] [HTTP] GET /trucks - 304 (345ms)
+[2026-05-02T16:55:17.810Z] [HTTP] GET /trucks - 304 (231ms)
+[2026-05-02T16:55:17.865Z] [HTTP] GET /shipments - 304 (615ms)
+[2026-05-02T16:55:17.975Z] [HTTP] GET /users - 304 (732ms)
+[2026-05-02T16:55:18.095Z] [HTTP] GET /shipments - 304 (227ms)
+[2026-05-02T16:55:20.607Z] [HTTP] GET /profile - 200 (233ms)
+[2026-05-02T16:55:22.756Z] [HTTP] GET /users - 304 (209ms)
+[2026-05-02T16:55:23.009Z] [HTTP] GET /users - 304 (229ms)
+[2026-05-02T16:55:24.159Z] [HTTP] GET /trucks - 304 (212ms)
+[2026-05-02T16:55:24.386Z] [HTTP] GET /trucks - 304 (218ms)
+[2026-05-02T16:55:26.977Z] [HTTP] GET /trucks - 304 (387ms)
+[2026-05-02T16:55:27.194Z] [HTTP] GET /trucks - 304 (213ms)
+[2026-05-02T16:55:27.830Z] [HTTP] GET /users - 304 (225ms)
+[2026-05-02T16:55:28.054Z] [HTTP] GET /users - 304 (222ms)
+[2026-05-02T16:56:12.895Z] [INFO] 🔌 Initializing Supabase...
+[2026-05-02T16:56:12.899Z] [INFO] 📍 URL Present: true
+[2026-05-02T16:56:12.900Z] [INFO] 🔑 Keys Present: true (service: true)
+[2026-05-02T16:56:13.321Z] [INFO] 🔌 Initializing Supabase...
+[2026-05-02T16:56:13.325Z] [INFO] 📍 URL Present: true
+[2026-05-02T16:56:13.334Z] [INFO] 🔑 Keys Present: true (service: true)
+[2026-05-02T16:56:17.181Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-05-02T16:56:17.181Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-05-02T16:56:17.182Z] [INFO] ✅ Database connection established
+[2026-05-02T16:56:17.188Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-05-02T16:56:17.189Z] [INFO] ✅ Socket.IO initialized
+[2026-05-02T16:56:17.195Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-05-02T16:56:17.196Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-05-02T16:56:17.197Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-05-02T16:56:17.198Z] [INFO] 🔌 Socket.IO: ws://localhost:3001
+[2026-05-02T16:56:17.198Z] [INFO] 📝 Environment: development
+[2026-05-02T16:56:17.274Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-05-02T16:56:17.275Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-05-02T16:56:17.282Z] [INFO] ✅ Database connection established
+[2026-05-02T16:56:17.291Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-05-02T16:56:17.298Z] [INFO] 🔐 Login attempt: abdullah.tauqeer.chh@gmail.com
+[2026-05-02T16:56:17.297Z] [INFO] ✅ Socket.IO initialized
+[2026-05-02T16:56:17.910Z] [INFO] ✅ User logged in: abdullah.tauqeer.chh@gmail.com
+[2026-05-02T16:56:17.922Z] [HTTP] POST /login - 200 (628ms)
+[2026-05-02T16:56:19.048Z] [HTTP] GET /trucks - 304 (239ms)
+[2026-05-02T16:56:19.137Z] [HTTP] GET /shipments - 304 (315ms)
+[2026-05-02T16:56:19.240Z] [WARN] ⚠️ Unauthorized access attempt by abdullah.tauqeer.chh@gmail.com (fleet_owner)
+[2026-05-02T16:56:19.242Z] [HTTP] GET / - 403 (5ms)
+[2026-05-02T16:56:19.646Z] [HTTP] GET /trucks - 304 (579ms)
+[2026-05-02T16:56:19.922Z] [HTTP] GET /shipments - 304 (723ms)
+[2026-05-02T16:56:19.941Z] [WARN] ⚠️ Unauthorized access attempt by abdullah.tauqeer.chh@gmail.com (fleet_owner)
+[2026-05-02T16:56:19.942Z] [HTTP] GET / - 403 (4ms)
+[2026-05-02T16:56:41.051Z] [HTTP] GET /trucks - 304 (341ms)
+[2026-05-02T16:56:41.264Z] [HTTP] GET /trucks - 304 (211ms)
+[2026-05-02T16:56:56.877Z] [HTTP] GET /profile - 304 (495ms)
+[2026-05-02T16:58:39.952Z] [HTTP] GET /profile - 304 (442ms)
+[2026-05-02T16:58:53.606Z] [HTTP] GET /profile - 200 (382ms)
+[2026-05-02T16:58:53.693Z] [HTTP] GET /profile - 304 (366ms)
+[2026-05-02T16:58:56.420Z] [HTTP] GET /users - 200 (202ms)
+[2026-05-02T16:58:56.672Z] [HTTP] GET /users - 304 (232ms)
+[2026-05-02T16:59:01.428Z] [HTTP] GET /profile - 304 (337ms)
+[2026-05-02T18:13:57.666Z] [INFO] 💚 Health: 218MB heap | 1h 18m uptime | 0 tracked errors
+[2026-05-02T18:15:53.732Z] [HTTP] GET /profile - 304 (1682ms)
+[2026-05-02T18:16:19.145Z] [HTTP] GET /profile - 304 (462ms)
+[2026-05-02T18:18:57.674Z] [INFO] 💚 Health: 219MB heap | 1h 23m uptime | 0 tracked errors
+[2026-05-02T18:20:44.192Z] [HTTP] GET /profile - 304 (979ms)
+[2026-05-02T18:23:57.688Z] [INFO] 💚 Health: 219MB heap | 1h 28m uptime | 0 tracked errors
+[2026-05-02T18:29:20.212Z] [INFO] 🔌 Initializing Supabase...
+[2026-05-02T18:29:20.215Z] [INFO] 📍 URL Present: true
+[2026-05-02T18:29:20.216Z] [INFO] 🔑 Keys Present: true (service: true)
+[2026-05-02T18:29:29.950Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-05-02T18:29:29.951Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-05-02T18:29:29.951Z] [INFO] ✅ Database connection established
+[2026-05-02T18:29:29.958Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-05-02T18:29:29.959Z] [INFO] ✅ Socket.IO initialized
+[2026-05-02T18:29:29.964Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-05-02T18:29:29.965Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-05-02T18:29:29.966Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-05-02T18:29:29.966Z] [INFO] 🔌 Socket.IO: ws://localhost:3001
+[2026-05-02T18:29:29.967Z] [INFO] 📝 Environment: development
+[2026-05-02T18:32:02.044Z] [INFO] 🔌 Initializing Supabase...
+[2026-05-02T18:32:02.048Z] [INFO] 📍 URL Present: true
+[2026-05-02T18:32:02.052Z] [INFO] 🔑 Keys Present: true (service: true)
+[2026-05-02T18:32:03.356Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-05-02T18:32:03.360Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-05-02T18:32:03.372Z] [INFO] ✅ Database connection established
+[2026-05-02T18:32:03.383Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-05-02T18:32:03.390Z] [INFO] ✅ Socket.IO initialized
+[2026-05-02T18:38:03.307Z] [INFO] 🔌 Initializing Supabase...
+[2026-05-02T18:38:03.318Z] [INFO] 📍 URL Present: true
+[2026-05-02T18:38:03.333Z] [INFO] 🔑 Keys Present: true (service: true)
+[2026-05-02T18:38:04.805Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-05-02T18:38:04.806Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-05-02T18:38:04.808Z] [INFO] ✅ Database connection established
+[2026-05-02T18:38:04.816Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-05-02T18:38:04.819Z] [INFO] ✅ Socket.IO initialized
+[2026-05-02T18:38:04.824Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-05-02T18:38:04.831Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-05-02T18:38:04.835Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-05-02T18:38:04.841Z] [INFO] 🔌 Socket.IO: ws://localhost:3001
+[2026-05-02T18:38:04.846Z] [INFO] 📝 Environment: development
+[2026-05-02T18:42:58.979Z] [INFO] 💚 Health: 216MB heap | 0h 5m uptime | 0 tracked errors
+[2026-05-02T18:44:09.471Z] [HTTP] GET /profile - 304 (1202ms)
+[2026-05-02T18:44:12.881Z] [HTTP] GET /trucks - 304 (249ms)
+[2026-05-02T18:44:13.154Z] [HTTP] GET /trucks - 304 (213ms)
+[2026-05-02T18:47:58.991Z] [INFO] 💚 Health: 217MB heap | 0h 10m uptime | 0 tracked errors
+[2026-05-02T18:51:01.708Z] [INFO] 🔌 Initializing Supabase...
+[2026-05-02T18:51:01.754Z] [INFO] 📍 URL Present: true
+[2026-05-02T18:51:01.755Z] [INFO] 🔑 Keys Present: true (service: true)
+[2026-05-02T18:51:02.658Z] [INFO] 🔌 Initializing Supabase...
+[2026-05-02T18:51:02.738Z] [INFO] 📍 URL Present: true
+[2026-05-02T18:51:02.740Z] [INFO] 🔑 Keys Present: true (service: true)
+[2026-05-02T18:51:08.487Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-05-02T18:51:08.488Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-05-02T18:51:08.489Z] [INFO] ✅ Database connection established
+[2026-05-02T18:51:08.496Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-05-02T18:51:08.498Z] [INFO] ✅ Socket.IO initialized
+[2026-05-02T18:51:08.507Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-05-02T18:51:08.508Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-05-02T18:51:08.509Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-05-02T18:51:08.510Z] [INFO] 🔌 Socket.IO: ws://localhost:3001
+[2026-05-02T18:51:08.511Z] [INFO] 📝 Environment: development
+[2026-05-02T18:51:11.603Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-05-02T18:51:11.605Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-05-02T18:51:11.608Z] [INFO] ✅ Database connection established
+[2026-05-02T18:51:11.617Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-05-02T18:51:11.618Z] [INFO] ✅ Socket.IO initialized
+[2026-05-02T19:31:38.028Z] [INFO] 🔌 Initializing Supabase...
+[2026-05-02T19:31:38.055Z] [INFO] 📍 URL Present: true
+[2026-05-02T19:31:38.057Z] [INFO] 🔑 Keys Present: true (service: true)
+[2026-05-02T19:31:38.076Z] [INFO] 🔌 Initializing Supabase...
+[2026-05-02T19:31:38.083Z] [INFO] 📍 URL Present: true
+[2026-05-02T19:31:38.090Z] [INFO] 🔑 Keys Present: true (service: true)
+[2026-05-02T19:31:39.122Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-05-02T19:31:39.123Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-05-02T19:31:39.127Z] [INFO] ✅ Database connection established
+[2026-05-02T19:31:39.136Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-05-02T19:31:39.138Z] [INFO] ✅ Socket.IO initialized
+[2026-05-02T19:31:39.146Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-05-02T19:31:39.147Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-05-02T19:31:39.149Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-05-02T19:31:39.154Z] [INFO] 🔌 Socket.IO: ws://localhost:3001
+[2026-05-02T19:31:39.156Z] [INFO] 📝 Environment: development
+[2026-05-02T19:31:39.277Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-05-02T19:31:39.278Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-05-02T19:31:39.278Z] [INFO] ✅ Database connection established
+[2026-05-02T19:31:39.284Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-05-02T19:31:39.286Z] [INFO] ✅ Socket.IO initialized
+[2026-05-02T19:32:10.551Z] [HTTP] GET /profile - 304 (643ms)
+[2026-05-02T22:16:25.930Z] [INFO] 🔌 Initializing Supabase...
+[2026-05-02T22:16:25.936Z] [INFO] 📍 URL Present: true
+[2026-05-02T22:16:25.937Z] [INFO] 🔑 Keys Present: true (service: true)
+[2026-05-02T22:16:29.431Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-05-02T22:16:29.432Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-05-02T22:16:29.434Z] [INFO] ✅ Database connection established
+[2026-05-02T22:16:29.440Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-05-02T22:16:29.441Z] [INFO] ✅ Socket.IO initialized
+[2026-05-02T22:16:29.450Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-05-02T22:16:29.453Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-05-02T22:16:29.457Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-05-02T22:16:29.460Z] [INFO] 🔌 Socket.IO: ws://localhost:3001
+[2026-05-02T22:16:29.461Z] [INFO] 📝 Environment: development
+[2026-05-02T22:17:14.831Z] [HTTP] GET /profile - 200 (433ms)
+[2026-05-02T22:17:20.538Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-05-02T22:17:20.541Z] [HTTP] POST /logout - 401 (4ms)
+[2026-05-02T22:19:49.808Z] [INFO] 🔐 Login attempt: admin@test.com
+[2026-05-02T22:19:52.153Z] [INFO] ✅ User logged in: admin@test.com
+[2026-05-02T22:19:52.174Z] [HTTP] POST /login - 200 (2448ms)
+[2026-05-02T22:19:54.605Z] [HTTP] GET /users - 200 (586ms)
+[2026-05-02T22:19:55.813Z] [HTTP] GET /users - 304 (1205ms)
+[2026-05-02T22:19:55.857Z] [HTTP] GET /shipments - 200 (1804ms)
+[2026-05-02T22:19:56.172Z] [HTTP] GET /trucks - 200 (2133ms)
+[2026-05-02T22:19:56.883Z] [HTTP] GET /shipments - 304 (1023ms)
+[2026-05-02T22:19:57.588Z] [HTTP] GET /trucks - 304 (1409ms)
+[2026-05-02T22:20:03.055Z] [HTTP] GET /profile - 304 (1016ms)
+[2026-05-02T22:20:03.095Z] [HTTP] GET /users - 304 (602ms)
+[2026-05-02T22:20:03.421Z] [HTTP] GET /users - 304 (323ms)
+[2026-05-02T22:20:05.969Z] [HTTP] GET /trucks - 200 (277ms)
+[2026-05-02T22:20:06.241Z] [HTTP] GET /trucks - 304 (267ms)
+[2026-05-02T22:20:15.078Z] [HTTP] GET /users - 304 (1310ms)
+[2026-05-02T22:20:15.527Z] [HTTP] GET /users - 304 (447ms)
+[2026-05-02T22:20:40.286Z] [HTTP] GET /profile - 304 (379ms)
+[2026-05-02T22:20:52.077Z] [HTTP] GET /profile - 304 (445ms)
+[2026-05-02T22:21:04.946Z] [INFO] 🔐 Login attempt: abdullah.tauqeer.chh@gmail.com
+[2026-05-02T22:21:05.591Z] [INFO] ✅ User logged in: abdullah.tauqeer.chh@gmail.com
+[2026-05-02T22:21:05.596Z] [HTTP] POST /login - 200 (650ms)
+[2026-05-02T22:21:06.453Z] [HTTP] GET /trucks - 200 (256ms)
+[2026-05-02T22:21:06.709Z] [HTTP] GET /trucks - 304 (252ms)
+[2026-05-02T22:21:06.794Z] [HTTP] GET /shipments - 200 (589ms)
+[2026-05-02T22:21:06.804Z] [WARN] ⚠️ Unauthorized access attempt by abdullah.tauqeer.chh@gmail.com (fleet_owner)
+[2026-05-02T22:21:06.806Z] [HTTP] GET / - 403 (4ms)
+[2026-05-02T22:21:07.041Z] [HTTP] GET /shipments - 304 (244ms)
+[2026-05-02T22:21:07.126Z] [WARN] ⚠️ Unauthorized access attempt by abdullah.tauqeer.chh@gmail.com (fleet_owner)
+[2026-05-02T22:21:07.238Z] [HTTP] GET / - 403 (113ms)
+[2026-05-02T22:21:12.936Z] [HTTP] GET /trucks - 304 (772ms)
+[2026-05-02T22:21:12.963Z] [HTTP] GET /shipments - 200 (795ms)
+[2026-05-02T22:21:13.274Z] [HTTP] GET /shipments - 304 (305ms)
+[2026-05-02T22:21:13.299Z] [HTTP] GET /trucks - 304 (355ms)
+[2026-05-02T22:21:20.683Z] [INFO] 💚 Health: 221MB heap | 0h 5m uptime | 0 tracked errors
+[2026-05-02T22:21:28.306Z] [HTTP] GET /shipments - 304 (687ms)
+[2026-05-02T22:21:28.317Z] [WARN] ⚠️ Unauthorized access attempt by abdullah.tauqeer.chh@gmail.com (fleet_owner)
+[2026-05-02T22:21:28.319Z] [HTTP] GET / - 403 (3ms)
+[2026-05-02T22:21:28.612Z] [HTTP] GET /shipments - 304 (303ms)
+[2026-05-02T22:21:28.617Z] [WARN] ⚠️ Unauthorized access attempt by abdullah.tauqeer.chh@gmail.com (fleet_owner)
+[2026-05-02T22:21:28.623Z] [HTTP] GET / - 403 (7ms)
+[2026-05-02T22:21:33.604Z] [HTTP] GET /trucks - 304 (449ms)
+[2026-05-02T22:21:33.890Z] [HTTP] GET /trucks - 304 (282ms)
+[2026-05-02T22:22:25.951Z] [HTTP] GET /profile - 200 (652ms)
+[2026-05-02T22:22:29.032Z] [HTTP] GET /profile - 304 (287ms)
+[2026-05-02T22:22:33.330Z] [HTTP] GET /profile - 304 (722ms)
+[2026-05-02T22:22:36.625Z] [HTTP] GET /profile - 304 (281ms)
+[2026-05-02T22:22:47.070Z] [HTTP] GET /profile - 304 (2183ms)
+[2026-05-02T22:22:48.281Z] [HTTP] GET /profile - 304 (328ms)
+[2026-05-02T22:22:51.989Z] [HTTP] GET /profile - 304 (653ms)
+[2026-05-02T22:22:55.608Z] [HTTP] GET /profile - 304 (1006ms)
+[2026-05-02T22:23:02.431Z] [HTTP] GET /profile - 304 (538ms)
+[2026-05-02T22:23:05.899Z] [HTTP] GET /profile - 304 (248ms)
+[2026-05-02T22:24:07.054Z] [HTTP] GET /profile - 304 (750ms)
+[2026-05-02T22:24:12.716Z] [HTTP] GET /profile - 304 (391ms)
+[2026-05-02T22:25:06.944Z] [HTTP] GET /profile - 304 (833ms)
+[2026-05-02T22:25:25.770Z] [HTTP] GET /profile - 304 (1398ms)
+[2026-05-02T22:25:29.736Z] [HTTP] GET /profile - 304 (449ms)
+[2026-05-02T22:25:31.732Z] [HTTP] GET /users - 304 (370ms)
+[2026-05-02T22:25:32.119Z] [HTTP] GET /users - 304 (383ms)
+[2026-05-02T22:25:37.659Z] [HTTP] GET /profile - 304 (739ms)
+[2026-05-02T22:25:44.721Z] [HTTP] GET /profile - 304 (629ms)
+[2026-05-02T22:26:41.027Z] [INFO] 🔌 Initializing Supabase...
+[2026-05-02T22:26:41.030Z] [INFO] 📍 URL Present: true
+[2026-05-02T22:26:41.032Z] [INFO] 🔑 Keys Present: true (service: true)
+[2026-05-02T22:26:41.981Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-05-02T22:26:41.982Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-05-02T22:26:41.985Z] [INFO] ✅ Database connection established
+[2026-05-02T22:26:41.992Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-05-02T22:26:41.993Z] [INFO] ✅ Socket.IO initialized
+[2026-05-02T22:26:42.000Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-05-02T22:26:42.002Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-05-02T22:26:42.011Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-05-02T22:26:42.016Z] [INFO] 🔌 Socket.IO: ws://localhost:3001
+[2026-05-02T22:26:42.017Z] [INFO] 📝 Environment: development
+[2026-05-02T22:26:42.509Z] [HTTP] GET /profile - 304 (338ms)
+[2026-05-02T22:27:16.690Z] [HTTP] GET /profile - 304 (715ms)
+[2026-05-02T22:27:45.848Z] [HTTP] GET /profile - 304 (1008ms)
+[2026-05-02T22:28:02.296Z] [HTTP] GET /profile - 304 (625ms)
+[2026-05-02T22:28:06.669Z] [HTTP] GET /profile - 304 (3067ms)
+[2026-05-02T22:28:19.913Z] [INFO] 📸 Truck photo uploaded: 97aa8433-0387-4ad7-8277-5e091c8367e2/1777760887284-front.png by 97aa8433-0387-4ad7-8277-5e091c8367e2
+[2026-05-02T22:28:19.916Z] [HTTP] POST /truck-photo - 200 (15027ms)
+[2026-05-02T22:28:34.661Z] [HTTP] GET /profile - 304 (3235ms)
+[2026-05-02T22:28:45.000Z] [INFO] 📸 Truck photo uploaded: 97aa8433-0387-4ad7-8277-5e091c8367e2/1777760900224-back.png by 97aa8433-0387-4ad7-8277-5e091c8367e2
+[2026-05-02T22:28:45.002Z] [HTTP] POST /truck-photo - 200 (25074ms)
+[2026-05-02T22:28:47.662Z] [HTTP] GET /profile - 304 (452ms)
+[2026-05-02T22:28:50.583Z] [INFO] 📸 Truck photo uploaded: 97aa8433-0387-4ad7-8277-5e091c8367e2/1777760925576-interior.png by 97aa8433-0387-4ad7-8277-5e091c8367e2
+[2026-05-02T22:28:50.585Z] [HTTP] POST /truck-photo - 200 (5573ms)
+[2026-05-02T22:28:55.619Z] [HTTP] GET /profile - 304 (475ms)
+[2026-05-02T22:28:59.283Z] [INFO] 📸 Truck photo uploaded: 97aa8433-0387-4ad7-8277-5e091c8367e2/1777760931088-exterior.png by 97aa8433-0387-4ad7-8277-5e091c8367e2
+[2026-05-02T22:28:59.285Z] [HTTP] POST /truck-photo - 200 (8693ms)
+[2026-05-02T22:29:00.577Z] [HTTP] GET /api/health - 200 (2ms)
+[2026-05-02T22:29:01.596Z] [INFO] 📄 Truck document uploaded: 97aa8433-0387-4ad7-8277-5e091c8367e2/1777760939525-registration.pdf by 97aa8433-0387-4ad7-8277-5e091c8367e2
+[2026-05-02T22:29:01.599Z] [HTTP] POST /truck-document - 200 (2307ms)
+[2026-05-02T22:29:04.189Z] [INFO] 📄 Truck document uploaded: 97aa8433-0387-4ad7-8277-5e091c8367e2/1777760941893-fitness.pdf by 97aa8433-0387-4ad7-8277-5e091c8367e2
+[2026-05-02T22:29:04.190Z] [HTTP] POST /truck-document - 200 (2584ms)
+[2026-05-02T22:29:11.449Z] [INFO] 📄 Truck document uploaded: 97aa8433-0387-4ad7-8277-5e091c8367e2/1777760944502-route.pdf by 97aa8433-0387-4ad7-8277-5e091c8367e2
+[2026-05-02T22:29:11.450Z] [HTTP] POST /truck-document - 200 (7253ms)
+[2026-05-02T22:29:13.317Z] [INFO] 📄 Truck document uploaded: 97aa8433-0387-4ad7-8277-5e091c8367e2/1777760951780-insurance.pdf by 97aa8433-0387-4ad7-8277-5e091c8367e2
+[2026-05-02T22:29:13.319Z] [HTTP] POST /truck-document - 200 (1861ms)
+[2026-05-02T22:29:13.367Z] [INFO] 📦 Creating truck: ACE 8193
+[2026-05-02T22:29:13.639Z] [WARN] Truck create falling back to memory store: Could not find the 'condition' column of 'trucks' in the schema cache
+[2026-05-02T22:29:13.642Z] [HTTP] POST /trucks - 201 (279ms)
+[2026-05-02T22:29:23.049Z] [HTTP] GET /profile - 304 (480ms)
+[2026-05-02T22:29:26.539Z] [HTTP] GET /profile - 304 (244ms)
+[2026-05-02T22:29:28.671Z] [HTTP] GET /users - 304 (276ms)
+[2026-05-02T22:29:28.775Z] [HTTP] GET /trucks - 304 (376ms)
+[2026-05-02T22:29:28.779Z] [HTTP] GET /shipments - 304 (376ms)
+[2026-05-02T22:29:28.963Z] [HTTP] GET /users - 304 (277ms)
+[2026-05-02T22:29:29.023Z] [HTTP] GET /trucks - 304 (240ms)
+[2026-05-02T22:29:29.033Z] [HTTP] GET /shipments - 304 (248ms)
+[2026-05-02T22:29:32.303Z] [HTTP] GET /trucks - 304 (255ms)
+[2026-05-02T22:29:32.545Z] [HTTP] GET /trucks - 304 (240ms)
+[2026-05-02T22:29:35.729Z] [HTTP] GET /users - 304 (253ms)
+[2026-05-02T22:29:35.818Z] [HTTP] GET /trucks - 304 (339ms)
+[2026-05-02T22:29:35.822Z] [HTTP] GET /shipments - 304 (339ms)
+[2026-05-02T22:29:36.008Z] [HTTP] GET /users - 304 (274ms)
+[2026-05-02T22:29:36.088Z] [HTTP] GET /trucks - 304 (250ms)
+[2026-05-02T22:29:36.160Z] [HTTP] GET /shipments - 304 (312ms)
+[2026-05-02T22:29:36.745Z] [HTTP] GET /trucks - 304 (244ms)
+[2026-05-02T22:29:37.066Z] [HTTP] GET /trucks - 304 (307ms)
+[2026-05-02T22:31:36.235Z] [INFO] 💚 Health: 222MB heap | 0h 5m uptime | 7 tracked errors
+[2026-05-02T22:34:52.160Z] [HTTP] GET /profile - 304 (1201ms)
+[2026-05-02T22:34:57.615Z] [HTTP] GET /profile - 304 (352ms)
+[2026-05-02T22:34:59.282Z] [HTTP] GET /profile - 304 (234ms)
+[2026-05-02T22:35:00.836Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-05-02T22:35:00.844Z] [HTTP] POST /logout - 401 (8ms)
+[2026-05-02T22:35:05.151Z] [INFO] 🔐 Login attempt: admin@test.com
+[2026-05-02T22:35:07.543Z] [INFO] ✅ User logged in: admin@test.com
+[2026-05-02T22:35:07.548Z] [HTTP] POST /login - 200 (2399ms)
+[2026-05-02T22:35:09.220Z] [HTTP] GET /users - 200 (1178ms)
+[2026-05-02T22:35:11.142Z] [HTTP] GET /users - 304 (1917ms)
+[2026-05-02T22:35:12.541Z] [HTTP] GET /trucks - 200 (4495ms)
+[2026-05-02T22:35:12.544Z] [HTTP] GET /shipments - 304 (4494ms)
+[2026-05-02T22:35:12.552Z] [HTTP] GET /users - 304 (1407ms)
+[2026-05-02T22:35:13.663Z] [HTTP] GET /trucks - 304 (1116ms)
+[2026-05-02T22:35:13.666Z] [HTTP] GET /shipments - 304 (1116ms)
+[2026-05-02T22:35:13.676Z] [HTTP] GET /users - 304 (1119ms)
+[2026-05-02T22:35:15.342Z] [HTTP] GET /trucks - 304 (1671ms)
+[2026-05-02T22:35:15.345Z] [HTTP] GET /shipments - 304 (1672ms)
+[2026-05-02T22:35:15.356Z] [HTTP] GET /users - 304 (1676ms)
+[2026-05-02T22:35:15.577Z] [HTTP] GET /trucks - 304 (225ms)
+[2026-05-02T22:35:15.600Z] [HTTP] GET /users - 304 (241ms)
+[2026-05-02T22:35:15.632Z] [HTTP] GET /shipments - 304 (278ms)
+[2026-05-02T22:35:16.022Z] [HTTP] GET /trucks - 200 (334ms)
+[2026-05-02T22:35:16.270Z] [HTTP] GET /trucks - 304 (242ms)
+[2026-05-02T22:35:20.106Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-05-02T22:35:20.110Z] [HTTP] POST /logout - 401 (4ms)
+[2026-05-02T22:35:28.592Z] [HTTP] GET /profile - 304 (346ms)
+[2026-05-02T22:35:30.158Z] [HTTP] GET /users - 304 (319ms)
+[2026-05-02T22:35:30.457Z] [HTTP] GET /users - 304 (288ms)
+[2026-05-02T22:35:36.295Z] [HTTP] GET /profile - 304 (407ms)
+[2026-05-02T22:35:44.838Z] [INFO] 🔐 Login attempt: abdullah.tauqeer.chh@gmail.com
+[2026-05-02T22:35:45.487Z] [INFO] ✅ User logged in: abdullah.tauqeer.chh@gmail.com
+[2026-05-02T22:35:45.490Z] [HTTP] POST /login - 200 (652ms)
+[2026-05-02T22:35:46.155Z] [HTTP] GET /trucks - 304 (229ms)
+[2026-05-02T22:35:46.306Z] [HTTP] GET /shipments - 304 (378ms)
+[2026-05-02T22:35:46.315Z] [WARN] ⚠️ Unauthorized access attempt by abdullah.tauqeer.chh@gmail.com (fleet_owner)
+[2026-05-02T22:35:46.319Z] [HTTP] GET / - 403 (5ms)
+[2026-05-02T22:35:46.399Z] [HTTP] GET /trucks - 304 (240ms)
+[2026-05-02T22:35:46.565Z] [HTTP] GET /shipments - 304 (256ms)
+[2026-05-02T22:35:46.572Z] [WARN] ⚠️ Unauthorized access attempt by abdullah.tauqeer.chh@gmail.com (fleet_owner)
+[2026-05-02T22:35:46.576Z] [HTTP] GET / - 403 (5ms)
+[2026-05-02T22:35:50.405Z] [HTTP] GET /profile - 304 (254ms)
+[2026-05-02T22:36:36.238Z] [INFO] 💚 Health: 223MB heap | 0h 10m uptime | 9 tracked errors
+[2026-05-02T22:37:18.084Z] [WARN] Auth middleware error:
+"jwt malformed"
+[2026-05-02T22:37:18.086Z] [HTTP] GET /trucks - 401 (2ms)
+[2026-05-02T22:41:36.249Z] [INFO] 💚 Health: 223MB heap | 0h 15m uptime | 9 tracked errors
+[2026-05-02T22:44:36.337Z] [WARN] Auth middleware error:
+"invalid signature"
+[2026-05-02T22:44:36.339Z] [HTTP] GET /trucks - 401 (2ms)
+[2026-05-02T22:46:36.251Z] [INFO] 💚 Health: 223MB heap | 0h 20m uptime | 9 tracked errors
+[2026-05-02T22:48:09.638Z] [HTTP] GET /api/health - 200 (1ms)
+[2026-05-02T22:48:14.198Z] [HTTP] GET /profile - 304 (903ms)
+[2026-05-02T22:48:14.563Z] [HTTP] GET /trucks - 304 (322ms)
+[2026-05-02T22:48:14.637Z] [HTTP] GET /shipments - 304 (389ms)
+[2026-05-02T22:48:14.656Z] [WARN] ⚠️ Unauthorized access attempt by abdullah.tauqeer.chh@gmail.com (fleet_owner)
+[2026-05-02T22:48:14.664Z] [HTTP] GET / - 403 (9ms)
+[2026-05-02T22:48:15.378Z] [HTTP] GET /trucks - 304 (241ms)
+[2026-05-02T22:48:15.628Z] [HTTP] GET /trucks - 304 (241ms)
+[2026-05-02T22:48:53.759Z] [HTTP] GET /profile - 304 (658ms)
+[2026-05-02T22:48:56.626Z] [HTTP] GET /profile - 304 (332ms)
+[2026-05-02T22:49:00.059Z] [HTTP] GET /profile - 304 (295ms)
+[2026-05-02T22:49:04.787Z] [HTTP] GET /profile - 304 (480ms)
+[2026-05-02T22:49:12.425Z] [HTTP] GET /profile - 304 (481ms)
+[2026-05-02T22:49:15.612Z] [HTTP] GET /profile - 304 (384ms)
+[2026-05-02T22:49:19.121Z] [HTTP] GET /profile - 304 (443ms)
+[2026-05-02T22:49:23.071Z] [HTTP] GET /profile - 304 (343ms)
+[2026-05-02T22:49:31.499Z] [INFO] 📸 Truck photo uploaded: 97aa8433-0387-4ad7-8277-5e091c8367e2/1777762166750-front.png by 97aa8433-0387-4ad7-8277-5e091c8367e2
+[2026-05-02T22:49:31.501Z] [HTTP] POST /truck-photo - 200 (5762ms)
+[2026-05-02T22:49:39.118Z] [INFO] 📸 Truck photo uploaded: 97aa8433-0387-4ad7-8277-5e091c8367e2/1777762171981-back.png by 97aa8433-0387-4ad7-8277-5e091c8367e2
+[2026-05-02T22:49:39.120Z] [HTTP] POST /truck-photo - 200 (7612ms)
+[2026-05-02T22:49:44.197Z] [INFO] 📸 Truck photo uploaded: 97aa8433-0387-4ad7-8277-5e091c8367e2/1777762179453-interior.png by 97aa8433-0387-4ad7-8277-5e091c8367e2
+[2026-05-02T22:49:44.198Z] [HTTP] POST /truck-photo - 200 (5069ms)
+[2026-05-02T22:49:45.914Z] [INFO] 📸 Truck photo uploaded: 97aa8433-0387-4ad7-8277-5e091c8367e2/1777762184455-exterior.png by 97aa8433-0387-4ad7-8277-5e091c8367e2
+[2026-05-02T22:49:45.916Z] [HTTP] POST /truck-photo - 200 (1711ms)
+[2026-05-02T22:49:47.720Z] [INFO] 📄 Truck document uploaded: 97aa8433-0387-4ad7-8277-5e091c8367e2/1777762186172-registration.pdf by 97aa8433-0387-4ad7-8277-5e091c8367e2
+[2026-05-02T22:49:47.722Z] [HTTP] POST /truck-document - 200 (1800ms)
+[2026-05-02T22:49:50.091Z] [INFO] 📄 Truck document uploaded: 97aa8433-0387-4ad7-8277-5e091c8367e2/1777762188324-fitness.pdf by 97aa8433-0387-4ad7-8277-5e091c8367e2
+[2026-05-02T22:49:50.094Z] [HTTP] POST /truck-document - 200 (2365ms)
+[2026-05-02T22:49:51.917Z] [INFO] 📄 Truck document uploaded: 97aa8433-0387-4ad7-8277-5e091c8367e2/1777762190361-route.pdf by 97aa8433-0387-4ad7-8277-5e091c8367e2
+[2026-05-02T22:49:51.919Z] [HTTP] POST /truck-document - 200 (1819ms)
+[2026-05-02T22:49:53.937Z] [INFO] 📄 Truck document uploaded: 97aa8433-0387-4ad7-8277-5e091c8367e2/1777762192168-insurance.pdf by 97aa8433-0387-4ad7-8277-5e091c8367e2
+[2026-05-02T22:49:53.939Z] [HTTP] POST /truck-document - 200 (2012ms)
+[2026-05-02T22:49:53.947Z] [INFO] 📦 Creating truck: ace 8193
+[2026-05-02T22:49:54.227Z] [WARN] Truck create falling back to memory store: Could not find the 'condition' column of 'trucks' in the schema cache
+[2026-05-02T22:49:54.229Z] [HTTP] POST /trucks - 201 (283ms)
+[2026-05-02T22:49:57.695Z] [HTTP] GET /profile - 304 (243ms)
+[2026-05-02T22:49:59.753Z] [HTTP] GET /users - 304 (264ms)
+[2026-05-02T22:49:59.806Z] [HTTP] GET /trucks - 304 (310ms)
+[2026-05-02T22:49:59.833Z] [HTTP] GET /shipments - 304 (334ms)
+[2026-05-02T22:49:59.998Z] [HTTP] GET /users - 304 (239ms)
+[2026-05-02T22:50:00.061Z] [HTTP] GET /trucks - 304 (245ms)
+[2026-05-02T22:50:00.064Z] [HTTP] GET /shipments - 304 (226ms)
+[2026-05-02T22:50:05.657Z] [HTTP] GET /profile - 304 (359ms)
+[2026-05-02T22:50:07.640Z] [HTTP] GET /users - 304 (230ms)
+[2026-05-02T22:50:07.747Z] [HTTP] GET /trucks - 304 (331ms)
+[2026-05-02T22:50:07.753Z] [HTTP] GET /shipments - 304 (334ms)
+[2026-05-02T22:50:07.899Z] [HTTP] GET /users - 304 (229ms)
+[2026-05-02T22:50:07.996Z] [HTTP] GET /trucks - 304 (233ms)
+[2026-05-02T22:50:07.999Z] [HTTP] GET /shipments - 304 (234ms)
+[2026-05-02T22:50:11.617Z] [HTTP] GET /trucks - 304 (222ms)
+[2026-05-02T22:50:11.849Z] [HTTP] GET /trucks - 304 (230ms)
+[2026-05-02T22:50:19.043Z] [HTTP] GET /trucks - 304 (591ms)
+[2026-05-02T22:50:19.845Z] [HTTP] GET /trucks - 304 (252ms)
+[2026-05-02T22:50:22.632Z] [HTTP] GET /trucks - 304 (289ms)
+[2026-05-02T22:50:23.451Z] [HTTP] GET /trucks - 304 (308ms)
+[2026-05-02T22:50:24.229Z] [HTTP] GET /trucks - 304 (337ms)
+[2026-05-02T22:50:26.061Z] [HTTP] GET /profile - 304 (317ms)
+[2026-05-02T22:50:27.701Z] [HTTP] GET /profile - 304 (405ms)
+[2026-05-02T22:50:28.123Z] [HTTP] GET /profile - 304 (424ms)
+[2026-05-02T22:50:34.721Z] [HTTP] GET /profile - 304 (627ms)
+[2026-05-02T22:51:36.259Z] [INFO] 💚 Health: 220MB heap | 0h 25m uptime | 12 tracked errors
+[2026-05-02T22:54:23.270Z] [INFO] 🔐 Login attempt: admin@test.com
+[2026-05-02T22:54:30.166Z] [INFO] ✅ User logged in: admin@test.com
+[2026-05-02T22:54:30.169Z] [HTTP] POST /login - 200 (6899ms)
+[2026-05-02T22:54:30.451Z] [HTTP] GET /trucks - 200 (269ms)
+[2026-05-02T22:54:30.710Z] [HTTP] GET /trucks - 200 (256ms)
+[2026-05-02T22:54:44.679Z] [HTTP] GET /profile - 304 (611ms)
+[2026-05-02T22:54:47.459Z] [HTTP] GET /trucks - 304 (396ms)
+[2026-05-02T22:54:49.083Z] [HTTP] GET /profile - 304 (295ms)
+[2026-05-02T22:54:49.916Z] [HTTP] GET /profile - 304 (316ms)
+[2026-05-02T22:54:50.610Z] [HTTP] GET /profile - 304 (602ms)

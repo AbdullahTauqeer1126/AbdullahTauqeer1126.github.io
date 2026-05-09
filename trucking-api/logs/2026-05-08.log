@@ -1,0 +1,832 @@
+[2026-05-08T10:54:26.377Z] [INFO] 💚 Health: 216MB heap | 13h 39m uptime | 0 tracked errors
+[2026-05-08T10:55:35.897Z] [HTTP] GET /profile - 304 (2595ms)
+[2026-05-08T10:55:36.571Z] [HTTP] GET /system/settings - 304 (3701ms)
+[2026-05-08T11:45:12.872Z] [INFO] 🔌 Initializing Supabase...
+[2026-05-08T11:45:12.878Z] [INFO] 📍 URL Present: true
+[2026-05-08T11:45:12.879Z] [INFO] 🔑 Keys Present: true (service: true)
+[2026-05-08T11:45:20.523Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-05-08T11:45:20.525Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-05-08T11:45:20.530Z] [INFO] ✅ Database connection established
+[2026-05-08T11:45:20.541Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-05-08T11:45:20.543Z] [INFO] ✅ Socket.IO initialized
+[2026-05-08T11:45:20.554Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-05-08T11:45:20.557Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-05-08T11:45:20.560Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-05-08T11:45:20.567Z] [INFO] 🔌 Socket.IO: ws://localhost:3001
+[2026-05-08T11:45:20.572Z] [INFO] 📝 Environment: development
+[2026-05-08T11:46:38.728Z] [HTTP] GET /system/settings - 304 (849ms)
+[2026-05-08T11:46:50.006Z] [INFO] 👑 Admin Action: GET /users
+[2026-05-08T11:46:50.633Z] [HTTP] GET /shipments - 304 (659ms)
+[2026-05-08T11:46:50.664Z] [HTTP] GET /trucks - 200 (671ms)
+[2026-05-08T11:46:50.957Z] [HTTP] GET /users - 304 (952ms)
+[2026-05-08T11:46:51.007Z] [HTTP] GET /shipments - 304 (356ms)
+[2026-05-08T11:46:51.028Z] [HTTP] GET /trucks - 200 (349ms)
+[2026-05-08T11:46:51.047Z] [INFO] 👑 Admin Action: GET /users
+[2026-05-08T11:46:51.339Z] [HTTP] GET /users - 304 (293ms)
+[2026-05-08T11:46:54.193Z] [INFO] 👑 Admin Action: GET /users
+[2026-05-08T11:46:54.483Z] [HTTP] GET /users - 304 (291ms)
+[2026-05-08T11:46:54.493Z] [INFO] 👑 Admin Action: GET /users
+[2026-05-08T11:46:54.782Z] [HTTP] GET /users - 304 (289ms)
+[2026-05-08T11:46:55.258Z] [INFO] 👑 Admin Action: GET /trucks
+[2026-05-08T11:46:55.705Z] [HTTP] GET /trucks - 200 (448ms)
+[2026-05-08T11:46:55.824Z] [INFO] 👑 Admin Action: GET /trucks
+[2026-05-08T11:46:56.097Z] [HTTP] GET /trucks - 200 (273ms)
+[2026-05-08T11:47:01.302Z] [HTTP] GET /profile - 304 (973ms)
+[2026-05-08T11:47:01.602Z] [HTTP] GET /profile - 304 (289ms)
+[2026-05-08T11:50:07.475Z] [INFO] 💚 Health: 218MB heap | 0h 5m uptime | 0 tracked errors
+[2026-05-08T11:52:06.478Z] [HTTP] GET /profile - 304 (1876ms)
+[2026-05-08T11:52:06.506Z] [HTTP] GET /system/settings - 304 (2290ms)
+[2026-05-08T11:52:27.778Z] [HTTP] GET /profile - 304 (856ms)
+[2026-05-08T11:52:41.672Z] [HTTP] GET /profile - 304 (845ms)
+[2026-05-08T11:54:16.005Z] [HTTP] GET /system/settings - 200 (1364ms)
+[2026-05-08T11:54:29.814Z] [HTTP] GET /profile - 200 (595ms)
+[2026-05-08T11:54:35.737Z] [HTTP] GET /shipments - 200 (653ms)
+[2026-05-08T11:54:35.754Z] [HTTP] GET /trucks - 200 (700ms)
+[2026-05-08T11:54:35.791Z] [WARN] ⚠️ Unauthorized access attempt by abdullah.tauqeer.chh@gmail.com (fleet_owner)
+[2026-05-08T11:54:35.801Z] [HTTP] GET / - 403 (23ms)
+[2026-05-08T11:54:36.105Z] [HTTP] GET /trucks - 200 (336ms)
+[2026-05-08T11:54:36.165Z] [HTTP] GET /shipments - 304 (404ms)
+[2026-05-08T11:54:36.178Z] [WARN] ⚠️ Unauthorized access attempt by abdullah.tauqeer.chh@gmail.com (fleet_owner)
+[2026-05-08T11:54:36.186Z] [HTTP] GET / - 403 (9ms)
+[2026-05-08T11:54:41.376Z] [HTTP] GET /trucks - 200 (372ms)
+[2026-05-08T11:54:41.596Z] [HTTP] GET /trucks - 200 (207ms)
+[2026-05-08T11:54:50.094Z] [HTTP] GET /shipments - 304 (430ms)
+[2026-05-08T11:54:50.117Z] [HTTP] GET /trucks - 200 (459ms)
+[2026-05-08T11:54:50.139Z] [WARN] ⚠️ Unauthorized access attempt by abdullah.tauqeer.chh@gmail.com (fleet_owner)
+[2026-05-08T11:54:50.142Z] [HTTP] GET / - 403 (4ms)
+[2026-05-08T11:54:50.330Z] [HTTP] GET /shipments - 304 (232ms)
+[2026-05-08T11:54:50.392Z] [HTTP] GET /trucks - 200 (264ms)
+[2026-05-08T11:54:50.405Z] [WARN] ⚠️ Unauthorized access attempt by abdullah.tauqeer.chh@gmail.com (fleet_owner)
+[2026-05-08T11:54:50.414Z] [HTTP] GET / - 403 (10ms)
+[2026-05-08T11:54:54.365Z] [HTTP] GET /trucks - 200 (264ms)
+[2026-05-08T11:54:54.782Z] [HTTP] GET /trucks - 200 (211ms)
+[2026-05-08T11:54:58.235Z] [HTTP] GET /trucks - 200 (399ms)
+[2026-05-08T11:54:58.565Z] [HTTP] GET /shipments - 304 (725ms)
+[2026-05-08T11:54:58.568Z] [HTTP] GET /trucks - 200 (221ms)
+[2026-05-08T11:54:59.302Z] [HTTP] GET /shipments - 304 (727ms)
+[2026-05-08T11:54:59.393Z] [HTTP] GET /trucks - 200 (449ms)
+[2026-05-08T11:54:59.447Z] [WARN] ⚠️ Unauthorized access attempt by abdullah.tauqeer.chh@gmail.com (fleet_owner)
+[2026-05-08T11:54:59.468Z] [HTTP] GET / - 403 (26ms)
+[2026-05-08T11:54:59.584Z] [WARN] ⚠️ Unauthorized access attempt by abdullah.tauqeer.chh@gmail.com (fleet_owner)
+[2026-05-08T11:54:59.636Z] [HTTP] GET / - 403 (52ms)
+[2026-05-08T11:54:59.931Z] [HTTP] GET /shipments - 304 (364ms)
+[2026-05-08T11:55:00.012Z] [HTTP] GET /trucks - 200 (438ms)
+[2026-05-08T11:55:00.302Z] [HTTP] GET /trucks - 200 (223ms)
+[2026-05-08T11:55:00.346Z] [HTTP] GET /shipments - 304 (279ms)
+[2026-05-08T11:55:00.520Z] [WARN] ⚠️ Unauthorized access attempt by abdullah.tauqeer.chh@gmail.com (fleet_owner)
+[2026-05-08T11:55:00.537Z] [HTTP] GET / - 403 (18ms)
+[2026-05-08T11:55:00.708Z] [HTTP] GET /trucks - 200 (239ms)
+[2026-05-08T11:55:00.794Z] [WARN] ⚠️ Unauthorized access attempt by abdullah.tauqeer.chh@gmail.com (fleet_owner)
+[2026-05-08T11:55:00.813Z] [HTTP] GET / - 403 (19ms)
+[2026-05-08T11:55:02.738Z] [HTTP] GET /trucks - 200 (217ms)
+[2026-05-08T11:55:03.002Z] [HTTP] GET /trucks - 200 (258ms)
+[2026-05-08T11:55:07.478Z] [INFO] 💚 Health: 220MB heap | 0h 10m uptime | 0 tracked errors
+[2026-05-08T12:00:12.595Z] [INFO] 💚 Health: 220MB heap | 0h 15m uptime | 0 tracked errors
+[2026-05-08T12:05:12.465Z] [INFO] 💚 Health: 220MB heap | 0h 20m uptime | 0 tracked errors
+[2026-05-08T12:09:36.254Z] [HTTP] GET /system/settings - 304 (1906ms)
+[2026-05-08T12:09:36.355Z] [HTTP] GET /profile - 304 (1569ms)
+[2026-05-08T12:10:12.600Z] [INFO] 💚 Health: 220MB heap | 0h 25m uptime | 0 tracked errors
+[2026-05-08T12:11:13.284Z] [HTTP] GET /profile - 304 (1255ms)
+[2026-05-08T12:11:16.004Z] [HTTP] GET /profile - 304 (306ms)
+[2026-05-08T12:15:12.477Z] [INFO] 💚 Health: 220MB heap | 0h 30m uptime | 0 tracked errors
+[2026-05-08T12:16:05.411Z] [INFO] 🔌 Initializing Supabase...
+[2026-05-08T12:16:05.447Z] [INFO] 📍 URL Present: true
+[2026-05-08T12:16:05.461Z] [INFO] 🔑 Keys Present: true (service: true)
+[2026-05-08T12:16:09.957Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-05-08T12:16:09.958Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-05-08T12:16:09.960Z] [INFO] ✅ Database connection established
+[2026-05-08T12:16:09.967Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-05-08T12:16:09.969Z] [INFO] ✅ Socket.IO initialized
+[2026-05-08T12:16:09.977Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-05-08T12:16:09.978Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-05-08T12:16:09.982Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-05-08T12:16:09.984Z] [INFO] 🔌 Socket.IO: ws://localhost:3001
+[2026-05-08T12:16:09.987Z] [INFO] 📝 Environment: development
+[2026-05-08T12:21:00.067Z] [INFO] 💚 Health: 216MB heap | 0h 5m uptime | 0 tracked errors
+[2026-05-08T12:26:00.073Z] [INFO] 💚 Health: 216MB heap | 0h 10m uptime | 0 tracked errors
+[2026-05-08T12:31:00.075Z] [INFO] 💚 Health: 216MB heap | 0h 15m uptime | 0 tracked errors
+[2026-05-08T12:36:00.081Z] [INFO] 💚 Health: 216MB heap | 0h 20m uptime | 0 tracked errors
+[2026-05-08T12:37:09.389Z] [HTTP] GET /system/settings - 304 (2293ms)
+[2026-05-08T12:37:10.357Z] [INFO] 👑 Admin Action: GET /trucks
+[2026-05-08T12:37:10.688Z] [HTTP] GET /trucks - 200 (414ms)
+[2026-05-08T12:37:10.694Z] [INFO] 👑 Admin Action: GET /trucks
+[2026-05-08T12:37:10.960Z] [HTTP] GET /trucks - 200 (267ms)
+[2026-05-08T12:37:27.448Z] [HTTP] GET /profile - 304 (2445ms)
+[2026-05-08T12:37:32.113Z] [HTTP] GET /profile - 304 (928ms)
+[2026-05-08T12:37:37.565Z] [INFO] 👑 Admin Action: PATCH /trucks/60eade90-04dd-4ff2-802b-21ed6b09c77b/status
+[2026-05-08T12:37:40.714Z] [INFO] 👑 Admin Action: PATCH /trucks/60eade90-04dd-4ff2-802b-21ed6b09c77b/status
+[2026-05-08T12:37:47.128Z] [INFO] 👑 Admin Action: GET /trucks
+[2026-05-08T12:37:47.653Z] [ERROR] Failed to update truck status:
+"Could not find the 'updated_at' column of 'trucks' in the schema cache"
+[2026-05-08T12:37:47.674Z] [HTTP] PATCH /trucks/60eade90-04dd-4ff2-802b-21ed6b09c77b/status - 500 (10110ms)
+[2026-05-08T12:37:49.279Z] [INFO] 📋 AUDIT: PATCH /trucks/60eade90-04dd-4ff2-802b-21ed6b09c77b/status by 5eaf5b56-215a-43ac-a000-41e8c5b5ba44 on status/N/A
+[2026-05-08T12:37:49.734Z] [ERROR] Failed to update truck status:
+"Could not find the 'updated_at' column of 'trucks' in the schema cache"
+[2026-05-08T12:37:49.739Z] [HTTP] PATCH /trucks/60eade90-04dd-4ff2-802b-21ed6b09c77b/status - 500 (9026ms)
+[2026-05-08T12:37:50.647Z] [INFO] 📋 AUDIT: PATCH /trucks/60eade90-04dd-4ff2-802b-21ed6b09c77b/status by 5eaf5b56-215a-43ac-a000-41e8c5b5ba44 on status/N/A
+[2026-05-08T12:37:51.058Z] [HTTP] PUT /trucks/60eade90-04dd-4ff2-802b-21ed6b09c77b - 500 (3366ms)
+[2026-05-08T12:37:51.295Z] [INFO] 📋 AUDIT: PUT /trucks/60eade90-04dd-4ff2-802b-21ed6b09c77b by 5eaf5b56-215a-43ac-a000-41e8c5b5ba44 on 60eade90-04dd-4ff2-802b-21ed6b09c77b/60eade90-04dd-4ff2-802b-21ed6b09c77b
+[2026-05-08T12:37:52.615Z] [HTTP] GET /trucks - 200 (5488ms)
+[2026-05-08T12:37:53.427Z] [HTTP] PUT /trucks/60eade90-04dd-4ff2-802b-21ed6b09c77b - 500 (3676ms)
+[2026-05-08T12:37:53.829Z] [INFO] 📋 AUDIT: PUT /trucks/60eade90-04dd-4ff2-802b-21ed6b09c77b by 5eaf5b56-215a-43ac-a000-41e8c5b5ba44 on 60eade90-04dd-4ff2-802b-21ed6b09c77b/60eade90-04dd-4ff2-802b-21ed6b09c77b
+[2026-05-08T12:38:26.683Z] [INFO] 🔌 Initializing Supabase...
+[2026-05-08T12:38:26.691Z] [INFO] 📍 URL Present: true
+[2026-05-08T12:38:26.699Z] [INFO] 🔑 Keys Present: true (service: true)
+[2026-05-08T12:38:27.919Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-05-08T12:38:27.932Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-05-08T12:38:27.936Z] [INFO] ✅ Database connection established
+[2026-05-08T12:38:27.943Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-05-08T12:38:27.954Z] [INFO] ✅ Socket.IO initialized
+[2026-05-08T12:38:27.959Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-05-08T12:38:27.972Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-05-08T12:38:27.984Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-05-08T12:38:27.992Z] [INFO] 🔌 Socket.IO: ws://localhost:3001
+[2026-05-08T12:38:28.020Z] [INFO] 📝 Environment: development
+[2026-05-08T12:39:18.645Z] [HTTP] GET /profile - 304 (746ms)
+[2026-05-08T12:42:31.294Z] [INFO] 🔌 Initializing Supabase...
+[2026-05-08T12:42:31.321Z] [INFO] 📍 URL Present: true
+[2026-05-08T12:42:31.353Z] [INFO] 🔑 Keys Present: true (service: true)
+[2026-05-08T12:42:35.814Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-05-08T12:42:35.915Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-05-08T12:42:35.935Z] [INFO] ✅ Database connection established
+[2026-05-08T12:42:35.960Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-05-08T12:42:36.072Z] [INFO] ✅ Socket.IO initialized
+[2026-05-08T12:42:36.102Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-05-08T12:42:36.110Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-05-08T12:42:36.142Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-05-08T12:42:36.156Z] [INFO] 🔌 Socket.IO: ws://localhost:3001
+[2026-05-08T12:42:36.161Z] [INFO] 📝 Environment: development
+[2026-05-08T12:43:06.647Z] [HTTP] GET /system/settings - 304 (698ms)
+[2026-05-08T12:43:06.938Z] [HTTP] GET /profile - 304 (562ms)
+[2026-05-08T12:43:07.479Z] [INFO] 👑 Admin Action: PATCH /trucks/60eade90-04dd-4ff2-802b-21ed6b09c77b/status
+[2026-05-08T12:43:07.755Z] [ERROR] Failed to update truck status:
+"Could not find the 'updated_at' column of 'trucks' in the schema cache"
+[2026-05-08T12:43:07.762Z] [HTTP] PATCH /trucks/60eade90-04dd-4ff2-802b-21ed6b09c77b/status - 500 (284ms)
+[2026-05-08T12:43:08.021Z] [HTTP] PUT /trucks/60eade90-04dd-4ff2-802b-21ed6b09c77b - 500 (248ms)
+[2026-05-08T12:43:08.031Z] [INFO] 📋 AUDIT: PATCH /trucks/60eade90-04dd-4ff2-802b-21ed6b09c77b/status by 5eaf5b56-215a-43ac-a000-41e8c5b5ba44 on status/N/A
+[2026-05-08T12:43:08.271Z] [INFO] 📋 AUDIT: PUT /trucks/60eade90-04dd-4ff2-802b-21ed6b09c77b by 5eaf5b56-215a-43ac-a000-41e8c5b5ba44 on 60eade90-04dd-4ff2-802b-21ed6b09c77b/60eade90-04dd-4ff2-802b-21ed6b09c77b
+[2026-05-08T12:43:17.948Z] [INFO] 👑 Admin Action: PATCH /trucks/60eade90-04dd-4ff2-802b-21ed6b09c77b/status
+[2026-05-08T12:43:18.430Z] [ERROR] Failed to update truck status:
+"Could not find the 'updated_at' column of 'trucks' in the schema cache"
+[2026-05-08T12:43:18.442Z] [HTTP] PATCH /trucks/60eade90-04dd-4ff2-802b-21ed6b09c77b/status - 500 (495ms)
+[2026-05-08T12:43:18.945Z] [HTTP] PUT /trucks/60eade90-04dd-4ff2-802b-21ed6b09c77b - 500 (484ms)
+[2026-05-08T12:43:19.016Z] [INFO] 📋 AUDIT: PATCH /trucks/60eade90-04dd-4ff2-802b-21ed6b09c77b/status by 5eaf5b56-215a-43ac-a000-41e8c5b5ba44 on status/N/A
+[2026-05-08T12:43:19.177Z] [INFO] 📋 AUDIT: PUT /trucks/60eade90-04dd-4ff2-802b-21ed6b09c77b by 5eaf5b56-215a-43ac-a000-41e8c5b5ba44 on 60eade90-04dd-4ff2-802b-21ed6b09c77b/60eade90-04dd-4ff2-802b-21ed6b09c77b
+[2026-05-08T12:43:23.628Z] [INFO] 👑 Admin Action: PATCH /trucks/60eade90-04dd-4ff2-802b-21ed6b09c77b/status
+[2026-05-08T12:43:24.096Z] [ERROR] Failed to update truck status:
+"Could not find the 'updated_at' column of 'trucks' in the schema cache"
+[2026-05-08T12:43:24.104Z] [HTTP] PATCH /trucks/60eade90-04dd-4ff2-802b-21ed6b09c77b/status - 500 (476ms)
+[2026-05-08T12:43:24.613Z] [HTTP] PUT /trucks/60eade90-04dd-4ff2-802b-21ed6b09c77b - 500 (485ms)
+[2026-05-08T12:43:24.621Z] [INFO] 📋 AUDIT: PATCH /trucks/60eade90-04dd-4ff2-802b-21ed6b09c77b/status by 5eaf5b56-215a-43ac-a000-41e8c5b5ba44 on status/N/A
+[2026-05-08T12:43:25.235Z] [INFO] 📋 AUDIT: PUT /trucks/60eade90-04dd-4ff2-802b-21ed6b09c77b by 5eaf5b56-215a-43ac-a000-41e8c5b5ba44 on 60eade90-04dd-4ff2-802b-21ed6b09c77b/60eade90-04dd-4ff2-802b-21ed6b09c77b
+[2026-05-08T12:45:28.854Z] [INFO] 🔌 Initializing Supabase...
+[2026-05-08T12:45:28.883Z] [INFO] 📍 URL Present: true
+[2026-05-08T12:45:28.892Z] [INFO] 🔑 Keys Present: true (service: true)
+[2026-05-08T12:45:30.746Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-05-08T12:45:30.751Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-05-08T12:45:30.763Z] [INFO] ✅ Database connection established
+[2026-05-08T12:45:30.772Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-05-08T12:45:30.792Z] [INFO] ✅ Socket.IO initialized
+[2026-05-08T12:45:30.808Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-05-08T12:45:30.818Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-05-08T12:45:30.821Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-05-08T12:45:30.823Z] [INFO] 🔌 Socket.IO: ws://localhost:3001
+[2026-05-08T12:45:30.829Z] [INFO] 📝 Environment: development
+[2026-05-08T12:45:33.535Z] [HTTP] GET /profile - 304 (2549ms)
+[2026-05-08T12:46:28.426Z] [INFO] 👑 Admin Action: PATCH /trucks/60eade90-04dd-4ff2-802b-21ed6b09c77b/status
+[2026-05-08T12:46:28.430Z] [INFO] 🔄 Updating truck 60eade90-04dd-4ff2-802b-21ed6b09c77b status to: AVAILABLE (isApproved: true)
+[2026-05-08T12:46:29.726Z] [HTTP] GET /profile - 304 (2653ms)
+[2026-05-08T12:46:30.067Z] [ERROR] ❌ Failed to update truck status in Supabase:
+{
+  "code": "PGRST204",
+  "details": null,
+  "hint": null,
+  "message": "Could not find the 'updated_at' column of 'trucks' in the schema cache"
+}
+[2026-05-08T12:46:30.078Z] [HTTP] PATCH /trucks/60eade90-04dd-4ff2-802b-21ed6b09c77b/status - 500 (1654ms)
+[2026-05-08T12:46:30.346Z] [INFO] 📋 AUDIT: PATCH /trucks/60eade90-04dd-4ff2-802b-21ed6b09c77b/status by 5eaf5b56-215a-43ac-a000-41e8c5b5ba44 on status/N/A
+[2026-05-08T12:46:30.373Z] [HTTP] PUT /trucks/60eade90-04dd-4ff2-802b-21ed6b09c77b - 500 (266ms)
+[2026-05-08T12:46:33.575Z] [INFO] 📋 AUDIT: PUT /trucks/60eade90-04dd-4ff2-802b-21ed6b09c77b by 5eaf5b56-215a-43ac-a000-41e8c5b5ba44 on 60eade90-04dd-4ff2-802b-21ed6b09c77b/60eade90-04dd-4ff2-802b-21ed6b09c77b
+[2026-05-08T12:47:48.979Z] [INFO] 🔌 Initializing Supabase...
+[2026-05-08T12:47:48.991Z] [INFO] 📍 URL Present: true
+[2026-05-08T12:47:48.996Z] [INFO] 🔑 Keys Present: true (service: true)
+[2026-05-08T12:47:50.628Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-05-08T12:47:50.810Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-05-08T12:47:50.849Z] [INFO] ✅ Database connection established
+[2026-05-08T12:47:50.903Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-05-08T12:47:50.947Z] [INFO] ✅ Socket.IO initialized
+[2026-05-08T12:47:50.997Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-05-08T12:47:51.007Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-05-08T12:47:51.012Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-05-08T12:47:51.018Z] [INFO] 🔌 Socket.IO: ws://localhost:3001
+[2026-05-08T12:47:51.093Z] [INFO] 📝 Environment: development
+[2026-05-08T12:47:53.012Z] [HTTP] GET /profile - 304 (685ms)
+[2026-05-08T12:48:09.105Z] [HTTP] GET /system/settings - 304 (404ms)
+[2026-05-08T12:48:09.908Z] [HTTP] GET /profile - 304 (818ms)
+[2026-05-08T12:48:13.796Z] [HTTP] GET /system/settings - 304 (432ms)
+[2026-05-08T12:48:16.558Z] [INFO] 👑 Admin Action: GET /trucks
+[2026-05-08T12:48:16.834Z] [HTTP] GET /trucks - 200 (277ms)
+[2026-05-08T12:48:16.843Z] [INFO] 👑 Admin Action: GET /trucks
+[2026-05-08T12:48:17.090Z] [HTTP] GET /trucks - 200 (247ms)
+[2026-05-08T12:48:37.925Z] [INFO] 👑 Admin Action: PATCH /trucks/60eade90-04dd-4ff2-802b-21ed6b09c77b/status
+[2026-05-08T12:48:37.974Z] [INFO] 🔄 Updating truck 60eade90-04dd-4ff2-802b-21ed6b09c77b status to: AVAILABLE (isApproved: true)
+[2026-05-08T12:48:38.616Z] [ERROR] ❌ Failed to update truck status in Supabase:
+{
+  "code": "PGRST204",
+  "details": null,
+  "hint": null,
+  "message": "Could not find the 'updated_at' column of 'trucks' in the schema cache"
+}
+[2026-05-08T12:48:38.638Z] [HTTP] PATCH /trucks/60eade90-04dd-4ff2-802b-21ed6b09c77b/status - 500 (714ms)
+[2026-05-08T12:48:39.175Z] [HTTP] PUT /trucks/60eade90-04dd-4ff2-802b-21ed6b09c77b - 500 (515ms)
+[2026-05-08T12:48:39.508Z] [INFO] 📋 AUDIT: PUT /trucks/60eade90-04dd-4ff2-802b-21ed6b09c77b by 5eaf5b56-215a-43ac-a000-41e8c5b5ba44 on 60eade90-04dd-4ff2-802b-21ed6b09c77b/60eade90-04dd-4ff2-802b-21ed6b09c77b
+[2026-05-08T12:48:40.066Z] [INFO] 📋 AUDIT: PATCH /trucks/60eade90-04dd-4ff2-802b-21ed6b09c77b/status by 5eaf5b56-215a-43ac-a000-41e8c5b5ba44 on status/N/A
+[2026-05-08T12:48:55.996Z] [HTTP] GET /profile - 304 (417ms)
+[2026-05-08T12:49:46.276Z] [HTTP] GET /profile - 304 (406ms)
+[2026-05-08T12:51:30.794Z] [INFO] 🔌 Initializing Supabase...
+[2026-05-08T12:51:30.829Z] [INFO] 📍 URL Present: true
+[2026-05-08T12:51:30.830Z] [INFO] 🔑 Keys Present: true (service: true)
+[2026-05-08T12:51:33.279Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-05-08T12:51:33.280Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-05-08T12:51:33.282Z] [INFO] ✅ Database connection established
+[2026-05-08T12:51:33.289Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-05-08T12:51:33.293Z] [INFO] ✅ Socket.IO initialized
+[2026-05-08T12:51:33.304Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-05-08T12:51:33.306Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-05-08T12:51:33.311Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-05-08T12:51:33.315Z] [INFO] 🔌 Socket.IO: ws://localhost:3001
+[2026-05-08T12:51:33.318Z] [INFO] 📝 Environment: development
+[2026-05-08T12:52:35.067Z] [INFO] 🔌 Initializing Supabase...
+[2026-05-08T12:52:35.112Z] [INFO] 📍 URL Present: true
+[2026-05-08T12:52:35.118Z] [INFO] 🔑 Keys Present: true (service: true)
+[2026-05-08T12:52:36.382Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-05-08T12:52:36.386Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-05-08T12:52:36.399Z] [INFO] ✅ Database connection established
+[2026-05-08T12:52:36.408Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-05-08T12:52:36.413Z] [INFO] ✅ Socket.IO initialized
+[2026-05-08T12:52:36.429Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-05-08T12:52:36.431Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-05-08T12:52:36.436Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-05-08T12:52:36.440Z] [INFO] 🔌 Socket.IO: ws://localhost:3001
+[2026-05-08T12:52:36.444Z] [INFO] 📝 Environment: development
+[2026-05-08T12:53:10.024Z] [HTTP] GET /profile - 304 (911ms)
+[2026-05-08T12:53:10.349Z] [INFO] 👑 Admin Action: PATCH /trucks/60eade90-04dd-4ff2-802b-21ed6b09c77b/status
+[2026-05-08T12:53:10.362Z] [INFO] 🔄 Updating truck 60eade90-04dd-4ff2-802b-21ed6b09c77b status to: AVAILABLE (isApproved: true)
+[2026-05-08T12:53:10.626Z] [ERROR] ❌ Supabase error updating truck status:
+"{\n  \"code\": \"PGRST204\",\n  \"details\": null,\n  \"hint\": null,\n  \"message\": \"Could not find the 'updated_at' column of 'trucks' in the schema cache\"\n}"
+[2026-05-08T12:53:10.687Z] [HTTP] PATCH /trucks/60eade90-04dd-4ff2-802b-21ed6b09c77b/status - 500 (339ms)
+[2026-05-08T12:53:10.953Z] [INFO] 📋 AUDIT: PATCH /trucks/60eade90-04dd-4ff2-802b-21ed6b09c77b/status by 5eaf5b56-215a-43ac-a000-41e8c5b5ba44 on status/N/A
+[2026-05-08T12:53:11.118Z] [HTTP] PUT /trucks/60eade90-04dd-4ff2-802b-21ed6b09c77b - 500 (401ms)
+[2026-05-08T12:53:11.378Z] [INFO] 📋 AUDIT: PUT /trucks/60eade90-04dd-4ff2-802b-21ed6b09c77b by 5eaf5b56-215a-43ac-a000-41e8c5b5ba44 on 60eade90-04dd-4ff2-802b-21ed6b09c77b/60eade90-04dd-4ff2-802b-21ed6b09c77b
+[2026-05-08T12:53:24.353Z] [INFO] 👑 Admin Action: PATCH /trucks/60eade90-04dd-4ff2-802b-21ed6b09c77b/status
+[2026-05-08T12:53:24.376Z] [INFO] 🔄 Updating truck 60eade90-04dd-4ff2-802b-21ed6b09c77b status to: AVAILABLE (isApproved: true)
+[2026-05-08T12:53:25.322Z] [HTTP] GET /system/settings - 304 (1555ms)
+[2026-05-08T12:53:26.533Z] [INFO] 👑 Admin Action: PATCH /trucks/60eade90-04dd-4ff2-802b-21ed6b09c77b/status
+[2026-05-08T12:53:26.718Z] [INFO] 🔄 Updating truck 60eade90-04dd-4ff2-802b-21ed6b09c77b status to: AVAILABLE (isApproved: true)
+[2026-05-08T12:53:26.998Z] [HTTP] GET /profile - 304 (3172ms)
+[2026-05-08T12:53:27.011Z] [ERROR] ❌ Supabase error updating truck status:
+"{\n  \"code\": \"PGRST204\",\n  \"details\": null,\n  \"hint\": null,\n  \"message\": \"Could not find the 'updated_at' column of 'trucks' in the schema cache\"\n}"
+[2026-05-08T12:53:27.037Z] [HTTP] PATCH /trucks/60eade90-04dd-4ff2-802b-21ed6b09c77b/status - 500 (2685ms)
+[2026-05-08T12:53:27.386Z] [ERROR] ❌ Supabase error updating truck status:
+"{\n  \"code\": \"PGRST204\",\n  \"details\": null,\n  \"hint\": null,\n  \"message\": \"Could not find the 'updated_at' column of 'trucks' in the schema cache\"\n}"
+[2026-05-08T12:53:27.462Z] [HTTP] PATCH /trucks/60eade90-04dd-4ff2-802b-21ed6b09c77b/status - 500 (937ms)
+[2026-05-08T12:53:27.478Z] [INFO] 📋 AUDIT: PATCH /trucks/60eade90-04dd-4ff2-802b-21ed6b09c77b/status by 5eaf5b56-215a-43ac-a000-41e8c5b5ba44 on status/N/A
+[2026-05-08T12:53:27.522Z] [HTTP] PUT /trucks/60eade90-04dd-4ff2-802b-21ed6b09c77b - 500 (322ms)
+[2026-05-08T12:53:27.738Z] [INFO] 📋 AUDIT: PATCH /trucks/60eade90-04dd-4ff2-802b-21ed6b09c77b/status by 5eaf5b56-215a-43ac-a000-41e8c5b5ba44 on status/N/A
+[2026-05-08T12:53:27.807Z] [INFO] 📋 AUDIT: PUT /trucks/60eade90-04dd-4ff2-802b-21ed6b09c77b by 5eaf5b56-215a-43ac-a000-41e8c5b5ba44 on 60eade90-04dd-4ff2-802b-21ed6b09c77b/60eade90-04dd-4ff2-802b-21ed6b09c77b
+[2026-05-08T12:53:28.060Z] [HTTP] PUT /trucks/60eade90-04dd-4ff2-802b-21ed6b09c77b - 500 (265ms)
+[2026-05-08T12:53:28.299Z] [INFO] 📋 AUDIT: PUT /trucks/60eade90-04dd-4ff2-802b-21ed6b09c77b by 5eaf5b56-215a-43ac-a000-41e8c5b5ba44 on 60eade90-04dd-4ff2-802b-21ed6b09c77b/60eade90-04dd-4ff2-802b-21ed6b09c77b
+[2026-05-08T12:53:35.040Z] [HTTP] GET /profile - 304 (358ms)
+[2026-05-08T12:55:54.686Z] [HTTP] GET /profile - 304 (2830ms)
+[2026-05-08T12:57:28.495Z] [INFO] 💚 Health: 219MB heap | 0h 5m uptime | 1 tracked errors
+[2026-05-08T12:59:09.779Z] [INFO] 👑 Admin Action: PATCH /trucks/60eade90-04dd-4ff2-802b-21ed6b09c77b/status
+[2026-05-08T12:59:10.020Z] [INFO] 🔄 Updating truck 60eade90-04dd-4ff2-802b-21ed6b09c77b status to: AVAILABLE (isApproved: true)
+[2026-05-08T12:59:11.936Z] [HTTP] GET /profile - 304 (2987ms)
+[2026-05-08T12:59:11.955Z] [HTTP] GET /system/settings - 304 (5939ms)
+[2026-05-08T12:59:12.287Z] [ERROR] ❌ Supabase error updating truck status:
+"{\n  \"code\": \"PGRST204\",\n  \"details\": null,\n  \"hint\": null,\n  \"message\": \"Could not find the 'updated_at' column of 'trucks' in the schema cache\"\n}"
+[2026-05-08T12:59:12.304Z] [HTTP] PATCH /trucks/60eade90-04dd-4ff2-802b-21ed6b09c77b/status - 500 (2535ms)
+[2026-05-08T12:59:12.554Z] [INFO] 📋 AUDIT: PATCH /trucks/60eade90-04dd-4ff2-802b-21ed6b09c77b/status by 5eaf5b56-215a-43ac-a000-41e8c5b5ba44 on status/N/A
+[2026-05-08T13:00:23.718Z] [HTTP] GET /profile - 304 (647ms)
+[2026-05-08T13:02:27.644Z] [INFO] 💚 Health: 219MB heap | 0h 10m uptime | 2 tracked errors
+[2026-05-08T21:57:27.541Z] [INFO] 🔌 Initializing Supabase...
+[2026-05-08T21:57:27.545Z] [INFO] 📍 URL Present: true
+[2026-05-08T21:57:27.547Z] [INFO] 🔑 Keys Present: true (service: true)
+[2026-05-08T21:57:30.894Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-05-08T21:57:30.895Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-05-08T21:57:30.896Z] [INFO] ✅ Database connection established
+[2026-05-08T21:57:30.903Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-05-08T21:57:30.904Z] [INFO] ✅ Socket.IO initialized
+[2026-05-08T21:57:30.910Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-05-08T21:57:30.913Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-05-08T21:57:30.917Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-05-08T21:57:30.921Z] [INFO] 🔌 Socket.IO: ws://localhost:3001
+[2026-05-08T21:57:30.923Z] [INFO] 📝 Environment: development
+[2026-05-08T21:58:33.451Z] [HTTP] GET /system/settings - 304 (3760ms)
+[2026-05-08T21:58:34.430Z] [INFO] 👑 Admin Action: GET /users
+[2026-05-08T21:58:34.905Z] [HTTP] GET /users - 304 (492ms)
+[2026-05-08T21:58:35.730Z] [HTTP] GET /shipments - 304 (1255ms)
+[2026-05-08T21:58:36.005Z] [HTTP] GET /trucks - 200 (1537ms)
+[2026-05-08T21:58:37.099Z] [INFO] 👑 Admin Action: GET /users
+[2026-05-08T21:58:37.581Z] [HTTP] GET /trucks - 200 (469ms)
+[2026-05-08T21:58:38.130Z] [INFO] 👑 Admin Action: GET /trucks
+[2026-05-08T21:58:39.408Z] [HTTP] GET /trucks - 200 (1279ms)
+[2026-05-08T21:58:39.415Z] [HTTP] GET /shipments - 304 (2323ms)
+[2026-05-08T21:58:39.450Z] [INFO] 👑 Admin Action: GET /trucks
+[2026-05-08T21:58:40.333Z] [HTTP] GET /users - 304 (3234ms)
+[2026-05-08T21:58:41.058Z] [HTTP] GET /trucks - 200 (1608ms)
+[2026-05-08T21:58:43.789Z] [INFO] 👑 Admin Action: PATCH /trucks/60eade90-04dd-4ff2-802b-21ed6b09c77b/status
+[2026-05-08T21:58:43.800Z] [INFO] 🔄 Updating truck 60eade90-04dd-4ff2-802b-21ed6b09c77b status to: AVAILABLE (isApproved: true)
+[2026-05-08T21:58:45.077Z] [ERROR] ❌ Supabase error updating truck status:
+"{\n  \"code\": \"PGRST204\",\n  \"details\": null,\n  \"hint\": null,\n  \"message\": \"Could not find the 'updated_at' column of 'trucks' in the schema cache\"\n}"
+[2026-05-08T21:58:45.118Z] [HTTP] PATCH /trucks/60eade90-04dd-4ff2-802b-21ed6b09c77b/status - 500 (1330ms)
+[2026-05-08T21:58:46.282Z] [INFO] 📋 AUDIT: PATCH /trucks/60eade90-04dd-4ff2-802b-21ed6b09c77b/status by 5eaf5b56-215a-43ac-a000-41e8c5b5ba44 on status/N/A
+[2026-05-08T21:58:48.081Z] [HTTP] GET /profile - 304 (2204ms)
+[2026-05-08T21:58:50.445Z] [INFO] 👑 Admin Action: PATCH /trucks/60eade90-04dd-4ff2-802b-21ed6b09c77b/status
+[2026-05-08T21:58:50.469Z] [INFO] 🔄 Updating truck 60eade90-04dd-4ff2-802b-21ed6b09c77b status to: AVAILABLE (isApproved: true)
+[2026-05-08T21:58:51.811Z] [ERROR] ❌ Supabase error updating truck status:
+"{\n  \"code\": \"PGRST204\",\n  \"details\": null,\n  \"hint\": null,\n  \"message\": \"Could not find the 'updated_at' column of 'trucks' in the schema cache\"\n}"
+[2026-05-08T21:58:51.818Z] [HTTP] PATCH /trucks/60eade90-04dd-4ff2-802b-21ed6b09c77b/status - 500 (1374ms)
+[2026-05-08T21:58:54.140Z] [INFO] 📋 AUDIT: PATCH /trucks/60eade90-04dd-4ff2-802b-21ed6b09c77b/status by 5eaf5b56-215a-43ac-a000-41e8c5b5ba44 on status/N/A
+[2026-05-08T22:02:22.638Z] [INFO] 💚 Health: 219MB heap | 0h 5m uptime | 2 tracked errors
+[2026-05-08T22:02:59.949Z] [INFO] 🔌 Initializing Supabase...
+[2026-05-08T22:02:59.973Z] [INFO] 📍 URL Present: true
+[2026-05-08T22:02:59.981Z] [INFO] 🔑 Keys Present: true (service: true)
+[2026-05-08T22:03:02.507Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-05-08T22:03:02.508Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-05-08T22:03:02.511Z] [INFO] ✅ Database connection established
+[2026-05-08T22:03:02.520Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-05-08T22:03:02.525Z] [INFO] ✅ Socket.IO initialized
+[2026-05-08T22:03:02.539Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-05-08T22:03:02.547Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-05-08T22:03:02.552Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-05-08T22:03:02.556Z] [INFO] 🔌 Socket.IO: ws://localhost:3001
+[2026-05-08T22:03:02.557Z] [INFO] 📝 Environment: development
+[2026-05-08T22:07:52.842Z] [INFO] 💚 Health: 216MB heap | 0h 5m uptime | 0 tracked errors
+[2026-05-08T22:08:26.980Z] [INFO] 👑 Admin Action: PATCH /trucks/60eade90-04dd-4ff2-802b-21ed6b09c77b/status
+[2026-05-08T22:08:26.994Z] [INFO] 🔄 Updating truck 60eade90-04dd-4ff2-802b-21ed6b09c77b status to: AVAILABLE (isApproved: true)
+[2026-05-08T22:08:27.626Z] [HTTP] GET /profile - 304 (1392ms)
+[2026-05-08T22:08:27.631Z] [HTTP] GET /system/settings - 304 (1617ms)
+[2026-05-08T22:08:27.877Z] [ERROR] ❌ Supabase error updating truck status:
+"{\n  \"code\": \"PGRST204\",\n  \"details\": null,\n  \"hint\": null,\n  \"message\": \"Could not find the 'updated_at' column of 'trucks' in the schema cache\"\n}"
+[2026-05-08T22:08:27.930Z] [HTTP] PATCH /trucks/60eade90-04dd-4ff2-802b-21ed6b09c77b/status - 500 (951ms)
+[2026-05-08T22:08:28.609Z] [INFO] 📋 AUDIT: PATCH /trucks/60eade90-04dd-4ff2-802b-21ed6b09c77b/status by 5eaf5b56-215a-43ac-a000-41e8c5b5ba44 on status/N/A
+[2026-05-08T22:09:19.213Z] [INFO] 🔌 Initializing Supabase...
+[2026-05-08T22:09:19.243Z] [INFO] 📍 URL Present: true
+[2026-05-08T22:09:19.246Z] [INFO] 🔑 Keys Present: true (service: true)
+[2026-05-08T22:09:20.652Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-05-08T22:09:20.655Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-05-08T22:09:20.660Z] [INFO] ✅ Database connection established
+[2026-05-08T22:09:20.671Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-05-08T22:09:20.675Z] [INFO] ✅ Socket.IO initialized
+[2026-05-08T22:09:20.688Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-05-08T22:09:20.706Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-05-08T22:09:20.711Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-05-08T22:09:20.713Z] [INFO] 🔌 Socket.IO: ws://localhost:3001
+[2026-05-08T22:09:20.721Z] [INFO] 📝 Environment: development
+[2026-05-08T22:10:34.571Z] [INFO] 👑 Admin Action: PATCH /trucks/60eade90-04dd-4ff2-802b-21ed6b09c77b/status
+[2026-05-08T22:10:34.745Z] [INFO] 🔄 Updating truck 60eade90-04dd-4ff2-802b-21ed6b09c77b status to: AVAILABLE (isApproved: true)
+[2026-05-08T22:10:35.604Z] [HTTP] GET /profile - 304 (1786ms)
+[2026-05-08T22:10:35.896Z] [INFO] ✅ Truck 60eade90-04dd-4ff2-802b-21ed6b09c77b updated successfully
+[2026-05-08T22:10:35.930Z] [HTTP] PATCH /trucks/60eade90-04dd-4ff2-802b-21ed6b09c77b/status - 200 (1362ms)
+[2026-05-08T22:10:36.189Z] [INFO] 👑 Admin Action: GET /trucks
+[2026-05-08T22:10:36.283Z] [INFO] 📋 AUDIT: PATCH /trucks/60eade90-04dd-4ff2-802b-21ed6b09c77b/status by 5eaf5b56-215a-43ac-a000-41e8c5b5ba44 on status/N/A
+[2026-05-08T22:10:38.465Z] [HTTP] GET /trucks - 200 (2277ms)
+[2026-05-08T22:11:14.532Z] [HTTP] GET /system/settings - 304 (1709ms)
+[2026-05-08T22:11:15.445Z] [HTTP] GET /drivers - 200 (2270ms)
+[2026-05-08T22:11:16.832Z] [HTTP] GET /drivers - 304 (1377ms)
+[2026-05-08T22:11:25.523Z] [HTTP] GET /system/settings - 304 (1520ms)
+[2026-05-08T22:11:27.014Z] [HTTP] GET /trucks - 200 (532ms)
+[2026-05-08T22:11:27.484Z] [HTTP] GET /trucks - 200 (460ms)
+[2026-05-08T22:11:33.905Z] [HTTP] GET /trucks - 200 (1115ms)
+[2026-05-08T22:11:34.472Z] [HTTP] GET /system/settings - 304 (1775ms)
+[2026-05-08T22:11:36.431Z] [INFO] 💰 Price calculated: PKR 60548 (base=2500, dist=42000, surge=0, GST=8700)
+[2026-05-08T22:11:36.440Z] [HTTP] POST /pricing/calculate - 200 (33ms)
+[2026-05-08T22:11:36.452Z] [INFO] 💰 Price calculated: PKR 60548 (base=2500, dist=42000, surge=0, GST=8700)
+[2026-05-08T22:11:36.466Z] [HTTP] POST /pricing/calculate - 200 (14ms)
+[2026-05-08T22:11:36.950Z] [HTTP] GET /trucks - 200 (461ms)
+[2026-05-08T22:11:36.991Z] [INFO] 💰 Price calculated: PKR 69391 (base=3000, dist=48000, surge=0, GST=9971)
+[2026-05-08T22:11:36.996Z] [HTTP] POST /pricing/calculate - 200 (5ms)
+[2026-05-08T22:11:37.242Z] [HTTP] GET /trucks - 200 (287ms)
+[2026-05-08T22:14:12.336Z] [INFO] 💚 Health: 219MB heap | 0h 5m uptime | 0 tracked errors
+[2026-05-08T22:18:43.971Z] [HTTP] GET /system/settings - 304 (8064ms)
+[2026-05-08T22:18:44.110Z] [HTTP] GET /profile - 304 (2947ms)
+[2026-05-08T22:18:44.718Z] [HTTP] GET /profile - 304 (324ms)
+[2026-05-08T22:19:12.303Z] [INFO] 💚 Health: 220MB heap | 0h 10m uptime | 1 tracked errors
+[2026-05-08T22:20:25.627Z] [HTTP] GET /profile - 304 (1146ms)
+[2026-05-08T22:21:18.753Z] [INFO] 💰 Price calculated: PKR 69391 (base=3000, dist=48000, surge=0, GST=9971)
+[2026-05-08T22:21:18.928Z] [HTTP] POST /pricing/calculate - 200 (339ms)
+[2026-05-08T22:21:22.088Z] [INFO] 💰 Price calculated: PKR 69391 (base=3000, dist=48000, surge=0, GST=9971)
+[2026-05-08T22:21:22.195Z] [HTTP] POST /pricing/calculate - 200 (108ms)
+[2026-05-08T22:21:22.458Z] [INFO] 💰 Price calculated: PKR 69391 (base=3000, dist=48000, surge=0, GST=9971)
+[2026-05-08T22:21:22.510Z] [HTTP] POST /pricing/calculate - 200 (53ms)
+[2026-05-08T22:21:22.868Z] [INFO] 💰 Price calculated: PKR 69391 (base=3000, dist=48000, surge=0, GST=9971)
+[2026-05-08T22:21:23.005Z] [HTTP] POST /pricing/calculate - 200 (137ms)
+[2026-05-08T22:21:25.683Z] [INFO] 💰 Price calculated: PKR 69391 (base=3000, dist=48000, surge=0, GST=9971)
+[2026-05-08T22:21:26.004Z] [HTTP] POST /pricing/calculate - 200 (322ms)
+[2026-05-08T22:21:26.507Z] [INFO] 💰 Price calculated: PKR 69391 (base=3000, dist=48000, surge=0, GST=9971)
+[2026-05-08T22:21:26.633Z] [HTTP] POST /pricing/calculate - 200 (126ms)
+[2026-05-08T22:21:26.902Z] [INFO] 💰 Price calculated: PKR 69395 (base=3000, dist=48000, surge=0, GST=9971)
+[2026-05-08T22:21:26.935Z] [HTTP] POST /pricing/calculate - 200 (34ms)
+[2026-05-08T22:21:26.990Z] [INFO] 💰 Price calculated: PKR 69431 (base=3000, dist=48000, surge=0, GST=9971)
+[2026-05-08T22:21:27.010Z] [HTTP] POST /pricing/calculate - 200 (22ms)
+[2026-05-08T22:21:32.630Z] [INFO] 💰 Price calculated: PKR 69946 (base=3000, dist=48000, surge=0, GST=9971)
+[2026-05-08T22:21:32.816Z] [HTTP] POST /pricing/calculate - 200 (188ms)
+[2026-05-08T22:21:33.817Z] [INFO] 💰 Price calculated: PKR 69431 (base=3000, dist=48000, surge=0, GST=9971)
+[2026-05-08T22:21:33.843Z] [HTTP] POST /pricing/calculate - 200 (26ms)
+[2026-05-08T22:21:38.052Z] [ERROR] Create shipment error:
+{
+  "statusCode": 403,
+  "code": "FORBIDDEN"
+}
+[2026-05-08T22:21:38.201Z] [HTTP] POST /shipments - 403 (384ms)
+[2026-05-08T22:21:41.502Z] [ERROR] Create shipment error:
+{
+  "statusCode": 403,
+  "code": "FORBIDDEN"
+}
+[2026-05-08T22:21:41.569Z] [HTTP] POST /shipments - 403 (68ms)
+[2026-05-08T22:22:01.634Z] [INFO] 💰 Price calculated: PKR 60548 (base=2500, dist=42000, surge=0, GST=8700)
+[2026-05-08T22:22:01.650Z] [HTTP] POST /pricing/calculate - 200 (17ms)
+[2026-05-08T22:22:02.503Z] [HTTP] GET /trucks - 200 (844ms)
+[2026-05-08T22:22:02.623Z] [INFO] 💰 Price calculated: PKR 69391 (base=3000, dist=48000, surge=0, GST=9971)
+[2026-05-08T22:22:02.653Z] [HTTP] POST /pricing/calculate - 200 (30ms)
+[2026-05-08T22:22:02.682Z] [HTTP] GET /system/settings - 304 (458ms)
+[2026-05-08T22:22:08.269Z] [HTTP] GET /system/settings - 304 (685ms)
+[2026-05-08T22:22:12.355Z] [INFO] 👑 Admin Action: GET /trucks
+[2026-05-08T22:22:13.064Z] [HTTP] GET /trucks - 200 (738ms)
+[2026-05-08T22:22:13.067Z] [INFO] 👑 Admin Action: GET /trucks
+[2026-05-08T22:22:13.392Z] [HTTP] GET /trucks - 200 (326ms)
+[2026-05-08T22:23:44.077Z] [INFO] 💰 Price calculated: PKR 69391 (base=3000, dist=48000, surge=0, GST=9971)
+[2026-05-08T22:23:44.093Z] [HTTP] POST /pricing/calculate - 200 (16ms)
+[2026-05-08T22:23:44.898Z] [HTTP] GET /shipments/1ae3a3f0-e28c-45d6-8fe2-aff21ed9177d - 304 (1625ms)
+[2026-05-08T22:23:45.342Z] [HTTP] GET /system/settings - 304 (2298ms)
+[2026-05-08T22:23:45.347Z] [HTTP] GET /shipments/1ae3a3f0-e28c-45d6-8fe2-aff21ed9177d - 304 (424ms)
+[2026-05-08T22:23:45.861Z] [HTTP] GET /trips/by-shipment - 404 (361ms)
+[2026-05-08T22:23:46.893Z] [HTTP] GET /trips/by-shipment - 404 (999ms)
+[2026-05-08T22:24:12.235Z] [INFO] 💚 Health: 221MB heap | 0h 15m uptime | 1 tracked errors
+[2026-05-08T22:24:31.436Z] [HTTP] GET /shipments - 304 (696ms)
+[2026-05-08T22:24:31.746Z] [HTTP] GET /shipments - 304 (281ms)
+[2026-05-08T22:24:34.395Z] [HTTP] GET /shipments/1ae3a3f0-e28c-45d6-8fe2-aff21ed9177d - 304 (283ms)
+[2026-05-08T22:24:34.707Z] [HTTP] GET /shipments/1ae3a3f0-e28c-45d6-8fe2-aff21ed9177d - 304 (248ms)
+[2026-05-08T22:24:35.223Z] [HTTP] GET /trips/by-shipment - 404 (731ms)
+[2026-05-08T22:24:35.757Z] [HTTP] GET /trips/by-shipment - 404 (527ms)
+[2026-05-08T22:24:36.872Z] [HTTP] GET /shipments - 304 (219ms)
+[2026-05-08T22:24:37.137Z] [HTTP] GET /shipments - 304 (256ms)
+[2026-05-08T22:24:49.005Z] [HTTP] GET /profile - 304 (417ms)
+[2026-05-08T22:24:49.535Z] [HTTP] GET /shipments - 304 (955ms)
+[2026-05-08T22:24:50.619Z] [HTTP] GET /shipments - 304 (448ms)
+[2026-05-08T22:24:51.005Z] [HTTP] GET / - 304 (662ms)
+[2026-05-08T22:24:51.175Z] [INFO] 💰 Price calculated: PKR 60548 (base=2500, dist=42000, surge=0, GST=8700)
+[2026-05-08T22:24:51.191Z] [HTTP] POST /pricing/calculate - 200 (16ms)
+[2026-05-08T22:24:51.223Z] [INFO] 💰 Price calculated: PKR 60548 (base=2500, dist=42000, surge=0, GST=8700)
+[2026-05-08T22:24:51.284Z] [HTTP] POST /pricing/calculate - 200 (61ms)
+[2026-05-08T22:24:51.769Z] [HTTP] GET /trucks - 200 (407ms)
+[2026-05-08T22:24:51.888Z] [INFO] 💰 Price calculated: PKR 69391 (base=3000, dist=48000, surge=0, GST=9971)
+[2026-05-08T22:24:51.891Z] [HTTP] POST /pricing/calculate - 200 (3ms)
+[2026-05-08T22:24:52.094Z] [HTTP] GET / - 304 (951ms)
+[2026-05-08T22:24:52.203Z] [HTTP] GET /trucks - 200 (416ms)
+[2026-05-08T22:24:56.899Z] [HTTP] GET /shipments - 304 (471ms)
+[2026-05-08T22:24:57.193Z] [HTTP] GET /shipments - 304 (267ms)
+[2026-05-08T22:24:57.361Z] [HTTP] GET / - 304 (338ms)
+[2026-05-08T22:24:57.615Z] [HTTP] GET / - 304 (204ms)
+[2026-05-08T22:25:01.955Z] [HTTP] GET /shipments - 304 (280ms)
+[2026-05-08T22:25:02.201Z] [HTTP] GET /shipments - 304 (239ms)
+[2026-05-08T22:25:04.217Z] [HTTP] GET /shipments - 304 (453ms)
+[2026-05-08T22:25:04.566Z] [HTTP] GET /shipments - 304 (241ms)
+[2026-05-08T22:25:04.700Z] [HTTP] GET / - 304 (340ms)
+[2026-05-08T22:25:05.059Z] [INFO] 💰 Price calculated: PKR 60548 (base=2500, dist=42000, surge=0, GST=8700)
+[2026-05-08T22:25:05.108Z] [HTTP] POST /pricing/calculate - 200 (49ms)
+[2026-05-08T22:25:05.137Z] [INFO] 💰 Price calculated: PKR 60548 (base=2500, dist=42000, surge=0, GST=8700)
+[2026-05-08T22:25:05.139Z] [HTTP] POST /pricing/calculate - 200 (2ms)
+[2026-05-08T22:25:05.148Z] [HTTP] GET / - 304 (283ms)
+[2026-05-08T22:25:05.383Z] [HTTP] GET /trucks - 200 (250ms)
+[2026-05-08T22:25:05.446Z] [INFO] 💰 Price calculated: PKR 69391 (base=3000, dist=48000, surge=0, GST=9971)
+[2026-05-08T22:25:05.451Z] [HTTP] POST /pricing/calculate - 200 (5ms)
+[2026-05-08T22:25:05.644Z] [HTTP] GET /trucks - 200 (236ms)
+[2026-05-08T22:25:41.753Z] [INFO] 💰 Price calculated: PKR 69391 (base=3000, dist=48000, surge=0, GST=9971)
+[2026-05-08T22:25:41.756Z] [HTTP] POST /pricing/calculate - 200 (3ms)
+[2026-05-08T22:25:46.984Z] [INFO] 💰 Price calculated: PKR 69391 (base=3000, dist=48000, surge=0, GST=9971)
+[2026-05-08T22:25:46.989Z] [HTTP] POST /pricing/calculate - 200 (5ms)
+[2026-05-08T22:25:49.486Z] [INFO] 💰 Price calculated: PKR 69391 (base=3000, dist=48000, surge=0, GST=9971)
+[2026-05-08T22:25:49.526Z] [HTTP] POST /pricing/calculate - 200 (40ms)
+[2026-05-08T22:25:50.208Z] [INFO] 💰 Price calculated: PKR 69391 (base=3000, dist=48000, surge=0, GST=9971)
+[2026-05-08T22:25:50.213Z] [HTTP] POST /pricing/calculate - 200 (5ms)
+[2026-05-08T22:25:50.397Z] [INFO] 💰 Price calculated: PKR 69393 (base=3000, dist=48000, surge=0, GST=9971)
+[2026-05-08T22:25:50.407Z] [HTTP] POST /pricing/calculate - 200 (10ms)
+[2026-05-08T22:25:50.630Z] [INFO] 💰 Price calculated: PKR 69411 (base=3000, dist=48000, surge=0, GST=9971)
+[2026-05-08T22:25:50.655Z] [HTTP] POST /pricing/calculate - 200 (25ms)
+[2026-05-08T22:25:55.992Z] [INFO] 📦 Creating shipment from lahore to multan
+[2026-05-08T22:25:56.425Z] [HTTP] POST /shipments - 201 (521ms)
+[2026-05-08T22:25:56.936Z] [HTTP] GET /shipments - 200 (256ms)
+[2026-05-08T22:25:57.179Z] [HTTP] GET /shipments - 304 (232ms)
+[2026-05-08T22:26:11.196Z] [HTTP] GET /shipments/5d705238-a2f8-47f2-a3c7-9e6d71f0a0ab - 200 (384ms)
+[2026-05-08T22:26:11.458Z] [HTTP] GET /shipments/5d705238-a2f8-47f2-a3c7-9e6d71f0a0ab - 304 (246ms)
+[2026-05-08T22:26:11.997Z] [HTTP] GET /trips/by-shipment - 404 (764ms)
+[2026-05-08T22:26:12.244Z] [HTTP] GET /trips/by-shipment - 404 (238ms)
+[2026-05-08T22:26:28.279Z] [HTTP] GET /profile - 304 (403ms)
+[2026-05-08T22:26:30.869Z] [HTTP] GET /profile - 304 (235ms)
+[2026-05-08T22:26:32.087Z] [HTTP] GET /shipments - 200 (313ms)
+[2026-05-08T22:26:32.441Z] [HTTP] GET /shipments - 304 (348ms)
+[2026-05-08T22:26:32.620Z] [HTTP] GET /shipments - 200 (520ms)
+[2026-05-08T22:26:32.650Z] [WARN] ⚠️ Unauthorized access attempt by abdullah.tauqeer.chh@gmail.com (fleet_owner)
+[2026-05-08T22:26:32.653Z] [HTTP] GET /users/3744e34e-7910-45ec-86de-827ba97874fd - 403 (6ms)
+[2026-05-08T22:26:32.664Z] [WARN] ⚠️ Unauthorized access attempt by abdullah.tauqeer.chh@gmail.com (fleet_owner)
+[2026-05-08T22:26:32.669Z] [HTTP] GET /users/3744e34e-7910-45ec-86de-827ba97874fd - 403 (6ms)
+[2026-05-08T22:26:32.675Z] [WARN] ⚠️ Unauthorized access attempt by abdullah.tauqeer.chh@gmail.com (fleet_owner)
+[2026-05-08T22:26:32.684Z] [HTTP] GET /users/3744e34e-7910-45ec-86de-827ba97874fd - 403 (10ms)
+[2026-05-08T22:26:32.845Z] [HTTP] GET /shipments - 304 (220ms)
+[2026-05-08T22:26:32.855Z] [WARN] ⚠️ Unauthorized access attempt by abdullah.tauqeer.chh@gmail.com (fleet_owner)
+[2026-05-08T22:26:32.857Z] [HTTP] GET /users/3744e34e-7910-45ec-86de-827ba97874fd - 403 (3ms)
+[2026-05-08T22:26:32.864Z] [WARN] ⚠️ Unauthorized access attempt by abdullah.tauqeer.chh@gmail.com (fleet_owner)
+[2026-05-08T22:26:32.869Z] [HTTP] GET /users/3744e34e-7910-45ec-86de-827ba97874fd - 403 (6ms)
+[2026-05-08T22:26:32.875Z] [WARN] ⚠️ Unauthorized access attempt by abdullah.tauqeer.chh@gmail.com (fleet_owner)
+[2026-05-08T22:26:32.878Z] [HTTP] GET /users/3744e34e-7910-45ec-86de-827ba97874fd - 403 (4ms)
+[2026-05-08T22:26:33.018Z] [HTTP] GET /trucks/60eade90-04dd-4ff2-802b-21ed6b09c77b - 200 (328ms)
+[2026-05-08T22:26:33.043Z] [HTTP] GET /trucks/2e8af087-bf21-44cd-ab46-74653b065dea - 200 (341ms)
+[2026-05-08T22:26:33.052Z] [WARN] ⚠️ Unauthorized access attempt by abdullah.tauqeer.chh@gmail.com (fleet_owner)
+[2026-05-08T22:26:33.054Z] [HTTP] GET /users/3744e34e-7910-45ec-86de-827ba97874fd - 403 (2ms)
+[2026-05-08T22:26:33.063Z] [WARN] ⚠️ Unauthorized access attempt by abdullah.tauqeer.chh@gmail.com (fleet_owner)
+[2026-05-08T22:26:33.068Z] [HTTP] GET /users/3744e34e-7910-45ec-86de-827ba97874fd - 403 (5ms)
+[2026-05-08T22:26:33.285Z] [HTTP] GET /trucks/60eade90-04dd-4ff2-802b-21ed6b09c77b - 200 (250ms)
+[2026-05-08T22:26:33.310Z] [HTTP] GET /trucks/2e8af087-bf21-44cd-ab46-74653b065dea - 200 (264ms)
+[2026-05-08T22:26:33.339Z] [WARN] ⚠️ Unauthorized access attempt by abdullah.tauqeer.chh@gmail.com (fleet_owner)
+[2026-05-08T22:26:33.346Z] [HTTP] GET /users/3744e34e-7910-45ec-86de-827ba97874fd - 403 (7ms)
+[2026-05-08T22:26:33.354Z] [WARN] ⚠️ Unauthorized access attempt by abdullah.tauqeer.chh@gmail.com (fleet_owner)
+[2026-05-08T22:26:33.358Z] [HTTP] GET /users/3744e34e-7910-45ec-86de-827ba97874fd - 403 (4ms)
+[2026-05-08T22:26:33.539Z] [HTTP] GET /trucks/60eade90-04dd-4ff2-802b-21ed6b09c77b - 200 (249ms)
+[2026-05-08T22:26:33.717Z] [HTTP] GET /trucks/2e8af087-bf21-44cd-ab46-74653b065dea - 200 (386ms)
+[2026-05-08T22:26:33.736Z] [WARN] ⚠️ Unauthorized access attempt by abdullah.tauqeer.chh@gmail.com (fleet_owner)
+[2026-05-08T22:26:33.742Z] [HTTP] GET / - 403 (8ms)
+[2026-05-08T22:26:33.819Z] [HTTP] GET /trucks/60eade90-04dd-4ff2-802b-21ed6b09c77b - 200 (254ms)
+[2026-05-08T22:26:33.999Z] [HTTP] GET /trucks/2e8af087-bf21-44cd-ab46-74653b065dea - 200 (276ms)
+[2026-05-08T22:26:34.018Z] [WARN] ⚠️ Unauthorized access attempt by abdullah.tauqeer.chh@gmail.com (fleet_owner)
+[2026-05-08T22:26:34.021Z] [HTTP] GET / - 403 (3ms)
+[2026-05-08T22:28:31.600Z] [HTTP] GET /profile - 304 (597ms)
+[2026-05-08T22:28:31.603Z] [HTTP] GET /system/settings - 304 (1083ms)
+[2026-05-08T22:28:31.929Z] [HTTP] GET /shipments - 304 (220ms)
+[2026-05-08T22:28:32.175Z] [HTTP] GET /shipments - 304 (230ms)
+[2026-05-08T22:28:32.190Z] [WARN] ⚠️ Unauthorized access attempt by abdullah.tauqeer.chh@gmail.com (fleet_owner)
+[2026-05-08T22:28:32.193Z] [HTTP] GET /users/3744e34e-7910-45ec-86de-827ba97874fd - 403 (3ms)
+[2026-05-08T22:28:32.199Z] [WARN] ⚠️ Unauthorized access attempt by abdullah.tauqeer.chh@gmail.com (fleet_owner)
+[2026-05-08T22:28:32.204Z] [HTTP] GET /users/3744e34e-7910-45ec-86de-827ba97874fd - 403 (6ms)
+[2026-05-08T22:28:32.211Z] [WARN] ⚠️ Unauthorized access attempt by abdullah.tauqeer.chh@gmail.com (fleet_owner)
+[2026-05-08T22:28:32.216Z] [HTTP] GET /users/3744e34e-7910-45ec-86de-827ba97874fd - 403 (6ms)
+[2026-05-08T22:28:32.548Z] [HTTP] GET /trucks/2e8af087-bf21-44cd-ab46-74653b065dea - 200 (322ms)
+[2026-05-08T22:28:32.551Z] [HTTP] GET /trucks/60eade90-04dd-4ff2-802b-21ed6b09c77b - 200 (331ms)
+[2026-05-08T22:28:32.565Z] [WARN] ⚠️ Unauthorized access attempt by abdullah.tauqeer.chh@gmail.com (fleet_owner)
+[2026-05-08T22:28:32.568Z] [HTTP] GET /users/3744e34e-7910-45ec-86de-827ba97874fd - 403 (4ms)
+[2026-05-08T22:28:32.577Z] [WARN] ⚠️ Unauthorized access attempt by abdullah.tauqeer.chh@gmail.com (fleet_owner)
+[2026-05-08T22:28:32.582Z] [HTTP] GET /users/3744e34e-7910-45ec-86de-827ba97874fd - 403 (5ms)
+[2026-05-08T22:28:32.805Z] [HTTP] GET /trucks/60eade90-04dd-4ff2-802b-21ed6b09c77b - 200 (230ms)
+[2026-05-08T22:28:32.815Z] [HTTP] GET /trucks/2e8af087-bf21-44cd-ab46-74653b065dea - 200 (226ms)
+[2026-05-08T22:28:32.826Z] [WARN] ⚠️ Unauthorized access attempt by abdullah.tauqeer.chh@gmail.com (fleet_owner)
+[2026-05-08T22:28:32.843Z] [HTTP] GET / - 403 (17ms)
+[2026-05-08T22:29:12.233Z] [INFO] 💚 Health: 224MB heap | 0h 20m uptime | 1 tracked errors
+[2026-05-08T22:29:53.213Z] [HTTP] GET /system/settings - 304 (806ms)
+[2026-05-08T22:29:54.156Z] [HTTP] GET /profile - 304 (1265ms)
+[2026-05-08T22:31:02.078Z] [HTTP] GET /system/settings - 304 (854ms)
+[2026-05-08T22:31:02.465Z] [HTTP] GET /profile - 304 (586ms)
+[2026-05-08T22:34:12.281Z] [INFO] 💚 Health: 224MB heap | 0h 25m uptime | 1 tracked errors
+[2026-05-08T22:39:12.277Z] [INFO] 💚 Health: 224MB heap | 0h 30m uptime | 1 tracked errors
+[2026-05-08T22:44:12.358Z] [INFO] 💚 Health: 224MB heap | 0h 35m uptime | 1 tracked errors
+[2026-05-08T22:49:12.349Z] [INFO] 💚 Health: 224MB heap | 0h 40m uptime | 1 tracked errors
+[2026-05-08T22:54:15.169Z] [INFO] 💚 Health: 224MB heap | 0h 45m uptime | 1 tracked errors
+[2026-05-08T22:59:13.029Z] [INFO] 💚 Health: 224MB heap | 0h 50m uptime | 1 tracked errors
+[2026-05-08T23:04:13.038Z] [INFO] 💚 Health: 224MB heap | 0h 55m uptime | 1 tracked errors
+[2026-05-08T23:09:13.041Z] [INFO] 💚 Health: 225MB heap | 1h 0m uptime | 1 tracked errors
+[2026-05-08T23:14:13.046Z] [INFO] 💚 Health: 224MB heap | 1h 5m uptime | 1 tracked errors
+[2026-05-08T23:19:13.051Z] [INFO] 💚 Health: 224MB heap | 1h 10m uptime | 1 tracked errors
+[2026-05-08T23:24:13.054Z] [INFO] 💚 Health: 224MB heap | 1h 15m uptime | 1 tracked errors
+[2026-05-08T23:29:13.067Z] [INFO] 💚 Health: 224MB heap | 1h 20m uptime | 1 tracked errors
+[2026-05-08T23:29:36.602Z] [HTTP] GET /shipments - 304 (1940ms)
+[2026-05-08T23:29:36.714Z] [HTTP] GET /system/settings - 304 (2228ms)
+[2026-05-08T23:29:37.614Z] [HTTP] GET /shipments - 304 (895ms)
+[2026-05-08T23:29:37.671Z] [HTTP] GET /shipments - 304 (935ms)
+[2026-05-08T23:29:37.846Z] [WARN] ⚠️ Unauthorized access attempt by abdullah.tauqeer.chh@gmail.com (fleet_owner)
+[2026-05-08T23:29:37.854Z] [HTTP] GET /users/3744e34e-7910-45ec-86de-827ba97874fd - 403 (9ms)
+[2026-05-08T23:29:37.893Z] [WARN] ⚠️ Unauthorized access attempt by abdullah.tauqeer.chh@gmail.com (fleet_owner)
+[2026-05-08T23:29:37.922Z] [HTTP] GET /users/3744e34e-7910-45ec-86de-827ba97874fd - 403 (30ms)
+[2026-05-08T23:29:37.957Z] [WARN] ⚠️ Unauthorized access attempt by abdullah.tauqeer.chh@gmail.com (fleet_owner)
+[2026-05-08T23:29:37.960Z] [HTTP] GET /users/3744e34e-7910-45ec-86de-827ba97874fd - 403 (4ms)
+[2026-05-08T23:29:38.123Z] [HTTP] GET /shipments - 304 (317ms)
+[2026-05-08T23:29:38.175Z] [WARN] ⚠️ Unauthorized access attempt by abdullah.tauqeer.chh@gmail.com (fleet_owner)
+[2026-05-08T23:29:38.180Z] [HTTP] GET /users/3744e34e-7910-45ec-86de-827ba97874fd - 403 (6ms)
+[2026-05-08T23:29:38.210Z] [WARN] ⚠️ Unauthorized access attempt by abdullah.tauqeer.chh@gmail.com (fleet_owner)
+[2026-05-08T23:29:38.224Z] [HTTP] GET /users/3744e34e-7910-45ec-86de-827ba97874fd - 403 (15ms)
+[2026-05-08T23:29:38.273Z] [WARN] ⚠️ Unauthorized access attempt by abdullah.tauqeer.chh@gmail.com (fleet_owner)
+[2026-05-08T23:29:38.278Z] [HTTP] GET /users/3744e34e-7910-45ec-86de-827ba97874fd - 403 (6ms)
+[2026-05-08T23:29:38.951Z] [HTTP] GET /trucks/60eade90-04dd-4ff2-802b-21ed6b09c77b - 200 (997ms)
+[2026-05-08T23:29:39.184Z] [HTTP] GET /trucks/60eade90-04dd-4ff2-802b-21ed6b09c77b - 200 (221ms)
+[2026-05-08T23:29:39.537Z] [HTTP] GET /trucks/2e8af087-bf21-44cd-ab46-74653b065dea - 200 (1529ms)
+[2026-05-08T23:29:39.619Z] [WARN] ⚠️ Unauthorized access attempt by abdullah.tauqeer.chh@gmail.com (fleet_owner)
+[2026-05-08T23:29:39.621Z] [HTTP] GET /users/3744e34e-7910-45ec-86de-827ba97874fd - 403 (2ms)
+[2026-05-08T23:29:39.627Z] [WARN] ⚠️ Unauthorized access attempt by abdullah.tauqeer.chh@gmail.com (fleet_owner)
+[2026-05-08T23:29:39.634Z] [HTTP] GET /users/3744e34e-7910-45ec-86de-827ba97874fd - 403 (7ms)
+[2026-05-08T23:29:39.877Z] [HTTP] GET /trucks/2e8af087-bf21-44cd-ab46-74653b065dea - 200 (336ms)
+[2026-05-08T23:29:39.893Z] [HTTP] GET /trucks/60eade90-04dd-4ff2-802b-21ed6b09c77b - 200 (253ms)
+[2026-05-08T23:29:39.900Z] [WARN] ⚠️ Unauthorized access attempt by abdullah.tauqeer.chh@gmail.com (fleet_owner)
+[2026-05-08T23:29:39.908Z] [HTTP] GET /users/3744e34e-7910-45ec-86de-827ba97874fd - 403 (9ms)
+[2026-05-08T23:29:39.918Z] [WARN] ⚠️ Unauthorized access attempt by abdullah.tauqeer.chh@gmail.com (fleet_owner)
+[2026-05-08T23:29:39.923Z] [HTTP] GET /users/3744e34e-7910-45ec-86de-827ba97874fd - 403 (6ms)
+[2026-05-08T23:29:40.272Z] [HTTP] GET /trucks/2e8af087-bf21-44cd-ab46-74653b065dea - 200 (385ms)
+[2026-05-08T23:29:40.287Z] [WARN] ⚠️ Unauthorized access attempt by abdullah.tauqeer.chh@gmail.com (fleet_owner)
+[2026-05-08T23:29:40.291Z] [HTTP] GET / - 403 (6ms)
+[2026-05-08T23:29:40.302Z] [HTTP] GET /trucks/60eade90-04dd-4ff2-802b-21ed6b09c77b - 200 (373ms)
+[2026-05-08T23:29:40.980Z] [HTTP] GET /trucks/2e8af087-bf21-44cd-ab46-74653b065dea - 200 (703ms)
+[2026-05-08T23:29:40.999Z] [WARN] ⚠️ Unauthorized access attempt by abdullah.tauqeer.chh@gmail.com (fleet_owner)
+[2026-05-08T23:29:41.005Z] [HTTP] GET / - 403 (7ms)
+[2026-05-08T23:29:59.283Z] [HTTP] GET /profile - 304 (846ms)
+[2026-05-08T23:29:59.681Z] [HTTP] GET /shipments - 304 (316ms)
+[2026-05-08T23:30:00.048Z] [HTTP] GET /shipments - 304 (349ms)
+[2026-05-08T23:30:00.062Z] [WARN] ⚠️ Unauthorized access attempt by abdullah.tauqeer.chh@gmail.com (fleet_owner)
+[2026-05-08T23:30:00.067Z] [HTTP] GET /users/3744e34e-7910-45ec-86de-827ba97874fd - 403 (6ms)
+[2026-05-08T23:30:00.073Z] [WARN] ⚠️ Unauthorized access attempt by abdullah.tauqeer.chh@gmail.com (fleet_owner)
+[2026-05-08T23:30:00.076Z] [HTTP] GET /users/3744e34e-7910-45ec-86de-827ba97874fd - 403 (4ms)
+[2026-05-08T23:30:00.089Z] [WARN] ⚠️ Unauthorized access attempt by abdullah.tauqeer.chh@gmail.com (fleet_owner)
+[2026-05-08T23:30:00.091Z] [HTTP] GET /users/3744e34e-7910-45ec-86de-827ba97874fd - 403 (3ms)
+[2026-05-08T23:30:00.470Z] [HTTP] GET /trucks/60eade90-04dd-4ff2-802b-21ed6b09c77b - 200 (384ms)
+[2026-05-08T23:30:00.690Z] [HTTP] GET /trucks/2e8af087-bf21-44cd-ab46-74653b065dea - 200 (585ms)
+[2026-05-08T23:30:00.701Z] [WARN] ⚠️ Unauthorized access attempt by abdullah.tauqeer.chh@gmail.com (fleet_owner)
+[2026-05-08T23:30:00.702Z] [HTTP] GET /users/3744e34e-7910-45ec-86de-827ba97874fd - 403 (2ms)
+[2026-05-08T23:30:00.711Z] [WARN] ⚠️ Unauthorized access attempt by abdullah.tauqeer.chh@gmail.com (fleet_owner)
+[2026-05-08T23:30:00.714Z] [HTTP] GET /users/3744e34e-7910-45ec-86de-827ba97874fd - 403 (4ms)
+[2026-05-08T23:30:01.943Z] [HTTP] GET /trucks/2e8af087-bf21-44cd-ab46-74653b065dea - 200 (1218ms)
+[2026-05-08T23:30:02.048Z] [HTTP] GET /trucks/60eade90-04dd-4ff2-802b-21ed6b09c77b - 200 (1330ms)
+[2026-05-08T23:30:02.071Z] [WARN] ⚠️ Unauthorized access attempt by abdullah.tauqeer.chh@gmail.com (fleet_owner)
+[2026-05-08T23:30:02.080Z] [HTTP] GET / - 403 (10ms)
+[2026-05-08T23:30:16.081Z] [HTTP] GET /profile - 304 (12649ms)
+[2026-05-08T23:30:16.719Z] [HTTP] GET /shipments - 304 (573ms)
+[2026-05-08T23:30:17.421Z] [HTTP] GET /shipments - 304 (675ms)
+[2026-05-08T23:30:17.435Z] [WARN] ⚠️ Unauthorized access attempt by abdullah.tauqeer.chh@gmail.com (fleet_owner)
+[2026-05-08T23:30:17.437Z] [HTTP] GET /users/3744e34e-7910-45ec-86de-827ba97874fd - 403 (2ms)
+[2026-05-08T23:30:17.445Z] [WARN] ⚠️ Unauthorized access attempt by abdullah.tauqeer.chh@gmail.com (fleet_owner)
+[2026-05-08T23:30:17.449Z] [HTTP] GET /users/3744e34e-7910-45ec-86de-827ba97874fd - 403 (4ms)
+[2026-05-08T23:30:17.457Z] [WARN] ⚠️ Unauthorized access attempt by abdullah.tauqeer.chh@gmail.com (fleet_owner)
+[2026-05-08T23:30:17.462Z] [HTTP] GET /users/3744e34e-7910-45ec-86de-827ba97874fd - 403 (6ms)
+[2026-05-08T23:30:18.275Z] [HTTP] GET /trucks/60eade90-04dd-4ff2-802b-21ed6b09c77b - 200 (808ms)
+[2026-05-08T23:30:30.665Z] [HTTP] GET /trucks/2e8af087-bf21-44cd-ab46-74653b065dea - 200 (13193ms)
+[2026-05-08T23:30:30.701Z] [WARN] ⚠️ Unauthorized access attempt by abdullah.tauqeer.chh@gmail.com (fleet_owner)
+[2026-05-08T23:30:30.706Z] [HTTP] GET /users/3744e34e-7910-45ec-86de-827ba97874fd - 403 (5ms)
+[2026-05-08T23:30:30.722Z] [WARN] ⚠️ Unauthorized access attempt by abdullah.tauqeer.chh@gmail.com (fleet_owner)
+[2026-05-08T23:30:30.762Z] [HTTP] GET /users/3744e34e-7910-45ec-86de-827ba97874fd - 403 (41ms)
+[2026-05-08T23:30:31.116Z] [HTTP] GET /trucks/60eade90-04dd-4ff2-802b-21ed6b09c77b - 200 (302ms)
+[2026-05-08T23:30:33.564Z] [HTTP] GET /trucks/2e8af087-bf21-44cd-ab46-74653b065dea - 200 (2737ms)
+[2026-05-08T23:30:33.590Z] [WARN] ⚠️ Unauthorized access attempt by abdullah.tauqeer.chh@gmail.com (fleet_owner)
+[2026-05-08T23:30:33.595Z] [HTTP] GET / - 403 (6ms)
+[2026-05-08T23:30:42.160Z] [HTTP] GET /profile - 304 (26073ms)
+[2026-05-08T23:30:42.577Z] [HTTP] GET /shipments - 304 (351ms)
+[2026-05-08T23:30:43.523Z] [HTTP] GET /shipments - 304 (935ms)
+[2026-05-08T23:30:43.541Z] [WARN] ⚠️ Unauthorized access attempt by abdullah.tauqeer.chh@gmail.com (fleet_owner)
+[2026-05-08T23:30:43.543Z] [HTTP] GET /users/3744e34e-7910-45ec-86de-827ba97874fd - 403 (3ms)
+[2026-05-08T23:30:43.548Z] [WARN] ⚠️ Unauthorized access attempt by abdullah.tauqeer.chh@gmail.com (fleet_owner)
+[2026-05-08T23:30:43.552Z] [HTTP] GET /users/3744e34e-7910-45ec-86de-827ba97874fd - 403 (5ms)
+[2026-05-08T23:30:43.560Z] [WARN] ⚠️ Unauthorized access attempt by abdullah.tauqeer.chh@gmail.com (fleet_owner)
+[2026-05-08T23:30:43.563Z] [HTTP] GET /users/3744e34e-7910-45ec-86de-827ba97874fd - 403 (3ms)
+[2026-05-08T23:30:43.957Z] [HTTP] GET /trucks/60eade90-04dd-4ff2-802b-21ed6b09c77b - 200 (387ms)
+[2026-05-08T23:30:44.280Z] [HTTP] GET /trucks/2e8af087-bf21-44cd-ab46-74653b065dea - 200 (705ms)
+[2026-05-08T23:30:44.297Z] [WARN] ⚠️ Unauthorized access attempt by abdullah.tauqeer.chh@gmail.com (fleet_owner)
+[2026-05-08T23:30:44.299Z] [HTTP] GET /users/3744e34e-7910-45ec-86de-827ba97874fd - 403 (3ms)
+[2026-05-08T23:30:44.318Z] [WARN] ⚠️ Unauthorized access attempt by abdullah.tauqeer.chh@gmail.com (fleet_owner)
+[2026-05-08T23:30:44.328Z] [HTTP] GET /users/3744e34e-7910-45ec-86de-827ba97874fd - 403 (10ms)
+[2026-05-08T23:30:44.806Z] [HTTP] GET /trucks/60eade90-04dd-4ff2-802b-21ed6b09c77b - 200 (465ms)
+[2026-05-08T23:30:44.808Z] [HTTP] GET /trucks/2e8af087-bf21-44cd-ab46-74653b065dea - 200 (463ms)
+[2026-05-08T23:30:44.832Z] [WARN] ⚠️ Unauthorized access attempt by abdullah.tauqeer.chh@gmail.com (fleet_owner)
+[2026-05-08T23:30:44.835Z] [HTTP] GET / - 403 (4ms)
+[2026-05-08T23:34:13.079Z] [INFO] 💚 Health: 226MB heap | 1h 25m uptime | 4 tracked errors
+[2026-05-08T23:35:00.148Z] [INFO] 🔌 Initializing Supabase...
+[2026-05-08T23:35:00.173Z] [INFO] 📍 URL Present: true
+[2026-05-08T23:35:00.180Z] [INFO] 🔑 Keys Present: true (service: true)
+[2026-05-08T23:35:03.085Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-05-08T23:35:03.135Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-05-08T23:35:03.249Z] [INFO] ✅ Database connection established
+[2026-05-08T23:35:03.321Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-05-08T23:35:03.410Z] [INFO] ✅ Socket.IO initialized
+[2026-05-08T23:35:03.444Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-05-08T23:35:03.510Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-05-08T23:35:03.564Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-05-08T23:35:03.575Z] [INFO] 🔌 Socket.IO: ws://localhost:3001
+[2026-05-08T23:35:03.585Z] [INFO] 📝 Environment: development
+[2026-05-08T23:39:40.968Z] [HTTP] GET /system/settings - 304 (1425ms)
+[2026-05-08T23:39:51.326Z] [INFO] 💚 Health: 217MB heap | 0h 5m uptime | 0 tracked errors
+[2026-05-08T23:39:56.401Z] [HTTP] GET /profile - 304 (18531ms)
+[2026-05-08T23:39:57.560Z] [HTTP] GET /shipments - 304 (1081ms)
+[2026-05-08T23:39:58.522Z] [HTTP] GET /shipments - 304 (934ms)
+[2026-05-08T23:39:58.592Z] [WARN] ⚠️ Unauthorized access attempt by abdullah.tauqeer.chh@gmail.com (fleet_owner)
+[2026-05-08T23:39:58.637Z] [HTTP] GET /users/3744e34e-7910-45ec-86de-827ba97874fd - 403 (51ms)
+[2026-05-08T23:39:58.659Z] [WARN] ⚠️ Unauthorized access attempt by abdullah.tauqeer.chh@gmail.com (fleet_owner)
+[2026-05-08T23:39:58.668Z] [HTTP] GET /users/3744e34e-7910-45ec-86de-827ba97874fd - 403 (11ms)
+[2026-05-08T23:39:58.679Z] [WARN] ⚠️ Unauthorized access attempt by abdullah.tauqeer.chh@gmail.com (fleet_owner)
+[2026-05-08T23:39:58.685Z] [HTTP] GET /users/3744e34e-7910-45ec-86de-827ba97874fd - 403 (7ms)
+[2026-05-08T23:39:59.594Z] [HTTP] GET /trucks/60eade90-04dd-4ff2-802b-21ed6b09c77b - 200 (903ms)
+[2026-05-08T23:40:00.283Z] [HTTP] GET /trucks/2e8af087-bf21-44cd-ab46-74653b065dea - 200 (1575ms)
+[2026-05-08T23:40:00.296Z] [WARN] ⚠️ Unauthorized access attempt by abdullah.tauqeer.chh@gmail.com (fleet_owner)
+[2026-05-08T23:40:00.303Z] [HTTP] GET /users/3744e34e-7910-45ec-86de-827ba97874fd - 403 (8ms)
+[2026-05-08T23:40:00.315Z] [WARN] ⚠️ Unauthorized access attempt by abdullah.tauqeer.chh@gmail.com (fleet_owner)
+[2026-05-08T23:40:00.321Z] [HTTP] GET /users/3744e34e-7910-45ec-86de-827ba97874fd - 403 (10ms)
+[2026-05-08T23:40:00.710Z] [HTTP] GET /trucks/2e8af087-bf21-44cd-ab46-74653b065dea - 200 (373ms)
+[2026-05-08T23:40:01.450Z] [HTTP] GET /trucks/60eade90-04dd-4ff2-802b-21ed6b09c77b - 200 (1125ms)
+[2026-05-08T23:40:01.921Z] [HTTP] GET / - 200 (443ms)
+[2026-05-08T23:40:43.008Z] [HTTP] PUT /shipments/5d705238-a2f8-47f2-a3c7-9e6d71f0a0ab/assign - 200 (2273ms)
+[2026-05-08T23:40:43.290Z] [HTTP] PUT /shipments/5d705238-a2f8-47f2-a3c7-9e6d71f0a0ab/assign - 200 (3736ms)
+[2026-05-08T23:40:43.466Z] [HTTP] GET /shipments - 200 (407ms)
+[2026-05-08T23:40:43.901Z] [HTTP] GET /shipments - 304 (414ms)
+[2026-05-08T23:40:43.904Z] [HTTP] GET /shipments - 200 (389ms)
+[2026-05-08T23:40:43.918Z] [WARN] ⚠️ Unauthorized access attempt by abdullah.tauqeer.chh@gmail.com (fleet_owner)
+[2026-05-08T23:40:43.920Z] [HTTP] GET /users/3744e34e-7910-45ec-86de-827ba97874fd - 403 (2ms)
+[2026-05-08T23:40:43.930Z] [WARN] ⚠️ Unauthorized access attempt by abdullah.tauqeer.chh@gmail.com (fleet_owner)
+[2026-05-08T23:40:43.934Z] [HTTP] GET /users/3744e34e-7910-45ec-86de-827ba97874fd - 403 (4ms)
+[2026-05-08T23:40:44.173Z] [HTTP] PUT /shipments/5d705238-a2f8-47f2-a3c7-9e6d71f0a0ab/assign - 200 (2554ms)
+[2026-05-08T23:40:44.410Z] [HTTP] GET /shipments - 200 (498ms)
+[2026-05-08T23:40:44.419Z] [WARN] ⚠️ Unauthorized access attempt by abdullah.tauqeer.chh@gmail.com (fleet_owner)
+[2026-05-08T23:40:44.422Z] [HTTP] GET /users/3744e34e-7910-45ec-86de-827ba97874fd - 403 (3ms)
+[2026-05-08T23:40:44.436Z] [WARN] ⚠️ Unauthorized access attempt by abdullah.tauqeer.chh@gmail.com (fleet_owner)
+[2026-05-08T23:40:44.447Z] [HTTP] GET /users/3744e34e-7910-45ec-86de-827ba97874fd - 403 (12ms)
+[2026-05-08T23:40:44.614Z] [HTTP] GET /shipments - 304 (429ms)
+[2026-05-08T23:40:44.777Z] [HTTP] GET /trucks/2e8af087-bf21-44cd-ab46-74653b065dea - 200 (836ms)
+[2026-05-08T23:40:44.796Z] [WARN] ⚠️ Unauthorized access attempt by abdullah.tauqeer.chh@gmail.com (fleet_owner)
+[2026-05-08T23:40:44.800Z] [HTTP] GET /users/3744e34e-7910-45ec-86de-827ba97874fd - 403 (4ms)
+[2026-05-08T23:40:44.807Z] [WARN] ⚠️ Unauthorized access attempt by abdullah.tauqeer.chh@gmail.com (fleet_owner)
+[2026-05-08T23:40:44.816Z] [HTTP] GET /users/3744e34e-7910-45ec-86de-827ba97874fd - 403 (10ms)
+[2026-05-08T23:40:45.044Z] [HTTP] GET /shipments - 304 (416ms)
+[2026-05-08T23:40:45.061Z] [WARN] ⚠️ Unauthorized access attempt by abdullah.tauqeer.chh@gmail.com (fleet_owner)
+[2026-05-08T23:40:45.064Z] [HTTP] GET /users/3744e34e-7910-45ec-86de-827ba97874fd - 403 (3ms)
+[2026-05-08T23:40:45.073Z] [WARN] ⚠️ Unauthorized access attempt by abdullah.tauqeer.chh@gmail.com (fleet_owner)
+[2026-05-08T23:40:45.078Z] [HTTP] GET /users/3744e34e-7910-45ec-86de-827ba97874fd - 403 (6ms)
+[2026-05-08T23:40:45.138Z] [HTTP] PUT /shipments/5d705238-a2f8-47f2-a3c7-9e6d71f0a0ab/assign - 200 (3263ms)
+[2026-05-08T23:40:45.233Z] [HTTP] GET /trucks/2e8af087-bf21-44cd-ab46-74653b065dea - 200 (450ms)
+[2026-05-08T23:40:45.246Z] [WARN] ⚠️ Unauthorized access attempt by abdullah.tauqeer.chh@gmail.com (fleet_owner)
+[2026-05-08T23:40:45.248Z] [HTTP] GET /users/3744e34e-7910-45ec-86de-827ba97874fd - 403 (2ms)
+[2026-05-08T23:40:45.255Z] [WARN] ⚠️ Unauthorized access attempt by abdullah.tauqeer.chh@gmail.com (fleet_owner)
+[2026-05-08T23:40:45.261Z] [HTTP] GET /users/3744e34e-7910-45ec-86de-827ba97874fd - 403 (7ms)
+[2026-05-08T23:40:45.447Z] [HTTP] GET /shipments - 304 (299ms)
+[2026-05-08T23:40:45.544Z] [HTTP] GET /trucks/60eade90-04dd-4ff2-802b-21ed6b09c77b - 200 (713ms)
+[2026-05-08T23:40:45.628Z] [HTTP] GET /trucks/2e8af087-bf21-44cd-ab46-74653b065dea - 200 (392ms)
+[2026-05-08T23:40:45.945Z] [HTTP] GET /trucks/60eade90-04dd-4ff2-802b-21ed6b09c77b - 200 (393ms)
+[2026-05-08T23:40:45.955Z] [HTTP] GET /shipments - 200 (476ms)
+[2026-05-08T23:40:45.981Z] [WARN] ⚠️ Unauthorized access attempt by abdullah.tauqeer.chh@gmail.com (fleet_owner)
+[2026-05-08T23:40:45.982Z] [HTTP] GET /users/3744e34e-7910-45ec-86de-827ba97874fd - 403 (2ms)
+[2026-05-08T23:40:45.989Z] [WARN] ⚠️ Unauthorized access attempt by abdullah.tauqeer.chh@gmail.com (fleet_owner)
+[2026-05-08T23:40:45.996Z] [HTTP] GET /users/3744e34e-7910-45ec-86de-827ba97874fd - 403 (8ms)
+[2026-05-08T23:40:46.032Z] [HTTP] GET /trucks/2e8af087-bf21-44cd-ab46-74653b065dea - 200 (398ms)
+[2026-05-08T23:40:46.051Z] [HTTP] GET / - 304 (409ms)
+[2026-05-08T23:40:46.064Z] [WARN] ⚠️ Unauthorized access attempt by abdullah.tauqeer.chh@gmail.com (fleet_owner)
+[2026-05-08T23:40:46.071Z] [HTTP] GET /users/3744e34e-7910-45ec-86de-827ba97874fd - 403 (8ms)
+[2026-05-08T23:40:46.087Z] [WARN] ⚠️ Unauthorized access attempt by abdullah.tauqeer.chh@gmail.com (fleet_owner)
+[2026-05-08T23:40:46.094Z] [HTTP] GET /users/3744e34e-7910-45ec-86de-827ba97874fd - 403 (7ms)
+[2026-05-08T23:40:46.486Z] [HTTP] GET /trucks/2e8af087-bf21-44cd-ab46-74653b065dea - 200 (438ms)
+[2026-05-08T23:40:46.771Z] [HTTP] GET /trucks/60eade90-04dd-4ff2-802b-21ed6b09c77b - 200 (637ms)
+[2026-05-08T23:40:46.998Z] [HTTP] GET / - 304 (501ms)
+[2026-05-08T23:40:47.618Z] [HTTP] GET /trucks/2e8af087-bf21-44cd-ab46-74653b065dea - 200 (1124ms)
+[2026-05-08T23:40:47.633Z] [WARN] ⚠️ Unauthorized access attempt by abdullah.tauqeer.chh@gmail.com (fleet_owner)
+[2026-05-08T23:40:47.636Z] [HTTP] GET /users/3744e34e-7910-45ec-86de-827ba97874fd - 403 (4ms)
+[2026-05-08T23:40:47.645Z] [WARN] ⚠️ Unauthorized access attempt by abdullah.tauqeer.chh@gmail.com (fleet_owner)
+[2026-05-08T23:40:47.650Z] [HTTP] GET /users/3744e34e-7910-45ec-86de-827ba97874fd - 403 (5ms)
+[2026-05-08T23:40:47.993Z] [HTTP] GET /trucks/2e8af087-bf21-44cd-ab46-74653b065dea - 200 (368ms)
+[2026-05-08T23:40:48.067Z] [HTTP] GET /trucks/60eade90-04dd-4ff2-802b-21ed6b09c77b - 200 (406ms)
+[2026-05-08T23:40:48.415Z] [HTTP] GET / - 304 (397ms)
+[2026-05-08T23:40:48.424Z] [HTTP] GET /trucks/2e8af087-bf21-44cd-ab46-74653b065dea - 200 (421ms)
+[2026-05-08T23:40:48.816Z] [HTTP] GET / - 304 (331ms)
+[2026-05-08T23:40:50.790Z] [HTTP] GET /profile - 304 (613ms)
+[2026-05-08T23:40:52.749Z] [HTTP] GET /shipments - 304 (465ms)
+[2026-05-08T23:40:53.581Z] [HTTP] GET /shipments - 304 (428ms)
+[2026-05-08T23:40:54.570Z] [WARN] ⚠️ Unauthorized access attempt by abdullah.tauqeer.chh@gmail.com (fleet_owner)
+[2026-05-08T23:40:54.573Z] [HTTP] GET /users/3744e34e-7910-45ec-86de-827ba97874fd - 403 (3ms)
+[2026-05-08T23:40:54.600Z] [WARN] ⚠️ Unauthorized access attempt by abdullah.tauqeer.chh@gmail.com (fleet_owner)
+[2026-05-08T23:40:54.602Z] [HTTP] GET /users/3744e34e-7910-45ec-86de-827ba97874fd - 403 (3ms)
+[2026-05-08T23:40:55.021Z] [HTTP] GET /trucks/2e8af087-bf21-44cd-ab46-74653b065dea - 200 (372ms)
+[2026-05-08T23:40:55.146Z] [WARN] ⚠️ Unauthorized access attempt by abdullah.tauqeer.chh@gmail.com (fleet_owner)
+[2026-05-08T23:40:55.148Z] [HTTP] GET /users/3744e34e-7910-45ec-86de-827ba97874fd - 403 (2ms)
+[2026-05-08T23:40:55.330Z] [WARN] ⚠️ Unauthorized access attempt by abdullah.tauqeer.chh@gmail.com (fleet_owner)
+[2026-05-08T23:40:55.333Z] [HTTP] GET /users/3744e34e-7910-45ec-86de-827ba97874fd - 403 (3ms)
+[2026-05-08T23:40:57.111Z] [HTTP] GET /trucks/2e8af087-bf21-44cd-ab46-74653b065dea - 200 (1346ms)
+[2026-05-08T23:40:57.474Z] [HTTP] GET /trucks/60eade90-04dd-4ff2-802b-21ed6b09c77b - 200 (1718ms)
+[2026-05-08T23:41:00.265Z] [HTTP] GET / - 304 (401ms)
+[2026-05-08T23:41:01.559Z] [HTTP] GET /system/settings - 304 (1036ms)
+[2026-05-08T23:41:02.251Z] [HTTP] GET /shipments/5d705238-a2f8-47f2-a3c7-9e6d71f0a0ab - 200 (1405ms)
+[2026-05-08T23:41:02.576Z] [HTTP] GET /shipments/5d705238-a2f8-47f2-a3c7-9e6d71f0a0ab - 304 (307ms)
+[2026-05-08T23:41:02.782Z] [HTTP] GET /trips/by-shipment - 404 (490ms)
+[2026-05-08T23:41:03.094Z] [HTTP] GET /trips/by-shipment - 404 (293ms)
+[2026-05-08T23:41:39.600Z] [HTTP] GET /shipments - 200 (7310ms)
+[2026-05-08T23:41:40.457Z] [HTTP] GET /shipments - 304 (843ms)
+[2026-05-08T23:41:50.898Z] [HTTP] GET /shipments/5d705238-a2f8-47f2-a3c7-9e6d71f0a0ab - 304 (2210ms)
+[2026-05-08T23:41:51.294Z] [HTTP] GET /shipments/5d705238-a2f8-47f2-a3c7-9e6d71f0a0ab - 304 (388ms)
+[2026-05-08T23:41:53.233Z] [HTTP] GET /trips/by-shipment - 404 (2309ms)
+[2026-05-08T23:41:54.425Z] [HTTP] GET /trips/by-shipment - 404 (1040ms)
+[2026-05-08T23:44:51.107Z] [INFO] 💚 Health: 221MB heap | 0h 10m uptime | 4 tracked errors
+[2026-05-08T23:46:41.969Z] [INFO] 🔌 Initializing Supabase...
+[2026-05-08T23:46:42.018Z] [INFO] 📍 URL Present: true
+[2026-05-08T23:46:42.023Z] [INFO] 🔑 Keys Present: true (service: true)
+[2026-05-08T23:46:45.272Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-05-08T23:46:45.277Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-05-08T23:46:45.283Z] [INFO] ✅ Database connection established
+[2026-05-08T23:46:45.292Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-05-08T23:46:45.333Z] [INFO] ✅ Socket.IO initialized
+[2026-05-08T23:46:45.566Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-05-08T23:46:45.570Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-05-08T23:46:45.574Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-05-08T23:46:45.583Z] [INFO] 🔌 Socket.IO: ws://localhost:3001
+[2026-05-08T23:46:45.585Z] [INFO] 📝 Environment: development
+[2026-05-08T23:51:32.460Z] [INFO] 💚 Health: 216MB heap | 0h 5m uptime | 0 tracked errors
+[2026-05-08T23:55:44.977Z] [HTTP] GET /system/settings - 304 (17130ms)
+[2026-05-08T23:55:47.401Z] [HTTP] GET /system/settings - 304 (11985ms)

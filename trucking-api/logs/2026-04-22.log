@@ -1,0 +1,106 @@
+[2026-04-22T09:30:43.779Z] [INFO] 📝 Signup attempt: ahmed@example.com
+[2026-04-22T09:30:43.832Z] [ERROR] Signup error:
+{
+  "message": "No metadata for \"User\" was found."
+}
+[2026-04-22T09:30:44.049Z] [HTTP] POST /signup - 500 (307ms)
+[2026-04-22T09:33:20.219Z] [INFO] 📝 Signup attempt: ahmed@example.com
+[2026-04-22T09:33:20.228Z] [ERROR] Signup error:
+{
+  "message": "No metadata for \"User\" was found."
+}
+[2026-04-22T09:33:20.250Z] [HTTP] POST /signup - 500 (35ms)
+[2026-04-22T09:34:28.465Z] [HTTP] GET /api/test - 200 (43ms)
+[2026-04-22T09:34:59.873Z] [WARN] 400 INTERNAL_ERROR: Expected property name or '}' in JSON at position 1 (line 1 column 2)
+[2026-04-22T09:35:49.050Z] [INFO] 📝 Signup attempt: ahmed@test.com
+[2026-04-22T09:35:49.051Z] [ERROR] Signup error:
+{
+  "message": "No metadata for \"User\" was found."
+}
+[2026-04-22T09:35:49.068Z] [HTTP] POST /signup - 500 (19ms)
+[2026-04-22T09:38:08.582Z] [INFO] 📝 Signup attempt: ahmed@test.com
+[2026-04-22T09:38:08.585Z] [ERROR] Signup error:
+{
+  "message": "No metadata for \"User\" was found."
+}
+[2026-04-22T09:38:08.597Z] [HTTP] POST /signup - 500 (16ms)
+[2026-04-22T09:38:54.785Z] [INFO] 📝 Signup attempt: ahmed@test.com
+[2026-04-22T09:38:54.787Z] [ERROR] Signup error:
+{
+  "message": "No metadata for \"User\" was found."
+}
+[2026-04-22T09:38:54.796Z] [HTTP] POST /signup - 500 (11ms)
+[2026-04-22T09:41:27.693Z] [INFO] 📝 Signup attempt: ahmed@test.com
+[2026-04-22T09:41:27.695Z] [ERROR] Signup error:
+{
+  "message": "No metadata for \"User\" was found."
+}
+[2026-04-22T09:41:27.705Z] [HTTP] POST /signup - 500 (12ms)
+[2026-04-22T09:59:18.448Z] [INFO] ✅ Database connection established
+[2026-04-22T09:59:18.458Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-04-22T09:59:18.461Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-04-22T09:59:18.463Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-04-22T09:59:18.464Z] [INFO] 📝 Environment: development
+[2026-04-22T10:00:36.330Z] [INFO] 📝 Signup attempt: ahmed@test.com
+[2026-04-22T10:00:36.677Z] [INFO] ✅ User registered: ahmed@test.com
+[2026-04-22T10:00:36.712Z] [HTTP] POST /signup - 201 (386ms)
+[2026-04-22T10:46:50.340Z] [INFO] 🔐 Login attempt: ahmed@test.com
+[2026-04-22T10:46:50.696Z] [INFO] ✅ User logged in: ahmed@test.com
+[2026-04-22T10:46:50.711Z] [HTTP] POST /login - 200 (391ms)
+[2026-04-22T10:52:05.187Z] [ERROR] Signup error:
+{
+  "name": "ZodError",
+  "message": "[\n  {\n    \"code\": \"invalid_value\",\n    \"values\": [\n      \"customer\",\n      \"fleet_owner\",\n      \"driver\"\n    ],\n    \"path\": [\n      \"role\"\n    ],\n    \"message\": \"Invalid option: expected one of \\\"customer\\\"|\\\"fleet_owner\\\"|\\\"driver\\\"\"\n  }\n]"
+}
+[2026-04-22T10:52:05.433Z] [HTTP] POST /signup - 500 (346ms)
+[2026-04-22T10:52:32.438Z] [INFO] ✅ Database connection established
+[2026-04-22T10:52:32.481Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-04-22T10:52:32.483Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-04-22T10:52:32.484Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-04-22T10:52:32.487Z] [INFO] 📝 Environment: development
+[2026-04-22T10:54:25.300Z] [INFO] 📝 Signup attempt: ali.khan@example.com
+[2026-04-22T10:54:25.720Z] [INFO] ✅ User registered: ali.khan@example.com
+[2026-04-22T10:54:25.759Z] [HTTP] POST /signup - 201 (465ms)
+[2026-04-22T10:57:49.075Z] [INFO] 🔐 Login attempt: ali.khan@example.com
+[2026-04-22T10:57:49.440Z] [INFO] ✅ User logged in: ali.khan@example.com
+[2026-04-22T10:57:49.448Z] [HTTP] POST /login - 200 (388ms)
+[2026-04-22T11:00:32.417Z] [INFO] ✅ Database connection established
+[2026-04-22T11:00:32.435Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-04-22T11:00:32.436Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-04-22T11:00:32.438Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-04-22T11:00:32.439Z] [INFO] 📝 Environment: development
+[2026-04-22T11:00:58.488Z] [INFO] ✅ Database connection established
+[2026-04-22T11:00:58.514Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-04-22T11:00:58.568Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-04-22T11:00:58.575Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-04-22T11:00:58.582Z] [INFO] 📝 Environment: development
+[2026-04-22T11:01:06.484Z] [INFO] ✅ Database connection established
+[2026-04-22T11:01:06.500Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-04-22T11:01:06.504Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-04-22T11:01:06.506Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-04-22T11:01:06.508Z] [INFO] 📝 Environment: development
+[2026-04-22T11:01:22.312Z] [INFO] ✅ Database connection established
+[2026-04-22T11:01:22.323Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-04-22T11:01:22.324Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-04-22T11:01:22.326Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-04-22T11:01:22.329Z] [INFO] 📝 Environment: development
+[2026-04-22T11:02:10.930Z] [INFO] ✅ Database connection established
+[2026-04-22T11:02:10.956Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-04-22T11:02:10.973Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-04-22T11:02:10.986Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-04-22T11:02:10.996Z] [INFO] 📝 Environment: development
+[2026-04-22T11:02:40.228Z] [INFO] ✅ Database connection established
+[2026-04-22T11:02:40.250Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-04-22T11:02:40.251Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-04-22T11:02:40.252Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-04-22T11:02:40.253Z] [INFO] 📝 Environment: development
+[2026-04-22T11:02:58.468Z] [INFO] ✅ Database connection established
+[2026-04-22T11:02:58.474Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-04-22T11:02:58.476Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-04-22T11:02:58.478Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-04-22T11:02:58.479Z] [INFO] 📝 Environment: development
+[2026-04-22T11:03:26.043Z] [INFO] ✅ Database connection established
+[2026-04-22T11:03:26.060Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-04-22T11:03:26.075Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-04-22T11:03:26.079Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-04-22T11:03:26.082Z] [INFO] 📝 Environment: development

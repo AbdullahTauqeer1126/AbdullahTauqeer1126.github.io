@@ -1,0 +1,44 @@
+﻿version: '3.8'
+
+services:
+  postgres:
+    image: postgres:15-alpine
+    container_name: trucking_db
+    environment:
+      POSTGRES_USER: trucking_user
+      POSTGRES_PASSWORD: secure_password_123
+      POSTGRES_DB: trucking_db
+    ports:
+      - '5432:5432'
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    networks:
+      - trucking_network
+    healthcheck:
+      test: ['CMD-SHELL', 'pg_isready -U trucking_user -d trucking_db']
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  redis:
+    image: redis:7-alpine
+    container_name: trucking_cache
+    ports:
+      - '6379:6379'
+    volumes:
+      - redis_data:/data
+    networks:
+      - trucking_network
+    healthcheck:
+      test: ['CMD', 'redis-cli', 'ping']
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  postgres_data:
+  redis_data:
+
+networks:
+  trucking_network:
+    driver: bridge

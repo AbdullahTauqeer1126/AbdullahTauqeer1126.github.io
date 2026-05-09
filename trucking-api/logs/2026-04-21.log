@@ -1,0 +1,503 @@
+[2026-04-21T21:55:21.224Z] [ERROR] Failed to start server:
+{
+  "length": 104,
+  "name": "error",
+  "severity": "FATAL",
+  "code": "28P01",
+  "file": "auth.c",
+  "line": "320",
+  "routine": "auth_failed"
+}
+[2026-04-21T21:55:21.235Z] [ERROR] Failed to start server:
+{
+  "length": 104,
+  "name": "error",
+  "severity": "FATAL",
+  "code": "28P01",
+  "file": "auth.c",
+  "line": "320",
+  "routine": "auth_failed"
+}
+[2026-04-21T21:55:21.232Z] [ERROR] Failed to start server:
+{
+  "length": 104,
+  "name": "error",
+  "severity": "FATAL",
+  "code": "28P01",
+  "file": "auth.c",
+  "line": "320",
+  "routine": "auth_failed"
+}
+[2026-04-21T21:55:21.267Z] [ERROR] Failed to start server:
+{
+  "length": 104,
+  "name": "error",
+  "severity": "FATAL",
+  "code": "28P01",
+  "file": "auth.c",
+  "line": "320",
+  "routine": "auth_failed"
+}
+[2026-04-21T21:55:26.469Z] [ERROR] Failed to start server:
+{
+  "length": 104,
+  "name": "error",
+  "severity": "FATAL",
+  "code": "28P01",
+  "file": "auth.c",
+  "line": "320",
+  "routine": "auth_failed"
+}
+[2026-04-21T21:55:33.752Z] [ERROR] Failed to start server:
+{
+  "length": 104,
+  "name": "error",
+  "severity": "FATAL",
+  "code": "28P01",
+  "file": "auth.c",
+  "line": "320",
+  "routine": "auth_failed"
+}
+[2026-04-21T21:55:45.224Z] [ERROR] Failed to start server:
+{
+  "length": 104,
+  "name": "error",
+  "severity": "FATAL",
+  "code": "28P01",
+  "file": "auth.c",
+  "line": "320",
+  "routine": "auth_failed"
+}
+[2026-04-21T21:56:21.072Z] [WARN] ⚠️ Database connection failed - starting server without DB
+[2026-04-21T21:56:21.085Z] [DEBUG] Database error:
+{
+  "length": 104,
+  "name": "error",
+  "severity": "FATAL",
+  "code": "28P01",
+  "file": "auth.c",
+  "line": "320",
+  "routine": "auth_failed"
+}
+[2026-04-21T21:56:21.116Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-04-21T21:56:21.186Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-04-21T21:56:21.227Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-04-21T21:56:21.289Z] [INFO] 📝 Environment: development
+[2026-04-21T21:56:21.314Z] [WARN] ⚠️ Database connection failed - starting server without DB
+[2026-04-21T21:56:21.334Z] [DEBUG] Database error:
+{
+  "length": 104,
+  "name": "error",
+  "severity": "FATAL",
+  "code": "28P01",
+  "file": "auth.c",
+  "line": "320",
+  "routine": "auth_failed"
+}
+[2026-04-21T21:56:21.394Z] [WARN] ⚠️ Database connection failed - starting server without DB
+[2026-04-21T21:56:21.350Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-04-21T21:56:21.407Z] [DEBUG] Database error:
+{
+  "length": 104,
+  "name": "error",
+  "severity": "FATAL",
+  "code": "28P01",
+  "file": "auth.c",
+  "line": "320",
+  "routine": "auth_failed"
+}
+[2026-04-21T21:56:21.438Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-04-21T21:56:21.475Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-04-21T21:56:21.490Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-04-21T21:56:21.511Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-04-21T21:56:21.542Z] [INFO] 📝 Environment: development
+[2026-04-21T21:56:21.567Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-04-21T21:56:21.665Z] [INFO] 📝 Environment: development
+[2026-04-21T21:56:22.129Z] [WARN] ⚠️ Database connection failed - starting server without DB
+[2026-04-21T21:56:22.211Z] [DEBUG] Database error:
+{
+  "length": 104,
+  "name": "error",
+  "severity": "FATAL",
+  "code": "28P01",
+  "file": "auth.c",
+  "line": "320",
+  "routine": "auth_failed"
+}
+[2026-04-21T21:56:22.326Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-04-21T21:56:22.396Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-04-21T21:56:22.484Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-04-21T21:56:22.509Z] [INFO] 📝 Environment: development
+[2026-04-21T21:56:26.720Z] [WARN] ⚠️ Database connection failed - starting server without DB
+[2026-04-21T21:56:26.724Z] [DEBUG] Database error:
+{
+  "length": 104,
+  "name": "error",
+  "severity": "FATAL",
+  "code": "28P01",
+  "file": "auth.c",
+  "line": "320",
+  "routine": "auth_failed"
+}
+[2026-04-21T21:56:26.733Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-04-21T21:56:26.734Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-04-21T21:56:26.737Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-04-21T21:56:26.740Z] [INFO] 📝 Environment: development
+[2026-04-21T21:56:32.846Z] [WARN] ⚠️ Database connection failed - starting server without DB
+[2026-04-21T21:56:32.849Z] [DEBUG] Database error:
+{
+  "length": 104,
+  "name": "error",
+  "severity": "FATAL",
+  "code": "28P01",
+  "file": "auth.c",
+  "line": "320",
+  "routine": "auth_failed"
+}
+[2026-04-21T21:56:32.857Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-04-21T21:56:32.859Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-04-21T21:56:32.863Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-04-21T21:56:32.867Z] [INFO] 📝 Environment: development
+[2026-04-21T21:58:50.166Z] [HTTP] GET /api/health - 200 (8ms)
+[2026-04-21T21:59:34.517Z] [HTTP] GET /api/test - 200 (1ms)
+[2026-04-21T22:00:35.460Z] [INFO] 🔐 Login attempt: test@example.com
+[2026-04-21T22:00:35.462Z] [ERROR] Login error:
+{
+  "message": "No metadata for \"User\" was found."
+}
+[2026-04-21T22:00:35.484Z] [HTTP] POST /login - 401 (27ms)
+[2026-04-21T22:01:03.953Z] [INFO] 🔐 Login attempt: test@example.com
+[2026-04-21T22:01:03.954Z] [ERROR] Login error:
+{
+  "message": "No metadata for \"User\" was found."
+}
+[2026-04-21T22:01:03.963Z] [HTTP] POST /login - 401 (11ms)
+[2026-04-21T22:01:23.044Z] [INFO] 🔐 Login attempt: test@example.com
+[2026-04-21T22:01:23.045Z] [ERROR] Login error:
+{
+  "message": "No metadata for \"User\" was found."
+}
+[2026-04-21T22:01:23.052Z] [HTTP] POST /login - 401 (7ms)
+[2026-04-21T22:02:42.757Z] [HTTP] GET /api/test - 200 (0ms)
+[2026-04-21T22:05:47.865Z] [WARN] ⚠️ Database connection failed - starting server without DB
+[2026-04-21T22:05:47.896Z] [WARN] ⚠️ Database connection failed - starting server without DB
+[2026-04-21T22:05:47.904Z] [WARN] ⚠️ Database connection failed - starting server without DB
+[2026-04-21T22:05:47.978Z] [DEBUG] Database error:
+{
+  "length": 104,
+  "name": "error",
+  "severity": "FATAL",
+  "code": "28P01",
+  "file": "auth.c",
+  "line": "320",
+  "routine": "auth_failed"
+}
+[2026-04-21T22:05:48.069Z] [DEBUG] Database error:
+{
+  "length": 104,
+  "name": "error",
+  "severity": "FATAL",
+  "code": "28P01",
+  "file": "auth.c",
+  "line": "320",
+  "routine": "auth_failed"
+}
+[2026-04-21T22:05:48.069Z] [DEBUG] Database error:
+{
+  "length": 104,
+  "name": "error",
+  "severity": "FATAL",
+  "code": "28P01",
+  "file": "auth.c",
+  "line": "320",
+  "routine": "auth_failed"
+}
+[2026-04-21T22:05:48.126Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-04-21T22:05:48.249Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-04-21T22:05:48.252Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-04-21T22:05:48.260Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-04-21T22:05:48.377Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-04-21T22:05:48.389Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-04-21T22:05:48.410Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-04-21T22:05:48.517Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-04-21T22:05:48.554Z] [INFO] 📝 Environment: development
+[2026-04-21T22:05:48.520Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-04-21T22:05:48.728Z] [INFO] 📝 Environment: development
+[2026-04-21T22:05:48.769Z] [INFO] 📝 Environment: development
+[2026-04-21T22:05:49.560Z] [WARN] ⚠️ Database connection failed - starting server without DB
+[2026-04-21T22:05:49.564Z] [WARN] ⚠️ Database connection failed - starting server without DB
+[2026-04-21T22:05:49.578Z] [DEBUG] Database error:
+{
+  "length": 104,
+  "name": "error",
+  "severity": "FATAL",
+  "code": "28P01",
+  "file": "auth.c",
+  "line": "320",
+  "routine": "auth_failed"
+}
+[2026-04-21T22:05:49.642Z] [DEBUG] Database error:
+{
+  "length": 104,
+  "name": "error",
+  "severity": "FATAL",
+  "code": "28P01",
+  "file": "auth.c",
+  "line": "320",
+  "routine": "auth_failed"
+}
+[2026-04-21T22:05:49.697Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-04-21T22:05:49.737Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-04-21T22:05:49.832Z] [WARN] ⚠️ Database connection failed - starting server without DB
+[2026-04-21T22:05:49.836Z] [DEBUG] Database error:
+{
+  "length": 104,
+  "name": "error",
+  "severity": "FATAL",
+  "code": "28P01",
+  "file": "auth.c",
+  "line": "320",
+  "routine": "auth_failed"
+}
+[2026-04-21T22:05:49.780Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-04-21T22:05:49.827Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-04-21T22:05:49.842Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-04-21T22:05:49.851Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-04-21T22:05:49.890Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-04-21T22:05:49.899Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-04-21T22:05:49.907Z] [INFO] 📝 Environment: development
+[2026-04-21T22:05:49.919Z] [INFO] 📝 Environment: development
+[2026-04-21T22:05:49.925Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-04-21T22:05:49.990Z] [INFO] 📝 Environment: development
+[2026-04-21T22:05:50.494Z] [WARN] ⚠️ Database connection failed - starting server without DB
+[2026-04-21T22:05:50.502Z] [DEBUG] Database error:
+{
+  "length": 104,
+  "name": "error",
+  "severity": "FATAL",
+  "code": "28P01",
+  "file": "auth.c",
+  "line": "320",
+  "routine": "auth_failed"
+}
+[2026-04-21T22:05:50.519Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-04-21T22:05:50.522Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-04-21T22:05:50.529Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-04-21T22:05:50.532Z] [INFO] 📝 Environment: development
+[2026-04-21T22:05:50.579Z] [WARN] ⚠️ Database connection failed - starting server without DB
+[2026-04-21T22:05:50.585Z] [DEBUG] Database error:
+{
+  "length": 104,
+  "name": "error",
+  "severity": "FATAL",
+  "code": "28P01",
+  "file": "auth.c",
+  "line": "320",
+  "routine": "auth_failed"
+}
+[2026-04-21T22:05:50.594Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-04-21T22:05:50.596Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-04-21T22:05:50.602Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-04-21T22:05:50.603Z] [INFO] 📝 Environment: development
+[2026-04-21T22:12:14.497Z] [WARN] ⚠️ Database connection failed - starting server without DB
+[2026-04-21T22:12:14.501Z] [DEBUG] Database error:
+{
+  "length": 104,
+  "name": "error",
+  "severity": "FATAL",
+  "code": "28P01",
+  "file": "auth.c",
+  "line": "320",
+  "routine": "auth_failed"
+}
+[2026-04-21T22:12:14.509Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-04-21T22:12:14.519Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-04-21T22:12:14.524Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-04-21T22:12:14.531Z] [INFO] 📝 Environment: development
+[2026-04-21T22:13:54.652Z] [ERROR] Signup error:
+{
+  "name": "ZodError",
+  "message": "[\n  {\n    \"code\": \"invalid_value\",\n    \"values\": [\n      \"customer\",\n      \"fleet_owner\",\n      \"driver\"\n    ],\n    \"path\": [\n      \"role\"\n    ],\n    \"message\": \"Invalid option: expected one of \\\"customer\\\"|\\\"fleet_owner\\\"|\\\"driver\\\"\"\n  }\n]"
+}
+[2026-04-21T22:13:54.693Z] [HTTP] POST /signup - 500 (46ms)
+[2026-04-21T22:14:31.919Z] [HTTP] GET /api/test - 200 (1ms)
+[2026-04-21T22:16:29.237Z] [WARN] ⚠️ Database connection failed - starting server without DB
+[2026-04-21T22:16:29.245Z] [DEBUG] Database error:
+{
+  "length": 104,
+  "name": "error",
+  "severity": "FATAL",
+  "code": "28P01",
+  "file": "auth.c",
+  "line": "320",
+  "routine": "auth_failed"
+}
+[2026-04-21T22:16:29.259Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-04-21T22:16:29.262Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-04-21T22:16:29.263Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-04-21T22:16:29.264Z] [INFO] 📝 Environment: development
+[2026-04-21T22:16:29.319Z] [WARN] ⚠️ Database connection failed - starting server without DB
+[2026-04-21T22:16:29.337Z] [DEBUG] Database error:
+{
+  "length": 104,
+  "name": "error",
+  "severity": "FATAL",
+  "code": "28P01",
+  "file": "auth.c",
+  "line": "320",
+  "routine": "auth_failed"
+}
+[2026-04-21T22:16:29.372Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-04-21T22:16:29.393Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-04-21T22:16:29.396Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-04-21T22:16:29.398Z] [INFO] 📝 Environment: development
+[2026-04-21T22:16:29.696Z] [WARN] ⚠️ Database connection failed - starting server without DB
+[2026-04-21T22:16:29.720Z] [DEBUG] Database error:
+{
+  "length": 104,
+  "name": "error",
+  "severity": "FATAL",
+  "code": "28P01",
+  "file": "auth.c",
+  "line": "320",
+  "routine": "auth_failed"
+}
+[2026-04-21T22:16:29.727Z] [WARN] ⚠️ Database connection failed - starting server without DB
+[2026-04-21T22:16:29.751Z] [DEBUG] Database error:
+{
+  "length": 104,
+  "name": "error",
+  "severity": "FATAL",
+  "code": "28P01",
+  "file": "auth.c",
+  "line": "320",
+  "routine": "auth_failed"
+}
+[2026-04-21T22:16:29.737Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-04-21T22:16:29.760Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-04-21T22:16:29.796Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-04-21T22:16:29.809Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-04-21T22:16:29.816Z] [INFO] 📝 Environment: development
+[2026-04-21T22:16:29.808Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-04-21T22:16:29.846Z] [WARN] ⚠️ Database connection failed - starting server without DB
+[2026-04-21T22:16:29.844Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-04-21T22:16:29.851Z] [DEBUG] Database error:
+{
+  "length": 104,
+  "name": "error",
+  "severity": "FATAL",
+  "code": "28P01",
+  "file": "auth.c",
+  "line": "320",
+  "routine": "auth_failed"
+}
+[2026-04-21T22:16:29.864Z] [INFO] 📝 Environment: development
+[2026-04-21T22:16:29.918Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-04-21T22:16:29.949Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-04-21T22:16:29.993Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-04-21T22:16:30.000Z] [WARN] ⚠️ Database connection failed - starting server without DB
+[2026-04-21T22:16:30.016Z] [DEBUG] Database error:
+{
+  "length": 104,
+  "name": "error",
+  "severity": "FATAL",
+  "code": "28P01",
+  "file": "auth.c",
+  "line": "320",
+  "routine": "auth_failed"
+}
+[2026-04-21T22:16:30.008Z] [INFO] 📝 Environment: development
+[2026-04-21T22:16:30.033Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-04-21T22:16:30.053Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-04-21T22:16:30.066Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-04-21T22:16:30.080Z] [INFO] 📝 Environment: development
+[2026-04-21T22:17:13.604Z] [WARN] ⚠️ Database connection failed - starting server without DB
+[2026-04-21T22:17:13.673Z] [WARN] ⚠️ Database connection failed - starting server without DB
+[2026-04-21T22:17:13.667Z] [DEBUG] Database error:
+{
+  "length": 104,
+  "name": "error",
+  "severity": "FATAL",
+  "code": "28P01",
+  "file": "auth.c",
+  "line": "320",
+  "routine": "auth_failed"
+}
+[2026-04-21T22:17:13.677Z] [DEBUG] Database error:
+{
+  "length": 104,
+  "name": "error",
+  "severity": "FATAL",
+  "code": "28P01",
+  "file": "auth.c",
+  "line": "320",
+  "routine": "auth_failed"
+}
+[2026-04-21T22:17:13.753Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-04-21T22:17:13.860Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-04-21T22:17:13.937Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-04-21T22:17:14.000Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-04-21T22:17:14.109Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-04-21T22:17:14.117Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-04-21T22:17:14.248Z] [INFO] 📝 Environment: development
+[2026-04-21T22:17:14.258Z] [INFO] 📝 Environment: development
+[2026-04-21T22:17:14.921Z] [WARN] ⚠️ Database connection failed - starting server without DB
+[2026-04-21T22:17:15.011Z] [DEBUG] Database error:
+{
+  "length": 104,
+  "name": "error",
+  "severity": "FATAL",
+  "code": "28P01",
+  "file": "auth.c",
+  "line": "320",
+  "routine": "auth_failed"
+}
+[2026-04-21T22:17:15.019Z] [WARN] ⚠️ Database connection failed - starting server without DB
+[2026-04-21T22:17:15.090Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-04-21T22:17:15.092Z] [DEBUG] Database error:
+{
+  "length": 104,
+  "name": "error",
+  "severity": "FATAL",
+  "code": "28P01",
+  "file": "auth.c",
+  "line": "320",
+  "routine": "auth_failed"
+}
+[2026-04-21T22:17:15.157Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-04-21T22:17:15.194Z] [WARN] ⚠️ Database connection failed - starting server without DB
+[2026-04-21T22:17:15.176Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-04-21T22:17:15.219Z] [DEBUG] Database error:
+{
+  "length": 104,
+  "name": "error",
+  "severity": "FATAL",
+  "code": "28P01",
+  "file": "auth.c",
+  "line": "320",
+  "routine": "auth_failed"
+}
+[2026-04-21T22:17:15.203Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-04-21T22:17:15.223Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-04-21T22:17:15.244Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-04-21T22:17:15.284Z] [INFO] 📝 Environment: development
+[2026-04-21T22:17:15.307Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-04-21T22:17:15.328Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-04-21T22:17:15.364Z] [INFO] 📝 Environment: development
+[2026-04-21T22:17:15.397Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-04-21T22:17:15.523Z] [INFO] 📝 Environment: development
+[2026-04-21T22:17:16.075Z] [WARN] ⚠️ Database connection failed - starting server without DB
+[2026-04-21T22:17:16.091Z] [DEBUG] Database error:
+{
+  "length": 104,
+  "name": "error",
+  "severity": "FATAL",
+  "code": "28P01",
+  "file": "auth.c",
+  "line": "320",
+  "routine": "auth_failed"
+}
+[2026-04-21T22:17:16.112Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-04-21T22:17:16.122Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-04-21T22:17:16.127Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-04-21T22:17:16.129Z] [INFO] 📝 Environment: development

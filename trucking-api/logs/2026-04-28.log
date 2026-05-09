@@ -1,0 +1,1526 @@
+[2026-04-28T11:54:15.161Z] [HTTP] GET /api/health - 200 (136ms)
+[2026-04-28T11:54:15.883Z] [INFO] 📝 Signup attempt: smoke_1777377254039@test.com
+[2026-04-28T11:54:19.081Z] [INFO] ✅ User registered: smoke_1777377254039@test.com
+[2026-04-28T11:54:19.120Z] [HTTP] POST /signup - 201 (3434ms)
+[2026-04-28T11:54:19.137Z] [INFO] 🔐 Login attempt: smoke_1777377254039@test.com
+[2026-04-28T11:54:19.815Z] [INFO] ✅ User logged in: smoke_1777377254039@test.com
+[2026-04-28T11:54:19.827Z] [HTTP] POST /login - 200 (696ms)
+[2026-04-28T11:54:20.099Z] [HTTP] GET /profile - 200 (265ms)
+[2026-04-28T11:54:20.341Z] [HTTP] POST /refresh-token - 200 (237ms)
+[2026-04-28T12:27:08.826Z] [HTTP] GET /profile - 304 (1522ms)
+[2026-04-28T12:27:09.802Z] [HTTP] GET /trucks - 304 (50ms)
+[2026-04-28T12:27:09.823Z] [HTTP] GET /trucks - 304 (4ms)
+[2026-04-28T12:28:33.444Z] [INFO] 🔌 Initializing Supabase...
+[2026-04-28T12:28:33.525Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-28T12:28:33.526Z] [INFO] 📝 Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+[2026-04-28T12:28:33.528Z] [INFO] 🔑 Service Key: Not provided
+[2026-04-28T12:28:35.435Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-04-28T12:28:35.436Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-04-28T12:28:35.436Z] [INFO] ✅ Database connection established
+[2026-04-28T12:28:35.499Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-28T12:28:35.503Z] [INFO] ✅ Socket.IO initialized
+[2026-04-28T12:28:35.524Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-04-28T12:28:35.525Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-04-28T12:28:35.525Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-04-28T12:28:35.526Z] [INFO] 🔌 Socket.IO: ws://localhost:3001
+[2026-04-28T12:28:35.526Z] [INFO] 📝 Environment: development
+[2026-04-28T12:31:50.564Z] [INFO] 🔌 Initializing Supabase...
+[2026-04-28T12:31:50.567Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-28T12:31:50.654Z] [INFO] 📝 Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+[2026-04-28T12:31:50.664Z] [INFO] 🔑 Service Key: Not provided
+[2026-04-28T12:31:53.156Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-04-28T12:31:53.157Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-04-28T12:31:53.158Z] [INFO] ✅ Database connection established
+[2026-04-28T12:31:53.164Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-28T12:31:53.165Z] [INFO] ✅ Socket.IO initialized
+[2026-04-28T12:31:53.170Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-04-28T12:31:53.170Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-04-28T12:31:53.171Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-04-28T12:31:53.172Z] [INFO] 🔌 Socket.IO: ws://localhost:3001
+[2026-04-28T12:31:53.173Z] [INFO] 📝 Environment: development
+[2026-04-28T12:38:32.271Z] [INFO] 🔌 Initializing Supabase...
+[2026-04-28T12:38:32.295Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-28T12:38:32.296Z] [INFO] 📝 Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+[2026-04-28T12:38:32.297Z] [INFO] 🔑 Service Key: Not provided
+[2026-04-28T12:38:33.846Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-04-28T12:38:33.847Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-04-28T12:38:33.848Z] [INFO] ✅ Database connection established
+[2026-04-28T12:38:33.854Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-28T12:38:33.855Z] [INFO] ✅ Socket.IO initialized
+[2026-04-28T12:38:33.863Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-04-28T12:38:33.864Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-04-28T12:38:33.865Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-04-28T12:38:33.865Z] [INFO] 🔌 Socket.IO: ws://localhost:3001
+[2026-04-28T12:38:33.866Z] [INFO] 📝 Environment: development
+[2026-04-28T12:38:51.181Z] [INFO] 🔌 Initializing Supabase...
+[2026-04-28T12:38:51.188Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-28T12:38:51.188Z] [INFO] 📝 Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+[2026-04-28T12:38:51.189Z] [INFO] 🔑 Service Key: Not provided
+[2026-04-28T12:38:52.225Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-04-28T12:38:52.226Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-04-28T12:38:52.227Z] [INFO] ✅ Database connection established
+[2026-04-28T12:38:52.233Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-28T12:38:52.234Z] [INFO] ✅ Socket.IO initialized
+[2026-04-28T12:38:52.239Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-04-28T12:38:52.239Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-04-28T12:38:52.240Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-04-28T12:38:52.241Z] [INFO] 🔌 Socket.IO: ws://localhost:3001
+[2026-04-28T12:38:52.241Z] [INFO] 📝 Environment: development
+[2026-04-28T12:40:37.118Z] [INFO] 🔌 Initializing Supabase...
+[2026-04-28T12:40:37.122Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-28T12:40:37.123Z] [INFO] 📝 Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+[2026-04-28T12:40:37.124Z] [INFO] 🔑 Service Key: Not provided
+[2026-04-28T12:40:38.069Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-04-28T12:40:38.070Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-04-28T12:40:38.071Z] [INFO] ✅ Database connection established
+[2026-04-28T12:40:38.076Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-28T12:40:38.077Z] [INFO] ✅ Socket.IO initialized
+[2026-04-28T12:40:38.083Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-04-28T12:40:38.083Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-04-28T12:40:38.084Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-04-28T12:40:38.085Z] [INFO] 🔌 Socket.IO: ws://localhost:3001
+[2026-04-28T12:40:38.085Z] [INFO] 📝 Environment: development
+[2026-04-28T12:46:02.882Z] [INFO] 🔌 Initializing Supabase...
+[2026-04-28T12:46:02.922Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-28T12:46:02.924Z] [INFO] 📝 Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+[2026-04-28T12:46:02.926Z] [INFO] 🔑 Service Key: Not provided
+[2026-04-28T12:46:04.560Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-04-28T12:46:04.561Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-04-28T12:46:04.562Z] [INFO] ✅ Database connection established
+[2026-04-28T12:46:04.567Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-28T12:46:04.568Z] [INFO] ✅ Socket.IO initialized
+[2026-04-28T12:46:04.660Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-04-28T12:46:04.660Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-04-28T12:46:04.661Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-04-28T12:46:04.661Z] [INFO] 🔌 Socket.IO: ws://localhost:3001
+[2026-04-28T12:46:04.662Z] [INFO] 📝 Environment: development
+[2026-04-28T12:49:24.983Z] [INFO] 🔌 Initializing Supabase...
+[2026-04-28T12:49:24.986Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-28T12:49:24.988Z] [INFO] 📝 Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+[2026-04-28T12:49:24.992Z] [INFO] 🔑 Service Key: Not provided
+[2026-04-28T12:49:26.269Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-04-28T12:49:26.270Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-04-28T12:49:26.271Z] [INFO] ✅ Database connection established
+[2026-04-28T12:49:26.277Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-28T12:49:26.278Z] [INFO] ✅ Socket.IO initialized
+[2026-04-28T12:49:26.283Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-04-28T12:49:26.284Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-04-28T12:49:26.285Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-04-28T12:49:26.285Z] [INFO] 🔌 Socket.IO: ws://localhost:3001
+[2026-04-28T12:49:26.286Z] [INFO] 📝 Environment: development
+[2026-04-28T12:50:01.793Z] [INFO] 🔌 Initializing Supabase...
+[2026-04-28T12:50:01.798Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-28T12:50:01.802Z] [INFO] 📝 Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+[2026-04-28T12:50:01.804Z] [INFO] 🔑 Service Key: Not provided
+[2026-04-28T12:50:02.534Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-04-28T12:50:02.537Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-04-28T12:50:02.540Z] [INFO] ✅ Database connection established
+[2026-04-28T12:50:02.551Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-28T12:50:02.555Z] [INFO] ✅ Socket.IO initialized
+[2026-04-28T12:50:02.562Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-04-28T12:50:02.567Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-04-28T12:50:02.573Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-04-28T12:50:02.577Z] [INFO] 🔌 Socket.IO: ws://localhost:3001
+[2026-04-28T12:50:02.579Z] [INFO] 📝 Environment: development
+[2026-04-28T13:06:53.209Z] [HTTP] GET /profile - 304 (1977ms)
+[2026-04-28T13:07:40.250Z] [HTTP] GET /profile - 304 (548ms)
+[2026-04-28T13:07:40.623Z] [HTTP] GET /trucks - 304 (461ms)
+[2026-04-28T13:07:40.883Z] [HTTP] GET /trucks - 304 (244ms)
+[2026-04-28T13:07:41.028Z] [HTTP] GET /shipments - 304 (605ms)
+[2026-04-28T13:07:41.158Z] [HTTP] GET /trucks - 304 (268ms)
+[2026-04-28T13:07:41.326Z] [HTTP] GET /shipments - 304 (274ms)
+[2026-04-28T13:07:41.570Z] [HTTP] GET /shipments - 304 (234ms)
+[2026-04-28T13:13:17.950Z] [INFO] 🔌 Initializing Supabase...
+[2026-04-28T13:13:17.953Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-28T13:13:17.954Z] [INFO] 📝 Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+[2026-04-28T13:13:17.955Z] [INFO] 🔑 Service Key: Not provided
+[2026-04-28T13:13:20.134Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-04-28T13:13:20.135Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-04-28T13:13:20.136Z] [INFO] ✅ Database connection established
+[2026-04-28T13:13:20.142Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-28T13:13:20.143Z] [INFO] ✅ Socket.IO initialized
+[2026-04-28T13:13:20.147Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-04-28T13:13:20.148Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-04-28T13:13:20.148Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-04-28T13:13:20.149Z] [INFO] 🔌 Socket.IO: ws://localhost:3001
+[2026-04-28T13:13:20.150Z] [INFO] 📝 Environment: development
+[2026-04-28T13:13:36.994Z] [INFO] 🔌 Initializing Supabase...
+[2026-04-28T13:13:36.997Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-28T13:13:36.998Z] [INFO] 📝 Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+[2026-04-28T13:13:37.000Z] [INFO] 🔑 Service Key: Not provided
+[2026-04-28T13:13:37.667Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-04-28T13:13:37.668Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-04-28T13:13:37.668Z] [INFO] ✅ Database connection established
+[2026-04-28T13:13:37.674Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-28T13:13:37.675Z] [INFO] ✅ Socket.IO initialized
+[2026-04-28T13:13:37.680Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-04-28T13:13:37.680Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-04-28T13:13:37.681Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-04-28T13:13:37.681Z] [INFO] 🔌 Socket.IO: ws://localhost:3001
+[2026-04-28T13:13:37.682Z] [INFO] 📝 Environment: development
+[2026-04-28T13:14:07.615Z] [INFO] 🔌 Initializing Supabase...
+[2026-04-28T13:14:07.618Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-28T13:14:07.620Z] [INFO] 📝 Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+[2026-04-28T13:14:07.621Z] [INFO] 🔑 Service Key: Not provided
+[2026-04-28T13:14:09.335Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-04-28T13:14:09.336Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-04-28T13:14:09.337Z] [INFO] ✅ Database connection established
+[2026-04-28T13:14:09.343Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-28T13:14:09.344Z] [INFO] ✅ Socket.IO initialized
+[2026-04-28T13:14:09.351Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-04-28T13:14:09.352Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-04-28T13:14:09.356Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-04-28T13:14:09.357Z] [INFO] 🔌 Socket.IO: ws://localhost:3001
+[2026-04-28T13:14:09.358Z] [INFO] 📝 Environment: development
+[2026-04-28T13:16:43.249Z] [INFO] 🔌 Initializing Supabase...
+[2026-04-28T13:16:43.253Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-28T13:16:43.254Z] [INFO] 📝 Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+[2026-04-28T13:16:43.255Z] [INFO] 🔑 Service Key: Not provided
+[2026-04-28T13:16:45.032Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-04-28T13:16:45.033Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-04-28T13:16:45.034Z] [INFO] ✅ Database connection established
+[2026-04-28T13:16:45.041Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-28T13:16:45.042Z] [INFO] ✅ Socket.IO initialized
+[2026-04-28T13:16:45.046Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-04-28T13:16:45.047Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-04-28T13:16:45.048Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-04-28T13:16:45.048Z] [INFO] 🔌 Socket.IO: ws://localhost:3001
+[2026-04-28T13:16:45.049Z] [INFO] 📝 Environment: development
+[2026-04-28T13:17:07.437Z] [INFO] 🔌 Initializing Supabase...
+[2026-04-28T13:17:07.440Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-28T13:17:07.444Z] [INFO] 📝 Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+[2026-04-28T13:17:07.446Z] [INFO] 🔑 Service Key: Not provided
+[2026-04-28T13:17:08.178Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-04-28T13:17:08.179Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-04-28T13:17:08.180Z] [INFO] ✅ Database connection established
+[2026-04-28T13:17:08.186Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-28T13:17:08.187Z] [INFO] ✅ Socket.IO initialized
+[2026-04-28T13:17:08.192Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-04-28T13:17:08.193Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-04-28T13:17:08.194Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-04-28T13:17:08.194Z] [INFO] 🔌 Socket.IO: ws://localhost:3001
+[2026-04-28T13:17:08.195Z] [INFO] 📝 Environment: development
+[2026-04-28T13:18:12.569Z] [INFO] 🔌 Initializing Supabase...
+[2026-04-28T13:18:12.573Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-28T13:18:12.575Z] [INFO] 📝 Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+[2026-04-28T13:18:12.576Z] [INFO] 🔑 Service Key: Not provided
+[2026-04-28T13:18:13.294Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-04-28T13:18:13.295Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-04-28T13:18:13.296Z] [INFO] ✅ Database connection established
+[2026-04-28T13:18:13.302Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-28T13:18:13.303Z] [INFO] ✅ Socket.IO initialized
+[2026-04-28T13:18:13.307Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-04-28T13:18:13.308Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-04-28T13:18:13.309Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-04-28T13:18:13.309Z] [INFO] 🔌 Socket.IO: ws://localhost:3001
+[2026-04-28T13:18:13.310Z] [INFO] 📝 Environment: development
+[2026-04-28T13:18:23.180Z] [INFO] 🔌 Initializing Supabase...
+[2026-04-28T13:18:23.182Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-28T13:18:23.183Z] [INFO] 📝 Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+[2026-04-28T13:18:23.184Z] [INFO] 🔑 Service Key: Not provided
+[2026-04-28T13:18:24.302Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-04-28T13:18:24.303Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-04-28T13:18:24.304Z] [INFO] ✅ Database connection established
+[2026-04-28T13:18:24.309Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-28T13:18:24.310Z] [INFO] ✅ Socket.IO initialized
+[2026-04-28T13:18:24.315Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-04-28T13:18:24.316Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-04-28T13:18:24.317Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-04-28T13:18:24.318Z] [INFO] 🔌 Socket.IO: ws://localhost:3001
+[2026-04-28T13:18:24.318Z] [INFO] 📝 Environment: development
+[2026-04-28T13:18:36.701Z] [INFO] 🔌 Initializing Supabase...
+[2026-04-28T13:18:36.704Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-28T13:18:36.705Z] [INFO] 📝 Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+[2026-04-28T13:18:36.706Z] [INFO] 🔑 Service Key: Not provided
+[2026-04-28T13:18:37.414Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-04-28T13:18:37.415Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-04-28T13:18:37.415Z] [INFO] ✅ Database connection established
+[2026-04-28T13:18:37.421Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-28T13:18:37.422Z] [INFO] ✅ Socket.IO initialized
+[2026-04-28T13:18:37.426Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-04-28T13:18:37.427Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-04-28T13:18:37.428Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-04-28T13:18:37.428Z] [INFO] 🔌 Socket.IO: ws://localhost:3001
+[2026-04-28T13:18:37.430Z] [INFO] 📝 Environment: development
+[2026-04-28T13:24:56.861Z] [INFO] 🔌 Initializing Supabase...
+[2026-04-28T13:24:56.865Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-28T13:24:56.867Z] [INFO] 📝 Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+[2026-04-28T13:24:56.869Z] [INFO] 🔑 Service Key: Not provided
+[2026-04-28T13:24:58.717Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-04-28T13:24:58.718Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-04-28T13:24:58.719Z] [INFO] ✅ Database connection established
+[2026-04-28T13:24:58.726Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-28T13:24:58.727Z] [INFO] ✅ Socket.IO initialized
+[2026-04-28T13:24:58.732Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-04-28T13:24:58.732Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-04-28T13:24:58.733Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-04-28T13:24:58.733Z] [INFO] 🔌 Socket.IO: ws://localhost:3001
+[2026-04-28T13:24:58.734Z] [INFO] 📝 Environment: development
+[2026-04-28T13:28:43.490Z] [INFO] 🔌 Initializing Supabase...
+[2026-04-28T13:28:43.494Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-28T13:28:43.496Z] [INFO] 📝 Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+[2026-04-28T13:28:43.497Z] [INFO] 🔑 Service Key: Not provided
+[2026-04-28T13:28:44.436Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-04-28T13:28:44.437Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-04-28T13:28:44.438Z] [INFO] ✅ Database connection established
+[2026-04-28T13:28:44.444Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-28T13:28:44.445Z] [INFO] ✅ Socket.IO initialized
+[2026-04-28T13:28:44.449Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-04-28T13:28:44.450Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-04-28T13:28:44.451Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-04-28T13:28:44.452Z] [INFO] 🔌 Socket.IO: ws://localhost:3001
+[2026-04-28T13:28:44.452Z] [INFO] 📝 Environment: development
+[2026-04-28T13:29:06.678Z] [INFO] 🔌 Initializing Supabase...
+[2026-04-28T13:29:06.682Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-28T13:29:06.684Z] [INFO] 📝 Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+[2026-04-28T13:29:06.686Z] [INFO] 🔑 Service Key: Not provided
+[2026-04-28T13:29:07.417Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-04-28T13:29:07.418Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-04-28T13:29:07.419Z] [INFO] ✅ Database connection established
+[2026-04-28T13:29:07.424Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-28T13:29:07.425Z] [INFO] ✅ Socket.IO initialized
+[2026-04-28T13:29:07.430Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-04-28T13:29:07.431Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-04-28T13:29:07.432Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-04-28T13:29:07.432Z] [INFO] 🔌 Socket.IO: ws://localhost:3001
+[2026-04-28T13:29:07.433Z] [INFO] 📝 Environment: development
+[2026-04-28T13:33:07.555Z] [INFO] 🔌 Initializing Supabase...
+[2026-04-28T13:33:07.559Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-28T13:33:07.560Z] [INFO] 📝 Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+[2026-04-28T13:33:07.562Z] [INFO] 🔑 Service Key: Not provided
+[2026-04-28T13:33:08.991Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-04-28T13:33:08.992Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-04-28T13:33:08.993Z] [INFO] ✅ Database connection established
+[2026-04-28T13:33:09.000Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-28T13:33:09.001Z] [INFO] ✅ Socket.IO initialized
+[2026-04-28T13:33:09.009Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-04-28T13:33:09.009Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-04-28T13:33:09.010Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-04-28T13:33:09.011Z] [INFO] 🔌 Socket.IO: ws://localhost:3001
+[2026-04-28T13:33:09.012Z] [INFO] 📝 Environment: development
+[2026-04-28T13:37:25.848Z] [INFO] 🔌 Initializing Supabase...
+[2026-04-28T13:37:25.855Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-28T13:37:25.856Z] [INFO] 📝 Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+[2026-04-28T13:37:25.857Z] [INFO] 🔑 Service Key: Not provided
+[2026-04-28T13:37:27.381Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-04-28T13:37:27.382Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-04-28T13:37:27.383Z] [INFO] ✅ Database connection established
+[2026-04-28T13:37:27.390Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-28T13:37:27.391Z] [INFO] ✅ Socket.IO initialized
+[2026-04-28T13:37:27.396Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-04-28T13:37:27.396Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-04-28T13:37:27.397Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-04-28T13:37:27.398Z] [INFO] 🔌 Socket.IO: ws://localhost:3001
+[2026-04-28T13:37:27.398Z] [INFO] 📝 Environment: development
+[2026-04-28T14:11:05.847Z] [INFO] 🔌 Initializing Supabase...
+[2026-04-28T14:11:05.866Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-28T14:11:05.870Z] [INFO] 📝 Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+[2026-04-28T14:11:05.874Z] [INFO] 🔑 Service Key: Not provided
+[2026-04-28T14:11:07.819Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-04-28T14:11:07.820Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-04-28T14:11:07.821Z] [INFO] ✅ Database connection established
+[2026-04-28T14:11:07.828Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-28T14:11:07.828Z] [INFO] ✅ Socket.IO initialized
+[2026-04-28T14:14:35.883Z] [INFO] 🔌 Initializing Supabase...
+[2026-04-28T14:14:35.904Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-28T14:14:35.907Z] [INFO] 📝 Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+[2026-04-28T14:14:35.914Z] [INFO] 🔑 Service Key: Not provided
+[2026-04-28T14:14:37.328Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-04-28T14:14:37.330Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-04-28T14:14:37.331Z] [INFO] ✅ Database connection established
+[2026-04-28T14:14:37.338Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-28T14:14:37.339Z] [INFO] ✅ Socket.IO initialized
+[2026-04-28T14:16:15.051Z] [INFO] 🔌 Initializing Supabase...
+[2026-04-28T14:16:15.054Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-28T14:16:15.058Z] [INFO] 📝 Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+[2026-04-28T14:16:15.071Z] [INFO] 🔑 Service Key: Not provided
+[2026-04-28T14:16:16.304Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-04-28T14:16:16.305Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-04-28T14:16:16.306Z] [INFO] ✅ Database connection established
+[2026-04-28T14:16:16.313Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-28T14:16:16.314Z] [INFO] ✅ Socket.IO initialized
+[2026-04-28T14:16:16.320Z] [INFO] 🚀 Backend API running on http://localhost:3002
+[2026-04-28T14:16:16.321Z] [INFO] 📊 Health check: http://localhost:3002/api/health
+[2026-04-28T14:16:16.321Z] [INFO] 🔐 Auth endpoints: http://localhost:3002/api/auth/...
+[2026-04-28T14:16:16.322Z] [INFO] 🔌 Socket.IO: ws://localhost:3002
+[2026-04-28T14:16:16.323Z] [INFO] 📝 Environment: development
+[2026-04-28T14:32:56.141Z] [HTTP] GET /api/health - 200 (53ms)
+[2026-04-28T14:35:33.532Z] [INFO] 📝 Signup attempt: qa_driver_1777386932684@test.com
+[2026-04-28T14:35:36.148Z] [INFO] ✅ User registered: qa_driver_1777386932684@test.com
+[2026-04-28T14:35:36.168Z] [HTTP] POST /signup - 201 (2693ms)
+[2026-04-28T14:35:37.744Z] [ERROR] Error initializing KYC bucket:
+{
+  "name": "StorageApiError",
+  "message": "new row violates row-level security policy",
+  "status": 400,
+  "statusCode": "403"
+}
+[2026-04-28T14:35:38.476Z] [ERROR] Error uploading KYC document:
+{
+  "name": "StorageApiError",
+  "message": "Bucket not found",
+  "status": 400,
+  "statusCode": "404"
+}
+[2026-04-28T14:35:38.477Z] [ERROR] Error uploading KYC document:
+{
+  "name": "StorageApiError",
+  "message": "Bucket not found",
+  "status": 400,
+  "statusCode": "404"
+}
+[2026-04-28T14:35:38.481Z] [HTTP] POST /upload - 500 (2281ms)
+[2026-04-28T14:35:39.219Z] [ERROR] Error initializing KYC bucket:
+{
+  "name": "StorageApiError",
+  "message": "new row violates row-level security policy",
+  "status": 400,
+  "statusCode": "403"
+}
+[2026-04-28T14:35:39.534Z] [ERROR] Error uploading KYC document:
+{
+  "name": "StorageApiError",
+  "message": "Bucket not found",
+  "status": 400,
+  "statusCode": "404"
+}
+[2026-04-28T14:35:39.535Z] [ERROR] Error uploading KYC document:
+{
+  "name": "StorageApiError",
+  "message": "Bucket not found",
+  "status": 400,
+  "statusCode": "404"
+}
+[2026-04-28T14:35:39.538Z] [HTTP] POST /upload - 500 (1050ms)
+[2026-04-28T14:35:40.729Z] [ERROR] Error initializing KYC bucket:
+{
+  "name": "StorageApiError",
+  "message": "new row violates row-level security policy",
+  "status": 400,
+  "statusCode": "403"
+}
+[2026-04-28T14:35:41.074Z] [ERROR] Error uploading KYC document:
+{
+  "name": "StorageApiError",
+  "message": "Bucket not found",
+  "status": 400,
+  "statusCode": "404"
+}
+[2026-04-28T14:35:41.076Z] [ERROR] Error uploading KYC document:
+{
+  "name": "StorageApiError",
+  "message": "Bucket not found",
+  "status": 400,
+  "statusCode": "404"
+}
+[2026-04-28T14:35:41.079Z] [HTTP] POST /upload - 500 (1536ms)
+[2026-04-28T14:35:41.491Z] [HTTP] GET /documents - 200 (409ms)
+[2026-04-28T14:37:06.617Z] [INFO] 🔌 Initializing Supabase...
+[2026-04-28T14:37:06.693Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-28T14:37:06.703Z] [INFO] 📝 Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+[2026-04-28T14:37:06.705Z] [INFO] 🔑 Service Key: Loaded
+[2026-04-28T14:37:07.992Z] [WARN] ⚠️ Users table query result: {"message":""}
+[2026-04-28T14:37:07.993Z] [INFO] ✅ Supabase initialized (table check skipped)
+[2026-04-28T14:37:07.993Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-04-28T14:37:07.994Z] [INFO] ✅ Database connection established
+[2026-04-28T14:37:08.000Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-28T14:37:08.001Z] [INFO] ✅ Socket.IO initialized
+[2026-04-28T14:37:08.006Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-04-28T14:37:08.007Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-04-28T14:37:08.007Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-04-28T14:37:08.008Z] [INFO] 🔌 Socket.IO: ws://localhost:3001
+[2026-04-28T14:37:08.009Z] [INFO] 📝 Environment: development
+[2026-04-28T14:37:07.957Z] [INFO] 🔌 Initializing Supabase...
+[2026-04-28T14:37:08.172Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-28T14:37:08.174Z] [INFO] 📝 Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+[2026-04-28T14:37:08.175Z] [INFO] 🔑 Service Key: Loaded
+[2026-04-28T14:37:08.112Z] [INFO] 🔌 Initializing Supabase...
+[2026-04-28T14:37:08.281Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-28T14:37:08.286Z] [INFO] 📝 Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+[2026-04-28T14:37:08.292Z] [INFO] 🔑 Service Key: Loaded
+[2026-04-28T14:37:08.376Z] [INFO] 🔌 Initializing Supabase...
+[2026-04-28T14:37:08.388Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-28T14:37:08.391Z] [INFO] 📝 Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+[2026-04-28T14:37:08.393Z] [INFO] 🔑 Service Key: Loaded
+[2026-04-28T14:37:09.467Z] [WARN] ⚠️ Users table query result: {"message":""}
+[2026-04-28T14:37:09.469Z] [INFO] ✅ Supabase initialized (table check skipped)
+[2026-04-28T14:37:09.470Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-04-28T14:37:09.471Z] [INFO] ✅ Database connection established
+[2026-04-28T14:37:09.477Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-28T14:37:09.478Z] [INFO] ✅ Socket.IO initialized
+[2026-04-28T14:37:09.485Z] [INFO] 🚀 Backend API running on http://localhost:3002
+[2026-04-28T14:37:09.485Z] [INFO] 📊 Health check: http://localhost:3002/api/health
+[2026-04-28T14:37:09.486Z] [INFO] 🔐 Auth endpoints: http://localhost:3002/api/auth/...
+[2026-04-28T14:37:09.487Z] [INFO] 🔌 Socket.IO: ws://localhost:3002
+[2026-04-28T14:37:09.487Z] [INFO] 📝 Environment: development
+[2026-04-28T14:37:09.516Z] [WARN] ⚠️ Users table query result: {"message":""}
+[2026-04-28T14:37:09.517Z] [INFO] ✅ Supabase initialized (table check skipped)
+[2026-04-28T14:37:09.517Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-04-28T14:37:09.518Z] [INFO] ✅ Database connection established
+[2026-04-28T14:37:09.532Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-28T14:37:09.533Z] [INFO] ✅ Socket.IO initialized
+[2026-04-28T14:37:09.884Z] [WARN] ⚠️ Users table query result: {"message":""}
+[2026-04-28T14:37:09.885Z] [INFO] ✅ Supabase initialized (table check skipped)
+[2026-04-28T14:37:09.886Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-04-28T14:37:09.889Z] [INFO] ✅ Database connection established
+[2026-04-28T14:37:09.901Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-28T14:37:09.902Z] [INFO] ✅ Socket.IO initialized
+[2026-04-28T14:38:22.076Z] [INFO] 🔌 Initializing Supabase...
+[2026-04-28T14:38:22.091Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-28T14:38:22.092Z] [INFO] 📝 Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+[2026-04-28T14:38:22.093Z] [INFO] 🔑 Service Key: Loaded
+[2026-04-28T14:38:23.838Z] [WARN] ⚠️ Users table query result: {"message":""}
+[2026-04-28T14:38:23.839Z] [INFO] ✅ Supabase initialized (table check skipped)
+[2026-04-28T14:38:23.840Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-04-28T14:38:23.841Z] [INFO] ✅ Database connection established
+[2026-04-28T14:38:23.846Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-28T14:38:23.847Z] [INFO] ✅ Socket.IO initialized
+[2026-04-28T14:38:23.853Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-04-28T14:38:23.854Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-04-28T14:38:23.855Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-04-28T14:38:23.855Z] [INFO] 🔌 Socket.IO: ws://localhost:3001
+[2026-04-28T14:38:23.856Z] [INFO] 📝 Environment: development
+[2026-04-28T14:38:35.511Z] [INFO] 🔌 Initializing Supabase...
+[2026-04-28T14:38:35.686Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-28T14:38:35.697Z] [INFO] 📝 Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+[2026-04-28T14:38:35.701Z] [INFO] 🔑 Service Key: Loaded
+[2026-04-28T14:38:38.080Z] [WARN] ⚠️ Users table query result: {"message":""}
+[2026-04-28T14:38:38.081Z] [INFO] ✅ Supabase initialized (table check skipped)
+[2026-04-28T14:38:38.082Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-04-28T14:38:38.083Z] [INFO] ✅ Database connection established
+[2026-04-28T14:38:38.091Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-28T14:38:38.092Z] [INFO] ✅ Socket.IO initialized
+[2026-04-28T14:38:38.364Z] [INFO] 🔌 Initializing Supabase...
+[2026-04-28T14:38:38.369Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-28T14:38:38.375Z] [INFO] 📝 Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+[2026-04-28T14:38:38.381Z] [INFO] 🔑 Service Key: Loaded
+[2026-04-28T14:38:39.030Z] [WARN] ⚠️ Users table query result: {"message":""}
+[2026-04-28T14:38:39.031Z] [INFO] ✅ Supabase initialized (table check skipped)
+[2026-04-28T14:38:39.031Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-04-28T14:38:39.032Z] [INFO] ✅ Database connection established
+[2026-04-28T14:38:39.038Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-28T14:38:39.039Z] [INFO] ✅ Socket.IO initialized
+[2026-04-28T14:38:44.904Z] [INFO] 🔌 Initializing Supabase...
+[2026-04-28T14:38:44.911Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-28T14:38:44.917Z] [INFO] 📝 Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+[2026-04-28T14:38:44.919Z] [INFO] 🔑 Service Key: Loaded
+[2026-04-28T14:38:45.017Z] [INFO] 🔌 Initializing Supabase...
+[2026-04-28T14:38:45.030Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-28T14:38:45.033Z] [INFO] 📝 Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+[2026-04-28T14:38:45.036Z] [INFO] 🔑 Service Key: Loaded
+[2026-04-28T14:38:45.520Z] [WARN] ⚠️ Users table query result: {"message":""}
+[2026-04-28T14:38:45.520Z] [INFO] ✅ Supabase initialized (table check skipped)
+[2026-04-28T14:38:45.522Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-04-28T14:38:45.523Z] [INFO] ✅ Database connection established
+[2026-04-28T14:38:45.560Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-28T14:38:45.568Z] [INFO] ✅ Socket.IO initialized
+[2026-04-28T14:38:45.584Z] [WARN] ⚠️ Users table query result: {"message":""}
+[2026-04-28T14:38:45.585Z] [INFO] ✅ Supabase initialized (table check skipped)
+[2026-04-28T14:38:45.586Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-04-28T14:38:45.587Z] [INFO] ✅ Database connection established
+[2026-04-28T14:38:45.594Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-28T14:38:45.595Z] [INFO] ✅ Socket.IO initialized
+[2026-04-28T14:38:45.622Z] [INFO] 🚀 Backend API running on http://localhost:3002
+[2026-04-28T14:38:45.623Z] [INFO] 📊 Health check: http://localhost:3002/api/health
+[2026-04-28T14:38:45.624Z] [INFO] 🔐 Auth endpoints: http://localhost:3002/api/auth/...
+[2026-04-28T14:38:45.624Z] [INFO] 🔌 Socket.IO: ws://localhost:3002
+[2026-04-28T14:38:45.632Z] [INFO] 📝 Environment: development
+[2026-04-28T14:39:08.702Z] [INFO] 🔌 Initializing Supabase...
+[2026-04-28T14:39:08.708Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-28T14:39:08.710Z] [INFO] 📝 Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+[2026-04-28T14:39:08.712Z] [INFO] 🔑 Service Key: Loaded
+[2026-04-28T14:39:09.245Z] [WARN] ⚠️ Users table query result: {"message":""}
+[2026-04-28T14:39:09.246Z] [INFO] ✅ Supabase initialized (table check skipped)
+[2026-04-28T14:39:09.247Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-04-28T14:39:09.248Z] [INFO] ✅ Database connection established
+[2026-04-28T14:39:09.254Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-28T14:39:09.256Z] [INFO] ✅ Socket.IO initialized
+[2026-04-28T14:40:30.055Z] [INFO] 🔌 Initializing Supabase...
+[2026-04-28T14:40:30.070Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-28T14:40:30.074Z] [INFO] 📝 Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+[2026-04-28T14:40:30.084Z] [INFO] 🔑 Service Key: Loaded
+[2026-04-28T14:40:30.851Z] [WARN] ⚠️ Users table query result: {"message":""}
+[2026-04-28T14:40:30.852Z] [INFO] ✅ Supabase initialized (table check skipped)
+[2026-04-28T14:40:30.854Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-04-28T14:40:30.855Z] [INFO] ✅ Database connection established
+[2026-04-28T14:40:30.861Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-28T14:40:30.862Z] [INFO] ✅ Socket.IO initialized
+[2026-04-28T14:40:30.866Z] [INFO] 🚀 Backend API running on http://localhost:3003
+[2026-04-28T14:40:30.866Z] [INFO] 📊 Health check: http://localhost:3003/api/health
+[2026-04-28T14:40:30.867Z] [INFO] 🔐 Auth endpoints: http://localhost:3003/api/auth/...
+[2026-04-28T14:40:30.894Z] [INFO] 🔌 Socket.IO: ws://localhost:3003
+[2026-04-28T14:40:30.895Z] [INFO] 📝 Environment: development
+[2026-04-28T14:41:05.876Z] [HTTP] GET /api/health - 200 (6ms)
+[2026-04-28T14:41:24.377Z] [INFO] 📝 Signup attempt: qa_driver_1777387284245@test.com
+[2026-04-28T14:41:25.304Z] [ERROR] Signup error:
+{
+  "message": "Invalid API key",
+  "hint": "Double check your Supabase `anon` or `service_role` API key."
+}
+[2026-04-28T14:41:25.306Z] [HTTP] POST /signup - 500 (932ms)
+[2026-04-28T14:56:23.398Z] [INFO] 🔌 Initializing Supabase...
+[2026-04-28T14:56:23.402Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-28T14:56:23.451Z] [INFO] 📝 Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+[2026-04-28T14:56:23.453Z] [INFO] 🔑 Service Key: Loaded
+[2026-04-28T14:56:25.546Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-04-28T14:56:25.551Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-04-28T14:56:25.567Z] [INFO] ✅ Database connection established
+[2026-04-28T14:56:25.594Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-28T14:56:25.618Z] [INFO] ✅ Socket.IO initialized
+[2026-04-28T14:57:32.456Z] [INFO] 🔌 Initializing Supabase...
+[2026-04-28T14:57:32.465Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-28T14:57:32.469Z] [INFO] 📝 Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+[2026-04-28T14:57:32.470Z] [INFO] 🔑 Service Key: Loaded
+[2026-04-28T14:57:33.705Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-04-28T14:57:33.706Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-04-28T14:57:33.707Z] [INFO] ✅ Database connection established
+[2026-04-28T14:57:33.714Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-28T14:57:33.715Z] [INFO] ✅ Socket.IO initialized
+[2026-04-28T14:57:33.720Z] [INFO] 🚀 Backend API running on http://localhost:3010
+[2026-04-28T14:57:33.721Z] [INFO] 📊 Health check: http://localhost:3010/api/health
+[2026-04-28T14:57:33.721Z] [INFO] 🔐 Auth endpoints: http://localhost:3010/api/auth/...
+[2026-04-28T14:57:33.722Z] [INFO] 🔌 Socket.IO: ws://localhost:3010
+[2026-04-28T14:57:33.722Z] [INFO] 📝 Environment: development
+[2026-04-28T14:58:04.799Z] [INFO] 📝 Signup attempt: qa_driver_1777388284661@test.com
+[2026-04-28T14:58:06.762Z] [INFO] ✅ User registered: qa_driver_1777388284661@test.com
+[2026-04-28T14:58:06.781Z] [HTTP] POST /signup - 201 (1985ms)
+[2026-04-28T14:58:07.450Z] [INFO] ✅ Created kyc-documents bucket
+[2026-04-28T14:58:09.576Z] [INFO] ✅ KYC document uploaded for user ebeb281e-5f49-4281-a4cc-0bb834f39925
+[2026-04-28T14:58:09.578Z] [HTTP] POST /upload - 200 (2768ms)
+[2026-04-28T14:58:12.076Z] [INFO] ✅ KYC document uploaded for user ebeb281e-5f49-4281-a4cc-0bb834f39925
+[2026-04-28T14:58:12.078Z] [HTTP] POST /upload - 200 (2494ms)
+[2026-04-28T14:58:13.273Z] [ERROR] Error uploading KYC document:
+{
+  "code": "22001",
+  "details": null,
+  "hint": null,
+  "message": "value too long for type character varying(500)"
+}
+[2026-04-28T14:58:13.275Z] [ERROR] Error uploading KYC document:
+{
+  "code": "22001",
+  "details": null,
+  "hint": null,
+  "message": "value too long for type character varying(500)"
+}
+[2026-04-28T14:58:13.277Z] [HTTP] POST /upload - 500 (1193ms)
+[2026-04-28T14:58:14.160Z] [HTTP] GET /documents - 200 (879ms)
+[2026-04-28T14:59:48.530Z] [INFO] 🔌 Initializing Supabase...
+[2026-04-28T14:59:48.568Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-28T14:59:48.573Z] [INFO] 📝 Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+[2026-04-28T14:59:48.575Z] [INFO] 🔑 Service Key: Loaded
+[2026-04-28T14:59:48.889Z] [INFO] 🔌 Initializing Supabase...
+[2026-04-28T14:59:48.985Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-28T14:59:48.985Z] [INFO] 📝 Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+[2026-04-28T14:59:48.986Z] [INFO] 🔑 Service Key: Loaded
+[2026-04-28T14:59:49.450Z] [INFO] 🔌 Initializing Supabase...
+[2026-04-28T14:59:49.518Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-28T14:59:49.519Z] [INFO] 📝 Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+[2026-04-28T14:59:49.523Z] [INFO] 🔑 Service Key: Loaded
+[2026-04-28T14:59:50.857Z] [INFO] 🔌 Initializing Supabase...
+[2026-04-28T14:59:50.890Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-28T14:59:50.896Z] [INFO] 📝 Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+[2026-04-28T14:59:50.903Z] [INFO] 🔑 Service Key: Loaded
+[2026-04-28T14:59:51.026Z] [INFO] 🔌 Initializing Supabase...
+[2026-04-28T14:59:51.034Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-28T14:59:51.035Z] [INFO] 📝 Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+[2026-04-28T14:59:51.036Z] [INFO] 🔑 Service Key: Loaded
+[2026-04-28T14:59:51.801Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-04-28T14:59:51.802Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-04-28T14:59:51.803Z] [INFO] ✅ Database connection established
+[2026-04-28T14:59:51.810Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-28T14:59:51.811Z] [INFO] ✅ Socket.IO initialized
+[2026-04-28T14:59:51.860Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-04-28T14:59:51.861Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-04-28T14:59:51.863Z] [INFO] ✅ Database connection established
+[2026-04-28T14:59:51.868Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-28T14:59:51.869Z] [INFO] ✅ Socket.IO initialized
+[2026-04-28T14:59:51.998Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-04-28T14:59:51.999Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-04-28T14:59:52.000Z] [INFO] ✅ Database connection established
+[2026-04-28T14:59:52.006Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-28T14:59:52.007Z] [INFO] ✅ Socket.IO initialized
+[2026-04-28T14:59:52.013Z] [INFO] 🚀 Backend API running on http://localhost:3002
+[2026-04-28T14:59:52.014Z] [INFO] 📊 Health check: http://localhost:3002/api/health
+[2026-04-28T14:59:52.015Z] [INFO] 🔐 Auth endpoints: http://localhost:3002/api/auth/...
+[2026-04-28T14:59:52.016Z] [INFO] 🔌 Socket.IO: ws://localhost:3002
+[2026-04-28T14:59:52.016Z] [INFO] 📝 Environment: development
+[2026-04-28T14:59:52.551Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-04-28T14:59:52.552Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-04-28T14:59:52.554Z] [INFO] ✅ Database connection established
+[2026-04-28T14:59:52.560Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-28T14:59:52.561Z] [INFO] ✅ Socket.IO initialized
+[2026-04-28T14:59:52.566Z] [INFO] 🚀 Backend API running on http://localhost:3010
+[2026-04-28T14:59:52.567Z] [INFO] 📊 Health check: http://localhost:3010/api/health
+[2026-04-28T14:59:52.568Z] [INFO] 🔐 Auth endpoints: http://localhost:3010/api/auth/...
+[2026-04-28T14:59:52.569Z] [INFO] 🔌 Socket.IO: ws://localhost:3010
+[2026-04-28T14:59:52.570Z] [INFO] 📝 Environment: development
+[2026-04-28T14:59:52.976Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-04-28T14:59:52.977Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-04-28T14:59:52.978Z] [INFO] ✅ Database connection established
+[2026-04-28T14:59:52.984Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-28T14:59:52.986Z] [INFO] ✅ Socket.IO initialized
+[2026-04-28T14:59:54.765Z] [INFO] 🔌 Initializing Supabase...
+[2026-04-28T14:59:54.771Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-28T14:59:54.775Z] [INFO] 📝 Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+[2026-04-28T14:59:54.779Z] [INFO] 🔑 Service Key: Loaded
+[2026-04-28T14:59:54.923Z] [INFO] 🔌 Initializing Supabase...
+[2026-04-28T14:59:54.934Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-28T14:59:54.938Z] [INFO] 📝 Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+[2026-04-28T14:59:54.942Z] [INFO] 🔑 Service Key: Loaded
+[2026-04-28T14:59:56.137Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-04-28T14:59:56.138Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-04-28T14:59:56.139Z] [INFO] ✅ Database connection established
+[2026-04-28T14:59:56.145Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-28T14:59:56.146Z] [INFO] ✅ Socket.IO initialized
+[2026-04-28T14:59:56.217Z] [INFO] 🔌 Initializing Supabase...
+[2026-04-28T14:59:56.222Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-28T14:59:56.223Z] [INFO] 📝 Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+[2026-04-28T14:59:56.223Z] [INFO] 🔑 Service Key: Loaded
+[2026-04-28T14:59:56.421Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-04-28T14:59:56.422Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-04-28T14:59:56.423Z] [INFO] ✅ Database connection established
+[2026-04-28T14:59:56.429Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-28T14:59:56.429Z] [INFO] ✅ Socket.IO initialized
+[2026-04-28T14:59:56.435Z] [INFO] 🚀 Backend API running on http://localhost:3003
+[2026-04-28T14:59:56.437Z] [INFO] 📊 Health check: http://localhost:3003/api/health
+[2026-04-28T14:59:56.438Z] [INFO] 🔐 Auth endpoints: http://localhost:3003/api/auth/...
+[2026-04-28T14:59:56.439Z] [INFO] 🔌 Socket.IO: ws://localhost:3003
+[2026-04-28T14:59:56.440Z] [INFO] 📝 Environment: development
+[2026-04-28T14:59:57.709Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-04-28T14:59:57.710Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-04-28T14:59:57.711Z] [INFO] ✅ Database connection established
+[2026-04-28T14:59:57.718Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-28T14:59:57.719Z] [INFO] ✅ Socket.IO initialized
+[2026-04-28T15:01:21.964Z] [INFO] 🔌 Initializing Supabase...
+[2026-04-28T15:01:22.113Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-28T15:01:22.119Z] [INFO] 📝 Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+[2026-04-28T15:01:22.120Z] [INFO] 🔑 Service Key: Loaded
+[2026-04-28T15:01:25.970Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-04-28T15:01:25.997Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-04-28T15:01:25.998Z] [INFO] ✅ Database connection established
+[2026-04-28T15:01:26.026Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-28T15:01:26.031Z] [INFO] ✅ Socket.IO initialized
+[2026-04-28T15:01:27.509Z] [INFO] 🔌 Initializing Supabase...
+[2026-04-28T15:01:27.911Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-28T15:01:27.928Z] [INFO] 📝 Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+[2026-04-28T15:01:27.930Z] [INFO] 🔑 Service Key: Loaded
+[2026-04-28T15:01:28.374Z] [INFO] 🔌 Initializing Supabase...
+[2026-04-28T15:01:28.425Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-28T15:01:28.426Z] [INFO] 📝 Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+[2026-04-28T15:01:28.563Z] [INFO] 🔑 Service Key: Loaded
+[2026-04-28T15:01:28.964Z] [INFO] 🔌 Initializing Supabase...
+[2026-04-28T15:01:28.973Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-28T15:01:28.975Z] [INFO] 📝 Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+[2026-04-28T15:01:28.977Z] [INFO] 🔑 Service Key: Loaded
+[2026-04-28T15:01:29.240Z] [INFO] 🔌 Initializing Supabase...
+[2026-04-28T15:01:29.249Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-28T15:01:29.250Z] [INFO] 📝 Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+[2026-04-28T15:01:29.251Z] [INFO] 🔑 Service Key: Loaded
+[2026-04-28T15:01:29.605Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-04-28T15:01:29.606Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-04-28T15:01:29.609Z] [INFO] ✅ Database connection established
+[2026-04-28T15:01:29.615Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-28T15:01:29.616Z] [INFO] ✅ Socket.IO initialized
+[2026-04-28T15:01:29.625Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-04-28T15:01:29.625Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-04-28T15:01:29.627Z] [INFO] ✅ Database connection established
+[2026-04-28T15:01:29.633Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-28T15:01:29.633Z] [INFO] ✅ Socket.IO initialized
+[2026-04-28T15:01:30.122Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-04-28T15:01:30.123Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-04-28T15:01:30.125Z] [INFO] ✅ Database connection established
+[2026-04-28T15:01:30.147Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-28T15:01:30.149Z] [INFO] ✅ Socket.IO initialized
+[2026-04-28T15:01:30.271Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-04-28T15:01:30.272Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-04-28T15:01:30.279Z] [INFO] ✅ Database connection established
+[2026-04-28T15:01:30.286Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-28T15:01:30.286Z] [INFO] ✅ Socket.IO initialized
+[2026-04-28T15:02:38.067Z] [INFO] 🔌 Initializing Supabase...
+[2026-04-28T15:02:38.113Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-28T15:02:38.114Z] [INFO] 📝 Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+[2026-04-28T15:02:38.115Z] [INFO] 🔑 Service Key: Loaded
+[2026-04-28T15:02:41.086Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-04-28T15:02:41.088Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-04-28T15:02:41.100Z] [INFO] ✅ Database connection established
+[2026-04-28T15:02:41.109Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-28T15:02:41.114Z] [INFO] ✅ Socket.IO initialized
+[2026-04-28T15:02:42.430Z] [INFO] 🔌 Initializing Supabase...
+[2026-04-28T15:02:42.455Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-28T15:02:42.457Z] [INFO] 📝 Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+[2026-04-28T15:02:42.457Z] [INFO] 🔑 Service Key: Loaded
+[2026-04-28T15:02:42.694Z] [INFO] 🔌 Initializing Supabase...
+[2026-04-28T15:02:42.703Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-28T15:02:42.707Z] [INFO] 📝 Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+[2026-04-28T15:02:42.711Z] [INFO] 🔑 Service Key: Loaded
+[2026-04-28T15:02:42.986Z] [INFO] 🔌 Initializing Supabase...
+[2026-04-28T15:02:42.991Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-28T15:02:43.045Z] [INFO] 📝 Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+[2026-04-28T15:02:43.045Z] [INFO] 🔑 Service Key: Loaded
+[2026-04-28T15:02:44.155Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-04-28T15:02:44.156Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-04-28T15:02:44.157Z] [INFO] ✅ Database connection established
+[2026-04-28T15:02:44.163Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-28T15:02:44.165Z] [INFO] ✅ Socket.IO initialized
+[2026-04-28T15:02:44.345Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-04-28T15:02:44.346Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-04-28T15:02:44.347Z] [INFO] ✅ Database connection established
+[2026-04-28T15:02:44.354Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-28T15:02:44.354Z] [INFO] ✅ Socket.IO initialized
+[2026-04-28T15:02:44.453Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-04-28T15:02:44.454Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-04-28T15:02:44.455Z] [INFO] ✅ Database connection established
+[2026-04-28T15:02:44.462Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-28T15:02:44.462Z] [INFO] ✅ Socket.IO initialized
+[2026-04-28T15:02:47.322Z] [INFO] 🔌 Initializing Supabase...
+[2026-04-28T15:02:47.334Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-28T15:02:47.337Z] [INFO] 📝 Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+[2026-04-28T15:02:47.346Z] [INFO] 🔑 Service Key: Loaded
+[2026-04-28T15:02:48.322Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-04-28T15:02:48.323Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-04-28T15:02:48.325Z] [INFO] ✅ Database connection established
+[2026-04-28T15:02:48.333Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-28T15:02:48.334Z] [INFO] ✅ Socket.IO initialized
+[2026-04-28T15:03:12.383Z] [INFO] 🔌 Initializing Supabase...
+[2026-04-28T15:03:12.396Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-28T15:03:12.400Z] [INFO] 📝 Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+[2026-04-28T15:03:12.402Z] [INFO] 🔑 Service Key: Loaded
+[2026-04-28T15:03:12.385Z] [INFO] 🔌 Initializing Supabase...
+[2026-04-28T15:03:12.410Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-28T15:03:12.412Z] [INFO] 📝 Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+[2026-04-28T15:03:12.416Z] [INFO] 🔑 Service Key: Loaded
+[2026-04-28T15:03:12.623Z] [INFO] 🔌 Initializing Supabase...
+[2026-04-28T15:03:12.628Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-28T15:03:12.630Z] [INFO] 📝 Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+[2026-04-28T15:03:12.631Z] [INFO] 🔑 Service Key: Loaded
+[2026-04-28T15:03:13.242Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-04-28T15:03:13.243Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-04-28T15:03:13.244Z] [INFO] ✅ Database connection established
+[2026-04-28T15:03:13.250Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-28T15:03:13.251Z] [INFO] ✅ Socket.IO initialized
+[2026-04-28T15:03:13.258Z] [INFO] 🚀 Backend API running on http://localhost:3002
+[2026-04-28T15:03:13.259Z] [INFO] 📊 Health check: http://localhost:3002/api/health
+[2026-04-28T15:03:13.259Z] [INFO] 🔐 Auth endpoints: http://localhost:3002/api/auth/...
+[2026-04-28T15:03:13.260Z] [INFO] 🔌 Socket.IO: ws://localhost:3002
+[2026-04-28T15:03:13.260Z] [INFO] 📝 Environment: development
+[2026-04-28T15:03:13.298Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-04-28T15:03:13.299Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-04-28T15:03:13.300Z] [INFO] ✅ Database connection established
+[2026-04-28T15:03:13.305Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-28T15:03:13.306Z] [INFO] ✅ Socket.IO initialized
+[2026-04-28T15:03:13.311Z] [INFO] 🚀 Backend API running on http://localhost:3010
+[2026-04-28T15:03:13.311Z] [INFO] 📊 Health check: http://localhost:3010/api/health
+[2026-04-28T15:03:13.312Z] [INFO] 🔐 Auth endpoints: http://localhost:3010/api/auth/...
+[2026-04-28T15:03:13.312Z] [INFO] 🔌 Socket.IO: ws://localhost:3010
+[2026-04-28T15:03:13.313Z] [INFO] 📝 Environment: development
+[2026-04-28T15:03:13.487Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-04-28T15:03:13.487Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-04-28T15:03:13.489Z] [INFO] ✅ Database connection established
+[2026-04-28T15:03:13.494Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-28T15:03:13.495Z] [INFO] ✅ Socket.IO initialized
+[2026-04-28T15:03:13.500Z] [INFO] 🚀 Backend API running on http://localhost:3003
+[2026-04-28T15:03:13.501Z] [INFO] 📊 Health check: http://localhost:3003/api/health
+[2026-04-28T15:03:13.501Z] [INFO] 🔐 Auth endpoints: http://localhost:3003/api/auth/...
+[2026-04-28T15:03:13.502Z] [INFO] 🔌 Socket.IO: ws://localhost:3003
+[2026-04-28T15:03:13.503Z] [INFO] 📝 Environment: development
+[2026-04-28T15:03:29.382Z] [INFO] 🔌 Initializing Supabase...
+[2026-04-28T15:03:29.389Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-28T15:03:29.397Z] [INFO] 📝 Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+[2026-04-28T15:03:29.402Z] [INFO] 🔑 Service Key: Loaded
+[2026-04-28T15:03:30.523Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-04-28T15:03:30.524Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-04-28T15:03:30.525Z] [INFO] ✅ Database connection established
+[2026-04-28T15:03:30.531Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-28T15:03:30.532Z] [INFO] ✅ Socket.IO initialized
+[2026-04-28T15:04:51.087Z] [INFO] 🔌 Initializing Supabase...
+[2026-04-28T15:04:51.093Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-28T15:04:51.100Z] [INFO] 📝 Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+[2026-04-28T15:04:51.105Z] [INFO] 🔑 Service Key: Loaded
+[2026-04-28T15:04:52.996Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-04-28T15:04:52.997Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-04-28T15:04:52.999Z] [INFO] ✅ Database connection established
+[2026-04-28T15:04:53.005Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-28T15:04:53.006Z] [INFO] ✅ Socket.IO initialized
+[2026-04-28T15:04:53.011Z] [INFO] 🚀 Backend API running on http://localhost:3105
+[2026-04-28T15:04:53.012Z] [INFO] 📊 Health check: http://localhost:3105/api/health
+[2026-04-28T15:04:53.013Z] [INFO] 🔐 Auth endpoints: http://localhost:3105/api/auth/...
+[2026-04-28T15:04:53.013Z] [INFO] 🔌 Socket.IO: ws://localhost:3105
+[2026-04-28T15:04:53.014Z] [INFO] 📝 Environment: development
+[2026-04-28T15:05:08.819Z] [INFO] 📝 Signup attempt: qa_driver_1777388708674@test.com
+[2026-04-28T15:05:10.913Z] [INFO] ✅ User registered: qa_driver_1777388708674@test.com
+[2026-04-28T15:05:10.930Z] [HTTP] POST /signup - 201 (2115ms)
+[2026-04-28T15:05:14.118Z] [INFO] ✅ KYC document uploaded for user 40552922-dc0d-4c53-8a54-e05ede9735e1
+[2026-04-28T15:05:14.121Z] [HTTP] POST /upload - 200 (3161ms)
+[2026-04-28T15:05:17.557Z] [INFO] ✅ KYC document uploaded for user 40552922-dc0d-4c53-8a54-e05ede9735e1
+[2026-04-28T15:05:17.559Z] [HTTP] POST /upload - 200 (3432ms)
+[2026-04-28T15:05:21.172Z] [INFO] ✅ KYC document uploaded for user 40552922-dc0d-4c53-8a54-e05ede9735e1
+[2026-04-28T15:05:21.174Z] [HTTP] POST /upload - 200 (3606ms)
+[2026-04-28T15:05:22.635Z] [HTTP] GET /documents - 200 (1455ms)
+[2026-04-28T15:08:25.675Z] [INFO] 📝 Signup attempt: customer_1777388905569@test.com
+[2026-04-28T15:08:28.284Z] [INFO] ✅ User registered: customer_1777388905569@test.com
+[2026-04-28T15:08:28.289Z] [HTTP] POST /signup - 201 (2615ms)
+[2026-04-28T15:08:28.314Z] [INFO] 📝 Signup attempt: driver_1777388908305@test.com
+[2026-04-28T15:08:29.439Z] [INFO] ✅ User registered: driver_1777388908305@test.com
+[2026-04-28T15:08:29.443Z] [HTTP] POST /signup - 201 (1129ms)
+[2026-04-28T15:08:29.448Z] [INFO] 📝 Signup attempt: fleet_1777388909444@test.com
+[2026-04-28T15:08:30.431Z] [INFO] ✅ User registered: fleet_1777388909444@test.com
+[2026-04-28T15:08:30.434Z] [HTTP] POST /signup - 201 (986ms)
+[2026-04-28T15:08:30.444Z] [INFO] 📦 Creating truck: QA-17773889104
+[2026-04-28T15:08:30.907Z] [WARN] Truck create falling back to memory store
+[2026-04-28T15:08:30.910Z] [HTTP] POST /trucks - 201 (469ms)
+[2026-04-28T15:08:30.917Z] [INFO] 📦 Creating shipment from Karachi to Lahore
+[2026-04-28T15:08:31.391Z] [HTTP] POST /shipments - 201 (476ms)
+[2026-04-28T15:08:31.397Z] [INFO] 💰 Fleet owner 45848393-0570-449f-be5a-6f266b77966a bidding on shipment d4d2569c-f3a9-4651-9302-b7d1f88abff1
+[2026-04-28T15:08:32.147Z] [HTTP] POST /bids - 201 (752ms)
+[2026-04-28T15:08:32.564Z] [INFO] 🚚 Creating trip for shipment d4d2569c-f3a9-4651-9302-b7d1f88abff1
+[2026-04-28T15:08:33.360Z] [HTTP] POST /bids/bid_1777388912147_reu0ab0oo/accept - 200 (1208ms)
+[2026-04-28T15:08:33.765Z] [HTTP] GET /trips/by-shipment - 200 (401ms)
+[2026-04-28T15:08:34.536Z] [HTTP] POST /trips/trp_1777388912945_e9tw5150l/start - 200 (765ms)
+[2026-04-28T15:08:35.329Z] [HTTP] POST /trips/trp_1777388912945_e9tw5150l/location - 200 (787ms)
+[2026-04-28T15:08:35.702Z] [HTTP] GET /trips/trp_1777388912945_e9tw5150l/tracking - 200 (370ms)
+[2026-04-28T15:08:36.491Z] [HTTP] GET /trips/trp_1777388912945_e9tw5150l/history - 200 (786ms)
+[2026-04-28T15:12:47.474Z] [ERROR] Get profile error:
+{
+  "statusCode": 404,
+  "code": "USER_NOT_FOUND"
+}
+[2026-04-28T15:12:47.538Z] [HTTP] GET /profile - 404 (1327ms)
+[2026-04-28T15:12:56.217Z] [ERROR] Get profile error:
+{
+  "statusCode": 404,
+  "code": "USER_NOT_FOUND"
+}
+[2026-04-28T15:12:56.220Z] [HTTP] GET /profile - 404 (309ms)
+[2026-04-28T15:12:56.375Z] [ERROR] Get profile error:
+{
+  "statusCode": 404,
+  "code": "USER_NOT_FOUND"
+}
+[2026-04-28T15:12:56.379Z] [HTTP] GET /profile - 404 (103ms)
+[2026-04-28T15:13:05.672Z] [HTTP] GET /shipments - 304 (232ms)
+[2026-04-28T15:13:05.686Z] [HTTP] GET /trucks - 304 (285ms)
+[2026-04-28T15:13:05.820Z] [HTTP] GET /trucks - 304 (71ms)
+[2026-04-28T15:13:05.848Z] [HTTP] GET /shipments - 304 (104ms)
+[2026-04-28T15:13:08.906Z] [HTTP] GET /trucks - 304 (73ms)
+[2026-04-28T15:13:09.006Z] [HTTP] GET /trucks - 304 (91ms)
+[2026-04-28T15:14:31.806Z] [INFO] 📦 Creating truck: ACE 8193
+[2026-04-28T15:14:38.071Z] [ERROR] Get profile error:
+{
+  "statusCode": 404,
+  "code": "USER_NOT_FOUND"
+}
+[2026-04-28T15:14:38.075Z] [HTTP] GET /profile - 404 (14634ms)
+[2026-04-28T15:14:38.080Z] [ERROR] Get profile error:
+{
+  "statusCode": 404,
+  "code": "USER_NOT_FOUND"
+}
+[2026-04-28T15:14:38.083Z] [HTTP] GET /profile - 404 (43631ms)
+[2026-04-28T15:14:38.085Z] [ERROR] Get profile error:
+{
+  "statusCode": 404,
+  "code": "USER_NOT_FOUND"
+}
+[2026-04-28T15:14:38.087Z] [HTTP] GET /profile - 404 (16648ms)
+[2026-04-28T15:14:38.104Z] [ERROR] Get profile error:
+{
+  "statusCode": 404,
+  "code": "USER_NOT_FOUND"
+}
+[2026-04-28T15:14:38.107Z] [HTTP] GET /profile - 404 (5218ms)
+[2026-04-28T15:14:38.109Z] [WARN] Truck create falling back to memory store
+[2026-04-28T15:14:38.115Z] [HTTP] POST /trucks - 201 (6394ms)
+[2026-04-28T15:14:38.674Z] [ERROR] Get profile error:
+{
+  "statusCode": 404,
+  "code": "USER_NOT_FOUND"
+}
+[2026-04-28T15:14:38.686Z] [HTTP] GET /profile - 404 (11928ms)
+[2026-04-28T15:14:38.714Z] [ERROR] Get profile error:
+{
+  "statusCode": 404,
+  "code": "USER_NOT_FOUND"
+}
+[2026-04-28T15:14:38.717Z] [HTTP] GET /profile - 404 (580ms)
+[2026-04-28T15:14:38.719Z] [ERROR] Get profile error:
+{
+  "statusCode": 404,
+  "code": "USER_NOT_FOUND"
+}
+[2026-04-28T15:14:38.721Z] [HTTP] GET /profile - 404 (569ms)
+[2026-04-28T15:14:38.827Z] [ERROR] Get profile error:
+{
+  "statusCode": 404,
+  "code": "USER_NOT_FOUND"
+}
+[2026-04-28T15:14:38.829Z] [HTTP] GET /profile - 404 (88ms)
+[2026-04-28T15:14:42.787Z] [HTTP] GET /trucks - 200 (61ms)
+[2026-04-28T15:14:42.937Z] [HTTP] GET /trucks - 304 (117ms)
+[2026-04-28T15:14:52.497Z] [ERROR] Get profile error:
+{
+  "statusCode": 404,
+  "code": "USER_NOT_FOUND"
+}
+[2026-04-28T15:14:52.499Z] [HTTP] GET /profile - 404 (159ms)
+[2026-04-28T15:14:56.362Z] [HTTP] GET /trucks - 304 (80ms)
+[2026-04-28T15:14:56.450Z] [HTTP] GET /trucks - 304 (86ms)
+[2026-04-28T15:15:06.612Z] [ERROR] Get profile error:
+{
+  "statusCode": 404,
+  "code": "USER_NOT_FOUND"
+}
+[2026-04-28T15:15:06.614Z] [HTTP] GET /profile - 404 (231ms)
+[2026-04-28T15:15:06.724Z] [HTTP] GET /trucks - 304 (70ms)
+[2026-04-28T15:19:06.251Z] [INFO] 🔌 Initializing Supabase...
+[2026-04-28T15:19:06.287Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-28T15:19:06.289Z] [INFO] 📝 Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+[2026-04-28T15:19:06.290Z] [INFO] 🔑 Service Key: Loaded
+[2026-04-28T15:19:08.945Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-04-28T15:19:08.946Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-04-28T15:19:09.123Z] [INFO] ✅ Database connection established
+[2026-04-28T15:19:09.129Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-28T15:19:09.130Z] [INFO] ✅ Socket.IO initialized
+[2026-04-28T15:19:22.075Z] [INFO] 🔌 Initializing Supabase...
+[2026-04-28T15:19:22.094Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-28T15:19:22.106Z] [INFO] 📝 Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+[2026-04-28T15:19:22.108Z] [INFO] 🔑 Service Key: Loaded
+[2026-04-28T15:19:22.524Z] [INFO] 🔌 Initializing Supabase...
+[2026-04-28T15:19:22.540Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-28T15:19:22.545Z] [INFO] 📝 Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+[2026-04-28T15:19:22.547Z] [INFO] 🔑 Service Key: Loaded
+[2026-04-28T15:19:26.002Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-04-28T15:19:26.003Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-04-28T15:19:26.005Z] [INFO] ✅ Database connection established
+[2026-04-28T15:19:26.024Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-28T15:19:26.025Z] [INFO] ✅ Socket.IO initialized
+[2026-04-28T15:19:26.360Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-04-28T15:19:26.361Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-04-28T15:19:26.362Z] [INFO] ✅ Database connection established
+[2026-04-28T15:19:26.369Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-28T15:19:26.370Z] [INFO] ✅ Socket.IO initialized
+[2026-04-28T15:19:26.377Z] [INFO] 🚀 Backend API running on http://localhost:3002
+[2026-04-28T15:19:26.378Z] [INFO] 📊 Health check: http://localhost:3002/api/health
+[2026-04-28T15:19:26.378Z] [INFO] 🔐 Auth endpoints: http://localhost:3002/api/auth/...
+[2026-04-28T15:19:26.379Z] [INFO] 🔌 Socket.IO: ws://localhost:3002
+[2026-04-28T15:19:26.379Z] [INFO] 📝 Environment: development
+[2026-04-28T15:20:20.077Z] [INFO] 🔌 Initializing Supabase...
+[2026-04-28T15:20:20.250Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-28T15:20:20.887Z] [INFO] 📝 Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+[2026-04-28T15:20:20.891Z] [INFO] 🔑 Service Key: Loaded
+[2026-04-28T15:20:26.583Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-04-28T15:20:26.611Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-04-28T15:20:26.617Z] [INFO] ✅ Database connection established
+[2026-04-28T15:20:26.627Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-28T15:20:26.628Z] [INFO] ✅ Socket.IO initialized
+[2026-04-28T15:20:28.976Z] [INFO] 🔌 Initializing Supabase...
+[2026-04-28T15:20:29.135Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-28T15:20:29.136Z] [INFO] 📝 Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+[2026-04-28T15:20:29.137Z] [INFO] 🔑 Service Key: Loaded
+[2026-04-28T15:20:31.740Z] [INFO] 🔌 Initializing Supabase...
+[2026-04-28T15:20:31.750Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-28T15:20:31.752Z] [INFO] 📝 Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+[2026-04-28T15:20:31.784Z] [INFO] 🔑 Service Key: Loaded
+[2026-04-28T15:20:31.923Z] [INFO] 🔌 Initializing Supabase...
+[2026-04-28T15:20:32.086Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-28T15:20:32.090Z] [INFO] 📝 Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+[2026-04-28T15:20:32.093Z] [INFO] 🔑 Service Key: Loaded
+[2026-04-28T15:20:32.390Z] [INFO] 🔌 Initializing Supabase...
+[2026-04-28T15:20:32.406Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-28T15:20:32.473Z] [INFO] 📝 Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+[2026-04-28T15:20:32.473Z] [INFO] 🔑 Service Key: Loaded
+[2026-04-28T15:20:32.531Z] [INFO] 🔌 Initializing Supabase...
+[2026-04-28T15:20:32.615Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-28T15:20:32.617Z] [INFO] 📝 Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+[2026-04-28T15:20:32.617Z] [INFO] 🔑 Service Key: Loaded
+[2026-04-28T15:20:32.731Z] [INFO] 🔌 Initializing Supabase...
+[2026-04-28T15:20:32.740Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-28T15:20:32.762Z] [INFO] 📝 Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+[2026-04-28T15:20:32.766Z] [INFO] 🔑 Service Key: Loaded
+[2026-04-28T15:20:32.857Z] [INFO] 🔌 Initializing Supabase...
+[2026-04-28T15:20:32.863Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-28T15:20:32.864Z] [INFO] 📝 Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+[2026-04-28T15:20:32.868Z] [INFO] 🔑 Service Key: Loaded
+[2026-04-28T15:20:32.965Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-04-28T15:20:32.966Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-04-28T15:20:32.967Z] [INFO] ✅ Database connection established
+[2026-04-28T15:20:32.973Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-28T15:20:32.974Z] [INFO] ✅ Socket.IO initialized
+[2026-04-28T15:20:32.981Z] [INFO] 🚀 Backend API running on http://localhost:3010
+[2026-04-28T15:20:32.982Z] [INFO] 📊 Health check: http://localhost:3010/api/health
+[2026-04-28T15:20:32.982Z] [INFO] 🔐 Auth endpoints: http://localhost:3010/api/auth/...
+[2026-04-28T15:20:32.983Z] [INFO] 🔌 Socket.IO: ws://localhost:3010
+[2026-04-28T15:20:32.984Z] [INFO] 📝 Environment: development
+[2026-04-28T15:20:33.219Z] [INFO] 🔌 Initializing Supabase...
+[2026-04-28T15:20:33.234Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-28T15:20:33.244Z] [INFO] 📝 Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+[2026-04-28T15:20:33.246Z] [INFO] 🔑 Service Key: Loaded
+[2026-04-28T15:20:33.619Z] [INFO] 🔌 Initializing Supabase...
+[2026-04-28T15:20:33.634Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-28T15:20:33.636Z] [INFO] 📝 Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+[2026-04-28T15:20:33.642Z] [INFO] 🔑 Service Key: Loaded
+[2026-04-28T15:20:34.187Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-04-28T15:20:34.232Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-04-28T15:20:34.236Z] [INFO] ✅ Database connection established
+[2026-04-28T15:20:34.251Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-28T15:20:34.258Z] [INFO] ✅ Socket.IO initialized
+[2026-04-28T15:20:34.283Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-04-28T15:20:34.286Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-04-28T15:20:34.331Z] [INFO] ✅ Database connection established
+[2026-04-28T15:20:34.339Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-28T15:20:34.341Z] [INFO] ✅ Socket.IO initialized
+[2026-04-28T15:20:34.351Z] [INFO] 🚀 Backend API running on http://localhost:3003
+[2026-04-28T15:20:34.352Z] [INFO] 📊 Health check: http://localhost:3003/api/health
+[2026-04-28T15:20:34.353Z] [INFO] 🔐 Auth endpoints: http://localhost:3003/api/auth/...
+[2026-04-28T15:20:34.356Z] [INFO] 🔌 Socket.IO: ws://localhost:3003
+[2026-04-28T15:20:34.360Z] [INFO] 📝 Environment: development
+[2026-04-28T15:20:34.657Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-04-28T15:20:34.658Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-04-28T15:20:34.659Z] [INFO] ✅ Database connection established
+[2026-04-28T15:20:34.661Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-04-28T15:20:34.665Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-28T15:20:34.666Z] [INFO] ✅ Socket.IO initialized
+[2026-04-28T15:20:34.671Z] [INFO] 🚀 Backend API running on http://localhost:3105
+[2026-04-28T15:20:34.697Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-04-28T15:20:34.699Z] [INFO] ✅ Database connection established
+[2026-04-28T15:20:34.709Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-04-28T15:20:34.709Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-04-28T15:20:34.710Z] [INFO] ✅ Database connection established
+[2026-04-28T15:20:34.716Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-28T15:20:34.717Z] [INFO] ✅ Socket.IO initialized
+[2026-04-28T15:20:34.717Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-28T15:20:34.718Z] [INFO] ✅ Socket.IO initialized
+[2026-04-28T15:20:34.735Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-04-28T15:20:34.736Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-04-28T15:20:34.736Z] [INFO] ✅ Database connection established
+[2026-04-28T15:20:34.743Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-28T15:20:34.744Z] [INFO] ✅ Socket.IO initialized
+[2026-04-28T15:20:34.672Z] [INFO] 📊 Health check: http://localhost:3105/api/health
+[2026-04-28T15:20:34.848Z] [INFO] 🔐 Auth endpoints: http://localhost:3105/api/auth/...
+[2026-04-28T15:20:34.849Z] [INFO] 🔌 Socket.IO: ws://localhost:3105
+[2026-04-28T15:20:34.849Z] [INFO] 📝 Environment: development
+[2026-04-28T15:20:34.957Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-04-28T15:20:34.957Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-04-28T15:20:34.959Z] [INFO] ✅ Database connection established
+[2026-04-28T15:20:34.965Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-28T15:20:34.966Z] [INFO] ✅ Socket.IO initialized
+[2026-04-28T15:20:35.057Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-04-28T15:20:35.063Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-04-28T15:20:35.075Z] [INFO] ✅ Database connection established
+[2026-04-28T15:20:35.099Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-28T15:20:35.107Z] [INFO] ✅ Socket.IO initialized
+[2026-04-28T15:23:12.420Z] [INFO] 🔌 Initializing Supabase...
+[2026-04-28T15:23:12.852Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-28T15:23:12.872Z] [INFO] 📝 Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+[2026-04-28T15:23:12.875Z] [INFO] 🔑 Service Key: Loaded
+[2026-04-28T15:23:13.770Z] [INFO] 🔌 Initializing Supabase...
+[2026-04-28T15:23:14.022Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-28T15:23:14.142Z] [INFO] 📝 Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+[2026-04-28T15:23:14.237Z] [INFO] 🔑 Service Key: Loaded
+[2026-04-28T15:23:14.550Z] [INFO] 🔌 Initializing Supabase...
+[2026-04-28T15:23:14.603Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-28T15:23:14.603Z] [INFO] 📝 Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+[2026-04-28T15:23:14.604Z] [INFO] 🔑 Service Key: Loaded
+[2026-04-28T15:23:14.154Z] [INFO] 🔌 Initializing Supabase...
+[2026-04-28T15:23:15.932Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-28T15:23:15.936Z] [INFO] 📝 Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+[2026-04-28T15:23:15.937Z] [INFO] 🔑 Service Key: Loaded
+[2026-04-28T15:23:17.860Z] [INFO] 🔌 Initializing Supabase...
+[2026-04-28T15:23:18.084Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-28T15:23:18.092Z] [INFO] 📝 Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+[2026-04-28T15:23:18.093Z] [INFO] 🔑 Service Key: Loaded
+[2026-04-28T15:23:19.315Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-04-28T15:23:19.339Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-04-28T15:23:19.341Z] [INFO] ✅ Database connection established
+[2026-04-28T15:23:19.402Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-28T15:23:19.403Z] [INFO] ✅ Socket.IO initialized
+[2026-04-28T15:23:20.276Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-04-28T15:23:20.277Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-04-28T15:23:20.473Z] [INFO] ✅ Database connection established
+[2026-04-28T15:23:20.530Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-28T15:23:20.553Z] [INFO] ✅ Socket.IO initialized
+[2026-04-28T15:23:20.641Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-04-28T15:23:20.642Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-04-28T15:23:20.643Z] [INFO] ✅ Database connection established
+[2026-04-28T15:23:20.655Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-28T15:23:20.656Z] [INFO] ✅ Socket.IO initialized
+[2026-04-28T15:23:21.036Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-04-28T15:23:21.039Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-04-28T15:23:21.108Z] [INFO] ✅ Database connection established
+[2026-04-28T15:23:21.506Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-28T15:23:21.803Z] [INFO] ✅ Socket.IO initialized
+[2026-04-28T15:23:22.912Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-04-28T15:25:42.777Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-04-28T15:25:48.161Z] [INFO] ✅ Database connection established
+[2026-04-28T15:26:28.683Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-28T15:26:28.684Z] [INFO] ✅ Socket.IO initialized
+[2026-04-28T15:28:39.310Z] [INFO] 🔌 Initializing Supabase...
+[2026-04-28T15:28:39.327Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-28T15:28:39.328Z] [INFO] 📝 Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+[2026-04-28T15:28:39.329Z] [INFO] 🔑 Service Key: Loaded
+[2026-04-28T15:28:39.863Z] [INFO] 🔌 Initializing Supabase...
+[2026-04-28T15:28:39.875Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-28T15:28:39.875Z] [INFO] 📝 Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+[2026-04-28T15:28:39.878Z] [INFO] 🔑 Service Key: Loaded
+[2026-04-28T15:28:43.992Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-04-28T15:28:43.993Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-04-28T15:28:43.995Z] [INFO] ✅ Database connection established
+[2026-04-28T15:28:44.003Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-28T15:28:44.003Z] [INFO] ✅ Socket.IO initialized
+[2026-04-28T15:28:44.080Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-04-28T15:28:44.081Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-04-28T15:28:44.083Z] [INFO] ✅ Database connection established
+[2026-04-28T15:28:44.091Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-28T15:28:44.092Z] [INFO] ✅ Socket.IO initialized
+[2026-04-28T15:29:45.188Z] [INFO] 🔌 Initializing Supabase...
+[2026-04-28T15:29:45.245Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-28T15:29:45.246Z] [INFO] 📝 Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+[2026-04-28T15:29:45.250Z] [INFO] 🔑 Service Key: Loaded
+[2026-04-28T15:29:48.226Z] [INFO] 🔌 Initializing Supabase...
+[2026-04-28T15:29:48.246Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-28T15:29:48.342Z] [INFO] 📝 Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+[2026-04-28T15:29:48.344Z] [INFO] 🔑 Service Key: Loaded
+[2026-04-28T15:29:48.385Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-04-28T15:29:48.386Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-04-28T15:29:48.387Z] [INFO] ✅ Database connection established
+[2026-04-28T15:29:48.394Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-28T15:29:48.395Z] [INFO] ✅ Socket.IO initialized
+[2026-04-28T15:29:49.876Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-04-28T15:29:49.877Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-04-28T15:29:49.878Z] [INFO] ✅ Database connection established
+[2026-04-28T15:29:49.885Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-28T15:29:49.886Z] [INFO] ✅ Socket.IO initialized
+[2026-04-28T15:29:50.528Z] [INFO] 🔌 Initializing Supabase...
+[2026-04-28T15:29:50.539Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-28T15:29:50.541Z] [INFO] 📝 Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+[2026-04-28T15:29:50.544Z] [INFO] 🔑 Service Key: Loaded
+[2026-04-28T15:29:50.826Z] [INFO] 🔌 Initializing Supabase...
+[2026-04-28T15:29:50.842Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-28T15:29:50.944Z] [INFO] 📝 Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+[2026-04-28T15:29:50.947Z] [INFO] 🔑 Service Key: Loaded
+[2026-04-28T15:29:51.177Z] [INFO] 🔌 Initializing Supabase...
+[2026-04-28T15:29:51.193Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-28T15:29:51.200Z] [INFO] 📝 Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+[2026-04-28T15:29:51.208Z] [INFO] 🔑 Service Key: Loaded
+[2026-04-28T15:29:52.259Z] [INFO] 🔌 Initializing Supabase...
+[2026-04-28T15:29:52.268Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-28T15:29:52.271Z] [INFO] 📝 Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+[2026-04-28T15:29:52.272Z] [INFO] 🔑 Service Key: Loaded
+[2026-04-28T15:29:52.858Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-04-28T15:29:52.860Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-04-28T15:29:52.861Z] [INFO] ✅ Database connection established
+[2026-04-28T15:29:52.867Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-28T15:29:52.868Z] [INFO] ✅ Socket.IO initialized
+[2026-04-28T15:29:53.201Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-04-28T15:29:53.202Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-04-28T15:29:53.210Z] [INFO] ✅ Database connection established
+[2026-04-28T15:29:53.235Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-04-28T15:29:53.236Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-04-28T15:29:53.250Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-28T15:29:53.256Z] [INFO] ✅ Socket.IO initialized
+[2026-04-28T15:29:53.237Z] [INFO] ✅ Database connection established
+[2026-04-28T15:29:53.320Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-28T15:29:53.321Z] [INFO] ✅ Socket.IO initialized
+[2026-04-28T15:29:53.645Z] [INFO] 🔌 Initializing Supabase...
+[2026-04-28T15:29:53.658Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-28T15:29:53.679Z] [INFO] 📝 Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+[2026-04-28T15:29:53.684Z] [INFO] 🔑 Service Key: Loaded
+[2026-04-28T15:29:53.867Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-04-28T15:29:53.868Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-04-28T15:29:53.870Z] [INFO] ✅ Database connection established
+[2026-04-28T15:29:53.877Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-28T15:29:53.879Z] [INFO] ✅ Socket.IO initialized
+[2026-04-28T15:29:54.923Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-04-28T15:29:54.924Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-04-28T15:29:54.939Z] [INFO] ✅ Database connection established
+[2026-04-28T15:29:54.948Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-28T15:29:54.959Z] [INFO] ✅ Socket.IO initialized
+[2026-04-28T15:49:11.278Z] [INFO] 📝 Signup attempt: fleet_visible_1777391349941@test.com
+[2026-04-28T15:49:13.599Z] [INFO] ✅ User registered: fleet_visible_1777391349941@test.com
+[2026-04-28T15:49:13.632Z] [HTTP] POST /signup - 201 (2445ms)
+[2026-04-28T15:49:13.658Z] [INFO] 📝 Signup attempt: customer_visible_1777391353649@test.com
+[2026-04-28T15:49:14.488Z] [INFO] ✅ User registered: customer_visible_1777391353649@test.com
+[2026-04-28T15:49:14.491Z] [HTTP] POST /signup - 201 (835ms)
+[2026-04-28T15:49:14.546Z] [INFO] 📦 Creating truck: QA91354493
+[2026-04-28T15:49:14.861Z] [WARN] Truck create falling back to memory store
+[2026-04-28T15:49:14.867Z] [HTTP] POST /trucks - 201 (350ms)
+[2026-04-28T15:49:15.129Z] [HTTP] GET /trucks - 200 (256ms)
+[2026-04-28T15:50:38.495Z] [INFO] 🔌 Initializing Supabase...
+[2026-04-28T15:50:38.536Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-28T15:50:38.538Z] [INFO] 📝 Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+[2026-04-28T15:50:38.541Z] [INFO] 🔑 Service Key: Loaded
+[2026-04-28T15:50:39.792Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-04-28T15:50:39.794Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-04-28T15:50:39.798Z] [INFO] ✅ Database connection established
+[2026-04-28T15:50:39.837Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-28T15:50:39.843Z] [INFO] ✅ Socket.IO initialized
+[2026-04-28T15:50:56.292Z] [ERROR] Get profile error:
+{
+  "statusCode": 404,
+  "code": "USER_NOT_FOUND"
+}
+[2026-04-28T15:50:56.341Z] [HTTP] GET /profile - 404 (826ms)
+[2026-04-28T15:51:49.881Z] [ERROR] Get profile error:
+{
+  "statusCode": 404,
+  "code": "USER_NOT_FOUND"
+}
+[2026-04-28T15:51:49.887Z] [HTTP] GET /profile - 404 (214ms)
+[2026-04-28T15:51:52.865Z] [INFO] 🔌 Initializing Supabase...
+[2026-04-28T15:51:52.879Z] [INFO] 🔌 Initializing Supabase...
+[2026-04-28T15:51:52.859Z] [INFO] 🔌 Initializing Supabase...
+[2026-04-28T15:51:52.923Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-28T15:51:52.925Z] [INFO] 📝 Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+[2026-04-28T15:51:52.926Z] [INFO] 🔑 Service Key: Loaded
+[2026-04-28T15:51:52.927Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-28T15:51:52.878Z] [INFO] 🔌 Initializing Supabase...
+[2026-04-28T15:51:52.932Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-28T15:51:52.936Z] [INFO] 📝 Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+[2026-04-28T15:51:52.932Z] [INFO] 📝 Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+[2026-04-28T15:51:52.943Z] [INFO] 🔑 Service Key: Loaded
+[2026-04-28T15:51:52.903Z] [INFO] 🔌 Initializing Supabase...
+[2026-04-28T15:51:52.953Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-28T15:51:52.894Z] [INFO] 🔌 Initializing Supabase...
+[2026-04-28T15:51:52.955Z] [INFO] 📝 Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+[2026-04-28T15:51:52.956Z] [INFO] 🔑 Service Key: Loaded
+[2026-04-28T15:51:52.957Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-28T15:51:52.958Z] [INFO] 📝 Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+[2026-04-28T15:51:52.906Z] [INFO] 🔌 Initializing Supabase...
+[2026-04-28T15:51:52.960Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-28T15:51:52.961Z] [INFO] 📝 Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+[2026-04-28T15:51:52.962Z] [INFO] 🔑 Service Key: Loaded
+[2026-04-28T15:51:52.889Z] [INFO] 🔌 Initializing Supabase...
+[2026-04-28T15:51:52.964Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-28T15:51:52.965Z] [INFO] 📝 Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+[2026-04-28T15:51:52.966Z] [INFO] 🔑 Service Key: Loaded
+[2026-04-28T15:51:53.053Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-28T15:51:52.943Z] [INFO] 🔑 Service Key: Loaded
+[2026-04-28T15:51:53.054Z] [INFO] 📝 Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+[2026-04-28T15:51:53.055Z] [INFO] 🔑 Service Key: Loaded
+[2026-04-28T15:51:53.123Z] [INFO] 🔑 Service Key: Loaded
+[2026-04-28T15:51:52.861Z] [INFO] 🔌 Initializing Supabase...
+[2026-04-28T15:51:53.232Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-28T15:51:53.247Z] [INFO] 📝 Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+[2026-04-28T15:51:53.358Z] [INFO] 🔑 Service Key: Loaded
+[2026-04-28T15:51:54.684Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-04-28T15:51:54.719Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-04-28T15:51:54.725Z] [INFO] ✅ Database connection established
+[2026-04-28T15:51:54.738Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-28T15:51:54.740Z] [INFO] ✅ Socket.IO initialized
+[2026-04-28T15:51:54.876Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-04-28T15:51:54.877Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-04-28T15:51:54.878Z] [INFO] ✅ Database connection established
+[2026-04-28T15:51:54.879Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-04-28T15:51:54.880Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-04-28T15:51:54.881Z] [INFO] ✅ Database connection established
+[2026-04-28T15:51:54.886Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-28T15:51:54.887Z] [INFO] ✅ Socket.IO initialized
+[2026-04-28T15:51:54.894Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-28T15:51:54.894Z] [INFO] ✅ Socket.IO initialized
+[2026-04-28T15:51:54.896Z] [INFO] 🚀 Backend API running on http://localhost:3010
+[2026-04-28T15:51:54.896Z] [INFO] 📊 Health check: http://localhost:3010/api/health
+[2026-04-28T15:51:54.897Z] [INFO] 🔐 Auth endpoints: http://localhost:3010/api/auth/...
+[2026-04-28T15:51:54.897Z] [INFO] 🔌 Socket.IO: ws://localhost:3010
+[2026-04-28T15:51:54.898Z] [INFO] 📝 Environment: development
+[2026-04-28T15:51:54.902Z] [INFO] 🚀 Backend API running on http://localhost:3003
+[2026-04-28T15:51:54.903Z] [INFO] 📊 Health check: http://localhost:3003/api/health
+[2026-04-28T15:51:54.903Z] [INFO] 🔐 Auth endpoints: http://localhost:3003/api/auth/...
+[2026-04-28T15:51:54.904Z] [INFO] 🔌 Socket.IO: ws://localhost:3003
+[2026-04-28T15:51:54.905Z] [INFO] 📝 Environment: development
+[2026-04-28T15:51:54.940Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-04-28T15:51:54.941Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-04-28T15:51:54.942Z] [INFO] ✅ Database connection established
+[2026-04-28T15:51:54.949Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-28T15:51:54.954Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-04-28T15:51:54.955Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-04-28T15:51:54.956Z] [INFO] ✅ Database connection established
+[2026-04-28T15:51:54.957Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-04-28T15:51:54.958Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-04-28T15:51:54.953Z] [INFO] ✅ Socket.IO initialized
+[2026-04-28T15:51:54.959Z] [INFO] ✅ Database connection established
+[2026-04-28T15:51:54.968Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-28T15:51:54.969Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-28T15:51:54.969Z] [INFO] ✅ Socket.IO initialized
+[2026-04-28T15:51:54.970Z] [INFO] ✅ Socket.IO initialized
+[2026-04-28T15:51:55.047Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-04-28T15:51:55.048Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-04-28T15:51:55.049Z] [INFO] ✅ Database connection established
+[2026-04-28T15:51:55.062Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-28T15:51:55.063Z] [INFO] ✅ Socket.IO initialized
+[2026-04-28T15:51:55.404Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-04-28T15:51:55.495Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-04-28T15:51:55.499Z] [INFO] ✅ Database connection established
+[2026-04-28T15:51:55.872Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-28T15:51:55.898Z] [INFO] ✅ Socket.IO initialized
+[2026-04-28T15:51:56.290Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-04-28T15:51:56.292Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-04-28T15:51:56.293Z] [INFO] ✅ Database connection established
+[2026-04-28T15:51:56.405Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-28T15:51:56.413Z] [INFO] ✅ Socket.IO initialized
+[2026-04-28T15:51:56.423Z] [INFO] 🚀 Backend API running on http://localhost:3105
+[2026-04-28T15:51:56.424Z] [INFO] 📊 Health check: http://localhost:3105/api/health
+[2026-04-28T15:51:56.448Z] [INFO] 🔐 Auth endpoints: http://localhost:3105/api/auth/...
+[2026-04-28T15:51:56.459Z] [INFO] 🔌 Socket.IO: ws://localhost:3105
+[2026-04-28T15:51:56.463Z] [INFO] 📝 Environment: development
+[2026-04-28T15:51:57.518Z] [HTTP] GET /trucks - 304 (208ms)
+[2026-04-28T15:54:10.409Z] [INFO] 🔌 Initializing Supabase...
+[2026-04-28T15:54:10.617Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-28T15:54:10.619Z] [INFO] 📝 Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+[2026-04-28T15:54:10.619Z] [INFO] 🔑 Service Key: Loaded
+[2026-04-28T15:54:15.159Z] [INFO] 🔌 Initializing Supabase...
+[2026-04-28T15:54:16.098Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-28T15:54:16.527Z] [INFO] 📝 Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+[2026-04-28T15:54:16.530Z] [INFO] 🔑 Service Key: Loaded
+[2026-04-28T15:54:16.840Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-04-28T15:54:16.841Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-04-28T15:54:16.845Z] [INFO] ✅ Database connection established
+[2026-04-28T15:54:16.857Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-28T15:54:16.857Z] [INFO] ✅ Socket.IO initialized
+[2026-04-28T15:54:17.301Z] [INFO] 🔌 Initializing Supabase...
+[2026-04-28T15:54:17.596Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-28T15:54:17.598Z] [INFO] 📝 Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+[2026-04-28T15:54:17.601Z] [INFO] 🔑 Service Key: Loaded
+[2026-04-28T15:54:20.032Z] [INFO] 🔌 Initializing Supabase...
+[2026-04-28T15:54:20.055Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-28T15:54:20.058Z] [INFO] 📝 Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+[2026-04-28T15:54:20.157Z] [INFO] 🔑 Service Key: Loaded
+[2026-04-28T15:54:20.364Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-04-28T15:54:20.365Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-04-28T15:54:20.367Z] [INFO] ✅ Database connection established
+[2026-04-28T15:54:20.376Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-28T15:54:20.377Z] [INFO] ✅ Socket.IO initialized
+[2026-04-28T15:54:20.522Z] [INFO] 🔌 Initializing Supabase...
+[2026-04-28T15:54:20.782Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-04-28T15:54:20.783Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-04-28T15:54:20.790Z] [INFO] ✅ Database connection established
+[2026-04-28T15:54:20.809Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-28T15:54:20.810Z] [INFO] ✅ Socket.IO initialized
+[2026-04-28T15:54:20.879Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-28T15:54:20.883Z] [INFO] 📝 Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+[2026-04-28T15:54:20.887Z] [INFO] 🔑 Service Key: Loaded
+[2026-04-28T15:54:22.896Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-04-28T15:54:22.897Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-04-28T15:54:22.899Z] [INFO] ✅ Database connection established
+[2026-04-28T15:54:22.906Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-28T15:54:22.907Z] [INFO] ✅ Socket.IO initialized
+[2026-04-28T15:54:22.939Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-04-28T15:54:22.939Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-04-28T15:54:22.940Z] [INFO] ✅ Database connection established
+[2026-04-28T15:54:22.947Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-28T15:54:22.948Z] [INFO] ✅ Socket.IO initialized
+[2026-04-28T15:54:22.954Z] [INFO] 🔌 Initializing Supabase...
+[2026-04-28T15:54:23.069Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-28T15:54:23.075Z] [INFO] 📝 Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+[2026-04-28T15:54:23.078Z] [INFO] 🔑 Service Key: Loaded
+[2026-04-28T15:54:24.006Z] [INFO] 🔌 Initializing Supabase...
+[2026-04-28T15:54:24.022Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-28T15:54:24.024Z] [INFO] 📝 Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+[2026-04-28T15:54:24.028Z] [INFO] 🔑 Service Key: Loaded
+[2026-04-28T15:54:24.349Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-04-28T15:54:24.350Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-04-28T15:54:24.351Z] [INFO] ✅ Database connection established
+[2026-04-28T15:54:24.436Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-28T15:54:24.444Z] [INFO] ✅ Socket.IO initialized
+[2026-04-28T15:54:25.834Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-04-28T15:54:25.835Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-04-28T15:54:25.837Z] [INFO] ✅ Database connection established
+[2026-04-28T15:54:25.844Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-28T15:54:25.846Z] [INFO] ✅ Socket.IO initialized
+[2026-04-28T15:55:58.759Z] [INFO] 📝 Signup attempt: fleet_visible_1777391754706@test.com
+[2026-04-28T15:56:02.268Z] [INFO] 🔌 Initializing Supabase...
+[2026-04-28T15:56:02.312Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-28T15:56:02.314Z] [INFO] 📝 Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+[2026-04-28T15:56:02.421Z] [INFO] 🔑 Service Key: Loaded
+[2026-04-28T15:56:03.807Z] [INFO] 🔌 Initializing Supabase...
+[2026-04-28T15:56:03.815Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-28T15:56:03.942Z] [INFO] 📝 Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+[2026-04-28T15:56:04.090Z] [INFO] 🔑 Service Key: Loaded
+[2026-04-28T15:56:04.174Z] [INFO] ✅ User registered: fleet_visible_1777391754706@test.com
+[2026-04-28T15:56:04.273Z] [HTTP] POST /signup - 201 (5840ms)
+[2026-04-28T15:56:04.461Z] [INFO] 📝 Signup attempt: customer_visible_1777391764397@test.com
+[2026-04-28T15:56:04.941Z] [INFO] 🔌 Initializing Supabase...
+[2026-04-28T15:56:04.947Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-28T15:56:04.950Z] [INFO] 📝 Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+[2026-04-28T15:56:04.952Z] [INFO] 🔑 Service Key: Loaded
+[2026-04-28T15:56:05.279Z] [INFO] 🔌 Initializing Supabase...
+[2026-04-28T15:56:05.287Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-28T15:56:05.291Z] [INFO] 📝 Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+[2026-04-28T15:56:05.294Z] [INFO] 🔑 Service Key: Loaded
+[2026-04-28T15:56:06.148Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-04-28T15:56:06.150Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-04-28T15:56:06.192Z] [INFO] ✅ Database connection established
+[2026-04-28T15:56:06.207Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-28T15:56:06.207Z] [INFO] ✅ Socket.IO initialized
+[2026-04-28T15:56:06.328Z] [INFO] ✅ User registered: customer_visible_1777391764397@test.com
+[2026-04-28T15:56:06.331Z] [HTTP] POST /signup - 201 (1898ms)
+[2026-04-28T15:56:06.347Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-04-28T15:56:06.347Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-04-28T15:56:06.348Z] [INFO] ✅ Database connection established
+[2026-04-28T15:56:06.355Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-28T15:56:06.355Z] [INFO] ✅ Socket.IO initialized
+[2026-04-28T15:56:06.384Z] [INFO] 📦 Creating truck: QA91766333
+[2026-04-28T15:56:06.530Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-04-28T15:56:06.535Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-04-28T15:56:06.538Z] [INFO] ✅ Database connection established
+[2026-04-28T15:56:06.557Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-28T15:56:06.567Z] [INFO] ✅ Socket.IO initialized
+[2026-04-28T15:56:06.679Z] [WARN] Truck create falling back to memory store: Could not find the 'condition' column of 'trucks' in the schema cache
+[2026-04-28T15:56:06.688Z] [HTTP] POST /trucks - 201 (344ms)
+[2026-04-28T15:56:06.837Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-04-28T15:56:06.838Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-04-28T15:56:06.839Z] [INFO] ✅ Database connection established
+[2026-04-28T15:56:06.846Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-28T15:56:06.847Z] [INFO] ✅ Socket.IO initialized
+[2026-04-28T15:56:06.955Z] [HTTP] GET /trucks - 200 (260ms)
+[2026-04-28T15:56:07.517Z] [INFO] 🔌 Initializing Supabase...
+[2026-04-28T15:56:07.523Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-28T15:56:07.531Z] [INFO] 📝 Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+[2026-04-28T15:56:07.533Z] [INFO] 🔑 Service Key: Loaded
+[2026-04-28T15:56:08.664Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-04-28T15:56:08.665Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-04-28T15:56:08.667Z] [INFO] ✅ Database connection established
+[2026-04-28T15:56:08.673Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-28T15:56:08.674Z] [INFO] ✅ Socket.IO initialized
+[2026-04-28T15:56:09.905Z] [INFO] 🔌 Initializing Supabase...
+[2026-04-28T15:56:09.924Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-28T15:56:09.928Z] [INFO] 📝 Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+[2026-04-28T15:56:10.000Z] [INFO] 🔑 Service Key: Loaded
+[2026-04-28T15:56:10.555Z] [INFO] 🔌 Initializing Supabase...
+[2026-04-28T15:56:10.568Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-28T15:56:10.570Z] [INFO] 📝 Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+[2026-04-28T15:56:10.572Z] [INFO] 🔑 Service Key: Loaded
+[2026-04-28T15:56:11.030Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-04-28T15:56:11.031Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-04-28T15:56:11.032Z] [INFO] ✅ Database connection established
+[2026-04-28T15:56:11.038Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-28T15:56:11.039Z] [INFO] ✅ Socket.IO initialized
+[2026-04-28T15:56:11.785Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-04-28T15:56:11.786Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-04-28T15:56:11.788Z] [INFO] ✅ Database connection established
+[2026-04-28T15:56:11.795Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-28T15:56:11.796Z] [INFO] ✅ Socket.IO initialized
+[2026-04-28T15:56:53.137Z] [ERROR] Get profile error:
+{
+  "statusCode": 404,
+  "code": "USER_NOT_FOUND"
+}
+[2026-04-28T15:56:53.156Z] [HTTP] GET /profile - 404 (662ms)
+[2026-04-28T15:56:56.896Z] [ERROR] Get profile error:
+{
+  "statusCode": 404,
+  "code": "USER_NOT_FOUND"
+}
+[2026-04-28T15:56:56.899Z] [HTTP] GET /profile - 404 (76ms)
+[2026-04-28T15:56:57.004Z] [HTTP] GET /trucks - 304 (82ms)
+[2026-04-28T15:57:05.082Z] [HTTP] GET /trucks - 304 (283ms)
+[2026-04-28T15:57:05.103Z] [HTTP] GET /shipments - 304 (294ms)
+[2026-04-28T15:57:05.377Z] [HTTP] GET /shipments - 304 (212ms)
+[2026-04-28T15:57:05.449Z] [HTTP] GET /trucks - 304 (364ms)
+[2026-04-28T15:57:06.846Z] [HTTP] GET /trucks - 304 (117ms)
+[2026-04-28T15:57:06.936Z] [HTTP] GET /trucks - 304 (88ms)
+[2026-04-28T15:57:13.894Z] [HTTP] GET /trucks/trk_1777389278110_mmmdy78cj - 200 (300ms)
+[2026-04-28T15:57:13.975Z] [HTTP] GET /trucks/trk_1777389278110_mmmdy78cj - 304 (77ms)
+[2026-04-28T15:57:14.208Z] [HTTP] GET /shipments - 304 (256ms)
+[2026-04-28T15:57:14.308Z] [HTTP] GET /shipments - 304 (94ms)
+[2026-04-28T15:57:24.860Z] [HTTP] GET /trucks - 304 (472ms)
+[2026-04-28T15:57:24.931Z] [HTTP] GET /trucks - 304 (68ms)

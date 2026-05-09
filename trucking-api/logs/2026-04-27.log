@@ -1,0 +1,2017 @@
+[2026-04-27T10:56:04.089Z] [INFO] ✅ Database connection established
+[2026-04-27T10:56:04.096Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-27T10:56:04.097Z] [INFO] ✅ Socket.IO initialized
+[2026-04-27T10:56:04.108Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-04-27T10:56:04.109Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-04-27T10:56:04.111Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-04-27T10:56:04.112Z] [INFO] 🔌 Socket.IO: ws://localhost:3001
+[2026-04-27T10:56:04.114Z] [INFO] 📝 Environment: development
+[2026-04-27T11:17:15.121Z] [HTTP] GET /health - 404 (550ms)
+[2026-04-27T11:20:15.005Z] [INFO] ✅ Database connection established
+[2026-04-27T11:20:15.015Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-27T11:20:15.017Z] [INFO] ✅ Socket.IO initialized
+[2026-04-27T11:20:31.436Z] [INFO] ✅ Database connection established
+[2026-04-27T11:20:31.445Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-27T11:20:31.446Z] [INFO] ✅ Socket.IO initialized
+[2026-04-27T11:25:46.925Z] [INFO] ✅ Database connection established
+[2026-04-27T11:25:46.939Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-27T11:25:46.941Z] [INFO] ✅ Socket.IO initialized
+[2026-04-27T11:25:47.010Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-04-27T11:25:47.011Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-04-27T11:25:47.012Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-04-27T11:25:47.015Z] [INFO] 🔌 Socket.IO: ws://localhost:3001
+[2026-04-27T11:25:47.017Z] [INFO] 📝 Environment: development
+[2026-04-27T11:30:41.274Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T11:30:41.419Z] [HTTP] GET /bookings/user/demo-cust-001 - 401 (179ms)
+[2026-04-27T11:30:41.454Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T11:30:41.548Z] [HTTP] GET /bookings/user/demo-cust-001 - 401 (94ms)
+[2026-04-27T11:30:52.197Z] [WARN] Auth middleware error:
+"jwt malformed"
+[2026-04-27T11:30:52.206Z] [HTTP] GET /users - 401 (26ms)
+[2026-04-27T11:30:52.258Z] [WARN] Auth middleware error:
+"jwt malformed"
+[2026-04-27T11:30:52.266Z] [HTTP] GET /users - 401 (9ms)
+[2026-04-27T11:31:43.886Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T11:31:43.901Z] [HTTP] GET /users - 401 (15ms)
+[2026-04-27T11:31:43.914Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T11:31:43.941Z] [HTTP] GET /users - 401 (27ms)
+[2026-04-27T11:31:43.948Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T11:31:43.954Z] [HTTP] GET /trucks - 401 (6ms)
+[2026-04-27T11:31:44.001Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T11:31:44.008Z] [HTTP] GET /bookings - 401 (7ms)
+[2026-04-27T11:31:44.033Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T11:31:44.048Z] [HTTP] GET /trucks - 401 (15ms)
+[2026-04-27T11:31:44.400Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T11:31:44.403Z] [HTTP] GET /bookings - 401 (3ms)
+[2026-04-27T11:33:31.747Z] [WARN] Auth middleware error:
+"jwt malformed"
+[2026-04-27T11:33:31.750Z] [HTTP] GET /bookings/user/user-1777289611105 - 401 (4ms)
+[2026-04-27T11:33:31.756Z] [WARN] Auth middleware error:
+"jwt malformed"
+[2026-04-27T11:33:31.762Z] [HTTP] GET /bookings/user/user-1777289611105 - 401 (6ms)
+[2026-04-27T11:34:05.530Z] [INFO] [Chat] Client connected: 9E4KmDgHxE_Hyju_AAAB
+[2026-04-27T11:34:05.543Z] [INFO] [Chat] Socket 9E4KmDgHxE_Hyju_AAAB joined room chat_1_user-1777289611105
+[2026-04-27T11:34:05.595Z] [INFO] [Chat] Socket 9E4KmDgHxE_Hyju_AAAB joined room chat_1_user-1777289611105
+[2026-04-27T11:34:19.074Z] [INFO] [Chat] Socket 9E4KmDgHxE_Hyju_AAAB joined room chat_1_user-1777289611105
+[2026-04-27T11:34:19.084Z] [INFO] [Chat] Socket 9E4KmDgHxE_Hyju_AAAB joined room chat_1_user-1777289611105
+[2026-04-27T11:34:57.361Z] [WARN] Auth middleware error:
+"jwt malformed"
+[2026-04-27T11:34:57.379Z] [HTTP] GET /users - 401 (18ms)
+[2026-04-27T11:34:57.446Z] [WARN] Auth middleware error:
+"jwt malformed"
+[2026-04-27T11:34:57.522Z] [HTTP] GET /trucks - 401 (76ms)
+[2026-04-27T11:34:57.589Z] [WARN] Auth middleware error:
+"jwt malformed"
+[2026-04-27T11:34:57.607Z] [HTTP] GET /trucks - 401 (18ms)
+[2026-04-27T11:34:57.647Z] [WARN] Auth middleware error:
+"jwt malformed"
+[2026-04-27T11:34:57.679Z] [HTTP] GET /bookings - 401 (32ms)
+[2026-04-27T11:34:57.699Z] [WARN] Auth middleware error:
+"jwt malformed"
+[2026-04-27T11:34:57.945Z] [HTTP] GET /users - 401 (247ms)
+[2026-04-27T11:34:57.948Z] [WARN] Auth middleware error:
+"jwt malformed"
+[2026-04-27T11:34:57.956Z] [HTTP] GET /bookings - 401 (8ms)
+[2026-04-27T11:35:00.181Z] [WARN] Auth middleware error:
+"jwt malformed"
+[2026-04-27T11:35:00.183Z] [HTTP] GET /users - 401 (3ms)
+[2026-04-27T11:35:00.188Z] [WARN] Auth middleware error:
+"jwt malformed"
+[2026-04-27T11:35:00.193Z] [HTTP] GET /users - 401 (6ms)
+[2026-04-27T11:35:21.917Z] [INFO] ✅ Database connection established
+[2026-04-27T11:35:21.946Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-27T11:35:21.947Z] [INFO] ✅ Socket.IO initialized
+[2026-04-27T11:35:21.955Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-04-27T11:35:21.957Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-04-27T11:35:21.959Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-04-27T11:35:21.961Z] [INFO] 🔌 Socket.IO: ws://localhost:3001
+[2026-04-27T11:35:21.963Z] [INFO] 📝 Environment: development
+[2026-04-27T11:35:25.112Z] [INFO] [Chat] Client connected: gPTPcMetq7GK6AXHAAAB
+[2026-04-27T11:42:33.628Z] [INFO] ✅ Database connection established
+[2026-04-27T11:42:33.653Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-27T11:42:33.658Z] [INFO] ✅ Socket.IO initialized
+[2026-04-27T11:42:33.665Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-04-27T11:42:33.666Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-04-27T11:42:33.673Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-04-27T11:42:33.675Z] [INFO] 🔌 Socket.IO: ws://localhost:3001
+[2026-04-27T11:42:33.677Z] [INFO] 📝 Environment: development
+[2026-04-27T11:42:33.943Z] [INFO] [Chat] Client connected: B4iHe6GJP0DzZfT5AAAB
+[2026-04-27T11:42:47.870Z] [INFO] ✅ Database connection established
+[2026-04-27T11:42:47.880Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-27T11:42:47.881Z] [INFO] ✅ Socket.IO initialized
+[2026-04-27T11:42:47.891Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-04-27T11:42:47.893Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-04-27T11:42:47.895Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-04-27T11:42:47.896Z] [INFO] 🔌 Socket.IO: ws://localhost:3001
+[2026-04-27T11:42:47.900Z] [INFO] 📝 Environment: development
+[2026-04-27T11:42:47.943Z] [INFO] [Chat] Client connected: uLaIDEytMgVuZR3RAAAB
+[2026-04-27T11:43:01.002Z] [INFO] ✅ Database connection established
+[2026-04-27T11:43:01.012Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-27T11:43:01.016Z] [INFO] ✅ Socket.IO initialized
+[2026-04-27T11:43:01.024Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-04-27T11:43:01.025Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-04-27T11:43:01.026Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-04-27T11:43:01.028Z] [INFO] 🔌 Socket.IO: ws://localhost:3001
+[2026-04-27T11:43:01.031Z] [INFO] 📝 Environment: development
+[2026-04-27T11:43:01.139Z] [INFO] [Chat] Client connected: YqZ0y8dh2TIuevBzAAAB
+[2026-04-27T11:43:14.520Z] [INFO] ✅ Database connection established
+[2026-04-27T11:43:14.531Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-27T11:43:14.532Z] [INFO] ✅ Socket.IO initialized
+[2026-04-27T11:43:14.539Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-04-27T11:43:14.540Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-04-27T11:43:14.542Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-04-27T11:43:14.543Z] [INFO] 🔌 Socket.IO: ws://localhost:3001
+[2026-04-27T11:43:14.550Z] [INFO] 📝 Environment: development
+[2026-04-27T11:43:15.113Z] [INFO] [Chat] Client connected: lzkVt0-MA9LdaJd_AAAB
+[2026-04-27T11:53:26.457Z] [ERROR] ❌ Supabase connection failed:
+{
+  "message": ""
+}
+[2026-04-27T11:53:26.461Z] [WARN] ⚠️ Supabase connection failed - running with limited functionality
+[2026-04-27T11:53:26.468Z] [INFO] ✅ Database connection established
+[2026-04-27T11:53:26.475Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-27T11:53:26.479Z] [INFO] ✅ Socket.IO initialized
+[2026-04-27T11:53:26.488Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-04-27T11:53:26.489Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-04-27T11:53:26.492Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-04-27T11:53:26.494Z] [INFO] 🔌 Socket.IO: ws://localhost:3001
+[2026-04-27T11:53:26.498Z] [INFO] 📝 Environment: development
+[2026-04-27T11:55:06.303Z] [ERROR] ❌ Supabase connection failed:
+{
+  "message": ""
+}
+[2026-04-27T11:55:06.307Z] [WARN] ⚠️ Supabase connection failed - running with limited functionality
+[2026-04-27T11:55:06.310Z] [INFO] ✅ Database connection established
+[2026-04-27T11:55:06.323Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-27T11:55:06.326Z] [INFO] ✅ Socket.IO initialized
+[2026-04-27T11:55:06.336Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-04-27T11:55:06.341Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-04-27T11:55:06.349Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-04-27T11:55:06.354Z] [INFO] 🔌 Socket.IO: ws://localhost:3001
+[2026-04-27T11:55:06.360Z] [INFO] 📝 Environment: development
+[2026-04-27T11:55:28.663Z] [ERROR] ❌ Supabase connection failed:
+{
+  "message": ""
+}
+[2026-04-27T11:55:28.667Z] [WARN] ⚠️ Supabase connection failed - running with limited functionality
+[2026-04-27T11:55:28.669Z] [INFO] ✅ Database connection established
+[2026-04-27T11:55:28.678Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-27T11:55:28.679Z] [INFO] ✅ Socket.IO initialized
+[2026-04-27T11:55:28.686Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-04-27T11:55:28.688Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-04-27T11:55:28.691Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-04-27T11:55:28.694Z] [INFO] 🔌 Socket.IO: ws://localhost:3001
+[2026-04-27T11:55:28.696Z] [INFO] 📝 Environment: development
+[2026-04-27T11:56:13.683Z] [INFO] [Chat] Client connected: KrT--CnYbpCwKcAqAAAB
+[2026-04-27T12:15:22.022Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T12:15:22.046Z] [HTTP] GET /users - 401 (35ms)
+[2026-04-27T12:15:22.068Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T12:15:22.079Z] [HTTP] GET /users - 401 (10ms)
+[2026-04-27T12:21:47.991Z] [INFO] [Chat] Client disconnected: KrT--CnYbpCwKcAqAAAB
+[2026-04-27T12:21:49.193Z] [WARN] Auth middleware error:
+"jwt malformed"
+[2026-04-27T12:21:49.196Z] [HTTP] GET /users - 401 (16ms)
+[2026-04-27T12:21:49.206Z] [WARN] Auth middleware error:
+"jwt malformed"
+[2026-04-27T12:21:49.228Z] [HTTP] GET /users - 401 (22ms)
+[2026-04-27T12:21:55.283Z] [WARN] Auth middleware error:
+"jwt malformed"
+[2026-04-27T12:21:55.286Z] [HTTP] GET /users - 401 (2ms)
+[2026-04-27T12:21:55.335Z] [WARN] Auth middleware error:
+"jwt malformed"
+[2026-04-27T12:21:55.350Z] [HTTP] GET /users - 401 (15ms)
+[2026-04-27T12:21:57.413Z] [WARN] Auth middleware error:
+"jwt malformed"
+[2026-04-27T12:21:57.428Z] [HTTP] GET /users - 401 (15ms)
+[2026-04-27T12:21:57.498Z] [WARN] Auth middleware error:
+"jwt malformed"
+[2026-04-27T12:21:57.505Z] [HTTP] GET /users - 401 (8ms)
+[2026-04-27T12:22:12.276Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T12:22:12.279Z] [HTTP] POST /auth/logout - 401 (13ms)
+[2026-04-27T12:22:42.077Z] [INFO] 🔐 Login attempt: customer@gmail.com
+[2026-04-27T12:22:43.089Z] [WARN] ⚠️ User not found: customer@gmail.com
+[2026-04-27T12:22:43.092Z] [ERROR] Login error:
+{
+  "statusCode": 401,
+  "code": "INVALID_CREDENTIALS"
+}
+[2026-04-27T12:22:43.355Z] [HTTP] POST /login - 401 (1422ms)
+[2026-04-27T12:22:49.776Z] [INFO] 🔐 Login attempt: customer@gmail.com
+[2026-04-27T12:22:50.180Z] [WARN] ⚠️ User not found: customer@gmail.com
+[2026-04-27T12:22:50.182Z] [ERROR] Login error:
+{
+  "statusCode": 401,
+  "code": "INVALID_CREDENTIALS"
+}
+[2026-04-27T12:22:50.189Z] [HTTP] POST /login - 401 (415ms)
+[2026-04-27T12:23:34.222Z] [ERROR] Signup error:
+{
+  "name": "ZodError",
+  "message": "[\n  {\n    \"origin\": \"string\",\n    \"code\": \"invalid_format\",\n    \"format\": \"regex\",\n    \"pattern\": \"/[A-Z]/\",\n    \"path\": [\n      \"password\"\n    ],\n    \"message\": \"Password must contain at least one uppercase letter\"\n  },\n  {\n    \"code\": \"invalid_value\",\n    \"values\": [\n      \"customer\",\n      \"fleet_owner\",\n      \"driver\"\n    ],\n    \"path\": [\n      \"role\"\n    ],\n    \"message\": \"Invalid option: expected one of \\\"customer\\\"|\\\"fleet_owner\\\"|\\\"driver\\\"\"\n  }\n]"
+}
+[2026-04-27T12:23:34.246Z] [HTTP] POST /signup - 500 (72ms)
+[2026-04-27T12:26:22.453Z] [ERROR] Signup error:
+{
+  "name": "ZodError",
+  "message": "[\n  {\n    \"origin\": \"string\",\n    \"code\": \"invalid_format\",\n    \"format\": \"regex\",\n    \"pattern\": \"/[A-Z]/\",\n    \"path\": [\n      \"password\"\n    ],\n    \"message\": \"Password must contain at least one uppercase letter\"\n  },\n  {\n    \"code\": \"invalid_value\",\n    \"values\": [\n      \"customer\",\n      \"fleet_owner\",\n      \"driver\"\n    ],\n    \"path\": [\n      \"role\"\n    ],\n    \"message\": \"Invalid option: expected one of \\\"customer\\\"|\\\"fleet_owner\\\"|\\\"driver\\\"\"\n  }\n]"
+}
+[2026-04-27T12:26:22.459Z] [HTTP] POST /signup - 500 (8ms)
+[2026-04-27T12:26:23.287Z] [ERROR] Signup error:
+{
+  "name": "ZodError",
+  "message": "[\n  {\n    \"origin\": \"string\",\n    \"code\": \"invalid_format\",\n    \"format\": \"regex\",\n    \"pattern\": \"/[A-Z]/\",\n    \"path\": [\n      \"password\"\n    ],\n    \"message\": \"Password must contain at least one uppercase letter\"\n  },\n  {\n    \"code\": \"invalid_value\",\n    \"values\": [\n      \"customer\",\n      \"fleet_owner\",\n      \"driver\"\n    ],\n    \"path\": [\n      \"role\"\n    ],\n    \"message\": \"Invalid option: expected one of \\\"customer\\\"|\\\"fleet_owner\\\"|\\\"driver\\\"\"\n  }\n]"
+}
+[2026-04-27T12:26:23.290Z] [HTTP] POST /signup - 500 (4ms)
+[2026-04-27T12:26:23.890Z] [ERROR] Signup error:
+{
+  "name": "ZodError",
+  "message": "[\n  {\n    \"origin\": \"string\",\n    \"code\": \"invalid_format\",\n    \"format\": \"regex\",\n    \"pattern\": \"/[A-Z]/\",\n    \"path\": [\n      \"password\"\n    ],\n    \"message\": \"Password must contain at least one uppercase letter\"\n  },\n  {\n    \"code\": \"invalid_value\",\n    \"values\": [\n      \"customer\",\n      \"fleet_owner\",\n      \"driver\"\n    ],\n    \"path\": [\n      \"role\"\n    ],\n    \"message\": \"Invalid option: expected one of \\\"customer\\\"|\\\"fleet_owner\\\"|\\\"driver\\\"\"\n  }\n]"
+}
+[2026-04-27T12:26:23.894Z] [HTTP] POST /signup - 500 (4ms)
+[2026-04-27T12:26:24.300Z] [ERROR] Signup error:
+{
+  "name": "ZodError",
+  "message": "[\n  {\n    \"origin\": \"string\",\n    \"code\": \"invalid_format\",\n    \"format\": \"regex\",\n    \"pattern\": \"/[A-Z]/\",\n    \"path\": [\n      \"password\"\n    ],\n    \"message\": \"Password must contain at least one uppercase letter\"\n  },\n  {\n    \"code\": \"invalid_value\",\n    \"values\": [\n      \"customer\",\n      \"fleet_owner\",\n      \"driver\"\n    ],\n    \"path\": [\n      \"role\"\n    ],\n    \"message\": \"Invalid option: expected one of \\\"customer\\\"|\\\"fleet_owner\\\"|\\\"driver\\\"\"\n  }\n]"
+}
+[2026-04-27T12:26:24.302Z] [HTTP] POST /signup - 500 (3ms)
+[2026-04-27T12:26:24.487Z] [ERROR] Signup error:
+{
+  "name": "ZodError",
+  "message": "[\n  {\n    \"origin\": \"string\",\n    \"code\": \"invalid_format\",\n    \"format\": \"regex\",\n    \"pattern\": \"/[A-Z]/\",\n    \"path\": [\n      \"password\"\n    ],\n    \"message\": \"Password must contain at least one uppercase letter\"\n  },\n  {\n    \"code\": \"invalid_value\",\n    \"values\": [\n      \"customer\",\n      \"fleet_owner\",\n      \"driver\"\n    ],\n    \"path\": [\n      \"role\"\n    ],\n    \"message\": \"Invalid option: expected one of \\\"customer\\\"|\\\"fleet_owner\\\"|\\\"driver\\\"\"\n  }\n]"
+}
+[2026-04-27T12:26:24.492Z] [HTTP] POST /signup - 500 (6ms)
+[2026-04-27T12:26:24.671Z] [ERROR] Signup error:
+{
+  "name": "ZodError",
+  "message": "[\n  {\n    \"origin\": \"string\",\n    \"code\": \"invalid_format\",\n    \"format\": \"regex\",\n    \"pattern\": \"/[A-Z]/\",\n    \"path\": [\n      \"password\"\n    ],\n    \"message\": \"Password must contain at least one uppercase letter\"\n  },\n  {\n    \"code\": \"invalid_value\",\n    \"values\": [\n      \"customer\",\n      \"fleet_owner\",\n      \"driver\"\n    ],\n    \"path\": [\n      \"role\"\n    ],\n    \"message\": \"Invalid option: expected one of \\\"customer\\\"|\\\"fleet_owner\\\"|\\\"driver\\\"\"\n  }\n]"
+}
+[2026-04-27T12:26:24.682Z] [HTTP] POST /signup - 500 (11ms)
+[2026-04-27T12:26:24.890Z] [ERROR] Signup error:
+{
+  "name": "ZodError",
+  "message": "[\n  {\n    \"origin\": \"string\",\n    \"code\": \"invalid_format\",\n    \"format\": \"regex\",\n    \"pattern\": \"/[A-Z]/\",\n    \"path\": [\n      \"password\"\n    ],\n    \"message\": \"Password must contain at least one uppercase letter\"\n  },\n  {\n    \"code\": \"invalid_value\",\n    \"values\": [\n      \"customer\",\n      \"fleet_owner\",\n      \"driver\"\n    ],\n    \"path\": [\n      \"role\"\n    ],\n    \"message\": \"Invalid option: expected one of \\\"customer\\\"|\\\"fleet_owner\\\"|\\\"driver\\\"\"\n  }\n]"
+}
+[2026-04-27T12:26:24.910Z] [HTTP] POST /signup - 500 (21ms)
+[2026-04-27T12:26:25.096Z] [ERROR] Signup error:
+{
+  "name": "ZodError",
+  "message": "[\n  {\n    \"origin\": \"string\",\n    \"code\": \"invalid_format\",\n    \"format\": \"regex\",\n    \"pattern\": \"/[A-Z]/\",\n    \"path\": [\n      \"password\"\n    ],\n    \"message\": \"Password must contain at least one uppercase letter\"\n  },\n  {\n    \"code\": \"invalid_value\",\n    \"values\": [\n      \"customer\",\n      \"fleet_owner\",\n      \"driver\"\n    ],\n    \"path\": [\n      \"role\"\n    ],\n    \"message\": \"Invalid option: expected one of \\\"customer\\\"|\\\"fleet_owner\\\"|\\\"driver\\\"\"\n  }\n]"
+}
+[2026-04-27T12:26:25.098Z] [HTTP] POST /signup - 500 (3ms)
+[2026-04-27T12:26:25.284Z] [ERROR] Signup error:
+{
+  "name": "ZodError",
+  "message": "[\n  {\n    \"origin\": \"string\",\n    \"code\": \"invalid_format\",\n    \"format\": \"regex\",\n    \"pattern\": \"/[A-Z]/\",\n    \"path\": [\n      \"password\"\n    ],\n    \"message\": \"Password must contain at least one uppercase letter\"\n  },\n  {\n    \"code\": \"invalid_value\",\n    \"values\": [\n      \"customer\",\n      \"fleet_owner\",\n      \"driver\"\n    ],\n    \"path\": [\n      \"role\"\n    ],\n    \"message\": \"Invalid option: expected one of \\\"customer\\\"|\\\"fleet_owner\\\"|\\\"driver\\\"\"\n  }\n]"
+}
+[2026-04-27T12:26:25.286Z] [HTTP] POST /signup - 500 (4ms)
+[2026-04-27T12:26:25.487Z] [ERROR] Signup error:
+{
+  "name": "ZodError",
+  "message": "[\n  {\n    \"origin\": \"string\",\n    \"code\": \"invalid_format\",\n    \"format\": \"regex\",\n    \"pattern\": \"/[A-Z]/\",\n    \"path\": [\n      \"password\"\n    ],\n    \"message\": \"Password must contain at least one uppercase letter\"\n  },\n  {\n    \"code\": \"invalid_value\",\n    \"values\": [\n      \"customer\",\n      \"fleet_owner\",\n      \"driver\"\n    ],\n    \"path\": [\n      \"role\"\n    ],\n    \"message\": \"Invalid option: expected one of \\\"customer\\\"|\\\"fleet_owner\\\"|\\\"driver\\\"\"\n  }\n]"
+}
+[2026-04-27T12:26:25.491Z] [HTTP] POST /signup - 500 (4ms)
+[2026-04-27T12:26:25.658Z] [ERROR] Signup error:
+{
+  "name": "ZodError",
+  "message": "[\n  {\n    \"origin\": \"string\",\n    \"code\": \"invalid_format\",\n    \"format\": \"regex\",\n    \"pattern\": \"/[A-Z]/\",\n    \"path\": [\n      \"password\"\n    ],\n    \"message\": \"Password must contain at least one uppercase letter\"\n  },\n  {\n    \"code\": \"invalid_value\",\n    \"values\": [\n      \"customer\",\n      \"fleet_owner\",\n      \"driver\"\n    ],\n    \"path\": [\n      \"role\"\n    ],\n    \"message\": \"Invalid option: expected one of \\\"customer\\\"|\\\"fleet_owner\\\"|\\\"driver\\\"\"\n  }\n]"
+}
+[2026-04-27T12:26:25.763Z] [HTTP] POST /signup - 500 (105ms)
+[2026-04-27T12:26:27.275Z] [ERROR] Signup error:
+{
+  "name": "ZodError",
+  "message": "[\n  {\n    \"origin\": \"string\",\n    \"code\": \"invalid_format\",\n    \"format\": \"regex\",\n    \"pattern\": \"/[A-Z]/\",\n    \"path\": [\n      \"password\"\n    ],\n    \"message\": \"Password must contain at least one uppercase letter\"\n  },\n  {\n    \"code\": \"invalid_value\",\n    \"values\": [\n      \"customer\",\n      \"fleet_owner\",\n      \"driver\"\n    ],\n    \"path\": [\n      \"role\"\n    ],\n    \"message\": \"Invalid option: expected one of \\\"customer\\\"|\\\"fleet_owner\\\"|\\\"driver\\\"\"\n  }\n]"
+}
+[2026-04-27T12:26:27.370Z] [HTTP] POST /signup - 500 (96ms)
+[2026-04-27T12:26:28.096Z] [ERROR] Signup error:
+{
+  "name": "ZodError",
+  "message": "[\n  {\n    \"origin\": \"string\",\n    \"code\": \"invalid_format\",\n    \"format\": \"regex\",\n    \"pattern\": \"/[A-Z]/\",\n    \"path\": [\n      \"password\"\n    ],\n    \"message\": \"Password must contain at least one uppercase letter\"\n  },\n  {\n    \"code\": \"invalid_value\",\n    \"values\": [\n      \"customer\",\n      \"fleet_owner\",\n      \"driver\"\n    ],\n    \"path\": [\n      \"role\"\n    ],\n    \"message\": \"Invalid option: expected one of \\\"customer\\\"|\\\"fleet_owner\\\"|\\\"driver\\\"\"\n  }\n]"
+}
+[2026-04-27T12:26:28.119Z] [HTTP] POST /signup - 500 (23ms)
+[2026-04-27T12:26:28.534Z] [ERROR] Signup error:
+{
+  "name": "ZodError",
+  "message": "[\n  {\n    \"origin\": \"string\",\n    \"code\": \"invalid_format\",\n    \"format\": \"regex\",\n    \"pattern\": \"/[A-Z]/\",\n    \"path\": [\n      \"password\"\n    ],\n    \"message\": \"Password must contain at least one uppercase letter\"\n  },\n  {\n    \"code\": \"invalid_value\",\n    \"values\": [\n      \"customer\",\n      \"fleet_owner\",\n      \"driver\"\n    ],\n    \"path\": [\n      \"role\"\n    ],\n    \"message\": \"Invalid option: expected one of \\\"customer\\\"|\\\"fleet_owner\\\"|\\\"driver\\\"\"\n  }\n]"
+}
+[2026-04-27T12:26:28.569Z] [HTTP] POST /signup - 500 (36ms)
+[2026-04-27T12:26:28.823Z] [ERROR] Signup error:
+{
+  "name": "ZodError",
+  "message": "[\n  {\n    \"origin\": \"string\",\n    \"code\": \"invalid_format\",\n    \"format\": \"regex\",\n    \"pattern\": \"/[A-Z]/\",\n    \"path\": [\n      \"password\"\n    ],\n    \"message\": \"Password must contain at least one uppercase letter\"\n  },\n  {\n    \"code\": \"invalid_value\",\n    \"values\": [\n      \"customer\",\n      \"fleet_owner\",\n      \"driver\"\n    ],\n    \"path\": [\n      \"role\"\n    ],\n    \"message\": \"Invalid option: expected one of \\\"customer\\\"|\\\"fleet_owner\\\"|\\\"driver\\\"\"\n  }\n]"
+}
+[2026-04-27T12:26:28.868Z] [HTTP] POST /signup - 500 (63ms)
+[2026-04-27T12:26:28.917Z] [ERROR] Signup error:
+{
+  "name": "ZodError",
+  "message": "[\n  {\n    \"origin\": \"string\",\n    \"code\": \"invalid_format\",\n    \"format\": \"regex\",\n    \"pattern\": \"/[A-Z]/\",\n    \"path\": [\n      \"password\"\n    ],\n    \"message\": \"Password must contain at least one uppercase letter\"\n  },\n  {\n    \"code\": \"invalid_value\",\n    \"values\": [\n      \"customer\",\n      \"fleet_owner\",\n      \"driver\"\n    ],\n    \"path\": [\n      \"role\"\n    ],\n    \"message\": \"Invalid option: expected one of \\\"customer\\\"|\\\"fleet_owner\\\"|\\\"driver\\\"\"\n  }\n]"
+}
+[2026-04-27T12:26:28.931Z] [HTTP] POST /signup - 500 (14ms)
+[2026-04-27T12:26:29.097Z] [ERROR] Signup error:
+{
+  "name": "ZodError",
+  "message": "[\n  {\n    \"origin\": \"string\",\n    \"code\": \"invalid_format\",\n    \"format\": \"regex\",\n    \"pattern\": \"/[A-Z]/\",\n    \"path\": [\n      \"password\"\n    ],\n    \"message\": \"Password must contain at least one uppercase letter\"\n  },\n  {\n    \"code\": \"invalid_value\",\n    \"values\": [\n      \"customer\",\n      \"fleet_owner\",\n      \"driver\"\n    ],\n    \"path\": [\n      \"role\"\n    ],\n    \"message\": \"Invalid option: expected one of \\\"customer\\\"|\\\"fleet_owner\\\"|\\\"driver\\\"\"\n  }\n]"
+}
+[2026-04-27T12:26:29.104Z] [HTTP] POST /signup - 500 (8ms)
+[2026-04-27T12:26:29.297Z] [ERROR] Signup error:
+{
+  "name": "ZodError",
+  "message": "[\n  {\n    \"origin\": \"string\",\n    \"code\": \"invalid_format\",\n    \"format\": \"regex\",\n    \"pattern\": \"/[A-Z]/\",\n    \"path\": [\n      \"password\"\n    ],\n    \"message\": \"Password must contain at least one uppercase letter\"\n  },\n  {\n    \"code\": \"invalid_value\",\n    \"values\": [\n      \"customer\",\n      \"fleet_owner\",\n      \"driver\"\n    ],\n    \"path\": [\n      \"role\"\n    ],\n    \"message\": \"Invalid option: expected one of \\\"customer\\\"|\\\"fleet_owner\\\"|\\\"driver\\\"\"\n  }\n]"
+}
+[2026-04-27T12:26:29.301Z] [HTTP] POST /signup - 500 (4ms)
+[2026-04-27T12:26:29.519Z] [ERROR] Signup error:
+{
+  "name": "ZodError",
+  "message": "[\n  {\n    \"origin\": \"string\",\n    \"code\": \"invalid_format\",\n    \"format\": \"regex\",\n    \"pattern\": \"/[A-Z]/\",\n    \"path\": [\n      \"password\"\n    ],\n    \"message\": \"Password must contain at least one uppercase letter\"\n  },\n  {\n    \"code\": \"invalid_value\",\n    \"values\": [\n      \"customer\",\n      \"fleet_owner\",\n      \"driver\"\n    ],\n    \"path\": [\n      \"role\"\n    ],\n    \"message\": \"Invalid option: expected one of \\\"customer\\\"|\\\"fleet_owner\\\"|\\\"driver\\\"\"\n  }\n]"
+}
+[2026-04-27T12:26:29.521Z] [HTTP] POST /signup - 500 (2ms)
+[2026-04-27T12:26:29.682Z] [ERROR] Signup error:
+{
+  "name": "ZodError",
+  "message": "[\n  {\n    \"origin\": \"string\",\n    \"code\": \"invalid_format\",\n    \"format\": \"regex\",\n    \"pattern\": \"/[A-Z]/\",\n    \"path\": [\n      \"password\"\n    ],\n    \"message\": \"Password must contain at least one uppercase letter\"\n  },\n  {\n    \"code\": \"invalid_value\",\n    \"values\": [\n      \"customer\",\n      \"fleet_owner\",\n      \"driver\"\n    ],\n    \"path\": [\n      \"role\"\n    ],\n    \"message\": \"Invalid option: expected one of \\\"customer\\\"|\\\"fleet_owner\\\"|\\\"driver\\\"\"\n  }\n]"
+}
+[2026-04-27T12:26:29.684Z] [HTTP] POST /signup - 500 (3ms)
+[2026-04-27T12:33:10.627Z] [INFO] 📝 Signup attempt: customer@gmail.com
+[2026-04-27T12:33:14.011Z] [ERROR] Signup error:
+{
+  "code": "PGRST204",
+  "details": null,
+  "hint": null,
+  "message": "Could not find the 'kyc_verified' column of 'users' in the schema cache"
+}
+[2026-04-27T12:33:14.021Z] [HTTP] POST /signup - 500 (3438ms)
+[2026-04-27T12:34:02.671Z] [ERROR] ❌ Supabase connection failed:
+{
+  "message": ""
+}
+[2026-04-27T12:34:03.079Z] [WARN] ⚠️ Supabase connection failed - running with limited functionality
+[2026-04-27T12:34:03.083Z] [INFO] ✅ Database connection established
+[2026-04-27T12:34:03.094Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-27T12:34:03.099Z] [INFO] ✅ Socket.IO initialized
+[2026-04-27T12:34:03.121Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-04-27T12:34:03.127Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-04-27T12:34:03.142Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-04-27T12:34:03.146Z] [INFO] 🔌 Socket.IO: ws://localhost:3001
+[2026-04-27T12:34:03.149Z] [INFO] 📝 Environment: development
+[2026-04-27T12:36:47.152Z] [INFO] 📝 Signup attempt: customer@gmail.com
+[2026-04-27T12:36:49.106Z] [ERROR] Signup error:
+{
+  "code": "PGRST204",
+  "details": null,
+  "hint": null,
+  "message": "Could not find the 'kyc_verified' column of 'users' in the schema cache"
+}
+[2026-04-27T12:36:49.114Z] [HTTP] POST /signup - 500 (1976ms)
+[2026-04-27T12:36:51.490Z] [INFO] 📝 Signup attempt: customer@gmail.com
+[2026-04-27T12:36:52.331Z] [ERROR] Signup error:
+{
+  "code": "PGRST204",
+  "details": null,
+  "hint": null,
+  "message": "Could not find the 'kyc_verified' column of 'users' in the schema cache"
+}
+[2026-04-27T12:36:52.333Z] [HTTP] POST /signup - 500 (845ms)
+[2026-04-27T12:36:55.758Z] [INFO] 📝 Signup attempt: customer@gmail.com
+[2026-04-27T12:36:57.962Z] [ERROR] Signup error:
+{
+  "code": "PGRST204",
+  "details": null,
+  "hint": null,
+  "message": "Could not find the 'kyc_verified' column of 'users' in the schema cache"
+}
+[2026-04-27T12:36:57.965Z] [HTTP] POST /signup - 500 (2208ms)
+[2026-04-27T12:37:58.388Z] [INFO] 📝 Signup attempt: customer@gmail.com
+[2026-04-27T12:37:59.858Z] [ERROR] Signup error:
+{
+  "code": "PGRST204",
+  "details": null,
+  "hint": null,
+  "message": "Could not find the 'kyc_verified' column of 'users' in the schema cache"
+}
+[2026-04-27T12:37:59.860Z] [HTTP] POST /signup - 500 (1472ms)
+[2026-04-27T12:41:56.134Z] [ERROR] ❌ Supabase connection failed:
+{
+  "message": ""
+}
+[2026-04-27T12:41:56.137Z] [WARN] ⚠️ Supabase connection failed - running with limited functionality
+[2026-04-27T12:41:56.138Z] [INFO] ✅ Database connection established
+[2026-04-27T12:41:56.148Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-27T12:41:56.152Z] [INFO] ✅ Socket.IO initialized
+[2026-04-27T12:43:32.999Z] [ERROR] ❌ Supabase connection failed:
+{
+  "message": ""
+}
+[2026-04-27T12:43:33.006Z] [WARN] ⚠️ Supabase connection failed - running with limited functionality
+[2026-04-27T12:43:33.046Z] [INFO] ✅ Database connection established
+[2026-04-27T12:43:33.059Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-27T12:43:33.118Z] [INFO] ✅ Socket.IO initialized
+[2026-04-27T12:43:33.166Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-04-27T12:43:33.167Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-04-27T12:43:33.170Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-04-27T12:43:33.174Z] [INFO] 🔌 Socket.IO: ws://localhost:3001
+[2026-04-27T12:43:33.179Z] [INFO] 📝 Environment: development
+[2026-04-27T12:46:46.524Z] [INFO] 🔌 Testing Supabase connection...
+[2026-04-27T12:46:46.527Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-27T12:46:47.712Z] [ERROR] ❌ Supabase API not responding: 401 Unauthorized
+[2026-04-27T12:46:47.717Z] [WARN] ⚠️ Supabase connection failed - running with limited functionality
+[2026-04-27T12:46:47.721Z] [INFO] ✅ Database connection established
+[2026-04-27T12:46:47.729Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-27T12:46:47.735Z] [INFO] ✅ Socket.IO initialized
+[2026-04-27T12:46:47.747Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-04-27T12:46:47.749Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-04-27T12:46:47.750Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-04-27T12:46:47.753Z] [INFO] 🔌 Socket.IO: ws://localhost:3001
+[2026-04-27T12:46:47.756Z] [INFO] 📝 Environment: development
+[2026-04-27T12:47:14.354Z] [INFO] 🔌 Testing Supabase connection...
+[2026-04-27T12:47:14.357Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-27T12:47:14.950Z] [ERROR] ❌ Supabase API not responding: 401 Unauthorized
+[2026-04-27T12:47:14.951Z] [WARN] ⚠️ Supabase connection failed - running with limited functionality
+[2026-04-27T12:47:14.953Z] [INFO] ✅ Database connection established
+[2026-04-27T12:47:14.965Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-27T12:47:14.968Z] [INFO] ✅ Socket.IO initialized
+[2026-04-27T12:47:14.984Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-04-27T12:47:14.986Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-04-27T12:47:14.991Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-04-27T12:47:14.999Z] [INFO] 🔌 Socket.IO: ws://localhost:3001
+[2026-04-27T12:47:15.008Z] [INFO] 📝 Environment: development
+[2026-04-27T12:49:30.066Z] [INFO] 🔌 Testing Supabase connection...
+[2026-04-27T12:49:30.071Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-27T12:49:30.831Z] [ERROR] ❌ Supabase API not responding: 401 Unauthorized
+[2026-04-27T12:49:30.832Z] [WARN] ⚠️ Supabase connection failed - running with limited functionality
+[2026-04-27T12:49:30.835Z] [INFO] ✅ Database connection established
+[2026-04-27T12:49:30.848Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-27T12:49:30.851Z] [INFO] ✅ Socket.IO initialized
+[2026-04-27T12:50:52.048Z] [INFO] 📝 Signup attempt: customer@gmail.com
+[2026-04-27T12:50:53.769Z] [ERROR] Signup error:
+{
+  "code": "PGRST204",
+  "details": null,
+  "hint": null,
+  "message": "Could not find the 'password_hash' column of 'users' in the schema cache"
+}
+[2026-04-27T12:50:53.776Z] [HTTP] POST /signup - 500 (1742ms)
+[2026-04-27T12:50:55.370Z] [INFO] 📝 Signup attempt: customer@gmail.com
+[2026-04-27T12:50:56.320Z] [ERROR] Signup error:
+{
+  "code": "PGRST204",
+  "details": null,
+  "hint": null,
+  "message": "Could not find the 'password_hash' column of 'users' in the schema cache"
+}
+[2026-04-27T12:50:56.322Z] [HTTP] POST /signup - 500 (953ms)
+[2026-04-27T12:54:11.511Z] [INFO] 🔌 Testing Supabase connection...
+[2026-04-27T12:54:11.515Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-27T12:54:12.871Z] [ERROR] ❌ Supabase API not responding: 401 Unauthorized
+[2026-04-27T12:54:12.873Z] [WARN] ⚠️ Supabase connection failed - running with limited functionality
+[2026-04-27T12:54:12.880Z] [INFO] ✅ Database connection established
+[2026-04-27T12:54:12.893Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-27T12:54:12.901Z] [INFO] ✅ Socket.IO initialized
+[2026-04-27T12:54:12.911Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-04-27T12:54:12.914Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-04-27T12:54:12.916Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-04-27T12:54:12.918Z] [INFO] 🔌 Socket.IO: ws://localhost:3001
+[2026-04-27T12:54:12.920Z] [INFO] 📝 Environment: development
+[2026-04-27T12:55:04.105Z] [INFO] 🔌 Initializing Supabase...
+[2026-04-27T12:55:04.109Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-27T12:55:04.113Z] [INFO] 📝 Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+[2026-04-27T12:55:04.119Z] [INFO] 🔑 Service Key: Not provided
+[2026-04-27T12:55:05.474Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-04-27T12:55:05.475Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-04-27T12:55:05.476Z] [INFO] ✅ Database connection established
+[2026-04-27T12:55:05.484Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-27T12:55:05.487Z] [INFO] ✅ Socket.IO initialized
+[2026-04-27T12:55:38.197Z] [INFO] 🔌 Initializing Supabase...
+[2026-04-27T12:55:38.199Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-27T12:55:38.202Z] [INFO] 📝 Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+[2026-04-27T12:55:38.203Z] [INFO] 🔑 Service Key: Not provided
+[2026-04-27T12:55:39.151Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-04-27T12:55:39.152Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-04-27T12:55:39.154Z] [INFO] ✅ Database connection established
+[2026-04-27T12:55:39.162Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-27T12:55:39.166Z] [INFO] ✅ Socket.IO initialized
+[2026-04-27T12:55:41.378Z] [INFO] 🔌 Initializing Supabase...
+[2026-04-27T12:55:41.382Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-27T12:55:41.384Z] [INFO] 📝 Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+[2026-04-27T12:55:41.385Z] [INFO] 🔑 Service Key: Not provided
+[2026-04-27T12:55:42.545Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-04-27T12:55:42.547Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-04-27T12:55:42.549Z] [INFO] ✅ Database connection established
+[2026-04-27T12:55:42.555Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-27T12:55:42.556Z] [INFO] ✅ Socket.IO initialized
+[2026-04-27T12:56:50.663Z] [INFO] 🔌 Initializing Supabase...
+[2026-04-27T12:56:50.669Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-27T12:56:50.670Z] [INFO] 📝 Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+[2026-04-27T12:56:50.671Z] [INFO] 🔑 Service Key: Not provided
+[2026-04-27T12:56:52.121Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-04-27T12:56:52.123Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-04-27T12:56:52.126Z] [INFO] ✅ Database connection established
+[2026-04-27T12:56:52.139Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-27T12:56:52.158Z] [INFO] ✅ Socket.IO initialized
+[2026-04-27T12:56:52.168Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-04-27T12:56:52.170Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-04-27T12:56:52.173Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-04-27T12:56:52.175Z] [INFO] 🔌 Socket.IO: ws://localhost:3001
+[2026-04-27T12:56:52.179Z] [INFO] 📝 Environment: development
+[2026-04-27T12:57:27.539Z] [HTTP] GET /api/health - 200 (11ms)
+[2026-04-27T12:58:18.457Z] [HTTP] GET /api/health - 200 (1ms)
+[2026-04-27T13:01:46.589Z] [INFO] 📝 Signup attempt: customer@gmail.com
+[2026-04-27T13:01:49.729Z] [ERROR] Signup error:
+{
+  "code": "PGRST204",
+  "details": null,
+  "hint": null,
+  "message": "Could not find the 'password_hash' column of 'users' in the schema cache"
+}
+[2026-04-27T13:01:49.734Z] [HTTP] POST /signup - 500 (3164ms)
+[2026-04-27T13:28:07.358Z] [INFO] 🔌 Initializing Supabase...
+[2026-04-27T13:28:07.363Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-27T13:28:07.364Z] [INFO] 📝 Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+[2026-04-27T13:28:07.365Z] [INFO] 🔑 Service Key: Not provided
+[2026-04-27T13:28:16.424Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-04-27T13:28:16.429Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-04-27T13:28:16.430Z] [INFO] ✅ Database connection established
+[2026-04-27T13:28:16.450Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-27T13:28:16.451Z] [INFO] ✅ Socket.IO initialized
+[2026-04-27T13:28:16.465Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-04-27T13:28:16.466Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-04-27T13:28:16.467Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-04-27T13:28:16.473Z] [INFO] 🔌 Socket.IO: ws://localhost:3001
+[2026-04-27T13:28:16.473Z] [INFO] 📝 Environment: development
+[2026-04-27T13:29:25.114Z] [INFO] 🔐 Login attempt: admin@raftaar.com
+[2026-04-27T13:29:26.107Z] [WARN] ⚠️ User not found: admin@raftaar.com
+[2026-04-27T13:29:26.108Z] [ERROR] Login error:
+{
+  "statusCode": 401,
+  "code": "INVALID_CREDENTIALS"
+}
+[2026-04-27T13:29:26.126Z] [HTTP] POST /login - 401 (1015ms)
+[2026-04-27T13:29:27.994Z] [INFO] 🔐 Login attempt: admin@raftaar.com
+[2026-04-27T13:29:28.457Z] [WARN] ⚠️ User not found: admin@raftaar.com
+[2026-04-27T13:29:28.458Z] [ERROR] Login error:
+{
+  "statusCode": 401,
+  "code": "INVALID_CREDENTIALS"
+}
+[2026-04-27T13:29:28.461Z] [HTTP] POST /login - 401 (468ms)
+[2026-04-27T13:31:07.899Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T13:31:07.902Z] [HTTP] GET /bookings/user/demo-cust-001 - 401 (6ms)
+[2026-04-27T13:31:07.912Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T13:31:07.915Z] [HTTP] GET /bookings/user/demo-cust-001 - 401 (3ms)
+[2026-04-27T13:31:10.078Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T13:31:10.079Z] [HTTP] GET /bookings/user/demo-cust-001 - 401 (2ms)
+[2026-04-27T13:31:10.112Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T13:31:10.113Z] [HTTP] GET /bookings/user/demo-cust-001 - 401 (2ms)
+[2026-04-27T13:31:22.404Z] [INFO] [Chat] Client connected: 6tZAwI76wejBzf84AAAB
+[2026-04-27T13:31:22.408Z] [INFO] [Chat] Socket 6tZAwI76wejBzf84AAAB joined room chat_1_demo-cust-001
+[2026-04-27T13:31:22.409Z] [INFO] [Chat] Socket 6tZAwI76wejBzf84AAAB joined room chat_1_demo-cust-001
+[2026-04-27T13:31:24.709Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T13:31:24.711Z] [HTTP] GET /bookings/user/demo-cust-001 - 401 (2ms)
+[2026-04-27T13:31:24.717Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T13:31:24.718Z] [HTTP] GET /bookings/user/demo-cust-001 - 401 (1ms)
+[2026-04-27T13:31:25.475Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T13:31:25.477Z] [HTTP] GET /bookings/user/demo-cust-001 - 401 (2ms)
+[2026-04-27T13:31:25.498Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T13:31:25.500Z] [HTTP] GET /bookings/user/demo-cust-001 - 401 (2ms)
+[2026-04-27T13:32:09.744Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T13:32:09.747Z] [HTTP] GET /bookings/user/demo-cust-001 - 401 (3ms)
+[2026-04-27T13:32:09.754Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T13:32:09.757Z] [HTTP] GET /bookings/user/demo-cust-001 - 401 (3ms)
+[2026-04-27T13:32:15.261Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T13:32:15.263Z] [HTTP] GET /bookings/user/demo-cust-001 - 401 (2ms)
+[2026-04-27T13:32:15.269Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T13:32:15.272Z] [HTTP] GET /bookings/user/demo-cust-001 - 401 (3ms)
+[2026-04-27T13:32:19.786Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T13:32:19.788Z] [HTTP] GET /trucks - 401 (2ms)
+[2026-04-27T13:32:19.797Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T13:32:19.799Z] [HTTP] GET /trucks - 401 (2ms)
+[2026-04-27T13:32:28.614Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T13:32:28.615Z] [HTTP] GET /bookings/user/demo-cust-001 - 401 (1ms)
+[2026-04-27T13:32:28.622Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T13:32:28.623Z] [HTTP] GET /bookings/user/demo-cust-001 - 401 (1ms)
+[2026-04-27T13:32:30.864Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T13:32:30.866Z] [HTTP] POST /auth/logout - 401 (2ms)
+[2026-04-27T13:32:46.558Z] [INFO] 🔐 Login attempt: admin@raftaar.com
+[2026-04-27T13:32:49.935Z] [WARN] ⚠️ User not found: admin@raftaar.com
+[2026-04-27T13:32:49.935Z] [ERROR] Login error:
+{
+  "statusCode": 401,
+  "code": "INVALID_CREDENTIALS"
+}
+[2026-04-27T13:32:49.938Z] [HTTP] POST /login - 401 (3380ms)
+[2026-04-27T13:33:34.590Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T13:33:34.591Z] [HTTP] GET /users - 401 (1ms)
+[2026-04-27T13:33:34.594Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T13:33:34.596Z] [HTTP] GET /bookings - 401 (2ms)
+[2026-04-27T13:33:34.597Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T13:33:34.598Z] [HTTP] GET /trucks - 401 (1ms)
+[2026-04-27T13:33:34.670Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T13:33:34.671Z] [HTTP] GET /users - 401 (1ms)
+[2026-04-27T13:33:34.673Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T13:33:34.674Z] [HTTP] GET /bookings - 401 (2ms)
+[2026-04-27T13:33:34.724Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T13:33:34.725Z] [HTTP] GET /trucks - 401 (2ms)
+[2026-04-27T13:33:37.936Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T13:33:37.938Z] [HTTP] GET /users - 401 (2ms)
+[2026-04-27T13:33:37.953Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T13:33:37.955Z] [HTTP] GET /users - 401 (2ms)
+[2026-04-27T13:33:43.802Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T13:33:43.803Z] [HTTP] GET /users/profile - 401 (1ms)
+[2026-04-27T13:33:43.821Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T13:33:43.822Z] [HTTP] GET /users/profile - 401 (1ms)
+[2026-04-27T13:35:10.174Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T13:35:10.176Z] [HTTP] GET /users - 401 (2ms)
+[2026-04-27T13:35:10.181Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T13:35:10.182Z] [HTTP] GET /users - 401 (1ms)
+[2026-04-27T13:37:08.261Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T13:37:08.305Z] [HTTP] GET /users - 401 (52ms)
+[2026-04-27T13:37:08.325Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T13:37:08.330Z] [HTTP] GET /users - 401 (5ms)
+[2026-04-27T13:38:36.850Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T13:38:36.855Z] [HTTP] POST /auth/logout - 401 (10ms)
+[2026-04-27T13:38:51.711Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T13:38:51.713Z] [HTTP] GET /bookings/user/demo-cust-001 - 401 (2ms)
+[2026-04-27T13:38:51.718Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T13:38:51.719Z] [HTTP] GET /bookings/user/demo-cust-001 - 401 (1ms)
+[2026-04-27T13:38:53.922Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T13:38:53.925Z] [HTTP] GET /bookings/user/demo-cust-001 - 401 (3ms)
+[2026-04-27T13:38:53.945Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T13:38:53.947Z] [HTTP] GET /bookings/user/demo-cust-001 - 401 (2ms)
+[2026-04-27T13:39:04.282Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T13:39:04.283Z] [HTTP] POST /auth/logout - 401 (2ms)
+[2026-04-27T13:39:09.866Z] [INFO] 🔐 Login attempt: abdullah.tauqeer.chh@gmail.com
+[2026-04-27T13:39:31.433Z] [INFO] [Chat] Client disconnected: 6tZAwI76wejBzf84AAAB
+[2026-04-27T13:39:48.406Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T13:39:48.408Z] [HTTP] GET /bookings/user/user-1777295627447-8qd38h - 401 (2ms)
+[2026-04-27T13:39:48.412Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T13:39:48.414Z] [HTTP] GET /bookings/user/user-1777295627447-8qd38h - 401 (2ms)
+[2026-04-27T13:39:50.707Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T13:39:50.709Z] [HTTP] GET /bookings/user/user-1777295627447-8qd38h - 401 (2ms)
+[2026-04-27T13:39:50.727Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T13:39:50.728Z] [HTTP] GET /bookings/user/user-1777295627447-8qd38h - 401 (1ms)
+[2026-04-27T13:39:53.093Z] [WARN] ⚠️ User not found: abdullah.tauqeer.chh@gmail.com
+[2026-04-27T13:39:53.094Z] [ERROR] Login error:
+{
+  "statusCode": 401,
+  "code": "INVALID_CREDENTIALS"
+}
+[2026-04-27T13:39:54.858Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T13:39:54.859Z] [HTTP] POST /auth/logout - 401 (2ms)
+[2026-04-27T13:40:02.187Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T13:40:02.188Z] [HTTP] GET /trucks/owner/demo-fleet-001 - 401 (1ms)
+[2026-04-27T13:40:02.202Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T13:40:02.204Z] [HTTP] GET /bookings/user/demo-fleet-001 - 401 (3ms)
+[2026-04-27T13:40:02.215Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T13:40:02.216Z] [HTTP] GET /bookings/user/demo-fleet-001 - 401 (1ms)
+[2026-04-27T13:40:02.218Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T13:40:02.219Z] [HTTP] GET /trucks/owner/demo-fleet-001 - 401 (1ms)
+[2026-04-27T13:40:11.640Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T13:40:11.642Z] [HTTP] POST /auth/logout - 401 (2ms)
+[2026-04-27T13:40:21.859Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T13:40:21.862Z] [HTTP] GET /users - 401 (3ms)
+[2026-04-27T13:40:21.863Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T13:40:21.864Z] [HTTP] GET /trucks - 401 (1ms)
+[2026-04-27T13:40:21.877Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T13:40:21.878Z] [HTTP] GET /bookings - 401 (2ms)
+[2026-04-27T13:40:21.895Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T13:40:21.898Z] [HTTP] GET /users - 401 (4ms)
+[2026-04-27T13:40:21.902Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T13:40:21.904Z] [HTTP] GET /trucks - 401 (2ms)
+[2026-04-27T13:40:21.907Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T13:40:21.908Z] [HTTP] GET /bookings - 401 (2ms)
+[2026-04-27T13:40:24.423Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T13:40:24.425Z] [HTTP] GET /users - 401 (2ms)
+[2026-04-27T13:40:24.440Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T13:40:24.441Z] [HTTP] GET /users - 401 (1ms)
+[2026-04-27T13:40:27.766Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T13:40:27.768Z] [HTTP] GET /users/profile - 401 (1ms)
+[2026-04-27T13:40:27.780Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T13:40:27.783Z] [HTTP] GET /users/profile - 401 (3ms)
+[2026-04-27T13:40:29.633Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T13:40:29.634Z] [HTTP] PUT /users/profile - 401 (1ms)
+[2026-04-27T13:40:32.957Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T13:40:32.960Z] [HTTP] PUT /users/profile - 401 (3ms)
+[2026-04-27T13:43:02.799Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T13:43:02.802Z] [HTTP] GET /users - 401 (3ms)
+[2026-04-27T13:43:02.807Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T13:43:02.809Z] [HTTP] GET /users - 401 (2ms)
+[2026-04-27T13:43:05.433Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T13:43:05.436Z] [HTTP] POST /auth/logout - 401 (4ms)
+[2026-04-27T13:43:11.556Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T13:43:11.558Z] [HTTP] GET /trucks/owner/demo-fleet-001 - 401 (2ms)
+[2026-04-27T13:43:11.559Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T13:43:11.560Z] [HTTP] GET /bookings/user/demo-fleet-001 - 401 (1ms)
+[2026-04-27T13:43:11.579Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T13:43:11.580Z] [HTTP] GET /trucks/owner/demo-fleet-001 - 401 (1ms)
+[2026-04-27T13:43:11.581Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T13:43:11.584Z] [HTTP] GET /bookings/user/demo-fleet-001 - 401 (3ms)
+[2026-04-27T13:49:04.936Z] [INFO] 🔌 Initializing Supabase...
+[2026-04-27T13:49:04.973Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-27T13:49:04.974Z] [INFO] 📝 Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+[2026-04-27T13:49:04.977Z] [INFO] 🔑 Service Key: Not provided
+[2026-04-27T13:49:15.449Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-04-27T13:49:15.454Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-04-27T13:49:15.455Z] [INFO] ✅ Database connection established
+[2026-04-27T13:49:15.494Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-27T13:49:15.495Z] [INFO] ✅ Socket.IO initialized
+[2026-04-27T13:49:15.519Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-04-27T13:49:15.520Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-04-27T13:49:15.528Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-04-27T13:49:15.529Z] [INFO] 🔌 Socket.IO: ws://localhost:3001
+[2026-04-27T13:49:15.532Z] [INFO] 📝 Environment: development
+[2026-04-27T13:55:02.256Z] [INFO] 🔌 Initializing Supabase...
+[2026-04-27T13:55:02.259Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-27T13:55:02.259Z] [INFO] 📝 Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+[2026-04-27T13:55:02.260Z] [INFO] 🔑 Service Key: Not provided
+[2026-04-27T13:55:03.476Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-04-27T13:55:03.477Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-04-27T13:55:03.478Z] [INFO] ✅ Database connection established
+[2026-04-27T13:55:03.484Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-27T13:55:03.485Z] [INFO] ✅ Socket.IO initialized
+[2026-04-27T13:55:03.492Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-04-27T13:55:03.493Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-04-27T13:55:03.494Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-04-27T13:55:03.494Z] [INFO] 🔌 Socket.IO: ws://localhost:3001
+[2026-04-27T13:55:03.495Z] [INFO] 📝 Environment: development
+[2026-04-27T14:00:47.904Z] [INFO] 🔌 Initializing Supabase...
+[2026-04-27T14:00:47.921Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-27T14:00:47.922Z] [INFO] 📝 Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+[2026-04-27T14:00:47.924Z] [INFO] 🔑 Service Key: Not provided
+[2026-04-27T14:00:49.029Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-04-27T14:00:49.030Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-04-27T14:00:49.031Z] [INFO] ✅ Database connection established
+[2026-04-27T14:00:49.038Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-27T14:00:49.039Z] [INFO] ✅ Socket.IO initialized
+[2026-04-27T14:02:05.872Z] [HTTP] GET /api/health - 200 (30ms)
+[2026-04-27T14:07:48.223Z] [INFO] 🔌 Initializing Supabase...
+[2026-04-27T14:07:48.246Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-27T14:07:48.247Z] [INFO] 📝 Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+[2026-04-27T14:07:48.249Z] [INFO] 🔑 Service Key: Not provided
+[2026-04-27T14:07:49.644Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-04-27T14:07:49.645Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-04-27T14:07:49.645Z] [INFO] ✅ Database connection established
+[2026-04-27T14:07:49.651Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-27T14:07:49.652Z] [INFO] ✅ Socket.IO initialized
+[2026-04-27T14:07:49.659Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-04-27T14:07:49.660Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-04-27T14:07:49.661Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-04-27T14:07:49.661Z] [INFO] 🔌 Socket.IO: ws://localhost:3001
+[2026-04-27T14:07:49.662Z] [INFO] 📝 Environment: development
+[2026-04-27T14:08:02.422Z] [INFO] 🔌 Initializing Supabase...
+[2026-04-27T14:08:02.425Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-27T14:08:02.426Z] [INFO] 📝 Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+[2026-04-27T14:08:02.428Z] [INFO] 🔑 Service Key: Not provided
+[2026-04-27T14:08:02.945Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-04-27T14:08:02.946Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-04-27T14:08:02.947Z] [INFO] ✅ Database connection established
+[2026-04-27T14:08:02.952Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-27T14:08:02.953Z] [INFO] ✅ Socket.IO initialized
+[2026-04-27T14:08:02.961Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-04-27T14:08:02.963Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-04-27T14:08:02.965Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-04-27T14:08:02.966Z] [INFO] 🔌 Socket.IO: ws://localhost:3001
+[2026-04-27T14:08:02.967Z] [INFO] 📝 Environment: development
+[2026-04-27T14:10:50.466Z] [INFO] 🔌 Initializing Supabase...
+[2026-04-27T14:10:50.469Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-27T14:10:50.470Z] [INFO] 📝 Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+[2026-04-27T14:10:50.471Z] [INFO] 🔑 Service Key: Not provided
+[2026-04-27T14:10:51.803Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-04-27T14:10:51.804Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-04-27T14:10:51.804Z] [INFO] ✅ Database connection established
+[2026-04-27T14:10:51.812Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-27T14:10:51.813Z] [INFO] ✅ Socket.IO initialized
+[2026-04-27T14:10:51.822Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-04-27T14:10:51.823Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-04-27T14:10:51.824Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-04-27T14:10:51.825Z] [INFO] 🔌 Socket.IO: ws://localhost:3001
+[2026-04-27T14:10:51.825Z] [INFO] 📝 Environment: development
+[2026-04-27T14:14:45.753Z] [INFO] 🔌 Initializing Supabase...
+[2026-04-27T14:14:45.776Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-27T14:14:45.777Z] [INFO] 📝 Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+[2026-04-27T14:14:45.778Z] [INFO] 🔑 Service Key: Not provided
+[2026-04-27T14:15:03.194Z] [INFO] 🔌 Initializing Supabase...
+[2026-04-27T14:15:03.197Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-27T14:15:03.201Z] [INFO] 📝 Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+[2026-04-27T14:15:03.206Z] [INFO] 🔑 Service Key: Not provided
+[2026-04-27T14:15:04.232Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-04-27T14:15:04.233Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-04-27T14:15:04.234Z] [INFO] ✅ Database connection established
+[2026-04-27T14:15:04.240Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-27T14:15:04.241Z] [INFO] ✅ Socket.IO initialized
+[2026-04-27T14:15:04.248Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-04-27T14:15:04.249Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-04-27T14:15:04.250Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-04-27T14:15:04.250Z] [INFO] 🔌 Socket.IO: ws://localhost:3001
+[2026-04-27T14:15:04.253Z] [INFO] 📝 Environment: development
+[2026-04-27T14:18:47.944Z] [INFO] 🔌 Initializing Supabase...
+[2026-04-27T14:18:47.949Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-27T14:18:47.949Z] [INFO] 📝 Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+[2026-04-27T14:18:47.950Z] [INFO] 🔑 Service Key: Not provided
+[2026-04-27T14:18:49.634Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-04-27T14:18:49.636Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-04-27T14:18:49.638Z] [INFO] ✅ Database connection established
+[2026-04-27T14:18:49.660Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-27T14:18:49.661Z] [INFO] ✅ Socket.IO initialized
+[2026-04-27T14:18:49.675Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-04-27T14:18:49.677Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-04-27T14:18:49.679Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-04-27T14:18:49.681Z] [INFO] 🔌 Socket.IO: ws://localhost:3001
+[2026-04-27T14:18:49.681Z] [INFO] 📝 Environment: development
+[2026-04-27T14:24:46.196Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T14:24:46.237Z] [HTTP] POST /auth/logout - 401 (46ms)
+[2026-04-27T14:24:55.443Z] [INFO] 🔐 Login attempt: admin@raftaar.com
+[2026-04-27T14:24:57.195Z] [WARN] ⚠️ User not found: admin@raftaar.com
+[2026-04-27T14:24:57.197Z] [ERROR] Login error:
+{
+  "statusCode": 401,
+  "code": "INVALID_CREDENTIALS"
+}
+[2026-04-27T14:24:57.218Z] [HTTP] POST /login - 401 (1778ms)
+[2026-04-27T14:25:05.777Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T14:25:05.779Z] [HTTP] GET /users - 401 (2ms)
+[2026-04-27T14:25:05.787Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T14:25:05.789Z] [HTTP] GET /trucks - 401 (2ms)
+[2026-04-27T14:25:05.790Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T14:25:05.795Z] [HTTP] GET /shipments - 401 (4ms)
+[2026-04-27T14:25:05.797Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T14:25:05.798Z] [HTTP] GET /users - 401 (1ms)
+[2026-04-27T14:25:05.803Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T14:25:05.805Z] [HTTP] GET /trucks - 401 (2ms)
+[2026-04-27T14:25:05.806Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T14:25:05.808Z] [HTTP] GET /shipments - 401 (2ms)
+[2026-04-27T14:25:09.591Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T14:25:09.595Z] [HTTP] GET /users - 401 (4ms)
+[2026-04-27T14:25:09.608Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T14:25:09.612Z] [HTTP] GET /users - 401 (4ms)
+[2026-04-27T14:25:19.271Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T14:25:19.272Z] [HTTP] GET /users - 401 (2ms)
+[2026-04-27T14:25:19.275Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T14:25:19.277Z] [HTTP] GET /shipments - 401 (2ms)
+[2026-04-27T14:25:19.278Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T14:25:19.280Z] [HTTP] GET /trucks - 401 (2ms)
+[2026-04-27T14:25:19.282Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T14:25:19.283Z] [HTTP] GET /users - 401 (1ms)
+[2026-04-27T14:25:19.285Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T14:25:19.286Z] [HTTP] GET /shipments - 401 (2ms)
+[2026-04-27T14:25:19.287Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T14:25:19.289Z] [HTTP] GET /trucks - 401 (2ms)
+[2026-04-27T14:27:27.209Z] [INFO] 🔌 Initializing Supabase...
+[2026-04-27T14:27:27.225Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-27T14:27:27.225Z] [INFO] 📝 Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+[2026-04-27T14:27:27.226Z] [INFO] 🔑 Service Key: Not provided
+[2026-04-27T14:27:28.853Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-04-27T14:27:28.854Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-04-27T14:27:28.855Z] [INFO] ✅ Database connection established
+[2026-04-27T14:27:28.861Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-27T14:27:28.861Z] [INFO] ✅ Socket.IO initialized
+[2026-04-27T14:27:28.868Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-04-27T14:27:28.870Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-04-27T14:27:28.871Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-04-27T14:27:28.872Z] [INFO] 🔌 Socket.IO: ws://localhost:3001
+[2026-04-27T14:27:28.872Z] [INFO] 📝 Environment: development
+[2026-04-27T14:29:58.159Z] [INFO] 🔌 Initializing Supabase...
+[2026-04-27T14:29:58.164Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-27T14:29:58.166Z] [INFO] 📝 Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+[2026-04-27T14:29:58.167Z] [INFO] 🔑 Service Key: Not provided
+[2026-04-27T14:29:59.493Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-04-27T14:29:59.494Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-04-27T14:29:59.495Z] [INFO] ✅ Database connection established
+[2026-04-27T14:29:59.502Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-27T14:29:59.503Z] [INFO] ✅ Socket.IO initialized
+[2026-04-27T14:29:59.516Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-04-27T14:29:59.518Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-04-27T14:29:59.518Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-04-27T14:29:59.519Z] [INFO] 🔌 Socket.IO: ws://localhost:3001
+[2026-04-27T14:29:59.520Z] [INFO] 📝 Environment: development
+[2026-04-27T14:30:47.311Z] [HTTP] GET /api/health - 200 (15ms)
+[2026-04-27T14:30:47.402Z] [INFO] 📝 Signup attempt: smoke_1777300246870@test.com
+[2026-04-27T14:30:48.834Z] [ERROR] Signup error:
+{
+  "code": "PGRST204",
+  "details": null,
+  "hint": null,
+  "message": "Could not find the 'password_hash' column of 'users' in the schema cache"
+}
+[2026-04-27T14:30:48.836Z] [HTTP] POST /signup - 500 (1444ms)
+[2026-04-27T14:31:11.876Z] [HTTP] GET /api/health - 200 (1ms)
+[2026-04-27T14:31:11.936Z] [INFO] 📝 Signup attempt: smoke_1777300271754@test.com
+[2026-04-27T14:31:13.820Z] [ERROR] Signup error:
+{
+  "code": "PGRST204",
+  "details": null,
+  "hint": null,
+  "message": "Could not find the 'password_hash' column of 'users' in the schema cache"
+}
+[2026-04-27T14:31:13.822Z] [HTTP] POST /signup - 500 (1887ms)
+[2026-04-27T17:25:43.441Z] [INFO] 🔌 Initializing Supabase...
+[2026-04-27T17:25:43.462Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-27T17:25:43.462Z] [INFO] 📝 Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+[2026-04-27T17:25:43.463Z] [INFO] 🔑 Service Key: Not provided
+[2026-04-27T17:25:45.380Z] [ERROR] ❌ users.password_hash column missing in Supabase schema
+[2026-04-27T17:25:45.381Z] [ERROR] ➡️ Run: trucking-api/supabase-migration-password-hash.sql in Supabase SQL editor
+[2026-04-27T17:25:45.767Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-04-27T17:25:45.768Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-04-27T17:25:45.769Z] [INFO] ✅ Database connection established
+[2026-04-27T17:25:45.776Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-27T17:25:45.777Z] [INFO] ✅ Socket.IO initialized
+[2026-04-27T17:25:45.784Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-04-27T17:25:45.786Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-04-27T17:25:45.787Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-04-27T17:25:45.787Z] [INFO] 🔌 Socket.IO: ws://localhost:3001
+[2026-04-27T17:25:45.788Z] [INFO] 📝 Environment: development
+[2026-04-27T17:30:32.819Z] [HTTP] GET /api/health - 200 (65ms)
+[2026-04-27T17:30:33.052Z] [INFO] 📝 Signup attempt: smoke_1777311032081@test.com
+[2026-04-27T17:30:37.091Z] [ERROR] Signup error:
+{
+  "code": "PGRST204",
+  "details": null,
+  "hint": null,
+  "message": "Could not find the 'password_hash' column of 'users' in the schema cache"
+}
+[2026-04-27T17:30:37.094Z] [HTTP] POST /signup - 500 (4090ms)
+[2026-04-27T17:31:06.661Z] [INFO] 🔌 Initializing Supabase...
+[2026-04-27T17:31:06.663Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-27T17:31:06.664Z] [INFO] 📝 Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+[2026-04-27T17:31:06.665Z] [INFO] 🔑 Service Key: Not provided
+[2026-04-27T17:31:07.578Z] [ERROR] ❌ users.password_hash column missing in Supabase schema
+[2026-04-27T17:31:07.579Z] [ERROR] ➡️ Run: trucking-api/supabase-migration-password-hash.sql in Supabase SQL editor
+[2026-04-27T17:31:07.912Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-04-27T17:31:07.913Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-04-27T17:31:07.914Z] [INFO] ✅ Database connection established
+[2026-04-27T17:31:07.920Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-27T17:31:07.921Z] [INFO] ✅ Socket.IO initialized
+[2026-04-27T17:31:07.927Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-04-27T17:31:07.928Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-04-27T17:31:07.928Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-04-27T17:31:07.929Z] [INFO] 🔌 Socket.IO: ws://localhost:3001
+[2026-04-27T17:31:07.930Z] [INFO] 📝 Environment: development
+[2026-04-27T17:31:42.178Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T17:31:42.186Z] [HTTP] GET /users - 401 (8ms)
+[2026-04-27T17:31:42.195Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T17:31:42.197Z] [HTTP] GET /users - 401 (2ms)
+[2026-04-27T17:31:46.735Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T17:31:46.738Z] [HTTP] GET /users/profile - 401 (3ms)
+[2026-04-27T17:31:46.749Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T17:31:46.751Z] [HTTP] GET /users/profile - 401 (2ms)
+[2026-04-27T17:31:58.549Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T17:31:58.551Z] [HTTP] GET /users - 401 (2ms)
+[2026-04-27T17:31:58.558Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T17:31:58.560Z] [HTTP] GET /users - 401 (2ms)
+[2026-04-27T17:35:16.415Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T17:35:16.418Z] [HTTP] POST /auth/logout - 401 (12ms)
+[2026-04-27T17:35:21.811Z] [INFO] 🔐 Login attempt: abdullah.tauqeer.chh@gmail.com
+[2026-04-27T17:35:23.081Z] [WARN] ⚠️ User not found: abdullah.tauqeer.chh@gmail.com
+[2026-04-27T17:35:23.082Z] [ERROR] Login error:
+{
+  "statusCode": 401,
+  "code": "INVALID_CREDENTIALS"
+}
+[2026-04-27T17:35:23.119Z] [HTTP] POST /login - 401 (1389ms)
+[2026-04-27T17:35:36.224Z] [INFO] 🔐 Login attempt: admin@raftaar.com
+[2026-04-27T17:35:36.684Z] [WARN] ⚠️ User not found: admin@raftaar.com
+[2026-04-27T17:35:36.685Z] [ERROR] Login error:
+{
+  "statusCode": 401,
+  "code": "INVALID_CREDENTIALS"
+}
+[2026-04-27T17:35:36.690Z] [HTTP] POST /login - 401 (466ms)
+[2026-04-27T17:35:44.589Z] [INFO] 🔐 Login attempt: admin@raftaar.com
+[2026-04-27T17:35:46.113Z] [WARN] ⚠️ User not found: admin@raftaar.com
+[2026-04-27T17:35:46.114Z] [ERROR] Login error:
+{
+  "statusCode": 401,
+  "code": "INVALID_CREDENTIALS"
+}
+[2026-04-27T17:35:46.129Z] [HTTP] POST /login - 401 (1540ms)
+[2026-04-27T17:36:00.593Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T17:36:00.594Z] [HTTP] GET /users - 401 (1ms)
+[2026-04-27T17:36:00.596Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T17:36:00.597Z] [HTTP] GET /trucks - 401 (1ms)
+[2026-04-27T17:36:00.598Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T17:36:00.599Z] [HTTP] GET /shipments - 401 (1ms)
+[2026-04-27T17:36:00.621Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T17:36:00.623Z] [HTTP] GET /users - 401 (2ms)
+[2026-04-27T17:36:00.625Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T17:36:00.626Z] [HTTP] GET /trucks - 401 (1ms)
+[2026-04-27T17:36:00.630Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T17:36:00.631Z] [HTTP] GET /shipments - 401 (2ms)
+[2026-04-27T17:36:05.229Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T17:36:05.230Z] [HTTP] POST /auth/logout - 401 (1ms)
+[2026-04-27T17:36:12.655Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T17:36:12.656Z] [HTTP] GET /users - 401 (1ms)
+[2026-04-27T17:36:12.658Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T17:36:12.660Z] [HTTP] GET /trucks - 401 (2ms)
+[2026-04-27T17:36:12.669Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T17:36:12.671Z] [HTTP] GET /shipments - 401 (2ms)
+[2026-04-27T17:36:12.677Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T17:36:12.679Z] [HTTP] GET /users - 401 (2ms)
+[2026-04-27T17:36:12.686Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T17:36:12.688Z] [HTTP] GET /trucks - 401 (2ms)
+[2026-04-27T17:36:12.695Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T17:36:12.697Z] [HTTP] GET /shipments - 401 (2ms)
+[2026-04-27T17:36:23.343Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T17:36:23.345Z] [HTTP] POST /auth/logout - 401 (2ms)
+[2026-04-27T17:39:04.408Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T17:39:04.411Z] [HTTP] GET /shipments - 401 (3ms)
+[2026-04-27T17:39:04.418Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T17:39:04.419Z] [HTTP] GET /shipments - 401 (1ms)
+[2026-04-27T17:39:07.219Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T17:39:07.221Z] [HTTP] GET /shipments - 401 (2ms)
+[2026-04-27T17:39:07.237Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T17:39:07.239Z] [HTTP] GET /shipments - 401 (3ms)
+[2026-04-27T17:39:31.536Z] [INFO] [Chat] Client connected: Tk1TKfX0VI-lq_d-AAAB
+[2026-04-27T17:39:31.543Z] [INFO] [Chat] Socket Tk1TKfX0VI-lq_d-AAAB joined room chat_1_demo-cust-001
+[2026-04-27T17:39:31.544Z] [INFO] [Chat] Socket Tk1TKfX0VI-lq_d-AAAB joined room chat_1_demo-cust-001
+[2026-04-27T17:39:45.909Z] [INFO] [Chat] Socket Tk1TKfX0VI-lq_d-AAAB joined room chat_1_demo-cust-001
+[2026-04-27T17:39:45.912Z] [INFO] [Chat] Socket Tk1TKfX0VI-lq_d-AAAB joined room chat_1_demo-cust-001
+[2026-04-27T17:40:50.727Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T17:40:50.729Z] [HTTP] POST /auth/logout - 401 (2ms)
+[2026-04-27T17:40:59.716Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T17:40:59.718Z] [HTTP] GET /shipments - 401 (2ms)
+[2026-04-27T17:40:59.722Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T17:40:59.723Z] [HTTP] GET /shipments - 401 (1ms)
+[2026-04-27T17:41:02.117Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T17:41:02.118Z] [HTTP] GET /trucks - 401 (2ms)
+[2026-04-27T17:41:02.123Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T17:41:02.127Z] [HTTP] GET /trucks - 401 (4ms)
+[2026-04-27T17:41:04.132Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T17:41:04.134Z] [HTTP] GET /shipments - 401 (2ms)
+[2026-04-27T17:41:04.139Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T17:41:04.141Z] [HTTP] GET /shipments - 401 (2ms)
+[2026-04-27T17:41:07.647Z] [INFO] [Chat] Client disconnected: Tk1TKfX0VI-lq_d-AAAB
+[2026-04-27T17:41:09.920Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T17:41:09.922Z] [HTTP] GET /shipments - 401 (2ms)
+[2026-04-27T17:41:09.931Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T17:41:09.933Z] [HTTP] GET /shipments - 401 (2ms)
+[2026-04-27T17:41:45.974Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T17:41:45.976Z] [HTTP] POST /auth/logout - 401 (2ms)
+[2026-04-27T17:41:59.049Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T17:41:59.051Z] [HTTP] GET /trucks - 401 (2ms)
+[2026-04-27T17:41:59.089Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T17:41:59.091Z] [HTTP] GET /shipments - 401 (2ms)
+[2026-04-27T17:41:59.093Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T17:41:59.094Z] [HTTP] GET /trucks - 401 (1ms)
+[2026-04-27T17:41:59.134Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T17:41:59.136Z] [HTTP] GET /shipments - 401 (2ms)
+[2026-04-27T17:45:41.106Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T17:45:41.108Z] [HTTP] POST /auth/logout - 401 (3ms)
+[2026-04-27T17:53:44.029Z] [INFO] 🔌 Initializing Supabase...
+[2026-04-27T17:53:44.052Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-27T17:53:44.053Z] [INFO] 📝 Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+[2026-04-27T17:53:44.053Z] [INFO] 🔑 Service Key: Not provided
+[2026-04-27T17:53:45.773Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-04-27T17:53:45.774Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-04-27T17:53:45.775Z] [INFO] ✅ Database connection established
+[2026-04-27T17:53:45.781Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-27T17:53:45.782Z] [INFO] ✅ Socket.IO initialized
+[2026-04-27T17:53:45.791Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-04-27T17:53:45.791Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-04-27T17:53:45.792Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-04-27T17:53:45.792Z] [INFO] 🔌 Socket.IO: ws://localhost:3001
+[2026-04-27T17:53:45.793Z] [INFO] 📝 Environment: development
+[2026-04-27T17:53:57.697Z] [INFO] 🔌 Initializing Supabase...
+[2026-04-27T17:53:57.701Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-27T17:53:57.702Z] [INFO] 📝 Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+[2026-04-27T17:53:57.703Z] [INFO] 🔑 Service Key: Not provided
+[2026-04-27T17:54:00.359Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-04-27T17:54:00.360Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-04-27T17:54:00.361Z] [INFO] ✅ Database connection established
+[2026-04-27T17:54:00.367Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-27T17:54:00.368Z] [INFO] ✅ Socket.IO initialized
+[2026-04-27T17:54:00.374Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-04-27T17:54:00.375Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-04-27T17:54:00.375Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-04-27T17:54:00.376Z] [INFO] 🔌 Socket.IO: ws://localhost:3001
+[2026-04-27T17:54:00.376Z] [INFO] 📝 Environment: development
+[2026-04-27T18:20:46.540Z] [INFO] 🔌 Initializing Supabase...
+[2026-04-27T18:20:46.542Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-27T18:20:46.543Z] [INFO] 📝 Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+[2026-04-27T18:20:46.544Z] [INFO] 🔑 Service Key: Not provided
+[2026-04-27T18:20:48.732Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-04-27T18:20:48.733Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-04-27T18:20:48.734Z] [INFO] ✅ Database connection established
+[2026-04-27T18:20:48.741Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-27T18:20:48.742Z] [INFO] ✅ Socket.IO initialized
+[2026-04-27T18:20:48.748Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-04-27T18:20:48.749Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-04-27T18:20:48.750Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-04-27T18:20:48.751Z] [INFO] 🔌 Socket.IO: ws://localhost:3001
+[2026-04-27T18:20:48.751Z] [INFO] 📝 Environment: development
+[2026-04-27T18:23:36.178Z] [INFO] 🔌 Initializing Supabase...
+[2026-04-27T18:23:36.182Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-27T18:23:36.182Z] [INFO] 📝 Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+[2026-04-27T18:23:36.183Z] [INFO] 🔑 Service Key: Not provided
+[2026-04-27T18:23:40.432Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-04-27T18:23:40.433Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-04-27T18:23:40.434Z] [INFO] ✅ Database connection established
+[2026-04-27T18:23:40.440Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-27T18:23:40.441Z] [INFO] ✅ Socket.IO initialized
+[2026-04-27T18:23:40.447Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-04-27T18:23:40.448Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-04-27T18:23:40.448Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-04-27T18:23:40.456Z] [INFO] 🔌 Socket.IO: ws://localhost:3001
+[2026-04-27T18:23:40.457Z] [INFO] 📝 Environment: development
+[2026-04-27T18:32:01.026Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T18:32:01.050Z] [HTTP] GET /kyc/pending - 401 (27ms)
+[2026-04-27T18:33:13.812Z] [INFO] 🔐 Login attempt: admin@test.com
+[2026-04-27T18:33:15.077Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T18:33:15.079Z] [HTTP] GET /kyc/pending - 401 (2ms)
+[2026-04-27T18:33:16.175Z] [WARN] ⚠️ User not found: admin@test.com
+[2026-04-27T18:33:16.176Z] [ERROR] Login error:
+{
+  "statusCode": 401,
+  "code": "INVALID_CREDENTIALS"
+}
+[2026-04-27T18:33:16.196Z] [HTTP] POST /login - 401 (2389ms)
+[2026-04-27T18:39:08.234Z] [INFO] 🔐 Login attempt: admin@test.com
+[2026-04-27T18:39:09.305Z] [WARN] ⚠️ User not found: admin@test.com
+[2026-04-27T18:39:09.306Z] [ERROR] Login error:
+{
+  "statusCode": 401,
+  "code": "INVALID_CREDENTIALS"
+}
+[2026-04-27T18:39:09.309Z] [HTTP] POST /login - 401 (1076ms)
+[2026-04-27T18:43:03.772Z] [INFO] 🔐 Login attempt: admin@test.com
+[2026-04-27T18:43:06.142Z] [WARN] ⚠️ User not found: admin@test.com
+[2026-04-27T18:43:06.144Z] [ERROR] Login error:
+{
+  "statusCode": 401,
+  "code": "INVALID_CREDENTIALS"
+}
+[2026-04-27T18:43:06.154Z] [HTTP] POST /login - 401 (2388ms)
+[2026-04-27T18:49:50.590Z] [INFO] 🔐 Login attempt: admin@test.com
+[2026-04-27T18:49:51.979Z] [INFO] ✅ User logged in: admin@test.com
+[2026-04-27T18:49:52.056Z] [HTTP] POST /login - 200 (1466ms)
+[2026-04-27T18:49:55.258Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T18:49:55.260Z] [HTTP] GET /users - 401 (13ms)
+[2026-04-27T18:49:55.261Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T18:49:55.264Z] [HTTP] GET /shipments - 401 (3ms)
+[2026-04-27T18:49:55.266Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T18:49:55.268Z] [HTTP] GET /trucks - 401 (2ms)
+[2026-04-27T18:49:55.269Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T18:49:55.272Z] [HTTP] GET /users - 401 (2ms)
+[2026-04-27T18:49:55.275Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T18:49:55.282Z] [HTTP] GET /shipments - 401 (7ms)
+[2026-04-27T18:49:55.283Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T18:49:55.284Z] [HTTP] GET /trucks - 401 (1ms)
+[2026-04-27T18:50:04.050Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T18:50:04.053Z] [HTTP] GET /users - 401 (4ms)
+[2026-04-27T18:50:04.068Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T18:50:04.069Z] [HTTP] GET /trucks - 401 (2ms)
+[2026-04-27T18:50:04.070Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T18:50:04.074Z] [HTTP] GET /shipments - 401 (4ms)
+[2026-04-27T18:50:04.076Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T18:50:04.092Z] [HTTP] GET /users - 401 (17ms)
+[2026-04-27T18:50:04.104Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T18:50:04.109Z] [HTTP] GET /trucks - 401 (6ms)
+[2026-04-27T18:50:04.115Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T18:50:04.118Z] [HTTP] GET /shipments - 401 (3ms)
+[2026-04-27T18:52:37.477Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T18:52:37.481Z] [HTTP] GET /kyc/pending - 401 (4ms)
+[2026-04-27T18:52:37.489Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T18:52:37.490Z] [HTTP] GET /kyc/pending - 401 (2ms)
+[2026-04-27T18:52:43.455Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T18:52:43.457Z] [HTTP] GET /kyc/pending - 401 (2ms)
+[2026-04-27T18:52:43.478Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T18:52:43.481Z] [HTTP] GET /kyc/pending - 401 (3ms)
+[2026-04-27T18:52:46.149Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T18:52:46.150Z] [HTTP] GET /users - 401 (1ms)
+[2026-04-27T18:52:46.154Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T18:52:46.155Z] [HTTP] GET /trucks - 401 (1ms)
+[2026-04-27T18:52:46.158Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T18:52:46.161Z] [HTTP] GET /shipments - 401 (3ms)
+[2026-04-27T18:52:46.167Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T18:52:46.169Z] [HTTP] GET /users - 401 (2ms)
+[2026-04-27T18:52:46.175Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T18:52:46.176Z] [HTTP] GET /trucks - 401 (5ms)
+[2026-04-27T18:52:46.209Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T18:52:46.210Z] [HTTP] GET /shipments - 401 (1ms)
+[2026-04-27T18:52:50.358Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T18:52:50.361Z] [HTTP] GET /kyc/pending - 401 (2ms)
+[2026-04-27T18:52:50.373Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T18:52:50.374Z] [HTTP] GET /kyc/pending - 401 (1ms)
+[2026-04-27T18:54:57.769Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T18:54:57.771Z] [HTTP] GET /kyc/pending - 401 (2ms)
+[2026-04-27T18:54:57.785Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T18:54:57.788Z] [HTTP] GET /kyc/pending - 401 (3ms)
+[2026-04-27T18:58:03.271Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T18:58:03.275Z] [HTTP] POST /auth/logout - 401 (37ms)
+[2026-04-27T18:58:14.641Z] [INFO] 🔐 Login attempt: admin@test.com
+[2026-04-27T18:58:16.813Z] [INFO] ✅ User logged in: admin@test.com
+[2026-04-27T18:58:16.825Z] [HTTP] POST /login - 200 (2205ms)
+[2026-04-27T18:58:18.161Z] [HTTP] GET /trucks - 200 (24ms)
+[2026-04-27T18:58:18.173Z] [HTTP] GET /shipments - 200 (7ms)
+[2026-04-27T18:58:18.183Z] [HTTP] GET /shipments - 304 (5ms)
+[2026-04-27T18:58:18.188Z] [HTTP] GET /trucks - 304 (1ms)
+[2026-04-27T18:58:18.403Z] [HTTP] GET /users - 200 (347ms)
+[2026-04-27T18:58:18.734Z] [HTTP] GET /users - 304 (244ms)
+[2026-04-27T18:58:26.480Z] [HTTP] GET /users - 304 (404ms)
+[2026-04-27T18:58:26.767Z] [HTTP] GET /users - 304 (283ms)
+[2026-04-27T18:58:30.645Z] [ERROR] Error fetching pending documents:
+{
+  "code": "PGRST201",
+  "details": [
+    {
+      "cardinality": "many-to-one",
+      "embedding": "kyc_documents with users",
+      "relationship": "kyc_documents_user_id_fkey using kyc_documents(user_id) and users(id)"
+    },
+    {
+      "cardinality": "many-to-one",
+      "embedding": "kyc_documents with users",
+      "relationship": "kyc_documents_verified_by_fkey using kyc_documents(verified_by) and users(id)"
+    }
+  ],
+  "hint": "Try changing 'users' to one of the following: 'users!kyc_documents_user_id_fkey', 'users!kyc_documents_verified_by_fkey'. Find the desired relationship in the 'details' key.",
+  "message": "Could not embed because more than one relationship was found for 'kyc_documents' and 'users'"
+}
+[2026-04-27T18:58:30.652Z] [ERROR] Error fetching pending documents:
+{
+  "code": "PGRST201",
+  "details": [
+    {
+      "cardinality": "many-to-one",
+      "embedding": "kyc_documents with users",
+      "relationship": "kyc_documents_user_id_fkey using kyc_documents(user_id) and users(id)"
+    },
+    {
+      "cardinality": "many-to-one",
+      "embedding": "kyc_documents with users",
+      "relationship": "kyc_documents_verified_by_fkey using kyc_documents(verified_by) and users(id)"
+    }
+  ],
+  "hint": "Try changing 'users' to one of the following: 'users!kyc_documents_user_id_fkey', 'users!kyc_documents_verified_by_fkey'. Find the desired relationship in the 'details' key.",
+  "message": "Could not embed because more than one relationship was found for 'kyc_documents' and 'users'"
+}
+[2026-04-27T18:58:30.655Z] [HTTP] GET /pending - 500 (856ms)
+[2026-04-27T18:58:30.886Z] [ERROR] Error fetching pending documents:
+{
+  "code": "PGRST201",
+  "details": [
+    {
+      "cardinality": "many-to-one",
+      "embedding": "kyc_documents with users",
+      "relationship": "kyc_documents_user_id_fkey using kyc_documents(user_id) and users(id)"
+    },
+    {
+      "cardinality": "many-to-one",
+      "embedding": "kyc_documents with users",
+      "relationship": "kyc_documents_verified_by_fkey using kyc_documents(verified_by) and users(id)"
+    }
+  ],
+  "hint": "Try changing 'users' to one of the following: 'users!kyc_documents_user_id_fkey', 'users!kyc_documents_verified_by_fkey'. Find the desired relationship in the 'details' key.",
+  "message": "Could not embed because more than one relationship was found for 'kyc_documents' and 'users'"
+}
+[2026-04-27T18:58:30.887Z] [ERROR] Error fetching pending documents:
+{
+  "code": "PGRST201",
+  "details": [
+    {
+      "cardinality": "many-to-one",
+      "embedding": "kyc_documents with users",
+      "relationship": "kyc_documents_user_id_fkey using kyc_documents(user_id) and users(id)"
+    },
+    {
+      "cardinality": "many-to-one",
+      "embedding": "kyc_documents with users",
+      "relationship": "kyc_documents_verified_by_fkey using kyc_documents(verified_by) and users(id)"
+    }
+  ],
+  "hint": "Try changing 'users' to one of the following: 'users!kyc_documents_user_id_fkey', 'users!kyc_documents_verified_by_fkey'. Find the desired relationship in the 'details' key.",
+  "message": "Could not embed because more than one relationship was found for 'kyc_documents' and 'users'"
+}
+[2026-04-27T18:58:30.888Z] [HTTP] GET /pending - 500 (221ms)
+[2026-04-27T18:58:37.094Z] [HTTP] GET /users - 304 (626ms)
+[2026-04-27T18:58:37.328Z] [ERROR] Error fetching pending documents:
+{
+  "code": "PGRST201",
+  "details": [
+    {
+      "cardinality": "many-to-one",
+      "embedding": "kyc_documents with users",
+      "relationship": "kyc_documents_user_id_fkey using kyc_documents(user_id) and users(id)"
+    },
+    {
+      "cardinality": "many-to-one",
+      "embedding": "kyc_documents with users",
+      "relationship": "kyc_documents_verified_by_fkey using kyc_documents(verified_by) and users(id)"
+    }
+  ],
+  "hint": "Try changing 'users' to one of the following: 'users!kyc_documents_user_id_fkey', 'users!kyc_documents_verified_by_fkey'. Find the desired relationship in the 'details' key.",
+  "message": "Could not embed because more than one relationship was found for 'kyc_documents' and 'users'"
+}
+[2026-04-27T18:58:37.329Z] [ERROR] Error fetching pending documents:
+{
+  "code": "PGRST201",
+  "details": [
+    {
+      "cardinality": "many-to-one",
+      "embedding": "kyc_documents with users",
+      "relationship": "kyc_documents_user_id_fkey using kyc_documents(user_id) and users(id)"
+    },
+    {
+      "cardinality": "many-to-one",
+      "embedding": "kyc_documents with users",
+      "relationship": "kyc_documents_verified_by_fkey using kyc_documents(verified_by) and users(id)"
+    }
+  ],
+  "hint": "Try changing 'users' to one of the following: 'users!kyc_documents_user_id_fkey', 'users!kyc_documents_verified_by_fkey'. Find the desired relationship in the 'details' key.",
+  "message": "Could not embed because more than one relationship was found for 'kyc_documents' and 'users'"
+}
+[2026-04-27T18:58:37.331Z] [HTTP] GET /pending - 500 (233ms)
+[2026-04-27T18:58:37.560Z] [ERROR] Error fetching pending documents:
+{
+  "code": "PGRST201",
+  "details": [
+    {
+      "cardinality": "many-to-one",
+      "embedding": "kyc_documents with users",
+      "relationship": "kyc_documents_user_id_fkey using kyc_documents(user_id) and users(id)"
+    },
+    {
+      "cardinality": "many-to-one",
+      "embedding": "kyc_documents with users",
+      "relationship": "kyc_documents_verified_by_fkey using kyc_documents(verified_by) and users(id)"
+    }
+  ],
+  "hint": "Try changing 'users' to one of the following: 'users!kyc_documents_user_id_fkey', 'users!kyc_documents_verified_by_fkey'. Find the desired relationship in the 'details' key.",
+  "message": "Could not embed because more than one relationship was found for 'kyc_documents' and 'users'"
+}
+[2026-04-27T18:58:37.561Z] [ERROR] Error fetching pending documents:
+{
+  "code": "PGRST201",
+  "details": [
+    {
+      "cardinality": "many-to-one",
+      "embedding": "kyc_documents with users",
+      "relationship": "kyc_documents_user_id_fkey using kyc_documents(user_id) and users(id)"
+    },
+    {
+      "cardinality": "many-to-one",
+      "embedding": "kyc_documents with users",
+      "relationship": "kyc_documents_verified_by_fkey using kyc_documents(verified_by) and users(id)"
+    }
+  ],
+  "hint": "Try changing 'users' to one of the following: 'users!kyc_documents_user_id_fkey', 'users!kyc_documents_verified_by_fkey'. Find the desired relationship in the 'details' key.",
+  "message": "Could not embed because more than one relationship was found for 'kyc_documents' and 'users'"
+}
+[2026-04-27T18:58:37.562Z] [HTTP] GET /pending - 500 (225ms)
+[2026-04-27T18:58:37.778Z] [HTTP] GET /users - 304 (677ms)
+[2026-04-27T19:03:58.359Z] [INFO] 🔐 Login attempt: admin@test.com
+[2026-04-27T19:03:59.695Z] [INFO] ✅ User logged in: admin@test.com
+[2026-04-27T19:03:59.705Z] [HTTP] POST /login - 200 (1365ms)
+[2026-04-27T19:04:22.865Z] [INFO] 🔐 Login attempt: admin@test.com
+[2026-04-27T19:04:24.759Z] [INFO] ✅ User logged in: admin@test.com
+[2026-04-27T19:04:24.765Z] [HTTP] POST /login - 200 (1901ms)
+[2026-04-27T19:04:25.031Z] [ERROR] Error fetching pending documents:
+{
+  "code": "PGRST201",
+  "details": [
+    {
+      "cardinality": "many-to-one",
+      "embedding": "kyc_documents with users",
+      "relationship": "kyc_documents_user_id_fkey using kyc_documents(user_id) and users(id)"
+    },
+    {
+      "cardinality": "many-to-one",
+      "embedding": "kyc_documents with users",
+      "relationship": "kyc_documents_verified_by_fkey using kyc_documents(verified_by) and users(id)"
+    }
+  ],
+  "hint": "Try changing 'users' to one of the following: 'users!kyc_documents_user_id_fkey', 'users!kyc_documents_verified_by_fkey'. Find the desired relationship in the 'details' key.",
+  "message": "Could not embed because more than one relationship was found for 'kyc_documents' and 'users'"
+}
+[2026-04-27T19:04:25.034Z] [ERROR] Error fetching pending documents:
+{
+  "code": "PGRST201",
+  "details": [
+    {
+      "cardinality": "many-to-one",
+      "embedding": "kyc_documents with users",
+      "relationship": "kyc_documents_user_id_fkey using kyc_documents(user_id) and users(id)"
+    },
+    {
+      "cardinality": "many-to-one",
+      "embedding": "kyc_documents with users",
+      "relationship": "kyc_documents_verified_by_fkey using kyc_documents(verified_by) and users(id)"
+    }
+  ],
+  "hint": "Try changing 'users' to one of the following: 'users!kyc_documents_user_id_fkey', 'users!kyc_documents_verified_by_fkey'. Find the desired relationship in the 'details' key.",
+  "message": "Could not embed because more than one relationship was found for 'kyc_documents' and 'users'"
+}
+[2026-04-27T19:04:25.036Z] [HTTP] GET /pending - 500 (245ms)
+[2026-04-27T19:06:26.905Z] [INFO] 🔌 Initializing Supabase...
+[2026-04-27T19:06:26.933Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-27T19:06:26.935Z] [INFO] 📝 Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+[2026-04-27T19:06:26.936Z] [INFO] 🔑 Service Key: Not provided
+[2026-04-27T19:06:28.280Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-04-27T19:06:28.281Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-04-27T19:06:28.282Z] [INFO] ✅ Database connection established
+[2026-04-27T19:06:28.288Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-27T19:06:28.289Z] [INFO] ✅ Socket.IO initialized
+[2026-04-27T19:06:28.297Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-04-27T19:06:28.298Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-04-27T19:06:28.299Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-04-27T19:06:28.299Z] [INFO] 🔌 Socket.IO: ws://localhost:3001
+[2026-04-27T19:06:28.300Z] [INFO] 📝 Environment: development
+[2026-04-27T19:06:59.901Z] [INFO] 🔌 Initializing Supabase...
+[2026-04-27T19:06:59.906Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-27T19:06:59.908Z] [INFO] 📝 Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+[2026-04-27T19:06:59.910Z] [INFO] 🔑 Service Key: Not provided
+[2026-04-27T19:07:01.608Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-04-27T19:07:01.611Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-04-27T19:07:01.612Z] [INFO] ✅ Database connection established
+[2026-04-27T19:07:01.624Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-27T19:07:01.625Z] [INFO] ✅ Socket.IO initialized
+[2026-04-27T19:07:01.635Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-04-27T19:07:01.635Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-04-27T19:07:01.638Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-04-27T19:07:01.639Z] [INFO] 🔌 Socket.IO: ws://localhost:3001
+[2026-04-27T19:07:01.640Z] [INFO] 📝 Environment: development
+[2026-04-27T19:07:09.837Z] [INFO] 🔐 Login attempt: admin@test.com
+[2026-04-27T19:07:12.755Z] [INFO] ✅ User logged in: admin@test.com
+[2026-04-27T19:07:12.777Z] [HTTP] POST /login - 200 (2944ms)
+[2026-04-27T19:07:13.910Z] [ERROR] Error fetching pending documents:
+{
+  "code": "PGRST201",
+  "details": [
+    {
+      "cardinality": "many-to-one",
+      "embedding": "kyc_documents with users",
+      "relationship": "kyc_documents_user_id_fkey using kyc_documents(user_id) and users(id)"
+    },
+    {
+      "cardinality": "many-to-one",
+      "embedding": "kyc_documents with users",
+      "relationship": "kyc_documents_verified_by_fkey using kyc_documents(verified_by) and users(id)"
+    }
+  ],
+  "hint": "Try changing 'users' to one of the following: 'users!kyc_documents_user_id_fkey', 'users!kyc_documents_verified_by_fkey'. Find the desired relationship in the 'details' key.",
+  "message": "Could not embed because more than one relationship was found for 'kyc_documents' and 'users'"
+}
+[2026-04-27T19:07:13.913Z] [ERROR] Error fetching pending documents:
+{
+  "code": "PGRST201",
+  "details": [
+    {
+      "cardinality": "many-to-one",
+      "embedding": "kyc_documents with users",
+      "relationship": "kyc_documents_user_id_fkey using kyc_documents(user_id) and users(id)"
+    },
+    {
+      "cardinality": "many-to-one",
+      "embedding": "kyc_documents with users",
+      "relationship": "kyc_documents_verified_by_fkey using kyc_documents(verified_by) and users(id)"
+    }
+  ],
+  "hint": "Try changing 'users' to one of the following: 'users!kyc_documents_user_id_fkey', 'users!kyc_documents_verified_by_fkey'. Find the desired relationship in the 'details' key.",
+  "message": "Could not embed because more than one relationship was found for 'kyc_documents' and 'users'"
+}
+[2026-04-27T19:07:13.915Z] [HTTP] GET /pending - 500 (1115ms)
+[2026-04-27T19:08:13.236Z] [INFO] 🔌 Initializing Supabase...
+[2026-04-27T19:08:13.239Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-27T19:08:13.239Z] [INFO] 📝 Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+[2026-04-27T19:08:13.240Z] [INFO] 🔑 Service Key: Not provided
+[2026-04-27T19:08:14.386Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-04-27T19:08:14.387Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-04-27T19:08:14.388Z] [INFO] ✅ Database connection established
+[2026-04-27T19:08:14.393Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-27T19:08:14.394Z] [INFO] ✅ Socket.IO initialized
+[2026-04-27T19:08:14.399Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-04-27T19:08:14.400Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-04-27T19:08:14.401Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-04-27T19:08:14.401Z] [INFO] 🔌 Socket.IO: ws://localhost:3001
+[2026-04-27T19:08:14.402Z] [INFO] 📝 Environment: development
+[2026-04-27T19:08:41.077Z] [INFO] 🔌 Initializing Supabase...
+[2026-04-27T19:08:41.080Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-27T19:08:41.082Z] [INFO] 📝 Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+[2026-04-27T19:08:41.083Z] [INFO] 🔑 Service Key: Not provided
+[2026-04-27T19:08:41.909Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-04-27T19:08:41.910Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-04-27T19:08:41.911Z] [INFO] ✅ Database connection established
+[2026-04-27T19:08:41.917Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-27T19:08:41.918Z] [INFO] ✅ Socket.IO initialized
+[2026-04-27T19:08:41.923Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-04-27T19:08:41.923Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-04-27T19:08:41.924Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-04-27T19:08:41.925Z] [INFO] 🔌 Socket.IO: ws://localhost:3001
+[2026-04-27T19:08:41.926Z] [INFO] 📝 Environment: development
+[2026-04-27T19:08:50.429Z] [INFO] 🔐 Login attempt: admin@test.com
+[2026-04-27T19:08:51.630Z] [INFO] ✅ User logged in: admin@test.com
+[2026-04-27T19:08:51.646Z] [HTTP] POST /login - 200 (1220ms)
+[2026-04-27T19:08:51.939Z] [HTTP] GET /pending - 200 (267ms)
+[2026-04-27T19:14:34.798Z] [HTTP] GET /users - 304 (1677ms)
+[2026-04-27T19:14:34.819Z] [HTTP] GET /pending - 200 (503ms)
+[2026-04-27T19:14:35.065Z] [HTTP] GET /users - 304 (254ms)
+[2026-04-27T19:14:35.078Z] [HTTP] GET /pending - 304 (253ms)
+[2026-04-27T19:14:36.244Z] [HTTP] GET /users - 304 (216ms)
+[2026-04-27T19:14:36.480Z] [HTTP] GET /users - 304 (230ms)
+[2026-04-27T19:14:39.372Z] [HTTP] GET /pending - 304 (927ms)
+[2026-04-27T19:14:39.964Z] [HTTP] GET /pending - 304 (583ms)
+[2026-04-27T19:14:45.375Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T19:14:45.380Z] [HTTP] POST /auth/logout - 401 (12ms)
+[2026-04-27T19:15:29.642Z] [INFO] 📝 Signup attempt: fleet@gmail.com
+[2026-04-27T19:15:30.794Z] [INFO] ✅ User registered: fleet@gmail.com
+[2026-04-27T19:15:30.803Z] [HTTP] POST /signup - 201 (1230ms)
+[2026-04-27T19:15:32.520Z] [HTTP] GET /trucks - 304 (17ms)
+[2026-04-27T19:15:32.522Z] [HTTP] GET /trucks - 304 (1ms)
+[2026-04-27T19:15:32.532Z] [HTTP] GET /shipments - 200 (8ms)
+[2026-04-27T19:15:32.535Z] [HTTP] GET /shipments - 304 (1ms)
+[2026-04-27T19:15:33.424Z] [ERROR] Error uploading KYC document:
+{
+  "name": "StorageApiError",
+  "message": "Bucket not found",
+  "status": 400,
+  "statusCode": "404"
+}
+[2026-04-27T19:15:33.475Z] [ERROR] Error uploading KYC document:
+{
+  "name": "StorageApiError",
+  "message": "Bucket not found",
+  "status": 400,
+  "statusCode": "404"
+}
+[2026-04-27T19:15:33.480Z] [HTTP] POST /upload - 500 (2595ms)
+[2026-04-27T19:15:36.451Z] [ERROR] Error uploading KYC document:
+{
+  "name": "StorageApiError",
+  "message": "Bucket not found",
+  "status": 400,
+  "statusCode": "404"
+}
+[2026-04-27T19:15:36.453Z] [ERROR] Error uploading KYC document:
+{
+  "name": "StorageApiError",
+  "message": "Bucket not found",
+  "status": 400,
+  "statusCode": "404"
+}
+[2026-04-27T19:15:36.454Z] [HTTP] POST /upload - 500 (2962ms)
+[2026-04-27T19:15:40.448Z] [ERROR] Error uploading KYC document:
+{
+  "name": "StorageApiError",
+  "message": "Bucket not found",
+  "status": 400,
+  "statusCode": "404"
+}
+[2026-04-27T19:15:40.449Z] [ERROR] Error uploading KYC document:
+{
+  "name": "StorageApiError",
+  "message": "Bucket not found",
+  "status": 400,
+  "statusCode": "404"
+}
+[2026-04-27T19:15:42.972Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T19:15:42.975Z] [HTTP] POST /auth/logout - 401 (3ms)
+[2026-04-27T19:15:55.206Z] [INFO] 🔐 Login attempt: admin@test.com
+[2026-04-27T19:15:56.669Z] [WARN] ⚠️ Invalid password for: admin@test.com
+[2026-04-27T19:15:56.670Z] [ERROR] Login error:
+{
+  "statusCode": 401,
+  "code": "INVALID_CREDENTIALS"
+}
+[2026-04-27T19:15:56.686Z] [HTTP] POST /login - 401 (1483ms)
+[2026-04-27T19:16:14.674Z] [INFO] 🔐 Login attempt: admin@test.com
+[2026-04-27T19:16:15.632Z] [INFO] ✅ User logged in: admin@test.com
+[2026-04-27T19:16:15.636Z] [HTTP] POST /login - 200 (962ms)
+[2026-04-27T19:16:16.180Z] [HTTP] GET /trucks - 304 (1ms)
+[2026-04-27T19:16:16.182Z] [HTTP] GET /shipments - 304 (1ms)
+[2026-04-27T19:16:16.185Z] [HTTP] GET /trucks - 304 (2ms)
+[2026-04-27T19:16:16.190Z] [HTTP] GET /shipments - 304 (2ms)
+[2026-04-27T19:16:16.890Z] [HTTP] GET /users - 200 (714ms)
+[2026-04-27T19:16:17.780Z] [HTTP] GET /users - 304 (883ms)
+[2026-04-27T19:16:18.931Z] [HTTP] GET /users - 304 (232ms)
+[2026-04-27T19:16:19.169Z] [HTTP] GET /users - 304 (237ms)
+[2026-04-27T19:16:22.116Z] [ERROR] Error updating user profile:
+{
+  "code": "PGRST204",
+  "details": null,
+  "hint": null,
+  "message": "Could not find the 'updated_at' column of 'users' in the schema cache"
+}
+[2026-04-27T19:16:22.118Z] [HTTP] PUT /users/cb3aec96-ffce-4612-b347-c93790d55c11 - 500 (377ms)
+[2026-04-27T19:16:28.494Z] [ERROR] Error updating user profile:
+{
+  "code": "PGRST204",
+  "details": null,
+  "hint": null,
+  "message": "Could not find the 'updated_at' column of 'users' in the schema cache"
+}
+[2026-04-27T19:16:28.496Z] [HTTP] PUT /users/cb3aec96-ffce-4612-b347-c93790d55c11 - 500 (365ms)
+[2026-04-27T19:17:34.423Z] [INFO] 🔐 Login attempt: admin@test.com
+[2026-04-27T19:17:35.441Z] [INFO] ✅ User logged in: admin@test.com
+[2026-04-27T19:17:35.444Z] [HTTP] POST /login - 200 (1022ms)
+[2026-04-27T19:17:35.735Z] [HTTP] GET /users - 200 (235ms)
+[2026-04-27T19:17:36.090Z] [ERROR] Error updating user profile:
+{
+  "code": "PGRST204",
+  "details": null,
+  "hint": null,
+  "message": "Could not find the 'updated_at' column of 'users' in the schema cache"
+}
+[2026-04-27T19:17:36.092Z] [HTTP] PUT /users/cb3aec96-ffce-4612-b347-c93790d55c11 - 500 (315ms)
+[2026-04-27T19:18:16.281Z] [INFO] 🔌 Initializing Supabase...
+[2026-04-27T19:18:16.506Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-27T19:18:16.507Z] [INFO] 📝 Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+[2026-04-27T19:18:16.507Z] [INFO] 🔑 Service Key: Not provided
+[2026-04-27T19:18:19.135Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-04-27T19:18:19.136Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-04-27T19:18:19.137Z] [INFO] ✅ Database connection established
+[2026-04-27T19:18:19.143Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-27T19:18:19.143Z] [INFO] ✅ Socket.IO initialized
+[2026-04-27T19:18:19.189Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-04-27T19:18:19.190Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-04-27T19:18:19.190Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-04-27T19:18:19.191Z] [INFO] 🔌 Socket.IO: ws://localhost:3001
+[2026-04-27T19:18:19.192Z] [INFO] 📝 Environment: development
+[2026-04-27T19:18:50.954Z] [INFO] 🔌 Initializing Supabase...
+[2026-04-27T19:18:50.957Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-27T19:18:50.958Z] [INFO] 📝 Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+[2026-04-27T19:18:50.961Z] [INFO] 🔑 Service Key: Not provided
+[2026-04-27T19:18:51.818Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-04-27T19:18:51.818Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-04-27T19:18:51.819Z] [INFO] ✅ Database connection established
+[2026-04-27T19:18:51.825Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-27T19:18:51.826Z] [INFO] ✅ Socket.IO initialized
+[2026-04-27T19:18:51.831Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-04-27T19:18:51.832Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-04-27T19:18:51.832Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-04-27T19:18:51.833Z] [INFO] 🔌 Socket.IO: ws://localhost:3001
+[2026-04-27T19:18:51.834Z] [INFO] 📝 Environment: development
+[2026-04-27T19:19:28.181Z] [INFO] 🔐 Login attempt: admin@test.com
+[2026-04-27T19:19:29.068Z] [INFO] ✅ User logged in: admin@test.com
+[2026-04-27T19:19:29.088Z] [HTTP] POST /login - 200 (909ms)
+[2026-04-27T19:19:29.359Z] [HTTP] GET /users - 200 (246ms)
+[2026-04-27T19:19:29.618Z] [ERROR] Error updating user profile:
+{
+  "code": "PGRST204",
+  "details": null,
+  "hint": null,
+  "message": "Could not find the 'updated_at' column of 'users' in the schema cache"
+}
+[2026-04-27T19:19:29.621Z] [HTTP] PUT /users/cb3aec96-ffce-4612-b347-c93790d55c11 - 500 (255ms)
+[2026-04-27T19:19:59.380Z] [INFO] 🔌 Initializing Supabase...
+[2026-04-27T19:19:59.387Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-27T19:19:59.388Z] [INFO] 📝 Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+[2026-04-27T19:19:59.389Z] [INFO] 🔑 Service Key: Not provided
+[2026-04-27T19:20:00.435Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-04-27T19:20:00.436Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-04-27T19:20:00.438Z] [INFO] ✅ Database connection established
+[2026-04-27T19:20:00.444Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-27T19:20:00.445Z] [INFO] ✅ Socket.IO initialized
+[2026-04-27T19:20:00.451Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-04-27T19:20:00.452Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-04-27T19:20:00.453Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-04-27T19:20:00.454Z] [INFO] 🔌 Socket.IO: ws://localhost:3001
+[2026-04-27T19:20:00.454Z] [INFO] 📝 Environment: development
+[2026-04-27T19:21:05.511Z] [INFO] 🔌 Initializing Supabase...
+[2026-04-27T19:21:05.513Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-27T19:21:05.514Z] [INFO] 📝 Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+[2026-04-27T19:21:05.515Z] [INFO] 🔑 Service Key: Not provided
+[2026-04-27T19:21:06.766Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-04-27T19:21:06.766Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-04-27T19:21:06.767Z] [INFO] ✅ Database connection established
+[2026-04-27T19:21:06.774Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-27T19:21:06.775Z] [INFO] ✅ Socket.IO initialized
+[2026-04-27T19:21:06.780Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-04-27T19:21:06.780Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-04-27T19:21:06.781Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-04-27T19:21:06.782Z] [INFO] 🔌 Socket.IO: ws://localhost:3001
+[2026-04-27T19:21:06.782Z] [INFO] 📝 Environment: development
+[2026-04-27T19:21:39.448Z] [INFO] 🔐 Login attempt: admin@test.com
+[2026-04-27T19:21:40.421Z] [INFO] ✅ User logged in: admin@test.com
+[2026-04-27T19:21:40.440Z] [HTTP] POST /login - 200 (994ms)
+[2026-04-27T19:21:40.789Z] [HTTP] GET /users - 200 (323ms)
+[2026-04-27T19:21:41.500Z] [HTTP] PUT /users/cb3aec96-ffce-4612-b347-c93790d55c11 - 200 (705ms)
+[2026-04-27T19:22:59.412Z] [HTTP] PUT /users/cb3aec96-ffce-4612-b347-c93790d55c11 - 200 (918ms)
+[2026-04-27T19:22:59.696Z] [HTTP] GET /users - 200 (258ms)
+[2026-04-27T19:23:06.738Z] [HTTP] GET /profile - 200 (546ms)
+[2026-04-27T19:23:07.067Z] [HTTP] GET /profile - 304 (325ms)
+[2026-04-27T19:23:49.520Z] [HTTP] GET /users - 304 (586ms)
+[2026-04-27T19:23:49.848Z] [HTTP] GET /users - 304 (326ms)
+[2026-04-27T19:23:54.757Z] [HTTP] GET /profile - 304 (423ms)
+[2026-04-27T19:23:55.039Z] [HTTP] GET /profile - 304 (279ms)
+[2026-04-27T19:23:58.565Z] [HTTP] GET /users - 304 (386ms)
+[2026-04-27T19:23:58.808Z] [HTTP] GET /users - 304 (241ms)
+[2026-04-27T19:24:01.585Z] [HTTP] GET /profile - 304 (320ms)
+[2026-04-27T19:24:01.884Z] [HTTP] GET /profile - 304 (295ms)
+[2026-04-27T19:24:04.515Z] [HTTP] GET /users - 304 (301ms)
+[2026-04-27T19:24:04.896Z] [HTTP] GET /users - 304 (376ms)
+[2026-04-27T19:24:12.125Z] [HTTP] GET /profile - 304 (496ms)
+[2026-04-27T19:24:12.497Z] [HTTP] GET /profile - 304 (358ms)
+[2026-04-27T19:26:31.499Z] [INFO] 🔌 Initializing Supabase...
+[2026-04-27T19:26:31.563Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-27T19:26:31.565Z] [INFO] 📝 Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+[2026-04-27T19:26:31.567Z] [INFO] 🔑 Service Key: Not provided
+[2026-04-27T19:26:33.630Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-04-27T19:26:33.630Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-04-27T19:26:33.631Z] [INFO] ✅ Database connection established
+[2026-04-27T19:26:33.637Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-27T19:26:33.638Z] [INFO] ✅ Socket.IO initialized
+[2026-04-27T19:26:33.650Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-04-27T19:26:33.651Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-04-27T19:26:33.652Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-04-27T19:26:33.653Z] [INFO] 🔌 Socket.IO: ws://localhost:3001
+[2026-04-27T19:26:33.653Z] [INFO] 📝 Environment: development
+[2026-04-27T19:28:16.022Z] [INFO] 🔌 Initializing Supabase...
+[2026-04-27T19:28:16.025Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-27T19:28:16.026Z] [INFO] 📝 Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+[2026-04-27T19:28:16.027Z] [INFO] 🔑 Service Key: Not provided
+[2026-04-27T19:28:16.808Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-04-27T19:28:16.809Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-04-27T19:28:16.809Z] [INFO] ✅ Database connection established
+[2026-04-27T19:28:16.815Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-27T19:28:16.816Z] [INFO] ✅ Socket.IO initialized
+[2026-04-27T19:28:16.823Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-04-27T19:28:16.824Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-04-27T19:28:16.824Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-04-27T19:28:16.825Z] [INFO] 🔌 Socket.IO: ws://localhost:3001
+[2026-04-27T19:28:16.826Z] [INFO] 📝 Environment: development
+[2026-04-27T19:29:23.097Z] [INFO] 🔌 Initializing Supabase...
+[2026-04-27T19:29:23.102Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-27T19:29:23.102Z] [INFO] 📝 Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+[2026-04-27T19:29:23.103Z] [INFO] 🔑 Service Key: Not provided
+[2026-04-27T19:29:24.023Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-04-27T19:29:24.024Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-04-27T19:29:24.025Z] [INFO] ✅ Database connection established
+[2026-04-27T19:29:24.032Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-27T19:29:24.033Z] [INFO] ✅ Socket.IO initialized
+[2026-04-27T19:29:24.040Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-04-27T19:29:24.042Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-04-27T19:29:24.043Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-04-27T19:29:24.043Z] [INFO] 🔌 Socket.IO: ws://localhost:3001
+[2026-04-27T19:29:24.044Z] [INFO] 📝 Environment: development
+[2026-04-27T19:32:04.097Z] [HTTP] GET /pending - 304 (1468ms)
+[2026-04-27T19:32:04.386Z] [HTTP] GET /pending - 304 (261ms)
+[2026-04-27T19:32:06.842Z] [HTTP] GET /shipments - 304 (12ms)
+[2026-04-27T19:32:06.847Z] [HTTP] GET /trucks - 304 (4ms)
+[2026-04-27T19:32:06.852Z] [HTTP] GET /shipments - 304 (2ms)
+[2026-04-27T19:32:06.857Z] [HTTP] GET /trucks - 304 (2ms)
+[2026-04-27T19:32:07.335Z] [HTTP] GET /users - 304 (519ms)
+[2026-04-27T19:32:07.561Z] [HTTP] GET /users - 304 (222ms)
+[2026-04-27T19:32:09.476Z] [HTTP] GET /users - 304 (223ms)
+[2026-04-27T19:32:09.701Z] [HTTP] GET /users - 304 (223ms)
+[2026-04-27T19:32:17.471Z] [HTTP] GET /users/cb3aec96-ffce-4612-b347-c93790d55c11 - 200 (460ms)
+[2026-04-27T19:32:17.772Z] [HTTP] GET /users/cb3aec96-ffce-4612-b347-c93790d55c11 - 304 (299ms)
+[2026-04-27T19:32:32.782Z] [HTTP] GET /users - 304 (1469ms)
+[2026-04-27T19:32:33.159Z] [HTTP] GET /users - 304 (376ms)
+[2026-04-27T19:32:37.736Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-04-27T19:32:37.739Z] [HTTP] POST /auth/logout - 401 (10ms)
+[2026-04-27T19:33:01.952Z] [INFO] 🔐 Login attempt: fleet@gmail.com
+[2026-04-27T19:33:02.893Z] [INFO] ✅ User logged in: fleet@gmail.com
+[2026-04-27T19:33:02.900Z] [HTTP] POST /login - 200 (1007ms)
+[2026-04-27T19:33:03.819Z] [HTTP] GET /trucks - 304 (1ms)
+[2026-04-27T19:33:03.823Z] [HTTP] GET /shipments - 304 (3ms)
+[2026-04-27T19:33:03.827Z] [HTTP] GET /trucks - 304 (1ms)
+[2026-04-27T19:33:03.831Z] [HTTP] GET /shipments - 304 (1ms)
+[2026-04-27T19:36:22.662Z] [INFO] 🔌 Initializing Supabase...
+[2026-04-27T19:36:22.684Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-27T19:36:22.685Z] [INFO] 📝 Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+[2026-04-27T19:36:22.686Z] [INFO] 🔑 Service Key: Not provided
+[2026-04-27T19:36:24.109Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-04-27T19:36:24.110Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-04-27T19:36:24.111Z] [INFO] ✅ Database connection established
+[2026-04-27T19:36:24.117Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-27T19:36:24.118Z] [INFO] ✅ Socket.IO initialized
+[2026-04-27T19:36:24.125Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-04-27T19:36:24.126Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-04-27T19:36:24.127Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-04-27T19:36:24.127Z] [INFO] 🔌 Socket.IO: ws://localhost:3001
+[2026-04-27T19:36:24.128Z] [INFO] 📝 Environment: development
+[2026-04-27T19:36:42.321Z] [HTTP] GET /profile - 200 (1086ms)
+[2026-04-27T19:36:44.061Z] [HTTP] GET /trucks - 304 (3ms)
+[2026-04-27T19:36:44.596Z] [HTTP] GET /shipments - 304 (2ms)
+[2026-04-27T19:36:44.624Z] [HTTP] GET /shipments - 304 (1ms)
+[2026-04-27T19:36:44.626Z] [HTTP] GET /trucks - 304 (1ms)
+[2026-04-27T19:36:44.941Z] [HTTP] GET /trucks - 304 (1ms)
+[2026-04-27T19:36:44.959Z] [HTTP] GET /shipments - 304 (2ms)
+[2026-04-27T19:37:54.337Z] [INFO] 🔌 Initializing Supabase...
+[2026-04-27T19:37:54.343Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-27T19:37:54.345Z] [INFO] 📝 Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+[2026-04-27T19:37:54.347Z] [INFO] 🔑 Service Key: Not provided
+[2026-04-27T19:37:56.437Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-04-27T19:37:56.438Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-04-27T19:37:56.439Z] [INFO] ✅ Database connection established
+[2026-04-27T19:37:56.447Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-27T19:37:56.447Z] [INFO] ✅ Socket.IO initialized
+[2026-04-27T19:37:56.516Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-04-27T19:37:56.517Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-04-27T19:37:56.518Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-04-27T19:37:56.519Z] [INFO] 🔌 Socket.IO: ws://localhost:3001
+[2026-04-27T19:37:56.520Z] [INFO] 📝 Environment: development
+[2026-04-27T19:37:59.271Z] [HTTP] GET /profile - 304 (384ms)
+[2026-04-27T19:38:00.016Z] [HTTP] GET /trucks - 304 (2ms)
+[2026-04-27T19:38:00.020Z] [HTTP] GET /shipments - 304 (2ms)
+[2026-04-27T19:38:00.638Z] [HTTP] GET /profile - 304 (266ms)
+[2026-04-27T19:38:00.965Z] [HTTP] GET /trucks - 304 (1ms)
+[2026-04-27T19:38:00.980Z] [HTTP] GET /shipments - 304 (2ms)
+[2026-04-27T19:38:32.011Z] [HTTP] GET /profile - 304 (611ms)
+[2026-04-27T19:39:31.502Z] [HTTP] GET /shipments - 304 (98ms)
+[2026-04-27T19:39:31.506Z] [HTTP] GET /shipments - 304 (2ms)
+[2026-04-27T19:39:31.583Z] [WARN] ⚠️ Unauthorized access attempt by fleet@gmail.com (fleet_owner)
+[2026-04-27T19:39:31.645Z] [HTTP] GET / - 403 (120ms)
+[2026-04-27T19:39:31.669Z] [WARN] ⚠️ Unauthorized access attempt by fleet@gmail.com (fleet_owner)
+[2026-04-27T19:39:31.671Z] [HTTP] GET / - 403 (4ms)
+[2026-04-27T19:52:26.514Z] [HTTP] GET /profile - 304 (1849ms)
+[2026-04-27T19:52:29.176Z] [HTTP] GET /profile - 304 (804ms)
+[2026-04-27T19:57:28.216Z] [HTTP] GET /trucks - 304 (100ms)
+[2026-04-27T19:59:16.534Z] [HTTP] GET /profile - 304 (3590ms)
+[2026-04-27T20:00:51.449Z] [HTTP] GET /api/health - 200 (34ms)
+[2026-04-27T20:00:52.021Z] [INFO] 📝 Signup attempt: smoke_1777320051083@test.com
+[2026-04-27T20:00:53.444Z] [INFO] ✅ User registered: smoke_1777320051083@test.com
+[2026-04-27T20:00:53.468Z] [HTTP] POST /signup - 201 (1597ms)
+[2026-04-27T20:00:53.477Z] [INFO] 🔐 Login attempt: smoke_1777320051083@test.com
+[2026-04-27T20:00:54.160Z] [INFO] ✅ User logged in: smoke_1777320051083@test.com
+[2026-04-27T20:00:54.166Z] [HTTP] POST /login - 200 (692ms)
+[2026-04-27T20:00:54.445Z] [HTTP] GET /profile - 200 (274ms)
+[2026-04-27T20:00:54.679Z] [HTTP] POST /refresh-token - 200 (229ms)
+[2026-04-27T20:20:33.446Z] [INFO] 🔌 Initializing Supabase...
+[2026-04-27T20:20:33.530Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-27T20:20:33.531Z] [INFO] 📝 Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+[2026-04-27T20:20:33.531Z] [INFO] 🔑 Service Key: Not provided
+[2026-04-27T20:20:37.002Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-04-27T20:20:37.003Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-04-27T20:20:37.003Z] [INFO] ✅ Database connection established
+[2026-04-27T20:20:37.009Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-27T20:20:37.010Z] [INFO] ✅ Socket.IO initialized
+[2026-04-27T20:20:37.019Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-04-27T20:20:37.019Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-04-27T20:20:37.020Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-04-27T20:20:37.021Z] [INFO] 🔌 Socket.IO: ws://localhost:3001
+[2026-04-27T20:20:37.021Z] [INFO] 📝 Environment: development
+[2026-04-27T20:21:57.325Z] [INFO] 🔌 Initializing Supabase...
+[2026-04-27T20:21:57.328Z] [INFO] 📍 URL: https://ewlzbeauucflhtzmzkhy.supabase.co
+[2026-04-27T20:21:57.329Z] [INFO] 📝 Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+[2026-04-27T20:21:57.330Z] [INFO] 🔑 Service Key: Not provided
+[2026-04-27T20:21:58.755Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-04-27T20:21:58.756Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-04-27T20:21:58.756Z] [INFO] ✅ Database connection established
+[2026-04-27T20:21:58.762Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-04-27T20:21:58.763Z] [INFO] ✅ Socket.IO initialized
+[2026-04-27T20:21:58.773Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-04-27T20:21:58.774Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-04-27T20:21:58.775Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-04-27T20:21:58.776Z] [INFO] 🔌 Socket.IO: ws://localhost:3001
+[2026-04-27T20:21:58.776Z] [INFO] 📝 Environment: development

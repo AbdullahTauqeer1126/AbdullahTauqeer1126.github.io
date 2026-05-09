@@ -1,0 +1,615 @@
+[2026-05-01T11:22:15.192Z] [ERROR] Get profile error:
+{
+  "statusCode": 404,
+  "code": "USER_NOT_FOUND"
+}
+[2026-05-01T11:22:15.247Z] [HTTP] GET /profile - 404 (7340ms)
+[2026-05-01T11:22:19.800Z] [ERROR] Error fetching all users:
+{
+  "message": "TypeError: fetch failed",
+  "details": "TypeError: fetch failed\n\nCaused by: Error: getaddrinfo ENOTFOUND ewlzbeauucflhtzmzkhy.supabase.co (ENOTFOUND)\nError: getaddrinfo ENOTFOUND ewlzbeauucflhtzmzkhy.supabase.co\n    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:122:26)",
+  "hint": "",
+  "code": ""
+}
+[2026-05-01T11:22:27.621Z] [ERROR] Get profile error:
+{
+  "statusCode": 404,
+  "code": "USER_NOT_FOUND"
+}
+[2026-05-01T11:22:27.630Z] [HTTP] GET /profile - 404 (7100ms)
+[2026-05-01T11:22:29.611Z] [ERROR] Error fetching all users:
+{
+  "message": "TypeError: fetch failed",
+  "details": "TypeError: fetch failed\n\nCaused by: Error: getaddrinfo ENOTFOUND ewlzbeauucflhtzmzkhy.supabase.co (ENOTFOUND)\nError: getaddrinfo ENOTFOUND ewlzbeauucflhtzmzkhy.supabase.co\n    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:122:26)",
+  "hint": "",
+  "code": ""
+}
+[2026-05-01T11:22:29.612Z] [HTTP] GET /users - 500 (7169ms)
+[2026-05-01T11:22:34.842Z] [ERROR] Get profile error:
+{
+  "statusCode": 404,
+  "code": "USER_NOT_FOUND"
+}
+[2026-05-01T11:22:34.844Z] [HTTP] GET /profile - 404 (7049ms)
+[2026-05-01T11:22:36.658Z] [ERROR] Error fetching all users:
+{
+  "message": "TypeError: fetch failed",
+  "details": "TypeError: fetch failed\n\nCaused by: Error: getaddrinfo ENOTFOUND ewlzbeauucflhtzmzkhy.supabase.co (ENOTFOUND)\nError: getaddrinfo ENOTFOUND ewlzbeauucflhtzmzkhy.supabase.co\n    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:122:26)",
+  "hint": "",
+  "code": ""
+}
+[2026-05-01T11:22:36.659Z] [HTTP] GET /users - 500 (7042ms)
+[2026-05-01T12:44:17.966Z] [INFO] 🔌 Initializing Supabase...
+[2026-05-01T12:44:17.972Z] [INFO] 📍 URL Present: true
+[2026-05-01T12:44:17.973Z] [INFO] 🔑 Keys Present: true (service: true)
+[2026-05-01T12:44:21.042Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-05-01T12:44:21.043Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-05-01T12:44:21.044Z] [INFO] ✅ Database connection established
+[2026-05-01T12:44:21.058Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-05-01T12:44:21.059Z] [INFO] ✅ Socket.IO initialized
+[2026-05-01T12:49:52.629Z] [INFO] 🔌 Initializing Supabase...
+[2026-05-01T12:49:52.634Z] [INFO] 📍 URL Present: true
+[2026-05-01T12:49:52.636Z] [INFO] 🔑 Keys Present: true (service: true)
+[2026-05-01T12:49:54.094Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-05-01T12:49:54.095Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-05-01T12:49:54.096Z] [INFO] ✅ Database connection established
+[2026-05-01T12:49:54.102Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-05-01T12:49:54.103Z] [INFO] ✅ Socket.IO initialized
+[2026-05-01T13:08:17.251Z] [INFO] 🔌 Initializing Supabase...
+[2026-05-01T13:08:17.324Z] [INFO] 📍 URL Present: true
+[2026-05-01T13:08:17.340Z] [INFO] 🔑 Keys Present: true (service: true)
+[2026-05-01T13:08:19.642Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-05-01T13:08:19.643Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-05-01T13:08:19.644Z] [INFO] ✅ Database connection established
+[2026-05-01T13:08:19.649Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-05-01T13:08:19.650Z] [INFO] ✅ Socket.IO initialized
+[2026-05-01T13:08:19.662Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-05-01T13:08:19.663Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-05-01T13:08:19.665Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-05-01T13:08:19.666Z] [INFO] 🔌 Socket.IO: ws://localhost:3001
+[2026-05-01T13:08:19.667Z] [INFO] 📝 Environment: development
+[2026-05-01T14:07:16.120Z] [INFO] 🔌 Initializing Supabase...
+[2026-05-01T14:07:16.149Z] [INFO] 📍 URL Present: true
+[2026-05-01T14:07:16.150Z] [INFO] 🔑 Keys Present: true (service: true)
+[2026-05-01T14:07:25.139Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-05-01T14:07:25.141Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-05-01T14:07:25.142Z] [INFO] ✅ Database connection established
+[2026-05-01T14:07:25.149Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-05-01T14:07:25.152Z] [INFO] ✅ Socket.IO initialized
+[2026-05-01T14:09:13.868Z] [INFO] 🔌 Initializing Supabase...
+[2026-05-01T14:09:13.872Z] [INFO] 📍 URL Present: true
+[2026-05-01T14:09:13.873Z] [INFO] 🔑 Keys Present: true (service: true)
+[2026-05-01T14:09:17.718Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-05-01T14:09:17.719Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-05-01T14:09:17.720Z] [INFO] ✅ Database connection established
+[2026-05-01T14:09:17.725Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-05-01T14:09:17.726Z] [INFO] ✅ Socket.IO initialized
+[2026-05-01T14:09:17.733Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-05-01T14:09:17.734Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-05-01T14:09:17.735Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-05-01T14:09:17.737Z] [INFO] 🔌 Socket.IO: ws://localhost:3001
+[2026-05-01T14:09:17.738Z] [INFO] 📝 Environment: development
+[2026-05-01T14:09:42.605Z] [HTTP] GET /profile - 200 (944ms)
+[2026-05-01T14:09:50.413Z] [HTTP] GET /profile - 304 (1373ms)
+[2026-05-01T14:09:50.894Z] [HTTP] GET /profile - 304 (477ms)
+[2026-05-01T14:09:53.695Z] [HTTP] GET /shipments - 304 (519ms)
+[2026-05-01T14:09:54.043Z] [HTTP] GET /users - 200 (864ms)
+[2026-05-01T14:09:54.353Z] [HTTP] GET /trucks - 304 (1165ms)
+[2026-05-01T14:09:54.771Z] [HTTP] GET /trucks - 304 (416ms)
+[2026-05-01T14:09:55.237Z] [HTTP] GET /users - 304 (1192ms)
+[2026-05-01T14:09:55.336Z] [HTTP] GET /shipments - 304 (1639ms)
+[2026-05-01T14:09:56.618Z] [HTTP] GET /users - 304 (507ms)
+[2026-05-01T14:09:58.014Z] [HTTP] GET /users - 304 (1385ms)
+[2026-05-01T14:09:59.941Z] [HTTP] GET /pending - 304 (410ms)
+[2026-05-01T14:10:00.374Z] [HTTP] GET /pending - 304 (432ms)
+[2026-05-01T14:10:00.959Z] [HTTP] GET / - 304 (2ms)
+[2026-05-01T14:10:00.991Z] [HTTP] GET / - 304 (1ms)
+[2026-05-01T14:10:18.198Z] [HTTP] GET /shipments - 304 (950ms)
+[2026-05-01T14:10:18.638Z] [HTTP] GET /shipments - 304 (439ms)
+[2026-05-01T14:10:19.364Z] [HTTP] GET /users - 304 (2125ms)
+[2026-05-01T14:10:19.390Z] [HTTP] GET /trucks - 304 (2145ms)
+[2026-05-01T14:10:19.844Z] [HTTP] GET /trucks - 304 (452ms)
+[2026-05-01T14:10:19.848Z] [HTTP] GET /users - 304 (483ms)
+[2026-05-01T14:10:21.284Z] [HTTP] GET /profile - 304 (408ms)
+[2026-05-01T14:12:53.769Z] [INFO] 🔌 Initializing Supabase...
+[2026-05-01T14:12:53.773Z] [INFO] 📍 URL Present: true
+[2026-05-01T14:12:53.774Z] [INFO] 🔑 Keys Present: true (service: true)
+[2026-05-01T14:12:56.120Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-05-01T14:12:56.121Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-05-01T14:12:56.122Z] [INFO] ✅ Database connection established
+[2026-05-01T14:12:56.129Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-05-01T14:12:56.130Z] [INFO] ✅ Socket.IO initialized
+[2026-05-01T15:11:33.023Z] [INFO] 🔌 Initializing Supabase...
+[2026-05-01T15:11:33.084Z] [INFO] 📍 URL Present: true
+[2026-05-01T15:11:33.162Z] [INFO] 🔑 Keys Present: true (service: true)
+[2026-05-01T15:11:35.863Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-05-01T15:11:35.864Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-05-01T15:11:35.866Z] [INFO] ✅ Database connection established
+[2026-05-01T15:11:35.873Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-05-01T15:11:35.879Z] [INFO] ✅ Socket.IO initialized
+[2026-05-01T15:11:35.934Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-05-01T15:11:35.935Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-05-01T15:11:35.937Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-05-01T15:11:35.941Z] [INFO] 🔌 Socket.IO: ws://localhost:3001
+[2026-05-01T15:11:35.942Z] [INFO] 📝 Environment: development
+[2026-05-01T15:12:04.125Z] [HTTP] GET /profile - 304 (826ms)
+[2026-05-01T15:13:05.070Z] [HTTP] GET /profile - 304 (2104ms)
+[2026-05-01T15:13:11.851Z] [INFO] 🔐 Login attempt: fleet@gmail.com
+[2026-05-01T15:13:12.962Z] [INFO] ✅ User logged in: fleet@gmail.com
+[2026-05-01T15:13:12.971Z] [HTTP] POST /login - 200 (1121ms)
+[2026-05-01T15:14:15.124Z] [HTTP] GET /profile - 200 (1542ms)
+[2026-05-01T15:14:16.208Z] [HTTP] GET /trucks - 304 (366ms)
+[2026-05-01T15:14:16.686Z] [HTTP] GET /trucks - 304 (473ms)
+[2026-05-01T15:14:16.692Z] [HTTP] GET /shipments - 304 (846ms)
+[2026-05-01T15:14:16.714Z] [WARN] ⚠️ Unauthorized access attempt by fleet@gmail.com (fleet_owner)
+[2026-05-01T15:14:16.717Z] [HTTP] GET / - 403 (6ms)
+[2026-05-01T15:14:17.029Z] [HTTP] GET /shipments - 304 (334ms)
+[2026-05-01T15:14:17.039Z] [WARN] ⚠️ Unauthorized access attempt by fleet@gmail.com (fleet_owner)
+[2026-05-01T15:14:17.041Z] [HTTP] GET / - 403 (5ms)
+[2026-05-01T15:14:21.319Z] [HTTP] GET /trucks - 304 (341ms)
+[2026-05-01T15:14:21.669Z] [HTTP] GET /trucks - 304 (342ms)
+[2026-05-01T15:14:23.266Z] [HTTP] GET /shipments - 304 (357ms)
+[2026-05-01T15:14:23.616Z] [HTTP] GET /shipments - 304 (348ms)
+[2026-05-01T15:14:24.390Z] [HTTP] GET /profile - 200 (1115ms)
+[2026-05-01T15:14:24.805Z] [HTTP] GET /trucks/undefined - 404 (396ms)
+[2026-05-01T15:14:24.823Z] [WARN] ⚠️ Unauthorized access attempt by fleet@gmail.com (fleet_owner)
+[2026-05-01T15:14:24.825Z] [HTTP] GET / - 403 (4ms)
+[2026-05-01T15:14:25.574Z] [HTTP] GET /profile - 304 (1182ms)
+[2026-05-01T15:14:25.942Z] [HTTP] GET /trucks/undefined - 404 (362ms)
+[2026-05-01T15:14:25.950Z] [WARN] ⚠️ Unauthorized access attempt by fleet@gmail.com (fleet_owner)
+[2026-05-01T15:14:25.955Z] [HTTP] GET / - 403 (6ms)
+[2026-05-01T15:14:41.291Z] [HTTP] GET /drivers - 200 (1557ms)
+[2026-05-01T15:14:42.052Z] [HTTP] GET /drivers - 304 (755ms)
+[2026-05-01T15:14:55.824Z] [HTTP] GET /profile - 304 (1498ms)
+[2026-05-01T15:14:58.489Z] [INFO] [Chat] Client connected: qNmta9AsbRfoJH56AAAB
+[2026-05-01T15:14:58.494Z] [INFO] [Chat] Socket qNmta9AsbRfoJH56AAAB joined room chat_13628f9d-76ec-4b9a-8edc-e560c70ce6be_cb3aec96-ffce-4612-b347-c93790d55c11
+[2026-05-01T15:14:58.495Z] [INFO] [Chat] Socket qNmta9AsbRfoJH56AAAB joined room chat_13628f9d-76ec-4b9a-8edc-e560c70ce6be_cb3aec96-ffce-4612-b347-c93790d55c11
+[2026-05-01T15:14:58.826Z] [HTTP] GET /13628f9d-76ec-4b9a-8edc-e560c70ce6be/conversation - 200 (376ms)
+[2026-05-01T15:14:59.215Z] [HTTP] GET /13628f9d-76ec-4b9a-8edc-e560c70ce6be/conversation - 304 (387ms)
+[2026-05-01T15:14:59.596Z] [HTTP] GET / - 200 (1137ms)
+[2026-05-01T15:14:59.615Z] [HTTP] PUT /13628f9d-76ec-4b9a-8edc-e560c70ce6be/read-all - 200 (778ms)
+[2026-05-01T15:14:59.865Z] [HTTP] PUT /13628f9d-76ec-4b9a-8edc-e560c70ce6be/read-all - 200 (629ms)
+[2026-05-01T15:15:00.368Z] [HTTP] GET / - 304 (769ms)
+[2026-05-01T15:15:07.846Z] [HTTP] POST / - 200 (2167ms)
+[2026-05-01T15:15:07.973Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-05-01T15:15:07.976Z] [HTTP] POST /logout - 401 (3ms)
+[2026-05-01T15:15:19.026Z] [INFO] 🔐 Login attempt: driver1@gmail.com
+[2026-05-01T15:15:20.108Z] [INFO] ✅ User logged in: driver1@gmail.com
+[2026-05-01T15:15:20.112Z] [HTTP] POST /login - 200 (1085ms)
+[2026-05-01T15:15:21.062Z] [HTTP] GET /shipments - 304 (379ms)
+[2026-05-01T15:15:21.074Z] [HTTP] GET /api/drivers/fleet-owner - 404 (1ms)
+[2026-05-01T15:15:21.426Z] [HTTP] GET /shipments - 304 (362ms)
+[2026-05-01T15:15:21.449Z] [HTTP] GET /api/drivers/fleet-owner - 404 (1ms)
+[2026-05-01T15:15:24.306Z] [HTTP] GET / - 200 (1090ms)
+[2026-05-01T15:15:24.340Z] [INFO] [Chat] Socket qNmta9AsbRfoJH56AAAB joined room chat_13628f9d-76ec-4b9a-8edc-e560c70ce6be_cb3aec96-ffce-4612-b347-c93790d55c11
+[2026-05-01T15:15:25.190Z] [HTTP] GET /cb3aec96-ffce-4612-b347-c93790d55c11/conversation - 200 (839ms)
+[2026-05-01T15:15:25.530Z] [HTTP] PUT /cb3aec96-ffce-4612-b347-c93790d55c11/read-all - 200 (328ms)
+[2026-05-01T15:15:25.625Z] [HTTP] GET / - 304 (1317ms)
+[2026-05-01T15:17:57.795Z] [HTTP] GET /shipments - 304 (702ms)
+[2026-05-01T15:17:59.117Z] [HTTP] GET /shipments - 304 (1320ms)
+[2026-05-01T15:18:01.253Z] [HTTP] GET /shipments - 304 (206ms)
+[2026-05-01T15:18:01.269Z] [HTTP] GET /api/drivers/fleet-owner - 404 (2ms)
+[2026-05-01T15:18:01.844Z] [HTTP] GET /shipments - 304 (585ms)
+[2026-05-01T15:18:01.851Z] [HTTP] GET /api/drivers/fleet-owner - 404 (1ms)
+[2026-05-01T15:18:04.787Z] [HTTP] GET /shipments - 304 (235ms)
+[2026-05-01T15:18:05.645Z] [HTTP] GET /shipments - 304 (855ms)
+[2026-05-01T15:18:07.032Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-05-01T15:18:07.037Z] [HTTP] POST /logout - 401 (6ms)
+[2026-05-01T15:18:16.378Z] [INFO] 🔐 Login attempt: fleet@gmail.com
+[2026-05-01T15:18:17.092Z] [INFO] ✅ User logged in: fleet@gmail.com
+[2026-05-01T15:18:17.095Z] [HTTP] POST /login - 200 (718ms)
+[2026-05-01T15:18:17.553Z] [HTTP] GET /trucks - 304 (229ms)
+[2026-05-01T15:18:17.824Z] [HTTP] GET /trucks - 304 (252ms)
+[2026-05-01T15:18:17.833Z] [HTTP] GET /shipments - 304 (507ms)
+[2026-05-01T15:18:17.848Z] [WARN] ⚠️ Unauthorized access attempt by fleet@gmail.com (fleet_owner)
+[2026-05-01T15:18:17.850Z] [HTTP] GET / - 403 (3ms)
+[2026-05-01T15:18:18.096Z] [HTTP] GET /shipments - 304 (260ms)
+[2026-05-01T15:18:18.104Z] [WARN] ⚠️ Unauthorized access attempt by fleet@gmail.com (fleet_owner)
+[2026-05-01T15:18:18.106Z] [HTTP] GET / - 403 (2ms)
+[2026-05-01T15:18:21.952Z] [HTTP] GET /trucks - 304 (207ms)
+[2026-05-01T15:18:22.163Z] [HTTP] GET /trucks - 304 (207ms)
+[2026-05-01T15:19:27.275Z] [INFO] 📦 Creating truck: ACE 8193
+[2026-05-01T15:19:29.274Z] [WARN] Truck create falling back to memory store: Could not find the 'condition' column of 'trucks' in the schema cache
+[2026-05-01T15:19:29.276Z] [HTTP] POST /trucks - 201 (2005ms)
+[2026-05-01T15:19:29.336Z] [HTTP] GET /profile - 200 (4962ms)
+[2026-05-01T15:19:29.812Z] [HTTP] GET /profile - 200 (8353ms)
+[2026-05-01T15:19:30.187Z] [HTTP] GET /profile - 200 (12512ms)
+[2026-05-01T15:19:33.285Z] [HTTP] GET /profile - 304 (39194ms)
+[2026-05-01T15:19:33.664Z] [HTTP] GET /profile - 304 (374ms)
+[2026-05-01T15:19:34.015Z] [HTTP] GET /profile - 304 (350ms)
+[2026-05-01T15:19:34.383Z] [HTTP] GET /profile - 304 (367ms)
+[2026-05-01T15:19:35.404Z] [HTTP] GET /profile - 304 (1020ms)
+[2026-05-01T15:21:07.305Z] [HTTP] GET /profile - 304 (2169ms)
+[2026-05-01T15:21:08.096Z] [HTTP] GET / - 200 (440ms)
+[2026-05-01T15:21:08.148Z] [INFO] [Chat] Socket qNmta9AsbRfoJH56AAAB joined room chat_13628f9d-76ec-4b9a-8edc-e560c70ce6be_cb3aec96-ffce-4612-b347-c93790d55c11
+[2026-05-01T15:21:08.513Z] [HTTP] GET /13628f9d-76ec-4b9a-8edc-e560c70ce6be/conversation - 200 (349ms)
+[2026-05-01T15:21:08.561Z] [HTTP] GET / - 304 (460ms)
+[2026-05-01T15:21:08.755Z] [HTTP] PUT /13628f9d-76ec-4b9a-8edc-e560c70ce6be/read-all - 200 (232ms)
+[2026-05-01T15:21:20.155Z] [HTTP] POST / - 200 (1258ms)
+[2026-05-01T15:21:20.775Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-05-01T15:21:20.777Z] [HTTP] POST /logout - 401 (3ms)
+[2026-05-01T15:21:28.615Z] [INFO] 🔐 Login attempt: driver1@gmail.com
+[2026-05-01T15:21:29.289Z] [INFO] ✅ User logged in: driver1@gmail.com
+[2026-05-01T15:21:29.291Z] [HTTP] POST /login - 200 (676ms)
+[2026-05-01T15:21:29.811Z] [HTTP] GET /shipments - 304 (278ms)
+[2026-05-01T15:21:29.831Z] [HTTP] GET /api/drivers/fleet-owner - 404 (1ms)
+[2026-05-01T15:21:30.319Z] [HTTP] GET /shipments - 304 (505ms)
+[2026-05-01T15:21:30.447Z] [HTTP] GET /api/drivers/fleet-owner - 404 (1ms)
+[2026-05-01T15:21:32.040Z] [HTTP] GET / - 200 (604ms)
+[2026-05-01T15:21:32.082Z] [INFO] [Chat] Socket qNmta9AsbRfoJH56AAAB joined room chat_13628f9d-76ec-4b9a-8edc-e560c70ce6be_cb3aec96-ffce-4612-b347-c93790d55c11
+[2026-05-01T15:21:32.598Z] [HTTP] GET / - 304 (556ms)
+[2026-05-01T15:21:32.610Z] [HTTP] GET /cb3aec96-ffce-4612-b347-c93790d55c11/conversation - 200 (520ms)
+[2026-05-01T15:21:32.921Z] [HTTP] PUT /cb3aec96-ffce-4612-b347-c93790d55c11/read-all - 200 (272ms)
+[2026-05-01T15:21:44.841Z] [HTTP] GET /shipments - 304 (384ms)
+[2026-05-01T15:21:44.854Z] [HTTP] GET /api/drivers/fleet-owner - 404 (1ms)
+[2026-05-01T15:21:45.060Z] [HTTP] GET /shipments - 304 (217ms)
+[2026-05-01T15:21:45.068Z] [HTTP] GET /api/drivers/fleet-owner - 404 (2ms)
+[2026-05-01T15:21:46.643Z] [HTTP] GET /shipments - 304 (219ms)
+[2026-05-01T15:21:46.884Z] [HTTP] GET /shipments - 304 (239ms)
+[2026-05-01T15:21:48.041Z] [HTTP] GET /shipments - 304 (219ms)
+[2026-05-01T15:21:48.271Z] [HTTP] GET /shipments - 304 (201ms)
+[2026-05-01T15:21:49.872Z] [HTTP] GET /shipments - 304 (234ms)
+[2026-05-01T15:21:50.093Z] [HTTP] GET /shipments - 304 (218ms)
+[2026-05-01T15:21:51.298Z] [HTTP] GET /shipments - 304 (196ms)
+[2026-05-01T15:21:51.519Z] [HTTP] GET /shipments - 304 (217ms)
+[2026-05-01T15:22:56.093Z] [INFO] [Chat] Client disconnected: qNmta9AsbRfoJH56AAAB
+[2026-05-01T15:22:58.088Z] [HTTP] GET /profile - 200 (907ms)
+[2026-05-01T15:23:07.531Z] [HTTP] GET /profile - 304 (928ms)
+[2026-05-01T15:23:19.277Z] [INFO] 🔐 Login attempt: admin@test.com
+[2026-05-01T15:23:20.444Z] [INFO] ✅ User logged in: admin@test.com
+[2026-05-01T15:23:20.447Z] [HTTP] POST /login - 200 (1171ms)
+[2026-05-01T15:23:21.634Z] [HTTP] GET /trucks - 200 (352ms)
+[2026-05-01T15:23:21.853Z] [HTTP] GET /trucks - 304 (216ms)
+[2026-05-01T15:23:21.856Z] [HTTP] GET /shipments - 304 (566ms)
+[2026-05-01T15:23:21.861Z] [HTTP] GET /users - 304 (559ms)
+[2026-05-01T15:23:22.101Z] [HTTP] GET /shipments - 304 (232ms)
+[2026-05-01T15:23:22.115Z] [HTTP] GET /users - 304 (244ms)
+[2026-05-01T15:23:54.183Z] [HTTP] GET /trucks - 304 (376ms)
+[2026-05-01T15:23:54.409Z] [HTTP] GET /trucks - 304 (223ms)
+[2026-05-01T15:24:06.080Z] [HTTP] GET /profile - 200 (725ms)
+[2026-05-01T15:24:13.190Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-05-01T15:24:13.206Z] [HTTP] POST /logout - 401 (16ms)
+[2026-05-01T15:24:23.780Z] [INFO] 🔐 Login attempt: fleet@gmail.com
+[2026-05-01T15:24:24.660Z] [INFO] ✅ User logged in: fleet@gmail.com
+[2026-05-01T15:24:24.662Z] [HTTP] POST /login - 200 (882ms)
+[2026-05-01T15:24:25.202Z] [HTTP] GET /trucks - 304 (276ms)
+[2026-05-01T15:24:25.442Z] [HTTP] GET /trucks - 304 (237ms)
+[2026-05-01T15:24:25.508Z] [HTTP] GET /shipments - 304 (579ms)
+[2026-05-01T15:24:25.518Z] [WARN] ⚠️ Unauthorized access attempt by fleet@gmail.com (fleet_owner)
+[2026-05-01T15:24:25.519Z] [HTTP] GET / - 403 (3ms)
+[2026-05-01T15:24:25.931Z] [HTTP] GET /shipments - 304 (422ms)
+[2026-05-01T15:24:25.938Z] [WARN] ⚠️ Unauthorized access attempt by fleet@gmail.com (fleet_owner)
+[2026-05-01T15:24:25.942Z] [HTTP] GET / - 403 (5ms)
+[2026-05-01T15:24:27.828Z] [HTTP] GET /trucks - 304 (261ms)
+[2026-05-01T15:24:28.057Z] [HTTP] GET /trucks - 304 (224ms)
+[2026-05-01T15:25:30.171Z] [HTTP] GET /profile - 200 (14481ms)
+[2026-05-01T15:25:30.186Z] [HTTP] GET /profile - 200 (712ms)
+[2026-05-01T15:25:30.189Z] [HTTP] GET /profile - 200 (8377ms)
+[2026-05-01T15:25:31.174Z] [HTTP] GET /profile - 200 (12239ms)
+[2026-05-01T15:25:33.391Z] [INFO] 📦 Creating truck: ACE 8193
+[2026-05-01T15:25:33.968Z] [WARN] Truck create falling back to memory store: Could not find the 'condition' column of 'trucks' in the schema cache
+[2026-05-01T15:25:33.971Z] [HTTP] POST /trucks - 201 (587ms)
+[2026-05-01T15:25:34.181Z] [HTTP] GET /profile - 200 (804ms)
+[2026-05-01T15:25:34.190Z] [HTTP] GET /profile - 200 (41699ms)
+[2026-05-01T15:25:34.827Z] [HTTP] GET /profile - 304 (632ms)
+[2026-05-01T15:25:35.083Z] [HTTP] GET /profile - 304 (254ms)
+[2026-05-01T15:25:41.591Z] [HTTP] GET /trucks - 200 (1342ms)
+[2026-05-01T15:25:42.038Z] [HTTP] GET /trucks - 304 (446ms)
+[2026-05-01T15:25:43.941Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-05-01T15:25:43.943Z] [HTTP] POST /logout - 401 (3ms)
+[2026-05-01T15:25:53.766Z] [INFO] 🔐 Login attempt: admin@test.com
+[2026-05-01T15:25:54.871Z] [INFO] ✅ User logged in: admin@test.com
+[2026-05-01T15:25:54.873Z] [HTTP] POST /login - 200 (1108ms)
+[2026-05-01T15:25:55.444Z] [HTTP] GET /users - 304 (359ms)
+[2026-05-01T15:25:55.789Z] [HTTP] GET /users - 304 (342ms)
+[2026-05-01T15:25:56.231Z] [HTTP] GET /trucks - 304 (1140ms)
+[2026-05-01T15:25:56.446Z] [HTTP] GET /shipments - 304 (1352ms)
+[2026-05-01T15:25:56.513Z] [HTTP] GET /trucks - 304 (276ms)
+[2026-05-01T15:25:56.678Z] [HTTP] GET /shipments - 304 (230ms)
+[2026-05-01T15:25:57.106Z] [HTTP] GET /trucks - 304 (205ms)
+[2026-05-01T15:25:57.354Z] [HTTP] GET /trucks - 304 (245ms)
+[2026-05-01T15:28:23.611Z] [HTTP] GET /profile - 200 (1109ms)
+[2026-05-01T15:28:30.150Z] [HTTP] GET /profile - 304 (1896ms)
+[2026-05-01T15:28:30.568Z] [HTTP] GET /trucks - 304 (250ms)
+[2026-05-01T15:28:30.774Z] [HTTP] GET /trucks - 304 (200ms)
+[2026-05-01T15:28:41.775Z] [HTTP] GET /profile - 304 (346ms)
+[2026-05-01T15:28:42.732Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-05-01T15:28:42.734Z] [HTTP] POST /logout - 401 (2ms)
+[2026-05-01T15:28:58.036Z] [INFO] 🔐 Login attempt: fleet@gmail.com
+[2026-05-01T15:28:59.115Z] [INFO] ✅ User logged in: fleet@gmail.com
+[2026-05-01T15:28:59.117Z] [HTTP] POST /login - 200 (1082ms)
+[2026-05-01T15:29:00.210Z] [HTTP] GET /trucks - 304 (375ms)
+[2026-05-01T15:29:00.444Z] [HTTP] GET /trucks - 304 (231ms)
+[2026-05-01T15:29:00.446Z] [HTTP] GET /shipments - 304 (609ms)
+[2026-05-01T15:29:00.465Z] [WARN] ⚠️ Unauthorized access attempt by fleet@gmail.com (fleet_owner)
+[2026-05-01T15:29:00.467Z] [HTTP] GET / - 403 (3ms)
+[2026-05-01T15:29:00.653Z] [HTTP] GET /shipments - 304 (204ms)
+[2026-05-01T15:29:00.658Z] [WARN] ⚠️ Unauthorized access attempt by fleet@gmail.com (fleet_owner)
+[2026-05-01T15:29:00.660Z] [HTTP] GET / - 403 (3ms)
+[2026-05-01T15:29:44.178Z] [HTTP] GET /trucks - 304 (755ms)
+[2026-05-01T15:29:44.799Z] [HTTP] GET /trucks - 304 (619ms)
+[2026-05-01T15:30:51.841Z] [HTTP] GET /profile - 200 (4112ms)
+[2026-05-01T15:30:51.995Z] [HTTP] GET /profile - 200 (40875ms)
+[2026-05-01T15:30:52.211Z] [HTTP] GET /profile - 304 (215ms)
+[2026-05-01T15:30:52.343Z] [HTTP] GET /profile - 200 (14303ms)
+[2026-05-01T15:30:52.437Z] [HTTP] GET /profile - 304 (223ms)
+[2026-05-01T15:30:52.672Z] [HTTP] GET /profile - 304 (234ms)
+[2026-05-01T15:30:52.917Z] [HTTP] GET /profile - 200 (11485ms)
+[2026-05-01T15:30:53.622Z] [HTTP] GET /profile - 200 (18835ms)
+[2026-05-01T15:31:51.483Z] [HTTP] GET /profile - 304 (958ms)
+[2026-05-01T15:32:46.849Z] [INFO] 📦 Creating truck: VHR 8193
+[2026-05-01T15:32:55.763Z] [HTTP] GET /profile - 304 (40074ms)
+[2026-05-01T15:32:55.901Z] [HTTP] GET /profile - 200 (3812ms)
+[2026-05-01T15:32:56.303Z] [HTTP] GET /profile - 304 (539ms)
+[2026-05-01T15:32:56.736Z] [HTTP] GET /profile - 200 (12531ms)
+[2026-05-01T15:32:56.937Z] [HTTP] GET /profile - 304 (631ms)
+[2026-05-01T15:32:57.430Z] [WARN] Truck create falling back to memory store: TypeError: fetch failed
+[2026-05-01T15:32:57.432Z] [HTTP] POST /trucks - 201 (10585ms)
+[2026-05-01T15:32:57.435Z] [HTTP] GET /profile - 304 (492ms)
+[2026-05-01T15:32:57.745Z] [HTTP] GET /profile - 304 (300ms)
+[2026-05-01T15:32:58.862Z] [HTTP] GET /profile - 200 (20352ms)
+[2026-05-01T15:32:59.264Z] [HTTP] GET /profile - 200 (17943ms)
+[2026-05-01T15:33:08.398Z] [HTTP] GET /profile - 304 (622ms)
+[2026-05-01T15:33:11.880Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-05-01T15:33:11.882Z] [HTTP] POST /logout - 401 (3ms)
+[2026-05-01T15:33:20.554Z] [INFO] 🔐 Login attempt: admin@test.com
+[2026-05-01T15:33:21.187Z] [WARN] ⚠️ Invalid password for: admin@test.com
+[2026-05-01T15:33:21.191Z] [ERROR] Login error:
+{
+  "statusCode": 401,
+  "code": "INVALID_CREDENTIALS"
+}
+[2026-05-01T15:33:21.212Z] [HTTP] POST /login - 401 (658ms)
+[2026-05-01T15:33:27.611Z] [INFO] 🔐 Login attempt: admin@test.com
+[2026-05-01T15:33:28.453Z] [INFO] ✅ User logged in: admin@test.com
+[2026-05-01T15:33:28.455Z] [HTTP] POST /login - 200 (844ms)
+[2026-05-01T15:33:29.591Z] [HTTP] GET /users - 304 (512ms)
+[2026-05-01T15:33:30.079Z] [HTTP] GET /trucks - 200 (996ms)
+[2026-05-01T15:33:30.081Z] [HTTP] GET /shipments - 304 (991ms)
+[2026-05-01T15:33:30.521Z] [HTTP] GET /trucks - 304 (437ms)
+[2026-05-01T15:33:30.526Z] [HTTP] GET /shipments - 304 (439ms)
+[2026-05-01T15:33:30.529Z] [HTTP] GET /users - 304 (935ms)
+[2026-05-01T15:33:34.707Z] [HTTP] GET /trucks - 304 (229ms)
+[2026-05-01T15:33:34.936Z] [HTTP] GET /trucks - 304 (227ms)
+[2026-05-01T15:33:46.522Z] [HTTP] PUT /trucks/TRK-O9LSO809W - 404 (771ms)
+[2026-05-01T15:35:36.451Z] [HTTP] GET /profile - 200 (885ms)
+[2026-05-01T15:35:37.055Z] [HTTP] PUT /trucks/TRK-O9LSO809W - 404 (265ms)
+[2026-05-01T15:35:37.323Z] [HTTP] GET /trucks - 304 (258ms)
+[2026-05-01T15:35:45.462Z] [HTTP] GET / - 304 (4ms)
+[2026-05-01T15:35:45.477Z] [HTTP] GET / - 304 (2ms)
+[2026-05-01T15:35:47.453Z] [HTTP] GET /pending - 304 (354ms)
+[2026-05-01T15:35:48.752Z] [HTTP] GET /pending - 304 (1297ms)
+[2026-05-01T15:35:50.702Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-05-01T15:35:50.704Z] [HTTP] POST /logout - 401 (2ms)
+[2026-05-01T15:36:53.607Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-05-01T15:36:53.608Z] [HTTP] GET /trucks - 401 (1ms)
+[2026-05-01T15:36:53.611Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-05-01T15:36:53.613Z] [HTTP] GET /trucks - 401 (2ms)
+[2026-05-01T15:36:56.677Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-05-01T15:36:56.678Z] [HTTP] GET /trucks - 401 (1ms)
+[2026-05-01T15:40:14.670Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-05-01T15:40:14.672Z] [HTTP] GET /trucks - 401 (2ms)
+[2026-05-01T15:45:37.637Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-05-01T15:45:37.640Z] [HTTP] GET /trucks - 401 (3ms)
+[2026-05-01T15:45:37.644Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-05-01T15:45:37.648Z] [HTTP] GET /trucks - 401 (4ms)
+[2026-05-01T15:46:01.086Z] [INFO] 🔐 Login attempt: fleet@gmail.com
+[2026-05-01T15:46:02.067Z] [INFO] ✅ User logged in: fleet@gmail.com
+[2026-05-01T15:46:02.071Z] [HTTP] POST /login - 200 (987ms)
+[2026-05-01T15:46:02.875Z] [HTTP] GET /trucks - 304 (245ms)
+[2026-05-01T15:46:03.068Z] [HTTP] GET /shipments - 304 (433ms)
+[2026-05-01T15:46:03.082Z] [WARN] ⚠️ Unauthorized access attempt by fleet@gmail.com (fleet_owner)
+[2026-05-01T15:46:03.084Z] [HTTP] GET / - 403 (4ms)
+[2026-05-01T15:46:03.404Z] [HTTP] GET /trucks - 304 (516ms)
+[2026-05-01T15:46:03.406Z] [HTTP] GET /shipments - 304 (337ms)
+[2026-05-01T15:46:03.413Z] [WARN] ⚠️ Unauthorized access attempt by fleet@gmail.com (fleet_owner)
+[2026-05-01T15:46:03.414Z] [HTTP] GET / - 403 (2ms)
+[2026-05-01T15:46:18.294Z] [HTTP] GET /shipments - 304 (756ms)
+[2026-05-01T15:46:18.520Z] [HTTP] GET /shipments - 304 (223ms)
+[2026-05-01T15:46:18.844Z] [HTTP] GET /profile - 304 (539ms)
+[2026-05-01T15:46:19.104Z] [HTTP] GET /trucks/undefined - 404 (250ms)
+[2026-05-01T15:46:19.115Z] [WARN] ⚠️ Unauthorized access attempt by fleet@gmail.com (fleet_owner)
+[2026-05-01T15:46:19.118Z] [HTTP] GET / - 403 (3ms)
+[2026-05-01T15:46:19.293Z] [HTTP] GET /profile - 304 (447ms)
+[2026-05-01T15:46:19.514Z] [HTTP] GET /trucks/undefined - 404 (216ms)
+[2026-05-01T15:46:19.520Z] [WARN] ⚠️ Unauthorized access attempt by fleet@gmail.com (fleet_owner)
+[2026-05-01T15:46:19.521Z] [HTTP] GET / - 403 (2ms)
+[2026-05-01T15:46:29.846Z] [HTTP] GET /trucks - 304 (354ms)
+[2026-05-01T15:46:30.076Z] [HTTP] GET /trucks - 304 (228ms)
+[2026-05-01T15:46:38.784Z] [HTTP] GET /trucks/TRK-O9LSO809W - 404 (368ms)
+[2026-05-01T15:46:39.013Z] [HTTP] GET /trucks/TRK-O9LSO809W - 404 (226ms)
+[2026-05-01T15:46:39.176Z] [HTTP] GET /shipments - 304 (379ms)
+[2026-05-01T15:46:39.409Z] [HTTP] GET /shipments - 304 (232ms)
+[2026-05-01T15:46:55.813Z] [HTTP] GET /profile - 200 (405ms)
+[2026-05-01T15:50:38.602Z] [HTTP] GET /profile - 304 (2162ms)
+[2026-05-01T15:50:41.195Z] [HTTP] GET /trucks - 304 (797ms)
+[2026-05-01T15:50:42.963Z] [HTTP] GET /trucks - 304 (1766ms)
+[2026-05-01T15:50:44.301Z] [HTTP] GET /trucks/TRK-O9LSO809W - 404 (358ms)
+[2026-05-01T15:50:44.535Z] [HTTP] GET /trucks/TRK-O9LSO809W - 404 (231ms)
+[2026-05-01T15:50:44.642Z] [HTTP] GET /shipments - 304 (330ms)
+[2026-05-01T15:50:44.872Z] [HTTP] GET /shipments - 304 (227ms)
+[2026-05-01T15:53:39.406Z] [HTTP] GET /trucks - 304 (1063ms)
+[2026-05-01T15:53:39.662Z] [HTTP] GET /trucks - 304 (249ms)
+[2026-05-01T15:53:43.465Z] [HTTP] GET /trucks - 304 (250ms)
+[2026-05-01T15:53:43.556Z] [HTTP] GET /shipments - 304 (334ms)
+[2026-05-01T15:53:43.572Z] [WARN] ⚠️ Unauthorized access attempt by fleet@gmail.com (fleet_owner)
+[2026-05-01T15:53:43.575Z] [HTTP] GET / - 403 (4ms)
+[2026-05-01T15:53:43.667Z] [HTTP] GET /trucks - 304 (200ms)
+[2026-05-01T15:53:43.776Z] [HTTP] GET /shipments - 304 (218ms)
+[2026-05-01T15:53:43.783Z] [WARN] ⚠️ Unauthorized access attempt by fleet@gmail.com (fleet_owner)
+[2026-05-01T15:53:43.784Z] [HTTP] GET / - 403 (2ms)
+[2026-05-01T15:54:10.275Z] [HTTP] GET /drivers - 304 (1489ms)
+[2026-05-01T15:54:10.728Z] [HTTP] GET /drivers - 304 (447ms)
+[2026-05-01T15:54:24.883Z] [HTTP] GET /shipments - 304 (482ms)
+[2026-05-01T15:54:25.105Z] [HTTP] GET /shipments - 304 (220ms)
+[2026-05-01T15:54:25.777Z] [HTTP] GET /profile - 304 (880ms)
+[2026-05-01T15:54:26.142Z] [HTTP] GET /trucks/undefined - 404 (354ms)
+[2026-05-01T15:54:26.154Z] [WARN] ⚠️ Unauthorized access attempt by fleet@gmail.com (fleet_owner)
+[2026-05-01T15:54:26.156Z] [HTTP] GET / - 403 (3ms)
+[2026-05-01T15:54:26.201Z] [HTTP] GET /profile - 304 (423ms)
+[2026-05-01T15:54:26.466Z] [HTTP] GET /trucks/undefined - 404 (228ms)
+[2026-05-01T15:54:26.472Z] [WARN] ⚠️ Unauthorized access attempt by fleet@gmail.com (fleet_owner)
+[2026-05-01T15:54:26.474Z] [HTTP] GET / - 403 (3ms)
+[2026-05-01T15:56:11.933Z] [HTTP] GET /profile - 304 (1326ms)
+[2026-05-01T15:56:12.234Z] [HTTP] GET /shipments - 304 (252ms)
+[2026-05-01T15:56:12.759Z] [HTTP] GET /profile - 304 (516ms)
+[2026-05-01T15:56:13.009Z] [HTTP] GET /trucks/undefined - 404 (241ms)
+[2026-05-01T15:56:13.024Z] [WARN] ⚠️ Unauthorized access attempt by fleet@gmail.com (fleet_owner)
+[2026-05-01T15:56:13.026Z] [HTTP] GET / - 403 (3ms)
+[2026-05-01T15:57:50.624Z] [HTTP] GET /profile - 304 (390ms)
+[2026-05-01T15:57:50.889Z] [HTTP] GET /shipments - 304 (227ms)
+[2026-05-01T15:57:51.372Z] [HTTP] GET /profile - 304 (471ms)
+[2026-05-01T15:57:51.624Z] [HTTP] GET /trucks/undefined - 404 (243ms)
+[2026-05-01T15:57:51.635Z] [WARN] ⚠️ Unauthorized access attempt by fleet@gmail.com (fleet_owner)
+[2026-05-01T15:57:51.637Z] [HTTP] GET / - 403 (3ms)
+[2026-05-01T15:58:37.154Z] [HTTP] GET /profile - 304 (706ms)
+[2026-05-01T15:58:37.437Z] [HTTP] GET /shipments - 304 (240ms)
+[2026-05-01T15:58:37.913Z] [HTTP] GET /profile - 304 (464ms)
+[2026-05-01T15:58:38.142Z] [HTTP] GET /trucks/undefined - 404 (219ms)
+[2026-05-01T15:58:38.151Z] [WARN] ⚠️ Unauthorized access attempt by fleet@gmail.com (fleet_owner)
+[2026-05-01T15:58:38.153Z] [HTTP] GET / - 403 (2ms)
+[2026-05-01T15:59:33.685Z] [HTTP] GET /profile - 304 (349ms)
+[2026-05-01T15:59:33.959Z] [HTTP] GET /shipments - 304 (234ms)
+[2026-05-01T15:59:34.408Z] [HTTP] GET /profile - 304 (439ms)
+[2026-05-01T15:59:34.648Z] [HTTP] GET /trucks/undefined - 404 (227ms)
+[2026-05-01T15:59:34.658Z] [WARN] ⚠️ Unauthorized access attempt by fleet@gmail.com (fleet_owner)
+[2026-05-01T15:59:34.659Z] [HTTP] GET / - 403 (2ms)
+[2026-05-01T15:59:55.486Z] [HTTP] GET /profile - 304 (372ms)
+[2026-05-01T15:59:55.829Z] [HTTP] GET /shipments - 304 (216ms)
+[2026-05-01T15:59:56.287Z] [HTTP] GET /profile - 304 (450ms)
+[2026-05-01T15:59:56.549Z] [HTTP] GET /trucks/undefined - 404 (250ms)
+[2026-05-01T15:59:56.560Z] [WARN] ⚠️ Unauthorized access attempt by fleet@gmail.com (fleet_owner)
+[2026-05-01T15:59:56.561Z] [HTTP] GET / - 403 (3ms)
+[2026-05-01T15:59:58.638Z] [HTTP] GET /profile - 304 (227ms)
+[2026-05-01T15:59:58.844Z] [HTTP] GET /profile - 304 (205ms)
+[2026-05-01T15:59:59.013Z] [HTTP] GET /shipments - 304 (340ms)
+[2026-05-01T15:59:59.233Z] [HTTP] GET /shipments - 304 (218ms)
+[2026-05-01T15:59:59.440Z] [HTTP] GET /profile - 304 (422ms)
+[2026-05-01T15:59:59.677Z] [HTTP] GET /trucks/undefined - 404 (229ms)
+[2026-05-01T15:59:59.684Z] [WARN] ⚠️ Unauthorized access attempt by fleet@gmail.com (fleet_owner)
+[2026-05-01T15:59:59.686Z] [HTTP] GET / - 403 (3ms)
+[2026-05-01T15:59:59.903Z] [HTTP] GET /profile - 304 (457ms)
+[2026-05-01T16:00:00.112Z] [HTTP] GET /trucks/undefined - 404 (198ms)
+[2026-05-01T16:00:00.120Z] [WARN] ⚠️ Unauthorized access attempt by fleet@gmail.com (fleet_owner)
+[2026-05-01T16:00:00.121Z] [HTTP] GET / - 403 (2ms)
+[2026-05-01T16:00:00.711Z] [HTTP] GET /profile - 304 (222ms)
+[2026-05-01T16:00:00.971Z] [HTTP] GET /shipments - 304 (227ms)
+[2026-05-01T16:00:01.747Z] [HTTP] GET /profile - 304 (434ms)
+[2026-05-01T16:00:01.972Z] [HTTP] GET /trucks/undefined - 404 (213ms)
+[2026-05-01T16:00:01.982Z] [WARN] ⚠️ Unauthorized access attempt by fleet@gmail.com (fleet_owner)
+[2026-05-01T16:00:01.984Z] [HTTP] GET / - 403 (3ms)
+[2026-05-01T16:00:18.677Z] [HTTP] GET /profile - 304 (343ms)
+[2026-05-01T16:00:19.049Z] [HTTP] GET /shipments - 304 (238ms)
+[2026-05-01T16:00:19.511Z] [HTTP] GET /profile - 304 (450ms)
+[2026-05-01T16:00:19.745Z] [HTTP] GET /trucks/undefined - 404 (225ms)
+[2026-05-01T16:00:19.879Z] [WARN] ⚠️ Unauthorized access attempt by fleet@gmail.com (fleet_owner)
+[2026-05-01T16:00:19.881Z] [HTTP] GET / - 403 (3ms)
+[2026-05-01T16:00:34.010Z] [HTTP] GET /profile - 304 (1226ms)
+[2026-05-01T16:00:34.828Z] [HTTP] GET /shipments - 304 (779ms)
+[2026-05-01T16:00:35.324Z] [HTTP] GET /profile - 304 (486ms)
+[2026-05-01T16:00:35.605Z] [HTTP] GET /trucks/undefined - 404 (235ms)
+[2026-05-01T16:00:35.617Z] [WARN] ⚠️ Unauthorized access attempt by fleet@gmail.com (fleet_owner)
+[2026-05-01T16:00:35.620Z] [HTTP] GET / - 403 (4ms)
+[2026-05-01T16:02:01.193Z] [HTTP] GET /profile - 304 (473ms)
+[2026-05-01T16:02:01.477Z] [HTTP] GET /shipments - 304 (241ms)
+[2026-05-01T16:02:01.935Z] [HTTP] GET /profile - 304 (448ms)
+[2026-05-01T16:02:01.948Z] [WARN] ⚠️ Unauthorized access attempt by fleet@gmail.com (fleet_owner)
+[2026-05-01T16:02:01.950Z] [HTTP] GET / - 403 (3ms)
+[2026-05-01T16:03:41.685Z] [HTTP] GET /profile - 304 (313ms)
+[2026-05-01T16:03:41.961Z] [HTTP] GET /shipments - 304 (241ms)
+[2026-05-01T16:03:42.426Z] [HTTP] GET /profile - 304 (456ms)
+[2026-05-01T16:03:42.435Z] [WARN] ⚠️ Unauthorized access attempt by fleet@gmail.com (fleet_owner)
+[2026-05-01T16:03:42.437Z] [HTTP] GET / - 403 (2ms)
+[2026-05-01T16:06:11.203Z] [HTTP] GET /profile - 304 (563ms)
+[2026-05-01T16:06:11.466Z] [HTTP] GET /shipments - 304 (232ms)
+[2026-05-01T16:06:11.939Z] [HTTP] GET /profile - 304 (462ms)
+[2026-05-01T16:06:11.952Z] [WARN] ⚠️ Unauthorized access attempt by fleet@gmail.com (fleet_owner)
+[2026-05-01T16:06:11.954Z] [HTTP] GET / - 403 (3ms)
+[2026-05-01T16:08:22.651Z] [HTTP] GET /profile - 304 (1139ms)
+[2026-05-01T16:08:22.952Z] [HTTP] GET /shipments - 304 (243ms)
+[2026-05-01T16:08:23.837Z] [HTTP] GET /profile - 304 (877ms)
+[2026-05-01T16:08:23.847Z] [WARN] ⚠️ Unauthorized access attempt by fleet@gmail.com (fleet_owner)
+[2026-05-01T16:08:23.848Z] [HTTP] GET / - 403 (2ms)
+[2026-05-01T16:08:27.991Z] [HTTP] PUT /shipments/d4d2569c-f3a9-4651-9302-b7d1f88abff1 - 500 (279ms)
+[2026-05-01T16:08:28.229Z] [HTTP] GET /shipments - 304 (227ms)
+[2026-05-01T16:08:28.523Z] [HTTP] PUT /shipments/d4d2569c-f3a9-4651-9302-b7d1f88abff1 - 500 (371ms)
+[2026-05-01T16:08:28.696Z] [HTTP] GET /profile - 304 (452ms)
+[2026-05-01T16:08:28.704Z] [WARN] ⚠️ Unauthorized access attempt by fleet@gmail.com (fleet_owner)
+[2026-05-01T16:08:28.706Z] [HTTP] GET / - 403 (2ms)
+[2026-05-01T16:08:28.763Z] [HTTP] GET /shipments - 304 (226ms)
+[2026-05-01T16:08:29.612Z] [HTTP] GET /profile - 304 (832ms)
+[2026-05-01T16:08:29.621Z] [WARN] ⚠️ Unauthorized access attempt by fleet@gmail.com (fleet_owner)
+[2026-05-01T16:08:29.623Z] [HTTP] GET / - 403 (3ms)
+[2026-05-01T16:08:31.626Z] [HTTP] PUT /shipments/d4d2569c-f3a9-4651-9302-b7d1f88abff1 - 500 (208ms)
+[2026-05-01T16:08:31.853Z] [HTTP] GET /shipments - 304 (216ms)
+[2026-05-01T16:08:32.330Z] [HTTP] GET /profile - 304 (469ms)
+[2026-05-01T16:08:32.337Z] [WARN] ⚠️ Unauthorized access attempt by fleet@gmail.com (fleet_owner)
+[2026-05-01T16:08:32.338Z] [HTTP] GET / - 403 (2ms)
+[2026-05-01T16:08:39.271Z] [HTTP] GET /trucks - 304 (534ms)
+[2026-05-01T16:08:39.436Z] [HTTP] GET /shipments - 304 (694ms)
+[2026-05-01T16:08:39.449Z] [WARN] ⚠️ Unauthorized access attempt by fleet@gmail.com (fleet_owner)
+[2026-05-01T16:08:39.451Z] [HTTP] GET / - 403 (3ms)
+[2026-05-01T16:08:39.778Z] [HTTP] GET /shipments - 304 (341ms)
+[2026-05-01T16:08:40.131Z] [HTTP] GET /trucks - 304 (858ms)
+[2026-05-01T16:08:40.138Z] [WARN] ⚠️ Unauthorized access attempt by fleet@gmail.com (fleet_owner)
+[2026-05-01T16:08:40.139Z] [HTTP] GET / - 403 (2ms)
+[2026-05-01T16:08:44.419Z] [HTTP] GET /drivers - 304 (427ms)
+[2026-05-01T16:08:44.917Z] [HTTP] GET /drivers - 304 (494ms)
+[2026-05-01T16:08:48.841Z] [HTTP] GET / - 304 (217ms)
+[2026-05-01T16:08:48.966Z] [HTTP] GET /payments - 304 (330ms)
+[2026-05-01T16:08:49.102Z] [HTTP] GET / - 304 (232ms)
+[2026-05-01T16:08:49.410Z] [HTTP] GET /payments - 304 (424ms)
+[2026-05-01T16:11:39.301Z] [HTTP] GET /profile - 304 (592ms)
+[2026-05-01T16:11:51.080Z] [HTTP] GET /drivers - 304 (587ms)
+[2026-05-01T16:11:51.513Z] [HTTP] GET /drivers - 304 (427ms)
+[2026-05-01T16:11:54.737Z] [HTTP] GET /profile - 304 (230ms)
+[2026-05-01T16:11:55.269Z] [HTTP] GET /shipments - 304 (230ms)
+[2026-05-01T16:11:55.490Z] [HTTP] GET /shipments - 304 (219ms)
+[2026-05-01T16:11:55.912Z] [HTTP] GET /profile - 304 (629ms)
+[2026-05-01T16:11:55.923Z] [WARN] ⚠️ Unauthorized access attempt by fleet@gmail.com (fleet_owner)
+[2026-05-01T16:11:55.924Z] [HTTP] GET / - 403 (2ms)
+[2026-05-01T16:11:56.382Z] [HTTP] GET /profile - 304 (468ms)
+[2026-05-01T16:11:56.388Z] [WARN] ⚠️ Unauthorized access attempt by fleet@gmail.com (fleet_owner)
+[2026-05-01T16:11:56.389Z] [HTTP] GET / - 403 (2ms)
+[2026-05-01T16:12:13.726Z] [HTTP] GET /profile - 304 (298ms)
+[2026-05-01T16:12:13.978Z] [HTTP] GET /shipments - 304 (220ms)
+[2026-05-01T16:12:14.442Z] [HTTP] GET /profile - 304 (455ms)
+[2026-05-01T16:12:14.450Z] [WARN] ⚠️ Unauthorized access attempt by fleet@gmail.com (fleet_owner)
+[2026-05-01T16:12:14.452Z] [HTTP] GET / - 403 (2ms)
+[2026-05-01T16:26:50.039Z] [HTTP] GET /shipments - 304 (2752ms)
+[2026-05-01T16:26:51.218Z] [HTTP] GET /profile - 304 (966ms)
+[2026-05-01T16:26:51.489Z] [HTTP] GET /trucks/undefined - 404 (256ms)
+[2026-05-01T16:26:51.702Z] [WARN] ⚠️ Unauthorized access attempt by fleet@gmail.com (fleet_owner)
+[2026-05-01T16:26:51.704Z] [HTTP] GET / - 403 (4ms)
+[2026-05-01T16:32:02.764Z] [HTTP] GET /profile - 304 (1619ms)
+[2026-05-01T16:32:04.221Z] [HTTP] GET /shipments - 304 (269ms)
+[2026-05-01T16:32:05.241Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-05-01T16:32:05.245Z] [HTTP] POST /logout - 401 (6ms)
+[2026-05-01T16:32:06.302Z] [HTTP] GET /profile - 304 (2062ms)
+[2026-05-01T16:32:06.375Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-05-01T16:32:06.378Z] [HTTP] GET /trucks/undefined - 401 (3ms)
+[2026-05-01T16:32:06.400Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-05-01T16:32:06.404Z] [HTTP] GET /users - 401 (5ms)
+[2026-05-01T16:32:45.138Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-05-01T16:32:45.143Z] [HTTP] GET /trucks - 401 (5ms)
+[2026-05-01T16:32:45.147Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-05-01T16:32:45.149Z] [HTTP] GET /trucks - 401 (2ms)

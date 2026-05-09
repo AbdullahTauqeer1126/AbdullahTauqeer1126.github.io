@@ -1,0 +1,798 @@
+[2026-05-05T22:03:26.843Z] [INFO] 🔌 Initializing Supabase...
+[2026-05-05T22:03:26.865Z] [INFO] 📍 URL Present: true
+[2026-05-05T22:03:26.872Z] [INFO] 🔑 Keys Present: true (service: true)
+[2026-05-05T22:03:29.593Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-05-05T22:03:29.616Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-05-05T22:03:29.617Z] [INFO] ✅ Database connection established
+[2026-05-05T22:03:29.626Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-05-05T22:03:29.627Z] [INFO] ✅ Socket.IO initialized
+[2026-05-05T22:03:29.636Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-05-05T22:03:29.638Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-05-05T22:03:29.639Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-05-05T22:03:29.640Z] [INFO] 🔌 Socket.IO: ws://localhost:3001
+[2026-05-05T22:03:29.642Z] [INFO] 📝 Environment: development
+[2026-05-05T22:04:01.989Z] [INFO] 🔍 [PUBLIC] Maintenance check from ::1
+[2026-05-05T22:04:02.003Z] [HTTP] GET /system/settings - 200 (17ms)
+[2026-05-05T22:04:02.208Z] [HTTP] GET /profile - 200 (520ms)
+[2026-05-05T22:04:14.173Z] [HTTP] GET /users - 200 (348ms)
+[2026-05-05T22:04:14.439Z] [HTTP] GET /shipments - 200 (350ms)
+[2026-05-05T22:04:14.720Z] [HTTP] GET /shipments - 304 (228ms)
+[2026-05-05T22:04:14.814Z] [HTTP] GET /users - 304 (593ms)
+[2026-05-05T22:04:14.884Z] [HTTP] GET /trucks - 200 (791ms)
+[2026-05-05T22:04:15.218Z] [HTTP] GET /trucks - 304 (328ms)
+[2026-05-05T22:04:21.065Z] [HTTP] GET /trucks - 200 (328ms)
+[2026-05-05T22:04:21.329Z] [HTTP] GET /trucks - 304 (261ms)
+[2026-05-05T22:04:47.987Z] [HTTP] GET / - 200 (3ms)
+[2026-05-05T22:04:48.024Z] [HTTP] GET / - 304 (3ms)
+[2026-05-05T22:04:54.306Z] [HTTP] GET /fraud/alerts - 200 (4ms)
+[2026-05-05T22:04:54.315Z] [HTTP] GET /fraud/alerts - 304 (1ms)
+[2026-05-05T22:05:01.566Z] [HTTP] GET /reports - 200 (1832ms)
+[2026-05-05T22:05:02.499Z] [HTTP] GET /reports - 304 (930ms)
+[2026-05-05T22:05:02.811Z] [HTTP] GET /shipments - 304 (383ms)
+[2026-05-05T22:05:03.032Z] [HTTP] GET /shipments - 304 (219ms)
+[2026-05-05T22:05:09.147Z] [HTTP] GET /promotions/coupons - 200 (3ms)
+[2026-05-05T22:05:09.166Z] [HTTP] GET /promotions/coupons - 304 (1ms)
+[2026-05-05T22:05:11.842Z] [HTTP] GET /content/pages - 200 (2ms)
+[2026-05-05T22:05:11.864Z] [HTTP] GET /content/pages - 304 (2ms)
+[2026-05-05T22:05:16.988Z] [INFO] 🔍 [PUBLIC] Maintenance check from ::1
+[2026-05-05T22:05:17.000Z] [HTTP] GET /system/settings - 304 (13ms)
+[2026-05-05T22:05:17.021Z] [INFO] 🔍 [PUBLIC] Maintenance check from ::1
+[2026-05-05T22:05:17.046Z] [HTTP] GET /system/settings - 304 (29ms)
+[2026-05-05T22:05:28.139Z] [INFO] ⚙️ System settings updated. Maintenance Mode: true
+[2026-05-05T22:05:28.259Z] [HTTP] PUT /system/settings - 200 (123ms)
+[2026-05-05T22:05:31.172Z] [INFO] 📋 AUDIT: PUT /system/settings by 5eaf5b56-215a-43ac-a000-41e8c5b5ba44 on settings/N/A
+[2026-05-05T22:05:34.557Z] [INFO] 🔍 [PUBLIC] Maintenance check from ::1
+[2026-05-05T22:05:34.558Z] [HTTP] GET /system/settings - 200 (2ms)
+[2026-05-05T22:05:34.654Z] [HTTP] GET /profile - 304 (243ms)
+[2026-05-05T22:05:39.201Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-05-05T22:05:39.210Z] [HTTP] POST /logout - 401 (19ms)
+[2026-05-05T22:06:05.835Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-05-05T22:06:05.848Z] [HTTP] GET /admin/system/settings - 401 (13ms)
+[2026-05-05T22:06:20.853Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-05-05T22:06:20.860Z] [HTTP] GET /admin/system/settings - 401 (7ms)
+[2026-05-05T22:08:01.193Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-05-05T22:08:01.197Z] [HTTP] GET /admin/system/settings - 401 (5ms)
+[2026-05-05T22:08:01.292Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-05-05T22:08:01.303Z] [HTTP] GET /admin/system/settings - 401 (11ms)
+[2026-05-05T22:08:16.430Z] [INFO] 💚 Health: 223MB heap | 0h 5m uptime | 0 tracked errors
+[2026-05-05T22:08:16.520Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-05-05T22:08:16.522Z] [HTTP] GET /admin/system/settings - 401 (2ms)
+[2026-05-05T22:08:17.286Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-05-05T22:08:17.288Z] [HTTP] GET /admin/system/settings - 401 (3ms)
+[2026-05-05T22:09:21.629Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-05-05T22:09:21.632Z] [HTTP] GET /admin/system/settings - 401 (4ms)
+[2026-05-05T22:09:21.702Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-05-05T22:09:21.703Z] [HTTP] GET /admin/system/settings - 401 (2ms)
+[2026-05-05T22:13:16.408Z] [INFO] 💚 Health: 224MB heap | 0h 10m uptime | 0 tracked errors
+[2026-05-05T22:14:39.753Z] [INFO] 🔌 Initializing Supabase...
+[2026-05-05T22:14:39.758Z] [INFO] 📍 URL Present: true
+[2026-05-05T22:14:39.763Z] [INFO] 🔑 Keys Present: true (service: true)
+[2026-05-05T22:14:41.395Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-05-05T22:14:41.399Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-05-05T22:14:41.404Z] [INFO] ✅ Database connection established
+[2026-05-05T22:14:41.417Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-05-05T22:14:41.422Z] [INFO] ✅ Socket.IO initialized
+[2026-05-05T22:14:41.429Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-05-05T22:14:41.435Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-05-05T22:14:41.446Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-05-05T22:14:41.450Z] [INFO] 🔌 Socket.IO: ws://localhost:3001
+[2026-05-05T22:14:41.457Z] [INFO] 📝 Environment: development
+[2026-05-05T22:16:24.717Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-05-05T22:16:24.735Z] [HTTP] GET /admin/system/settings - 401 (19ms)
+[2026-05-05T22:16:30.078Z] [INFO] 🔐 Login attempt: admin@test.com
+[2026-05-05T22:16:30.793Z] [INFO] ✅ User logged in: admin@test.com
+[2026-05-05T22:16:30.807Z] [HTTP] POST /login - 200 (735ms)
+[2026-05-05T22:16:32.914Z] [HTTP] GET /trucks - 304 (475ms)
+[2026-05-05T22:16:33.127Z] [HTTP] GET /trucks - 304 (209ms)
+[2026-05-05T22:16:33.388Z] [HTTP] GET /shipments - 304 (926ms)
+[2026-05-05T22:16:33.418Z] [HTTP] GET /users - 304 (969ms)
+[2026-05-05T22:16:33.596Z] [HTTP] GET /shipments - 304 (206ms)
+[2026-05-05T22:16:33.656Z] [HTTP] GET /users - 304 (234ms)
+[2026-05-05T22:16:38.522Z] [INFO] 🔍 [PUBLIC] Maintenance check from ::1
+[2026-05-05T22:16:38.542Z] [HTTP] GET /system/settings - 200 (20ms)
+[2026-05-05T22:16:38.572Z] [INFO] 🔍 [PUBLIC] Maintenance check from ::1
+[2026-05-05T22:16:38.588Z] [HTTP] GET /system/settings - 304 (16ms)
+[2026-05-05T22:16:57.967Z] [INFO] 🔌 Initializing Supabase...
+[2026-05-05T22:16:57.979Z] [INFO] 📍 URL Present: true
+[2026-05-05T22:16:57.983Z] [INFO] 🔑 Keys Present: true (service: true)
+[2026-05-05T22:16:58.849Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-05-05T22:16:58.850Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-05-05T22:16:58.851Z] [INFO] ✅ Database connection established
+[2026-05-05T22:16:58.862Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-05-05T22:16:58.869Z] [INFO] ✅ Socket.IO initialized
+[2026-05-05T22:16:58.885Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-05-05T22:16:58.887Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-05-05T22:16:58.895Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-05-05T22:16:58.899Z] [INFO] 🔌 Socket.IO: ws://localhost:3001
+[2026-05-05T22:16:58.906Z] [INFO] 📝 Environment: development
+[2026-05-05T22:17:31.919Z] [INFO] 🔌 Initializing Supabase...
+[2026-05-05T22:17:31.941Z] [INFO] 📍 URL Present: true
+[2026-05-05T22:17:32.108Z] [INFO] 🔑 Keys Present: true (service: true)
+[2026-05-05T22:17:33.544Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-05-05T22:17:33.569Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-05-05T22:17:33.615Z] [INFO] ✅ Database connection established
+[2026-05-05T22:17:33.623Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-05-05T22:17:33.641Z] [INFO] ✅ Socket.IO initialized
+[2026-05-05T22:17:33.671Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-05-05T22:17:33.685Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-05-05T22:17:33.690Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-05-05T22:17:33.698Z] [INFO] 🔌 Socket.IO: ws://localhost:3001
+[2026-05-05T22:17:33.711Z] [INFO] 📝 Environment: development
+[2026-05-05T22:19:29.436Z] [INFO] 🔌 Initializing Supabase...
+[2026-05-05T22:19:29.439Z] [INFO] 📍 URL Present: true
+[2026-05-05T22:19:29.440Z] [INFO] 🔑 Keys Present: true (service: true)
+[2026-05-05T22:19:30.522Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-05-05T22:19:30.524Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-05-05T22:19:30.526Z] [INFO] ✅ Database connection established
+[2026-05-05T22:19:30.534Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-05-05T22:19:30.538Z] [INFO] ✅ Socket.IO initialized
+[2026-05-05T22:19:30.543Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-05-05T22:19:30.545Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-05-05T22:19:30.551Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-05-05T22:19:30.554Z] [INFO] 🔌 Socket.IO: ws://localhost:3001
+[2026-05-05T22:19:30.557Z] [INFO] 📝 Environment: development
+[2026-05-05T22:21:13.958Z] [HTTP] GET /profile - 304 (547ms)
+[2026-05-05T22:24:24.069Z] [INFO] 💚 Health: 221MB heap | 0h 5m uptime | 0 tracked errors
+[2026-05-05T22:29:24.071Z] [INFO] 💚 Health: 221MB heap | 0h 10m uptime | 0 tracked errors
+[2026-05-05T22:30:05.402Z] [INFO] 🔍 [PUBLIC] Maintenance check from ::1
+[2026-05-05T22:30:05.466Z] [HTTP] GET /system/settings - 304 (68ms)
+[2026-05-05T22:30:06.900Z] [HTTP] GET /profile - 304 (1047ms)
+[2026-05-05T22:34:24.073Z] [INFO] 💚 Health: 221MB heap | 0h 15m uptime | 0 tracked errors
+[2026-05-05T22:35:41.633Z] [INFO] 🔍 [PUBLIC] Maintenance check from ::1
+[2026-05-05T22:35:41.636Z] [HTTP] GET /system/settings - 304 (10ms)
+[2026-05-05T22:36:07.028Z] [INFO] 🔍 [PUBLIC] Maintenance check from ::1
+[2026-05-05T22:36:07.031Z] [HTTP] GET /system/settings - 304 (4ms)
+[2026-05-05T22:36:27.973Z] [HTTP] GET /profile - 304 (1147ms)
+[2026-05-05T22:36:29.788Z] [HTTP] GET /profile - 304 (462ms)
+[2026-05-05T22:36:31.465Z] [INFO] 🔐 Login attempt: admin@test.com
+[2026-05-05T22:36:32.150Z] [INFO] ✅ User logged in: admin@test.com
+[2026-05-05T22:36:32.173Z] [HTTP] POST /login - 200 (780ms)
+[2026-05-05T22:36:33.171Z] [HTTP] GET /users - 304 (276ms)
+[2026-05-05T22:36:33.503Z] [HTTP] GET /shipments - 304 (526ms)
+[2026-05-05T22:36:33.511Z] [HTTP] GET /trucks - 304 (568ms)
+[2026-05-05T22:36:33.768Z] [HTTP] GET /shipments - 304 (241ms)
+[2026-05-05T22:36:33.779Z] [HTTP] GET /trucks - 304 (248ms)
+[2026-05-05T22:36:33.789Z] [HTTP] GET /users - 304 (612ms)
+[2026-05-05T22:36:35.572Z] [INFO] 🔍 [PUBLIC] Maintenance check from ::1
+[2026-05-05T22:36:35.575Z] [HTTP] GET /system/settings - 304 (4ms)
+[2026-05-05T22:36:35.625Z] [INFO] 🔍 [PUBLIC] Maintenance check from ::1
+[2026-05-05T22:36:35.635Z] [HTTP] GET /system/settings - 304 (22ms)
+[2026-05-05T22:36:39.443Z] [INFO] ⚙️ System settings updated. Maintenance Mode: true
+[2026-05-05T22:36:39.469Z] [HTTP] PUT /system/settings - 200 (35ms)
+[2026-05-05T22:36:41.203Z] [INFO] 📋 AUDIT: PUT /system/settings by 5eaf5b56-215a-43ac-a000-41e8c5b5ba44 on settings/N/A
+[2026-05-05T22:37:01.786Z] [INFO] 🔍 [PUBLIC] Maintenance check from ::1
+[2026-05-05T22:37:01.788Z] [HTTP] GET /system/settings - 200 (4ms)
+[2026-05-05T22:37:04.891Z] [INFO] 🔍 [PUBLIC] Maintenance check from ::1
+[2026-05-05T22:37:04.896Z] [HTTP] GET /system/settings - 304 (6ms)
+[2026-05-05T22:37:04.928Z] [INFO] 🔍 [PUBLIC] Maintenance check from ::1
+[2026-05-05T22:37:04.935Z] [HTTP] GET /system/settings - 304 (8ms)
+[2026-05-05T22:37:24.041Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-05-05T22:37:24.044Z] [HTTP] GET /admin/system/settings - 401 (11ms)
+[2026-05-05T22:39:24.081Z] [INFO] 💚 Health: 223MB heap | 0h 20m uptime | 0 tracked errors
+[2026-05-05T22:39:40.259Z] [INFO] 🔍 [PUBLIC] Maintenance check from ::1
+[2026-05-05T22:39:40.260Z] [HTTP] GET /system/settings - 304 (3ms)
+[2026-05-05T22:39:40.980Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-05-05T22:39:40.982Z] [HTTP] GET /admin/system/settings - 401 (2ms)
+[2026-05-05T22:39:43.479Z] [INFO] 🔍 [PUBLIC] Maintenance check from ::1
+[2026-05-05T22:39:43.483Z] [HTTP] GET /system/settings - 304 (5ms)
+[2026-05-05T22:39:43.564Z] [INFO] 🔍 [PUBLIC] Maintenance check from ::1
+[2026-05-05T22:39:43.582Z] [HTTP] GET /system/settings - 304 (19ms)
+[2026-05-05T22:40:51.736Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-05-05T22:40:51.742Z] [HTTP] GET /admin/system/settings - 401 (6ms)
+[2026-05-05T22:40:56.399Z] [INFO] 🔐 Login attempt: driver@test.com
+[2026-05-05T22:40:57.064Z] [WARN] ⚠️ User not found: driver@test.com
+[2026-05-05T22:40:57.067Z] [ERROR] Login error:
+{
+  "statusCode": 401,
+  "code": "INVALID_CREDENTIALS"
+}
+[2026-05-05T22:40:57.112Z] [HTTP] POST /login - 401 (713ms)
+[2026-05-05T22:41:00.048Z] [INFO] 🔐 Login attempt: customer@test.com
+[2026-05-05T22:41:02.704Z] [WARN] ⚠️ User not found: customer@test.com
+[2026-05-05T22:41:02.706Z] [ERROR] Login error:
+{
+  "statusCode": 401,
+  "code": "INVALID_CREDENTIALS"
+}
+[2026-05-05T22:41:02.709Z] [HTTP] POST /login - 401 (2662ms)
+[2026-05-05T22:41:12.684Z] [HTTP] GET /profile - 304 (318ms)
+[2026-05-05T22:41:13.037Z] [HTTP] GET /users - 304 (365ms)
+[2026-05-05T22:41:13.288Z] [HTTP] GET /users - 304 (248ms)
+[2026-05-05T22:41:45.539Z] [INFO] 🔐 Login attempt: abdullah.tauqeer.chh@gmail.com
+[2026-05-05T22:41:46.607Z] [WARN] ⚠️ Invalid password for: abdullah.tauqeer.chh@gmail.com
+[2026-05-05T22:41:46.608Z] [ERROR] Login error:
+{
+  "statusCode": 401,
+  "code": "INVALID_CREDENTIALS"
+}
+[2026-05-05T22:41:46.611Z] [HTTP] POST /login - 401 (1072ms)
+[2026-05-05T22:41:53.849Z] [INFO] 🔐 Login attempt: abdullah.tauqeer.chh@gmail.com
+[2026-05-05T22:41:54.520Z] [INFO] ✅ User logged in: abdullah.tauqeer.chh@gmail.com
+[2026-05-05T22:41:54.523Z] [HTTP] POST /login - 200 (674ms)
+[2026-05-05T22:41:56.021Z] [HTTP] GET /shipments - 200 (427ms)
+[2026-05-05T22:41:56.060Z] [HTTP] GET /trucks - 200 (473ms)
+[2026-05-05T22:41:56.151Z] [WARN] ⚠️ Unauthorized access attempt by abdullah.tauqeer.chh@gmail.com (fleet_owner)
+[2026-05-05T22:41:56.184Z] [HTTP] GET / - 403 (40ms)
+[2026-05-05T22:41:56.355Z] [HTTP] GET /shipments - 304 (248ms)
+[2026-05-05T22:41:56.367Z] [HTTP] GET /trucks - 304 (240ms)
+[2026-05-05T22:41:56.379Z] [WARN] ⚠️ Unauthorized access attempt by abdullah.tauqeer.chh@gmail.com (fleet_owner)
+[2026-05-05T22:41:56.383Z] [HTTP] GET / - 403 (6ms)
+[2026-05-05T22:41:58.568Z] [HTTP] GET /profile - 200 (240ms)
+[2026-05-05T22:41:58.904Z] [HTTP] GET /trucks - 304 (236ms)
+[2026-05-05T22:41:58.907Z] [HTTP] GET /shipments - 304 (236ms)
+[2026-05-05T22:41:58.918Z] [WARN] ⚠️ Unauthorized access attempt by abdullah.tauqeer.chh@gmail.com (fleet_owner)
+[2026-05-05T22:41:58.920Z] [HTTP] GET / - 403 (3ms)
+[2026-05-05T22:42:00.684Z] [HTTP] GET /profile - 304 (230ms)
+[2026-05-05T22:42:02.675Z] [INFO] 🔍 [PUBLIC] Maintenance check from ::1
+[2026-05-05T22:42:02.678Z] [HTTP] GET /system/settings - 304 (3ms)
+[2026-05-05T22:42:02.688Z] [INFO] 🔍 [PUBLIC] Maintenance check from ::1
+[2026-05-05T22:42:02.693Z] [HTTP] GET /system/settings - 304 (5ms)
+[2026-05-05T22:42:05.990Z] [INFO] ⚙️ System settings updated. Maintenance Mode: true
+[2026-05-05T22:42:05.998Z] [HTTP] PUT /system/settings - 200 (10ms)
+[2026-05-05T22:42:06.338Z] [INFO] 📋 AUDIT: PUT /system/settings by 5eaf5b56-215a-43ac-a000-41e8c5b5ba44 on settings/N/A
+[2026-05-05T22:42:10.119Z] [HTTP] GET /profile - 304 (255ms)
+[2026-05-05T22:42:10.396Z] [HTTP] GET /trucks - 304 (228ms)
+[2026-05-05T22:42:10.477Z] [HTTP] GET /shipments - 304 (307ms)
+[2026-05-05T22:42:10.486Z] [WARN] ⚠️ Unauthorized access attempt by abdullah.tauqeer.chh@gmail.com (fleet_owner)
+[2026-05-05T22:42:10.489Z] [HTTP] GET / - 403 (4ms)
+[2026-05-05T22:42:11.453Z] [HTTP] GET /shipments - 304 (237ms)
+[2026-05-05T22:42:11.465Z] [WARN] ⚠️ Unauthorized access attempt by abdullah.tauqeer.chh@gmail.com (fleet_owner)
+[2026-05-05T22:42:11.469Z] [HTTP] GET / - 403 (4ms)
+[2026-05-05T22:42:11.677Z] [HTTP] GET /shipments - 304 (221ms)
+[2026-05-05T22:42:11.688Z] [WARN] ⚠️ Unauthorized access attempt by abdullah.tauqeer.chh@gmail.com (fleet_owner)
+[2026-05-05T22:42:11.690Z] [HTTP] GET / - 403 (3ms)
+[2026-05-05T22:42:13.725Z] [HTTP] GET /trucks - 304 (226ms)
+[2026-05-05T22:42:13.951Z] [HTTP] GET /trucks - 304 (221ms)
+[2026-05-05T22:43:29.884Z] [ERROR] ❌ Failed to list Supabase buckets: fetch failed
+[2026-05-05T22:43:29.885Z] [INFO] 📁 Creating storage bucket: truck-images...
+[2026-05-05T22:43:39.059Z] [ERROR] Get profile error:
+{
+  "statusCode": 404,
+  "code": "USER_NOT_FOUND"
+}
+[2026-05-05T22:43:39.063Z] [HTTP] GET /profile - 404 (49384ms)
+[2026-05-05T22:43:40.580Z] [ERROR] ❌ Failed to create bucket truck-images: fetch failed
+[2026-05-05T22:43:40.583Z] [ERROR] ⚠️ ensureBucket error for truck-images: fetch failed
+[2026-05-05T22:43:47.657Z] [ERROR] Get profile error:
+{
+  "statusCode": 404,
+  "code": "USER_NOT_FOUND"
+}
+[2026-05-05T22:43:47.660Z] [HTTP] GET /profile - 404 (27668ms)
+[2026-05-05T22:43:51.313Z] [ERROR] ❌ Truck photo upload failed: fetch failed
+[2026-05-05T22:43:51.319Z] [HTTP] POST /truck-photo - 500 (32145ms)
+[2026-05-05T22:43:52.255Z] [ERROR] Get profile error:
+{
+  "statusCode": 404,
+  "code": "USER_NOT_FOUND"
+}
+[2026-05-05T22:43:52.257Z] [HTTP] GET /profile - 404 (38179ms)
+[2026-05-05T22:43:54.720Z] [ERROR] Get profile error:
+{
+  "statusCode": 404,
+  "code": "USER_NOT_FOUND"
+}
+[2026-05-05T22:43:54.722Z] [HTTP] GET /profile - 404 (7047ms)
+[2026-05-05T22:43:55.296Z] [ERROR] Get profile error:
+{
+  "statusCode": 404,
+  "code": "USER_NOT_FOUND"
+}
+[2026-05-05T22:43:55.299Z] [HTTP] GET /profile - 404 (27832ms)
+[2026-05-05T22:43:55.340Z] [ERROR] Get profile error:
+{
+  "statusCode": 404,
+  "code": "USER_NOT_FOUND"
+}
+[2026-05-05T22:43:55.345Z] [HTTP] GET /profile - 404 (37958ms)
+[2026-05-05T22:43:56.814Z] [ERROR] Get profile error:
+{
+  "statusCode": 404,
+  "code": "USER_NOT_FOUND"
+}
+[2026-05-05T22:43:56.829Z] [HTTP] GET /profile - 404 (17761ms)
+[2026-05-05T22:44:00.445Z] [HTTP] GET /profile - 200 (4259ms)
+[2026-05-05T22:44:08.470Z] [HTTP] GET /profile - 304 (1021ms)
+[2026-05-05T22:44:09.718Z] [HTTP] GET /trucks - 304 (235ms)
+[2026-05-05T22:44:10.012Z] [HTTP] GET /trucks - 304 (278ms)
+[2026-05-05T22:44:12.968Z] [HTTP] GET /users - 304 (243ms)
+[2026-05-05T22:44:13.223Z] [HTTP] GET /users - 304 (247ms)
+[2026-05-05T22:44:15.344Z] [HTTP] GET /profile - 304 (239ms)
+[2026-05-05T22:44:16.229Z] [INFO] ✅ Storage bucket verified: truck-images
+[2026-05-05T22:44:20.227Z] [INFO] 📸 Truck photo uploaded: 97aa8433-0387-4ad7-8277-5e091c8367e2/1778021056230-front.png by 97aa8433-0387-4ad7-8277-5e091c8367e2
+[2026-05-05T22:44:20.230Z] [HTTP] POST /truck-photo - 200 (4797ms)
+[2026-05-05T22:44:24.096Z] [INFO] 💚 Health: 228MB heap | 0h 25m uptime | 10 tracked errors
+[2026-05-05T22:44:35.442Z] [INFO] 📸 Truck photo uploaded: 97aa8433-0387-4ad7-8277-5e091c8367e2/1778021060248-back.png by 97aa8433-0387-4ad7-8277-5e091c8367e2
+[2026-05-05T22:44:35.444Z] [HTTP] POST /truck-photo - 200 (15209ms)
+[2026-05-05T22:45:00.762Z] [INFO] 📸 Truck photo uploaded: 97aa8433-0387-4ad7-8277-5e091c8367e2/1778021075465-interior.png by 97aa8433-0387-4ad7-8277-5e091c8367e2
+[2026-05-05T22:45:00.764Z] [HTTP] POST /truck-photo - 200 (25310ms)
+[2026-05-05T22:45:23.299Z] [HTTP] GET /profile - 304 (1048ms)
+[2026-05-05T22:45:24.990Z] [INFO] 📸 Truck photo uploaded: 97aa8433-0387-4ad7-8277-5e091c8367e2/1778021100796-exterior.png by 97aa8433-0387-4ad7-8277-5e091c8367e2
+[2026-05-05T22:45:24.992Z] [HTTP] POST /truck-photo - 200 (24216ms)
+[2026-05-05T22:45:25.620Z] [INFO] ✅ Storage bucket verified: truck-documents
+[2026-05-05T22:45:27.140Z] [HTTP] GET /profile - 304 (292ms)
+[2026-05-05T22:45:29.729Z] [INFO] 📄 Truck document uploaded: 97aa8433-0387-4ad7-8277-5e091c8367e2/1778021125621-registration.pdf by 97aa8433-0387-4ad7-8277-5e091c8367e2
+[2026-05-05T22:45:29.730Z] [HTTP] POST /truck-document - 200 (4722ms)
+[2026-05-05T22:45:32.773Z] [INFO] 📄 Truck document uploaded: 97aa8433-0387-4ad7-8277-5e091c8367e2/1778021129752-fitness.pdf by 97aa8433-0387-4ad7-8277-5e091c8367e2
+[2026-05-05T22:45:32.774Z] [HTTP] POST /truck-document - 200 (3035ms)
+[2026-05-05T22:45:35.763Z] [INFO] 📄 Truck document uploaded: 97aa8433-0387-4ad7-8277-5e091c8367e2/1778021132788-route.pdf by 97aa8433-0387-4ad7-8277-5e091c8367e2
+[2026-05-05T22:45:35.765Z] [HTTP] POST /truck-document - 200 (2979ms)
+[2026-05-05T22:45:39.208Z] [INFO] 📄 Truck document uploaded: 97aa8433-0387-4ad7-8277-5e091c8367e2/1778021135776-insurance.pdf by 97aa8433-0387-4ad7-8277-5e091c8367e2
+[2026-05-05T22:45:39.211Z] [HTTP] POST /truck-document - 200 (3439ms)
+[2026-05-05T22:45:39.223Z] [INFO] 📦 Creating truck: ace 6193
+[2026-05-05T22:45:39.515Z] [WARN] Truck create falling back to memory store: null value in column "type" of relation "trucks" violates not-null constraint
+[2026-05-05T22:45:39.517Z] [HTTP] POST /trucks - 201 (296ms)
+[2026-05-05T22:45:47.298Z] [INFO] 🔍 [PUBLIC] Maintenance check from ::1
+[2026-05-05T22:45:47.299Z] [HTTP] GET /system/settings - 200 (2ms)
+[2026-05-05T22:45:52.739Z] [INFO] 🔍 [PUBLIC] Maintenance check from ::1
+[2026-05-05T22:45:52.742Z] [HTTP] GET /system/settings - 200 (3ms)
+[2026-05-05T22:45:56.099Z] [HTTP] GET /trucks - 200 (7016ms)
+[2026-05-05T22:45:56.565Z] [HTTP] GET /trucks - 304 (296ms)
+[2026-05-05T22:45:57.179Z] [HTTP] GET /profile - 304 (12241ms)
+[2026-05-05T22:45:57.614Z] [HTTP] GET /profile - 304 (420ms)
+[2026-05-05T22:45:58.046Z] [HTTP] GET /profile - 304 (398ms)
+[2026-05-05T22:45:59.667Z] [HTTP] GET /profile - 304 (11896ms)
+[2026-05-05T22:46:00.644Z] [HTTP] GET /profile - 304 (247ms)
+[2026-05-05T22:46:01.398Z] [HTTP] GET /profile - 304 (1750ms)
+[2026-05-05T22:46:28.832Z] [HTTP] PATCH /trucks/trk_1778021139516_dgdb3kgfg/status - 200 (5940ms)
+[2026-05-05T22:46:30.654Z] [INFO] 📋 AUDIT: PATCH /trucks/trk_1778021139516_dgdb3kgfg/status by 5eaf5b56-215a-43ac-a000-41e8c5b5ba44 on status/N/A
+[2026-05-05T22:46:36.496Z] [HTTP] GET /trucks - 200 (7453ms)
+[2026-05-05T22:46:47.443Z] [HTTP] GET /profile - 304 (1295ms)
+[2026-05-05T22:46:47.448Z] [HTTP] GET /profile - 304 (1745ms)
+[2026-05-05T22:47:06.681Z] [INFO] 🔍 [PUBLIC] Maintenance check from ::1
+[2026-05-05T22:47:06.685Z] [HTTP] GET /system/settings - 304 (5ms)
+[2026-05-05T22:47:12.305Z] [INFO] 🔍 [PUBLIC] Maintenance check from ::1
+[2026-05-05T22:47:12.364Z] [HTTP] GET /system/settings - 304 (59ms)
+[2026-05-05T22:47:19.849Z] [INFO] 🔍 [PUBLIC] Maintenance check from ::1
+[2026-05-05T22:47:19.854Z] [HTTP] GET /system/settings - 304 (5ms)
+[2026-05-05T22:47:35.370Z] [HTTP] GET /profile - 304 (527ms)
+[2026-05-05T22:47:37.102Z] [INFO] 🔍 [PUBLIC] Maintenance check from ::1
+[2026-05-05T22:47:37.121Z] [HTTP] GET /system/settings - 304 (19ms)
+[2026-05-05T22:47:37.140Z] [INFO] 🔍 [PUBLIC] Maintenance check from ::1
+[2026-05-05T22:47:37.159Z] [HTTP] GET /system/settings - 304 (19ms)
+[2026-05-05T22:47:40.802Z] [INFO] ⚙️ System settings updated. Maintenance Mode: false
+[2026-05-05T22:47:40.807Z] [HTTP] PUT /system/settings - 200 (8ms)
+[2026-05-05T22:47:41.259Z] [INFO] 📋 AUDIT: PUT /system/settings by 5eaf5b56-215a-43ac-a000-41e8c5b5ba44 on settings/N/A
+[2026-05-05T22:47:46.307Z] [HTTP] GET / - 304 (6ms)
+[2026-05-05T22:47:46.323Z] [HTTP] GET / - 304 (3ms)
+[2026-05-05T22:47:48.065Z] [INFO] 🔍 [PUBLIC] Maintenance check from ::1
+[2026-05-05T22:47:48.101Z] [HTTP] GET /system/settings - 200 (37ms)
+[2026-05-05T22:47:48.131Z] [INFO] 🔍 [PUBLIC] Maintenance check from ::1
+[2026-05-05T22:47:48.149Z] [HTTP] GET /system/settings - 304 (19ms)
+[2026-05-05T22:47:50.106Z] [HTTP] GET /profile - 304 (361ms)
+[2026-05-05T22:47:51.617Z] [INFO] 🔍 [PUBLIC] Maintenance check from ::1
+[2026-05-05T22:47:51.620Z] [HTTP] GET /system/settings - 200 (4ms)
+[2026-05-05T22:47:53.966Z] [INFO] 🔍 [PUBLIC] Maintenance check from ::1
+[2026-05-05T22:47:53.978Z] [HTTP] GET /system/settings - 304 (13ms)
+[2026-05-05T22:47:56.257Z] [INFO] 🔍 [PUBLIC] Maintenance check from ::1
+[2026-05-05T22:47:56.261Z] [HTTP] GET /system/settings - 304 (4ms)
+[2026-05-05T22:47:59.908Z] [HTTP] GET /profile - 304 (579ms)
+[2026-05-05T22:48:04.025Z] [INFO] 🔍 [PUBLIC] Maintenance check from ::1
+[2026-05-05T22:48:04.029Z] [HTTP] GET /system/settings - 304 (5ms)
+[2026-05-05T22:48:09.852Z] [HTTP] GET /trucks - 200 (439ms)
+[2026-05-05T22:48:09.873Z] [HTTP] GET /shipments - 304 (444ms)
+[2026-05-05T22:48:09.902Z] [WARN] ⚠️ Unauthorized access attempt by abdullah.tauqeer.chh@gmail.com (fleet_owner)
+[2026-05-05T22:48:09.907Z] [HTTP] GET / - 403 (6ms)
+[2026-05-05T22:48:10.126Z] [HTTP] GET /trucks - 304 (269ms)
+[2026-05-05T22:48:10.505Z] [HTTP] GET /shipments - 304 (615ms)
+[2026-05-05T22:48:10.689Z] [WARN] ⚠️ Unauthorized access attempt by abdullah.tauqeer.chh@gmail.com (fleet_owner)
+[2026-05-05T22:48:10.696Z] [HTTP] GET / - 403 (8ms)
+[2026-05-05T22:48:16.051Z] [HTTP] GET /trucks - 304 (559ms)
+[2026-05-05T22:48:16.287Z] [HTTP] GET /trucks - 304 (226ms)
+[2026-05-05T22:48:24.408Z] [HTTP] GET /trucks - 304 (453ms)
+[2026-05-05T22:48:24.537Z] [HTTP] GET /shipments - 304 (567ms)
+[2026-05-05T22:48:24.587Z] [WARN] ⚠️ Unauthorized access attempt by abdullah.tauqeer.chh@gmail.com (fleet_owner)
+[2026-05-05T22:48:24.596Z] [HTTP] GET / - 403 (10ms)
+[2026-05-05T22:48:24.743Z] [HTTP] GET /trucks - 304 (223ms)
+[2026-05-05T22:48:24.829Z] [HTTP] GET /shipments - 304 (268ms)
+[2026-05-05T22:48:25.026Z] [WARN] ⚠️ Unauthorized access attempt by abdullah.tauqeer.chh@gmail.com (fleet_owner)
+[2026-05-05T22:48:25.040Z] [HTTP] GET / - 403 (15ms)
+[2026-05-05T22:48:26.168Z] [HTTP] GET /shipments - 304 (227ms)
+[2026-05-05T22:48:26.187Z] [WARN] ⚠️ Unauthorized access attempt by abdullah.tauqeer.chh@gmail.com (fleet_owner)
+[2026-05-05T22:48:26.208Z] [HTTP] GET / - 403 (22ms)
+[2026-05-05T22:48:26.427Z] [HTTP] GET /shipments - 304 (253ms)
+[2026-05-05T22:48:26.446Z] [WARN] ⚠️ Unauthorized access attempt by abdullah.tauqeer.chh@gmail.com (fleet_owner)
+[2026-05-05T22:48:26.473Z] [HTTP] GET / - 403 (28ms)
+[2026-05-05T22:48:29.483Z] [HTTP] GET /drivers - 200 (724ms)
+[2026-05-05T22:48:30.028Z] [HTTP] GET /drivers - 304 (440ms)
+[2026-05-05T22:48:31.308Z] [HTTP] GET /shipments - 304 (224ms)
+[2026-05-05T22:48:31.543Z] [HTTP] GET /shipments - 304 (214ms)
+[2026-05-05T22:48:43.239Z] [HTTP] GET /shipments - 304 (385ms)
+[2026-05-05T22:48:43.848Z] [HTTP] GET /shipments - 304 (604ms)
+[2026-05-05T22:49:05.144Z] [HTTP] GET /drivers - 304 (745ms)
+[2026-05-05T22:49:05.645Z] [HTTP] GET /drivers - 304 (489ms)
+[2026-05-05T22:49:22.008Z] [HTTP] GET /profile - 304 (473ms)
+[2026-05-05T22:49:24.037Z] [HTTP] GET /users - 304 (335ms)
+[2026-05-05T22:49:24.126Z] [INFO] 💚 Health: 226MB heap | 0h 30m uptime | 21 tracked errors
+[2026-05-05T22:49:24.315Z] [HTTP] GET /users - 304 (254ms)
+[2026-05-05T22:49:30.141Z] [HTTP] GET /profile - 200 (411ms)
+[2026-05-05T22:49:41.414Z] [HTTP] GET /profile - 304 (418ms)
+[2026-05-05T22:49:43.445Z] [HTTP] GET /profile - 304 (250ms)
+[2026-05-05T22:49:48.608Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-05-05T22:49:48.614Z] [HTTP] GET /admin/system/settings - 401 (7ms)
+[2026-05-05T22:50:34.987Z] [ERROR] ❌ Brevo SMS failed for +923000974851: You do not have sufficient credits in your account. Please buy the credits from https://app.sendinblue.com/billing/addon/customize/sms .
+[2026-05-05T22:50:34.997Z] [WARN] ⚠️ Brevo SMS failed for +923000974851, OTP: 447718 — Error: You do not have sufficient credits in your account. Please buy the credits from https://app.sendinblue.com/billing/addon/customize/sms .
+[2026-05-05T22:50:34.999Z] [INFO] 🔑 [DEV] OTP for +923000974851: 447718
+[2026-05-05T22:50:35.003Z] [HTTP] POST /send-otp - 200 (1535ms)
+[2026-05-05T22:50:46.796Z] [HTTP] POST /verify-otp - 200 (11ms)
+[2026-05-05T22:51:02.042Z] [INFO] 📝 Signup attempt: driver@gmail.com
+[2026-05-05T22:51:14.709Z] [WARN] ⚠️ User already exists: driver@gmail.com
+[2026-05-05T22:51:14.712Z] [ERROR] Signup error:
+{
+  "statusCode": 409,
+  "code": "USER_EXISTS"
+}
+[2026-05-05T22:51:14.736Z] [HTTP] POST /signup - 409 (12709ms)
+[2026-05-05T22:51:39.497Z] [ERROR] ❌ Brevo SMS failed for +923027724600: You do not have sufficient credits in your account. Please buy the credits from https://app.sendinblue.com/billing/addon/customize/sms .
+[2026-05-05T22:51:39.500Z] [WARN] ⚠️ Brevo SMS failed for +923027724600, OTP: 612979 — Error: You do not have sufficient credits in your account. Please buy the credits from https://app.sendinblue.com/billing/addon/customize/sms .
+[2026-05-05T22:51:39.502Z] [INFO] 🔑 [DEV] OTP for +923027724600: 612979
+[2026-05-05T22:51:39.508Z] [HTTP] POST /send-otp - 200 (910ms)
+[2026-05-05T22:51:44.158Z] [HTTP] POST /verify-otp - 200 (1ms)
+[2026-05-05T22:51:46.705Z] [INFO] 📝 Signup attempt: driver@gmail.com
+[2026-05-05T22:51:48.011Z] [INFO] ✅ User registered: driver@gmail.com
+[2026-05-05T22:51:48.032Z] [HTTP] POST /signup - 201 (1327ms)
+[2026-05-05T22:51:49.825Z] [ERROR] ❌ Brevo SMS failed for +923027724600: You do not have sufficient credits in your account. Please buy the credits from https://app.sendinblue.com/billing/addon/customize/sms .
+[2026-05-05T22:51:50.629Z] [HTTP] GET /shipments - 200 (570ms)
+[2026-05-05T22:51:50.776Z] [HTTP] GET /api/drivers/fleet-owner - 404 (13ms)
+[2026-05-05T22:51:51.559Z] [HTTP] GET /shipments - 304 (865ms)
+[2026-05-05T22:51:51.567Z] [HTTP] GET /api/drivers/fleet-owner - 404 (1ms)
+[2026-05-05T22:51:57.043Z] [HTTP] GET /shipments - 304 (1458ms)
+[2026-05-05T22:51:57.416Z] [HTTP] GET /shipments - 304 (364ms)
+[2026-05-05T22:51:58.616Z] [HTTP] GET /shipments - 304 (234ms)
+[2026-05-05T22:51:58.933Z] [HTTP] GET /shipments - 304 (287ms)
+[2026-05-05T22:52:01.156Z] [HTTP] GET /profile - 304 (290ms)
+[2026-05-05T22:52:02.473Z] [HTTP] GET /trucks - 304 (238ms)
+[2026-05-05T22:52:02.771Z] [HTTP] GET /trucks - 304 (272ms)
+[2026-05-05T22:52:04.527Z] [HTTP] GET /shipments - 304 (512ms)
+[2026-05-05T22:52:04.569Z] [WARN] ⚠️ Unauthorized access attempt by abdullah.tauqeer.chh@gmail.com (fleet_owner)
+[2026-05-05T22:52:04.574Z] [HTTP] GET / - 403 (7ms)
+[2026-05-05T22:52:05.320Z] [HTTP] GET /shipments - 304 (783ms)
+[2026-05-05T22:52:05.337Z] [WARN] ⚠️ Unauthorized access attempt by abdullah.tauqeer.chh@gmail.com (fleet_owner)
+[2026-05-05T22:52:05.341Z] [HTTP] GET / - 403 (5ms)
+[2026-05-05T22:52:06.787Z] [HTTP] GET /drivers - 200 (634ms)
+[2026-05-05T22:52:07.700Z] [HTTP] GET /drivers - 304 (898ms)
+[2026-05-05T22:52:11.316Z] [INFO] ✅ KYC document uploaded for user 213beaf3-8acd-461e-9c74-2fd674431d81
+[2026-05-05T22:52:11.319Z] [HTTP] POST /upload - 200 (23243ms)
+[2026-05-05T22:52:20.657Z] [HTTP] GET /profile - 304 (2057ms)
+[2026-05-05T22:52:28.996Z] [HTTP] GET /profile - 304 (1440ms)
+[2026-05-05T22:52:34.921Z] [INFO] ✅ KYC document uploaded for user 213beaf3-8acd-461e-9c74-2fd674431d81
+[2026-05-05T22:52:34.923Z] [HTTP] POST /upload - 200 (19850ms)
+[2026-05-05T22:52:52.675Z] [HTTP] GET /profile - 200 (482ms)
+[2026-05-05T22:52:53.011Z] [HTTP] GET /shipments - 304 (251ms)
+[2026-05-05T22:54:24.123Z] [INFO] 💚 Health: 224MB heap | 0h 35m uptime | 24 tracked errors
+[2026-05-05T22:54:56.730Z] [INFO] 🔍 [PUBLIC] Maintenance check from ::1
+[2026-05-05T22:54:56.741Z] [HTTP] GET /system/settings - 304 (15ms)
+[2026-05-05T22:54:58.262Z] [HTTP] GET /profile - 304 (1068ms)
+[2026-05-05T22:55:00.185Z] [HTTP] GET /drivers - 200 (514ms)
+[2026-05-05T22:55:00.705Z] [HTTP] GET /drivers - 304 (517ms)
+[2026-05-05T22:55:17.947Z] [HTTP] GET /profile - 304 (1102ms)
+[2026-05-05T22:55:28.599Z] [HTTP] GET /shipments - 304 (449ms)
+[2026-05-05T22:55:28.879Z] [HTTP] GET /shipments - 304 (248ms)
+[2026-05-05T22:56:12.388Z] [HTTP] GET /trucks - 304 (584ms)
+[2026-05-05T22:56:12.404Z] [HTTP] GET /shipments - 200 (615ms)
+[2026-05-05T22:56:12.636Z] [HTTP] GET /trucks - 304 (237ms)
+[2026-05-05T22:56:12.671Z] [HTTP] GET /shipments - 304 (248ms)
+[2026-05-05T22:57:34.539Z] [HTTP] PUT /profile - 200 (2190ms)
+[2026-05-05T22:57:39.029Z] [INFO] 🔍 [PUBLIC] Maintenance check from ::1
+[2026-05-05T22:57:39.040Z] [HTTP] GET /system/settings - 304 (20ms)
+[2026-05-05T22:57:48.004Z] [HTTP] GET /drivers - 304 (904ms)
+[2026-05-05T22:57:49.171Z] [HTTP] GET /drivers - 304 (1159ms)
+[2026-05-05T22:57:50.873Z] [INFO] 🔍 [PUBLIC] Maintenance check from ::1
+[2026-05-05T22:57:50.877Z] [HTTP] GET /system/settings - 200 (6ms)
+[2026-05-05T22:57:51.589Z] [HTTP] GET /profile - 304 (245ms)
+[2026-05-05T22:59:24.160Z] [INFO] 💚 Health: 225MB heap | 0h 40m uptime | 24 tracked errors
+[2026-05-05T23:04:24.165Z] [INFO] 💚 Health: 225MB heap | 0h 45m uptime | 24 tracked errors
+[2026-05-05T23:05:07.878Z] [INFO] 🔍 [PUBLIC] Maintenance check from ::1
+[2026-05-05T23:05:07.894Z] [HTTP] GET /system/settings - 304 (79ms)
+[2026-05-05T23:05:23.049Z] [INFO] 🔍 [PUBLIC] Maintenance check from ::1
+[2026-05-05T23:05:23.068Z] [HTTP] GET /system/settings - 304 (20ms)
+[2026-05-05T23:05:26.846Z] [ERROR] Get profile error:
+{
+  "statusCode": 404,
+  "code": "USER_NOT_FOUND"
+}
+[2026-05-05T23:05:27.764Z] [HTTP] GET /profile - 404 (19854ms)
+[2026-05-05T23:05:31.825Z] [ERROR] Get profile error:
+{
+  "statusCode": 404,
+  "code": "USER_NOT_FOUND"
+}
+[2026-05-05T23:05:32.001Z] [HTTP] GET /profile - 404 (8915ms)
+[2026-05-05T23:05:53.658Z] [HTTP] GET /profile - 200 (3514ms)
+[2026-05-05T23:05:54.032Z] [HTTP] GET /profile - 200 (242ms)
+[2026-05-05T23:06:19.260Z] [HTTP] GET /profile - 304 (9083ms)
+[2026-05-05T23:06:20.157Z] [HTTP] GET /profile - 304 (447ms)
+[2026-05-05T23:06:48.454Z] [HTTP] GET /profile - 304 (432ms)
+[2026-05-05T23:06:49.826Z] [HTTP] GET /profile - 304 (243ms)
+[2026-05-05T23:08:46.604Z] [INFO] 🔍 [PUBLIC] Maintenance check from ::1
+[2026-05-05T23:08:46.687Z] [HTTP] GET /system/settings - 304 (128ms)
+[2026-05-05T23:08:47.701Z] [HTTP] GET /profile - 304 (1927ms)
+[2026-05-05T23:08:47.780Z] [HTTP] GET /profile - 304 (1282ms)
+[2026-05-05T23:09:18.487Z] [INFO] 🔌 Initializing Supabase...
+[2026-05-05T23:09:18.550Z] [INFO] 📍 URL Present: true
+[2026-05-05T23:09:18.659Z] [INFO] 🔑 Keys Present: true (service: true)
+[2026-05-05T23:09:19.814Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-05-05T23:09:19.839Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-05-05T23:09:19.910Z] [INFO] ✅ Database connection established
+[2026-05-05T23:09:19.953Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-05-05T23:09:20.004Z] [INFO] ✅ Socket.IO initialized
+[2026-05-05T23:09:20.032Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-05-05T23:09:20.048Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-05-05T23:09:20.056Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-05-05T23:09:20.067Z] [INFO] 🔌 Socket.IO: ws://localhost:3001
+[2026-05-05T23:09:20.068Z] [INFO] 📝 Environment: development
+[2026-05-05T23:10:29.269Z] [INFO] 🔌 Initializing Supabase...
+[2026-05-05T23:10:29.272Z] [INFO] 📍 URL Present: true
+[2026-05-05T23:10:29.274Z] [INFO] 🔑 Keys Present: true (service: true)
+[2026-05-05T23:10:30.094Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-05-05T23:10:30.097Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-05-05T23:10:30.099Z] [INFO] ✅ Database connection established
+[2026-05-05T23:10:30.116Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /chat, /notifications
+[2026-05-05T23:10:30.118Z] [INFO] ✅ Socket.IO initialized
+[2026-05-05T23:10:40.367Z] [INFO] 🔍 [PUBLIC] Maintenance check from ::1
+[2026-05-05T23:10:40.414Z] [HTTP] GET /system/settings - 304 (60ms)
+[2026-05-05T23:10:42.628Z] [HTTP] GET /profile - 304 (1837ms)
+[2026-05-05T23:10:58.428Z] [HTTP] GET /profile - 304 (9507ms)
+[2026-05-05T23:11:06.182Z] [INFO] 🔍 [PUBLIC] Maintenance check from ::1
+[2026-05-05T23:11:06.184Z] [HTTP] GET /system/settings - 304 (5ms)
+[2026-05-05T23:11:06.275Z] [INFO] 🔍 [PUBLIC] Maintenance check from ::1
+[2026-05-05T23:11:06.276Z] [HTTP] GET /system/settings - 304 (2ms)
+[2026-05-05T23:11:06.302Z] [INFO] 🔍 [PUBLIC] Maintenance check from ::1
+[2026-05-05T23:11:06.304Z] [HTTP] GET /system/settings - 304 (2ms)
+[2026-05-05T23:11:10.051Z] [HTTP] GET /drivers - 304 (3584ms)
+[2026-05-05T23:11:10.310Z] [HTTP] GET /shipments - 304 (1750ms)
+[2026-05-05T23:11:10.577Z] [HTTP] GET /shipments - 304 (237ms)
+[2026-05-05T23:11:11.389Z] [HTTP] GET /drivers - 304 (1285ms)
+[2026-05-05T23:11:11.831Z] [HTTP] GET /users - 200 (536ms)
+[2026-05-05T23:11:12.328Z] [HTTP] GET /users - 304 (494ms)
+[2026-05-05T23:12:15.042Z] [HTTP] GET /profile - 304 (1995ms)
+[2026-05-05T23:12:24.338Z] [HTTP] GET /shipments - 304 (9248ms)
+[2026-05-05T23:12:44.020Z] [HTTP] GET / - 200 (2853ms)
+[2026-05-05T23:12:44.310Z] [HTTP] GET / - 304 (283ms)
+[2026-05-05T23:12:44.860Z] [HTTP] GET /profile - 304 (7219ms)
+[2026-05-05T23:12:49.070Z] [HTTP] GET /shipments - 304 (2382ms)
+[2026-05-05T23:12:49.453Z] [HTTP] GET /shipments - 304 (335ms)
+[2026-05-05T23:13:03.751Z] [HTTP] GET / - 200 (12311ms)
+[2026-05-05T23:13:09.155Z] [HTTP] GET / - 304 (5385ms)
+[2026-05-05T23:13:09.596Z] [HTTP] GET /drivers - 304 (2679ms)
+[2026-05-05T23:13:17.526Z] [HTTP] GET / - 304 (5840ms)
+[2026-05-05T23:13:17.708Z] [HTTP] GET /profile - 200 (8108ms)
+[2026-05-05T23:13:21.653Z] [HTTP] GET / - 304 (4111ms)
+[2026-05-05T23:13:21.697Z] [HTTP] GET /profile - 304 (425ms)
+[2026-05-05T23:13:22.379Z] [HTTP] GET /shipments - 304 (533ms)
+[2026-05-05T23:13:31.944Z] [HTTP] GET /profile - 304 (1574ms)
+[2026-05-05T23:13:42.490Z] [HTTP] GET /profile - 200 (479ms)
+[2026-05-05T23:13:46.846Z] [HTTP] GET /drivers - 304 (37243ms)
+[2026-05-05T23:13:47.840Z] [HTTP] GET /profile - 304 (855ms)
+[2026-05-05T23:13:48.387Z] [HTTP] GET /shipments - 304 (497ms)
+[2026-05-05T23:13:50.766Z] [HTTP] GET /profile - 304 (241ms)
+[2026-05-05T23:13:51.060Z] [HTTP] GET /shipments - 304 (247ms)
+[2026-05-05T23:14:02.646Z] [HTTP] GET /profile - 304 (86739ms)
+[2026-05-05T23:14:03.434Z] [INFO] 💚 Health: 224MB heap | 0h 5m uptime | 11 tracked errors
+[2026-05-05T23:14:04.269Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-05-05T23:14:04.275Z] [HTTP] GET /admin/system/settings - 401 (12ms)
+[2026-05-05T23:14:14.719Z] [HTTP] GET /profile - 304 (8379ms)
+[2026-05-05T23:14:15.080Z] [HTTP] GET /profile - 304 (2225ms)
+[2026-05-05T23:14:15.284Z] [HTTP] GET /shipments - 304 (393ms)
+[2026-05-05T23:15:37.656Z] [HTTP] GET /profile - 304 (729ms)
+[2026-05-05T23:15:40.310Z] [HTTP] GET /profile - 304 (868ms)
+[2026-05-05T23:15:40.661Z] [HTTP] GET /shipments - 304 (311ms)
+[2026-05-05T23:15:45.127Z] [HTTP] GET /profile - 304 (1881ms)
+[2026-05-05T23:15:51.886Z] [HTTP] GET /drivers - 304 (1455ms)
+[2026-05-05T23:15:53.145Z] [HTTP] GET /drivers - 304 (1232ms)
+[2026-05-05T23:15:53.918Z] [HTTP] GET / - 304 (262ms)
+[2026-05-05T23:15:54.290Z] [HTTP] GET / - 304 (335ms)
+[2026-05-05T23:15:57.941Z] [HTTP] GET /drivers - 304 (1282ms)
+[2026-05-05T23:15:58.624Z] [HTTP] GET /drivers - 304 (670ms)
+[2026-05-05T23:15:59.476Z] [HTTP] GET / - 304 (355ms)
+[2026-05-05T23:15:59.921Z] [HTTP] GET / - 304 (429ms)
+[2026-05-05T23:16:10.724Z] [INFO] 🔍 [PUBLIC] Maintenance check from ::1
+[2026-05-05T23:16:10.773Z] [HTTP] GET /system/settings - 304 (54ms)
+[2026-05-05T23:16:12.583Z] [HTTP] GET /profile - 304 (1417ms)
+[2026-05-05T23:16:12.943Z] [INFO] 🔍 [PUBLIC] Maintenance check from ::1
+[2026-05-05T23:16:12.972Z] [HTTP] GET /system/settings - 304 (30ms)
+[2026-05-05T23:16:12.980Z] [HTTP] GET /shipments - 304 (336ms)
+[2026-05-05T23:16:13.751Z] [HTTP] GET /profile - 304 (288ms)
+[2026-05-05T23:16:15.837Z] [HTTP] GET /drivers - 304 (494ms)
+[2026-05-05T23:16:16.303Z] [HTTP] GET /drivers - 304 (463ms)
+[2026-05-05T23:16:17.731Z] [HTTP] GET / - 304 (252ms)
+[2026-05-05T23:16:18.022Z] [HTTP] GET / - 304 (242ms)
+[2026-05-05T23:16:21.137Z] [HTTP] GET /drivers - 304 (466ms)
+[2026-05-05T23:16:22.008Z] [HTTP] GET /drivers - 304 (859ms)
+[2026-05-05T23:16:23.388Z] [HTTP] GET /profile - 304 (256ms)
+[2026-05-05T23:19:03.187Z] [INFO] 💚 Health: 225MB heap | 0h 10m uptime | 12 tracked errors
+[2026-05-05T23:20:26.751Z] [HTTP] GET /profile - 304 (885ms)
+[2026-05-05T23:20:27.532Z] [HTTP] GET /profile - 304 (579ms)
+[2026-05-05T23:20:39.351Z] [HTTP] GET /shipments - 304 (2898ms)
+[2026-05-05T23:21:50.808Z] [INFO] 🔍 [PUBLIC] Maintenance check from ::1
+[2026-05-05T23:21:50.812Z] [HTTP] GET /system/settings - 304 (13ms)
+[2026-05-05T23:21:52.675Z] [HTTP] GET /profile - 304 (1476ms)
+[2026-05-05T23:21:53.449Z] [INFO] 🔍 [PUBLIC] Maintenance check from ::1
+[2026-05-05T23:21:53.454Z] [HTTP] GET /system/settings - 304 (6ms)
+[2026-05-05T23:21:53.850Z] [HTTP] GET /shipments - 304 (247ms)
+[2026-05-05T23:21:54.096Z] [HTTP] GET /profile - 304 (229ms)
+[2026-05-05T23:22:07.470Z] [HTTP] GET /profile - 304 (808ms)
+[2026-05-05T23:22:18.799Z] [HTTP] GET /profile - 304 (1312ms)
+[2026-05-05T23:22:22.091Z] [HTTP] GET /profile - 304 (478ms)
+[2026-05-05T23:22:39.820Z] [HTTP] GET /profile - 304 (594ms)
+[2026-05-05T23:22:40.664Z] [HTTP] GET /shipments - 304 (802ms)
+[2026-05-05T23:23:51.723Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-05-05T23:23:51.737Z] [HTTP] GET /admin/system/settings - 401 (23ms)
+[2026-05-05T23:24:03.193Z] [INFO] 💚 Health: 225MB heap | 0h 15m uptime | 12 tracked errors
+[2026-05-05T23:25:01.581Z] [INFO] 🔍 [PUBLIC] Maintenance check from ::1
+[2026-05-05T23:25:01.586Z] [HTTP] GET /system/settings - 304 (78ms)
+[2026-05-05T23:25:07.233Z] [INFO] 🔍 [PUBLIC] Maintenance check from ::1
+[2026-05-05T23:25:07.255Z] [HTTP] GET /system/settings - 304 (108ms)
+[2026-05-05T23:25:07.320Z] [INFO] 🔍 [PUBLIC] Maintenance check from ::1
+[2026-05-05T23:25:07.322Z] [HTTP] GET /system/settings - 304 (63ms)
+[2026-05-05T23:25:10.164Z] [HTTP] GET /shipments - 304 (2346ms)
+[2026-05-05T23:25:10.421Z] [HTTP] GET /shipments - 304 (242ms)
+[2026-05-05T23:25:39.353Z] [HTTP] GET /users - 304 (1294ms)
+[2026-05-05T23:25:39.886Z] [HTTP] GET /users - 304 (524ms)
+[2026-05-05T23:26:46.787Z] [HTTP] GET /profile - 304 (5788ms)
+[2026-05-05T23:26:48.072Z] [HTTP] GET /shipments - 304 (488ms)
+[2026-05-05T23:26:48.194Z] [HTTP] GET /trucks - 200 (648ms)
+[2026-05-05T23:26:48.572Z] [HTTP] GET /trucks - 304 (303ms)
+[2026-05-05T23:26:48.616Z] [HTTP] GET /shipments - 304 (483ms)
+[2026-05-05T23:26:48.781Z] [WARN] ⚠️ Unauthorized access attempt by abdullah.tauqeer.chh@gmail.com (fleet_owner)
+[2026-05-05T23:26:48.790Z] [HTTP] GET / - 403 (41ms)
+[2026-05-05T23:26:48.809Z] [WARN] ⚠️ Unauthorized access attempt by abdullah.tauqeer.chh@gmail.com (fleet_owner)
+[2026-05-05T23:26:48.819Z] [HTTP] GET / - 403 (11ms)
+[2026-05-05T23:26:48.963Z] [HTTP] GET /shipments - 304 (336ms)
+[2026-05-05T23:26:49.089Z] [HTTP] GET /trucks - 304 (516ms)
+[2026-05-05T23:26:49.110Z] [WARN] ⚠️ Unauthorized access attempt by abdullah.tauqeer.chh@gmail.com (fleet_owner)
+[2026-05-05T23:26:49.129Z] [HTTP] GET / - 403 (21ms)
+[2026-05-05T23:26:51.476Z] [HTTP] GET /drivers - 304 (549ms)
+[2026-05-05T23:26:52.140Z] [HTTP] GET /drivers - 304 (653ms)
+[2026-05-05T23:26:54.701Z] [HTTP] GET /213beaf3-8acd-461e-9c74-2fd674431d81/conversation - 200 (492ms)
+[2026-05-05T23:26:55.401Z] [HTTP] GET /213beaf3-8acd-461e-9c74-2fd674431d81/conversation - 304 (592ms)
+[2026-05-05T23:26:55.861Z] [HTTP] PUT /213beaf3-8acd-461e-9c74-2fd674431d81/read-all - 200 (451ms)
+[2026-05-05T23:26:59.539Z] [HTTP] GET /213beaf3-8acd-461e-9c74-2fd674431d81/conversation - 304 (342ms)
+[2026-05-05T23:27:00.421Z] [HTTP] PUT /213beaf3-8acd-461e-9c74-2fd674431d81/read-all - 200 (874ms)
+[2026-05-05T23:27:04.420Z] [HTTP] GET /213beaf3-8acd-461e-9c74-2fd674431d81/conversation - 304 (221ms)
+[2026-05-05T23:27:04.780Z] [HTTP] PUT /213beaf3-8acd-461e-9c74-2fd674431d81/read-all - 200 (348ms)
+[2026-05-05T23:27:05.605Z] [HTTP] PUT /213beaf3-8acd-461e-9c74-2fd674431d81/read-all - 200 (10435ms)
+[2026-05-05T23:27:06.356Z] [HTTP] GET / - 304 (12106ms)
+[2026-05-05T23:27:06.689Z] [HTTP] GET / - 304 (327ms)
+[2026-05-05T23:27:09.416Z] [HTTP] GET /213beaf3-8acd-461e-9c74-2fd674431d81/conversation - 304 (219ms)
+[2026-05-05T23:27:09.649Z] [HTTP] PUT /213beaf3-8acd-461e-9c74-2fd674431d81/read-all - 200 (222ms)
+[2026-05-05T23:27:14.811Z] [HTTP] GET /213beaf3-8acd-461e-9c74-2fd674431d81/conversation - 304 (601ms)
+[2026-05-05T23:27:15.150Z] [HTTP] PUT /213beaf3-8acd-461e-9c74-2fd674431d81/read-all - 200 (327ms)
+[2026-05-05T23:27:16.919Z] [HTTP] POST / - 200 (376ms)
+[2026-05-05T23:27:17.623Z] [HTTP] GET /213beaf3-8acd-461e-9c74-2fd674431d81/conversation - 200 (683ms)
+[2026-05-05T23:27:17.735Z] [HTTP] GET / - 200 (801ms)
+[2026-05-05T23:27:18.485Z] [HTTP] PUT /213beaf3-8acd-461e-9c74-2fd674431d81/read-all - 200 (840ms)
+[2026-05-05T23:27:19.585Z] [HTTP] GET /213beaf3-8acd-461e-9c74-2fd674431d81/conversation - 304 (371ms)
+[2026-05-05T23:27:19.906Z] [HTTP] PUT /213beaf3-8acd-461e-9c74-2fd674431d81/read-all - 200 (299ms)
+[2026-05-05T23:27:25.149Z] [HTTP] GET /213beaf3-8acd-461e-9c74-2fd674431d81/conversation - 304 (953ms)
+[2026-05-05T23:27:25.588Z] [HTTP] PUT /213beaf3-8acd-461e-9c74-2fd674431d81/read-all - 200 (401ms)
+[2026-05-05T23:27:30.627Z] [HTTP] GET /profile - 304 (891ms)
+[2026-05-05T23:27:31.046Z] [HTTP] GET /213beaf3-8acd-461e-9c74-2fd674431d81/conversation - 304 (803ms)
+[2026-05-05T23:27:31.403Z] [HTTP] GET /shipments - 304 (345ms)
+[2026-05-05T23:27:34.827Z] [HTTP] PUT /213beaf3-8acd-461e-9c74-2fd674431d81/read-all - 200 (3212ms)
+[2026-05-05T23:27:35.875Z] [HTTP] GET /213beaf3-8acd-461e-9c74-2fd674431d81/conversation - 304 (296ms)
+[2026-05-05T23:27:36.226Z] [HTTP] PUT /213beaf3-8acd-461e-9c74-2fd674431d81/read-all - 200 (328ms)
+[2026-05-05T23:27:38.237Z] [HTTP] GET / - 200 (938ms)
+[2026-05-05T23:27:38.845Z] [HTTP] GET / - 304 (595ms)
+[2026-05-05T23:27:40.584Z] [HTTP] GET /213beaf3-8acd-461e-9c74-2fd674431d81/conversation - 304 (468ms)
+[2026-05-05T23:27:41.114Z] [HTTP] PUT /213beaf3-8acd-461e-9c74-2fd674431d81/read-all - 200 (317ms)
+[2026-05-05T23:27:46.510Z] [HTTP] GET /213beaf3-8acd-461e-9c74-2fd674431d81/conversation - 304 (719ms)
+[2026-05-05T23:27:47.752Z] [HTTP] PUT /213beaf3-8acd-461e-9c74-2fd674431d81/read-all - 200 (378ms)
+[2026-05-05T23:27:51.323Z] [HTTP] GET /213beaf3-8acd-461e-9c74-2fd674431d81/conversation - 304 (628ms)
+[2026-05-05T23:27:51.957Z] [HTTP] PUT /213beaf3-8acd-461e-9c74-2fd674431d81/read-all - 200 (307ms)
+[2026-05-05T23:28:06.566Z] [HTTP] GET /213beaf3-8acd-461e-9c74-2fd674431d81/conversation - 304 (768ms)
+[2026-05-05T23:28:06.970Z] [HTTP] GET /213beaf3-8acd-461e-9c74-2fd674431d81/conversation - 304 (392ms)
+[2026-05-05T23:28:07.444Z] [HTTP] PUT /213beaf3-8acd-461e-9c74-2fd674431d81/read-all - 200 (513ms)
+[2026-05-05T23:28:09.116Z] [HTTP] PUT /213beaf3-8acd-461e-9c74-2fd674431d81/read-all - 200 (300ms)
+[2026-05-05T23:28:10.685Z] [HTTP] GET /213beaf3-8acd-461e-9c74-2fd674431d81/conversation - 304 (372ms)
+[2026-05-05T23:28:11.026Z] [HTTP] PUT /213beaf3-8acd-461e-9c74-2fd674431d81/read-all - 200 (296ms)
+[2026-05-05T23:28:15.998Z] [HTTP] GET /213beaf3-8acd-461e-9c74-2fd674431d81/conversation - 304 (783ms)
+[2026-05-05T23:28:21.380Z] [HTTP] PUT /213beaf3-8acd-461e-9c74-2fd674431d81/read-all - 200 (929ms)
+[2026-05-05T23:28:21.553Z] [HTTP] GET /213beaf3-8acd-461e-9c74-2fd674431d81/conversation - 304 (1109ms)
+[2026-05-05T23:28:21.930Z] [HTTP] PUT /213beaf3-8acd-461e-9c74-2fd674431d81/read-all - 200 (351ms)
+[2026-05-05T23:28:25.494Z] [HTTP] GET /213beaf3-8acd-461e-9c74-2fd674431d81/conversation - 304 (298ms)
+[2026-05-05T23:28:28.607Z] [HTTP] PUT /213beaf3-8acd-461e-9c74-2fd674431d81/read-all - 200 (864ms)
+[2026-05-05T23:28:35.748Z] [HTTP] GET /213beaf3-8acd-461e-9c74-2fd674431d81/conversation - 304 (2470ms)
+[2026-05-05T23:28:43.177Z] [HTTP] PUT /213beaf3-8acd-461e-9c74-2fd674431d81/read-all - 200 (2863ms)
+[2026-05-05T23:28:45.805Z] [HTTP] GET /profile - 304 (308ms)
+[2026-05-05T23:28:53.599Z] [HTTP] GET /213beaf3-8acd-461e-9c74-2fd674431d81/conversation - 304 (2981ms)
+[2026-05-05T23:28:55.670Z] [HTTP] PUT /213beaf3-8acd-461e-9c74-2fd674431d81/read-all - 200 (1521ms)
+[2026-05-05T23:28:57.343Z] [HTTP] GET /213beaf3-8acd-461e-9c74-2fd674431d81/conversation - 304 (3081ms)
+[2026-05-05T23:28:57.715Z] [HTTP] GET /profile - 304 (3560ms)
+[2026-05-05T23:28:57.745Z] [HTTP] PUT /213beaf3-8acd-461e-9c74-2fd674431d81/read-all - 200 (300ms)
+[2026-05-05T23:28:59.800Z] [HTTP] GET /213beaf3-8acd-461e-9c74-2fd674431d81/conversation - 304 (602ms)
+[2026-05-05T23:29:01.176Z] [HTTP] PUT /213beaf3-8acd-461e-9c74-2fd674431d81/read-all - 200 (1360ms)
+[2026-05-05T23:29:02.734Z] [HTTP] GET /profile - 304 (590ms)
+[2026-05-05T23:29:03.261Z] [INFO] 💚 Health: 229MB heap | 0h 20m uptime | 18 tracked errors
+[2026-05-05T23:29:04.556Z] [HTTP] GET /213beaf3-8acd-461e-9c74-2fd674431d81/conversation - 304 (364ms)
+[2026-05-05T23:29:04.876Z] [HTTP] PUT /213beaf3-8acd-461e-9c74-2fd674431d81/read-all - 200 (291ms)
+[2026-05-05T23:29:10.378Z] [HTTP] GET /213beaf3-8acd-461e-9c74-2fd674431d81/conversation - 304 (1177ms)
+[2026-05-05T23:29:11.782Z] [HTTP] PUT /213beaf3-8acd-461e-9c74-2fd674431d81/read-all - 200 (290ms)
+[2026-05-05T23:29:15.919Z] [HTTP] GET /213beaf3-8acd-461e-9c74-2fd674431d81/conversation - 304 (520ms)
+[2026-05-05T23:29:16.231Z] [HTTP] PUT /213beaf3-8acd-461e-9c74-2fd674431d81/read-all - 200 (291ms)
+[2026-05-05T23:29:20.295Z] [HTTP] GET /213beaf3-8acd-461e-9c74-2fd674431d81/conversation - 304 (589ms)
+[2026-05-05T23:29:20.719Z] [HTTP] PUT /213beaf3-8acd-461e-9c74-2fd674431d81/read-all - 200 (405ms)
+[2026-05-05T23:29:23.688Z] [HTTP] GET /213beaf3-8acd-461e-9c74-2fd674431d81/conversation - 304 (380ms)
+[2026-05-05T23:29:24.044Z] [HTTP] PUT /213beaf3-8acd-461e-9c74-2fd674431d81/read-all - 200 (288ms)
+[2026-05-05T23:29:29.769Z] [HTTP] GET /213beaf3-8acd-461e-9c74-2fd674431d81/conversation - 304 (1521ms)
+[2026-05-05T23:29:30.081Z] [HTTP] PUT /213beaf3-8acd-461e-9c74-2fd674431d81/read-all - 200 (303ms)
+[2026-05-05T23:29:33.605Z] [HTTP] GET /213beaf3-8acd-461e-9c74-2fd674431d81/conversation - 304 (355ms)
+[2026-05-05T23:29:35.071Z] [HTTP] GET /profile - 304 (1034ms)
+[2026-05-05T23:29:36.027Z] [HTTP] PUT /213beaf3-8acd-461e-9c74-2fd674431d81/read-all - 200 (298ms)
+[2026-05-05T23:29:42.899Z] [HTTP] GET /shipments - 304 (625ms)
+[2026-05-05T23:29:43.201Z] [HTTP] GET /shipments - 304 (293ms)
+[2026-05-05T23:29:43.746Z] [HTTP] GET /213beaf3-8acd-461e-9c74-2fd674431d81/conversation - 304 (304ms)
+[2026-05-05T23:29:44.594Z] [HTTP] GET / - 304 (609ms)
+[2026-05-05T23:29:45.058Z] [HTTP] GET /213beaf3-8acd-461e-9c74-2fd674431d81/conversation - 304 (516ms)
+[2026-05-05T23:29:45.174Z] [HTTP] PUT /213beaf3-8acd-461e-9c74-2fd674431d81/read-all - 200 (620ms)
+[2026-05-05T23:29:45.285Z] [HTTP] GET / - 304 (686ms)
+[2026-05-05T23:29:48.658Z] [HTTP] PUT /213beaf3-8acd-461e-9c74-2fd674431d81/read-all - 200 (433ms)
+[2026-05-05T23:29:49.582Z] [HTTP] GET /213beaf3-8acd-461e-9c74-2fd674431d81/conversation - 304 (430ms)
+[2026-05-05T23:29:49.916Z] [HTTP] PUT /213beaf3-8acd-461e-9c74-2fd674431d81/read-all - 200 (318ms)
+[2026-05-05T23:29:53.740Z] [HTTP] GET /213beaf3-8acd-461e-9c74-2fd674431d81/conversation - 304 (454ms)
+[2026-05-05T23:29:54.111Z] [HTTP] PUT /213beaf3-8acd-461e-9c74-2fd674431d81/read-all - 200 (323ms)
+[2026-05-05T23:30:04.102Z] [HTTP] GET /213beaf3-8acd-461e-9c74-2fd674431d81/conversation - 304 (3186ms)
+[2026-05-05T23:30:05.001Z] [HTTP] GET /profile - 304 (318ms)
+[2026-05-05T23:30:13.246Z] [HTTP] GET /213beaf3-8acd-461e-9c74-2fd674431d81/conversation - 304 (1008ms)
+[2026-05-05T23:30:18.472Z] [HTTP] PUT /213beaf3-8acd-461e-9c74-2fd674431d81/read-all - 200 (675ms)
+[2026-05-05T23:30:20.171Z] [HTTP] GET /213beaf3-8acd-461e-9c74-2fd674431d81/conversation - 304 (301ms)
+[2026-05-05T23:30:20.403Z] [HTTP] PUT /213beaf3-8acd-461e-9c74-2fd674431d81/read-all - 200 (508ms)
+[2026-05-05T23:30:20.604Z] [HTTP] PUT /213beaf3-8acd-461e-9c74-2fd674431d81/read-all - 200 (305ms)
+[2026-05-05T23:30:26.050Z] [HTTP] GET /213beaf3-8acd-461e-9c74-2fd674431d81/conversation - 304 (787ms)
+[2026-05-05T23:30:26.525Z] [HTTP] PUT /213beaf3-8acd-461e-9c74-2fd674431d81/read-all - 200 (306ms)
+[2026-05-05T23:30:29.528Z] [HTTP] GET /213beaf3-8acd-461e-9c74-2fd674431d81/conversation - 304 (361ms)
+[2026-05-05T23:30:30.137Z] [HTTP] PUT /213beaf3-8acd-461e-9c74-2fd674431d81/read-all - 200 (292ms)
+[2026-05-05T23:30:34.875Z] [HTTP] GET /213beaf3-8acd-461e-9c74-2fd674431d81/conversation - 304 (695ms)
+[2026-05-05T23:30:44.542Z] [HTTP] PUT /213beaf3-8acd-461e-9c74-2fd674431d81/read-all - 200 (709ms)
+[2026-05-05T23:30:44.634Z] [HTTP] GET /213beaf3-8acd-461e-9c74-2fd674431d81/conversation - 304 (804ms)
+[2026-05-05T23:30:55.837Z] [HTTP] PUT /213beaf3-8acd-461e-9c74-2fd674431d81/read-all - 200 (649ms)
+[2026-05-05T23:30:55.888Z] [HTTP] GET /213beaf3-8acd-461e-9c74-2fd674431d81/conversation - 304 (718ms)
+[2026-05-05T23:30:57.620Z] [HTTP] PUT /213beaf3-8acd-461e-9c74-2fd674431d81/read-all - 200 (297ms)
+[2026-05-05T23:32:26.267Z] [HTTP] GET /213beaf3-8acd-461e-9c74-2fd674431d81/conversation - 304 (1389ms)
+[2026-05-05T23:32:47.715Z] [HTTP] PUT /213beaf3-8acd-461e-9c74-2fd674431d81/read-all - 200 (653ms)
+[2026-05-05T23:34:03.228Z] [INFO] 💚 Health: 232MB heap | 0h 25m uptime | 19 tracked errors
+[2026-05-05T23:35:12.598Z] [INFO] 🔍 [PUBLIC] Maintenance check from ::1
+[2026-05-05T23:35:12.640Z] [HTTP] GET /system/settings - 304 (192ms)
+[2026-05-05T23:35:12.948Z] [INFO] 🔍 [PUBLIC] Maintenance check from ::1
+[2026-05-05T23:35:12.951Z] [HTTP] GET /system/settings - 304 (6ms)
+[2026-05-05T23:35:14.777Z] [HTTP] GET /profile - 304 (1819ms)
+[2026-05-05T23:35:15.155Z] [HTTP] GET /213beaf3-8acd-461e-9c74-2fd674431d81/conversation - 304 (2508ms)
+[2026-05-05T23:35:15.399Z] [HTTP] GET /profile - 304 (2493ms)
+[2026-05-05T23:35:15.585Z] [HTTP] GET /213beaf3-8acd-461e-9c74-2fd674431d81/conversation - 304 (403ms)
+[2026-05-05T23:35:16.066Z] [HTTP] PUT /213beaf3-8acd-461e-9c74-2fd674431d81/read-all - 200 (319ms)
+[2026-05-05T23:35:17.328Z] [HTTP] PUT /213beaf3-8acd-461e-9c74-2fd674431d81/read-all - 200 (1453ms)
+[2026-05-05T23:35:36.665Z] [HTTP] GET /profile - 304 (9613ms)
+[2026-05-05T23:36:01.061Z] [WARN] Auth middleware error:
+"Authorization header missing"
+[2026-05-05T23:36:01.135Z] [HTTP] GET /admin/system/settings - 401 (78ms)
+[2026-05-05T23:36:04.117Z] [HTTP] GET /profile - 304 (829ms)
+[2026-05-05T23:36:08.181Z] [INFO] 🔍 [PUBLIC] Maintenance check from ::1
+[2026-05-05T23:36:08.232Z] [HTTP] GET /system/settings - 304 (58ms)
+[2026-05-05T23:36:09.575Z] [HTTP] GET /profile - 304 (767ms)
+[2026-05-05T23:36:27.781Z] [HTTP] GET /profile - 304 (685ms)
+[2026-05-05T23:39:03.387Z] [INFO] 💚 Health: 232MB heap | 0h 30m uptime | 20 tracked errors
+[2026-05-05T23:39:33.702Z] [HTTP] GET /profile - 304 (4048ms)
+[2026-05-05T23:39:43.665Z] [HTTP] GET /profile - 304 (995ms)
+[2026-05-05T23:39:45.072Z] [HTTP] GET /profile - 304 (343ms)
+[2026-05-05T23:40:06.775Z] [HTTP] GET /profile - 304 (836ms)
+[2026-05-05T23:40:38.042Z] [HTTP] GET /profile - 304 (711ms)
+[2026-05-05T23:44:03.270Z] [INFO] 💚 Health: 232MB heap | 0h 35m uptime | 21 tracked errors
+[2026-05-05T23:49:03.271Z] [INFO] 💚 Health: 232MB heap | 0h 40m uptime | 21 tracked errors
+[2026-05-05T23:54:03.278Z] [INFO] 💚 Health: 232MB heap | 0h 45m uptime | 21 tracked errors
+[2026-05-05T23:59:03.288Z] [INFO] 💚 Health: 233MB heap | 0h 50m uptime | 21 tracked errors
