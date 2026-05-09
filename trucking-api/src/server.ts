@@ -134,43 +134,33 @@ app.use(errorHandler)
 
 // ========== SERVER STARTUP ==========
 
-const startServer = async () => {
-  try {
-    // Initialize database (non-blocking)
-    try {
-      await initializeDatabase()
-      logger.info('✅ Database connection established')
-    } catch (dbError) {
-      logger.warn('⚠️ Database connection failed - starting server without DB')
-      logger.debug('Database error:', dbError)
-    }
+// For Vercel Serverless Functions, we export the app
+export default app;
 
-    // Initialize Socket.IO (Skip on Vercel as it's not supported)
+// Initialize dependencies synchronously or in the background
+const initialize = async () => {
+  try {
+    // Database connection (non-blocking for Vercel)
+    initializeDatabase().then(() => {
+      logger.info('✅ Database initialized in background');
+    }).catch(err => {
+      logger.warn('⚠️ Database background initialization failed', err);
+    });
+
+    // Initialize Socket.IO (ONLY on non-Vercel environments)
     if (!process.env.VERCEL) {
       const socketIO = initializeSocketIO(httpServer)
       logger.info('✅ Socket.IO initialized')
-    } else {
-      logger.info('ℹ️ Skipping Socket.IO on Vercel')
-    }
 
-    // Start server
-    httpServer.listen(PORT, () => {
-      logger.info(`🚀 Backend API running on http://localhost:${PORT}`)
-      logger.info(`📊 Health check: http://localhost:${PORT}/api/health`)
-      logger.info(`🔐 Auth endpoints: http://localhost:${PORT}/api/auth/...`)
-      logger.info(`🔌 Socket.IO: ws://localhost:${PORT}`)
-      logger.info(`📝 Environment: ${process.env.NODE_ENV || 'development'}`)
-    })
+      httpServer.listen(PORT, () => {
+        logger.info(`🚀 Backend API running on http://localhost:${PORT}`)
+        logger.info(`📊 Health check: http://localhost:${PORT}/api/health`)
+      })
+    }
   } catch (error) {
-    logger.error('Failed to start server:', error)
-    process.exit(1)
+    logger.error('Startup error:', error)
   }
 }
 
-// For Vercel Serverless Functions
-export default app;
-
-// Only start the server if we're not on Vercel
-if (process.env.NODE_ENV !== 'production' || !process.env.VERCEL) {
-  startServer()
-}
+// Execute initialization
+initialize()

@@ -305,3 +305,4 @@
 [2026-05-09T17:11:03.179Z] [INFO] ✅ Database connection established
 [2026-05-09T17:11:03.279Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /messaging, /chat, /notifications
 [2026-05-09T17:11:03.488Z] [INFO] ✅ Socket.IO initialized
+[2026-05-09T17:15:28.862Z] [INFO] 💚 Health: 304MB heap | 0h 5m uptime | 0 tracked errors
