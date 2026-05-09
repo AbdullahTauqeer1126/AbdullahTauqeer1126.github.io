@@ -222,3 +222,86 @@
 [2026-05-09T16:46:45.435Z] [INFO] 💚 Health: 304MB heap | 0h 10m uptime | 0 tracked errors
 [2026-05-09T16:51:45.439Z] [INFO] 💚 Health: 305MB heap | 0h 15m uptime | 0 tracked errors
 [2026-05-09T16:56:45.453Z] [INFO] 💚 Health: 305MB heap | 0h 20m uptime | 0 tracked errors
+[2026-05-09T17:01:55.857Z] [INFO] ℹ️ Firebase not configured (using Supabase fallback)
+[2026-05-09T17:01:56.844Z] [INFO] ℹ️ Firebase not configured (using Supabase fallback)
+[2026-05-09T17:01:59.672Z] [INFO] ℹ️ Firebase not configured (using Supabase fallback)
+[2026-05-09T17:02:02.250Z] [INFO] 🔌 Initializing Supabase...
+[2026-05-09T17:02:02.251Z] [INFO] 📍 URL Present: true
+[2026-05-09T17:02:02.252Z] [INFO] 🔑 Keys Present: true (service: true)
+[2026-05-09T17:02:03.231Z] [INFO] 🔌 Initializing Supabase...
+[2026-05-09T17:02:03.232Z] [INFO] 📍 URL Present: true
+[2026-05-09T17:02:03.239Z] [INFO] 🔑 Keys Present: true (service: true)
+[2026-05-09T17:02:04.874Z] [INFO] ℹ️ Firebase not configured (using Supabase fallback)
+[2026-05-09T17:02:05.178Z] [INFO] 🔌 Initializing Supabase...
+[2026-05-09T17:02:05.185Z] [INFO] 📍 URL Present: true
+[2026-05-09T17:02:05.193Z] [INFO] 🔑 Keys Present: true (service: true)
+[2026-05-09T17:02:08.239Z] [INFO] 🔌 Initializing Supabase...
+[2026-05-09T17:02:08.244Z] [INFO] 📍 URL Present: true
+[2026-05-09T17:02:08.250Z] [INFO] 🔑 Keys Present: true (service: true)
+[2026-05-09T17:02:08.722Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-05-09T17:02:08.732Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-05-09T17:02:08.733Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-05-09T17:02:08.734Z] [INFO] ✅ Database connection established
+[2026-05-09T17:02:08.739Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /messaging, /chat, /notifications
+[2026-05-09T17:02:08.739Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-05-09T17:02:08.741Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-05-09T17:02:08.742Z] [INFO] ✅ Database connection established
+[2026-05-09T17:02:08.723Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-05-09T17:02:08.749Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /messaging, /chat, /notifications
+[2026-05-09T17:02:08.749Z] [INFO] ✅ Database connection established
+[2026-05-09T17:02:08.749Z] [INFO] ✅ Socket.IO initialized
+[2026-05-09T17:02:08.758Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /messaging, /chat, /notifications
+[2026-05-09T17:02:08.758Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-05-09T17:02:08.759Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-05-09T17:02:08.759Z] [INFO] ✅ Socket.IO initialized
+[2026-05-09T17:02:08.760Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-05-09T17:02:08.760Z] [INFO] 🔌 Socket.IO: ws://localhost:3001
+[2026-05-09T17:02:08.761Z] [INFO] 📝 Environment: development
+[2026-05-09T17:02:08.740Z] [INFO] ✅ Socket.IO initialized
+[2026-05-09T17:02:09.159Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-05-09T17:02:09.204Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-05-09T17:02:09.309Z] [INFO] ✅ Database connection established
+[2026-05-09T17:02:09.365Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /messaging, /chat, /notifications
+[2026-05-09T17:02:09.376Z] [INFO] ✅ Socket.IO initialized
+[2026-05-09T17:06:39.350Z] [INFO] 💚 Health: 304MB heap | 0h 5m uptime | 0 tracked errors
+[2026-05-09T17:10:47.113Z] [INFO] ℹ️ Firebase not configured (using Supabase fallback)
+[2026-05-09T17:10:48.621Z] [INFO] ℹ️ Firebase not configured (using Supabase fallback)
+[2026-05-09T17:10:52.979Z] [INFO] ℹ️ Firebase not configured (using Supabase fallback)
+[2026-05-09T17:10:53.750Z] [INFO] ℹ️ Firebase not configured (using Supabase fallback)
+[2026-05-09T17:10:56.797Z] [INFO] 🔌 Initializing Supabase...
+[2026-05-09T17:10:56.804Z] [INFO] 📍 URL Present: true
+[2026-05-09T17:10:56.815Z] [INFO] 🔑 Keys Present: true (service: true)
+[2026-05-09T17:10:58.185Z] [INFO] 🔌 Initializing Supabase...
+[2026-05-09T17:10:58.186Z] [INFO] 📍 URL Present: true
+[2026-05-09T17:10:58.188Z] [INFO] 🔑 Keys Present: true (service: true)
+[2026-05-09T17:11:00.346Z] [INFO] 🔌 Initializing Supabase...
+[2026-05-09T17:11:00.347Z] [INFO] 📍 URL Present: true
+[2026-05-09T17:11:00.349Z] [INFO] 🔑 Keys Present: true (service: true)
+[2026-05-09T17:11:01.047Z] [INFO] 🔌 Initializing Supabase...
+[2026-05-09T17:11:01.077Z] [INFO] 📍 URL Present: true
+[2026-05-09T17:11:01.122Z] [INFO] 🔑 Keys Present: true (service: true)
+[2026-05-09T17:11:02.802Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-05-09T17:11:02.803Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-05-09T17:11:02.804Z] [INFO] ✅ Database connection established
+[2026-05-09T17:11:02.811Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /messaging, /chat, /notifications
+[2026-05-09T17:11:02.812Z] [INFO] ✅ Socket.IO initialized
+[2026-05-09T17:11:02.819Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-05-09T17:11:02.820Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-05-09T17:11:02.822Z] [INFO] ✅ Database connection established
+[2026-05-09T17:11:02.830Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-05-09T17:11:02.831Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-05-09T17:11:02.832Z] [INFO] 🔐 Auth endpoints: http://localhost:3001/api/auth/...
+[2026-05-09T17:11:02.832Z] [INFO] 🔌 Socket.IO: ws://localhost:3001
+[2026-05-09T17:11:02.832Z] [INFO] 📝 Environment: development
+[2026-05-09T17:11:02.844Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /messaging, /chat, /notifications
+[2026-05-09T17:11:02.845Z] [INFO] ✅ Socket.IO initialized
+[2026-05-09T17:11:02.957Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-05-09T17:11:02.963Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-05-09T17:11:02.970Z] [INFO] ✅ Database connection established
+[2026-05-09T17:11:02.985Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /messaging, /chat, /notifications
+[2026-05-09T17:11:02.990Z] [INFO] ✅ Socket.IO initialized
+[2026-05-09T17:11:02.995Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-05-09T17:11:03.091Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-05-09T17:11:03.179Z] [INFO] ✅ Database connection established
+[2026-05-09T17:11:03.279Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /messaging, /chat, /notifications
+[2026-05-09T17:11:03.488Z] [INFO] ✅ Socket.IO initialized

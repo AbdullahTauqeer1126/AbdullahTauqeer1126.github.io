@@ -145,9 +145,13 @@ const startServer = async () => {
       logger.debug('Database error:', dbError)
     }
 
-    // Initialize Socket.IO
-    const socketIO = initializeSocketIO(httpServer)
-    logger.info('✅ Socket.IO initialized')
+    // Initialize Socket.IO (Skip on Vercel as it's not supported)
+    if (!process.env.VERCEL) {
+      const socketIO = initializeSocketIO(httpServer)
+      logger.info('✅ Socket.IO initialized')
+    } else {
+      logger.info('ℹ️ Skipping Socket.IO on Vercel')
+    }
 
     // Start server
     httpServer.listen(PORT, () => {
