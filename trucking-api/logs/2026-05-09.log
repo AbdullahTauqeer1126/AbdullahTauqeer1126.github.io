@@ -306,3 +306,34 @@
 [2026-05-09T17:11:03.279Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /messaging, /chat, /notifications
 [2026-05-09T17:11:03.488Z] [INFO] ✅ Socket.IO initialized
 [2026-05-09T17:15:28.862Z] [INFO] 💚 Health: 304MB heap | 0h 5m uptime | 0 tracked errors
+[2026-05-09T17:17:30.738Z] [INFO] ℹ️ Firebase not configured (using Supabase fallback)
+[2026-05-09T17:17:32.029Z] [INFO] ℹ️ Firebase not configured (using Supabase fallback)
+[2026-05-09T17:17:35.511Z] [INFO] ℹ️ Firebase not configured (using Supabase fallback)
+[2026-05-09T17:17:36.501Z] [INFO] 🔌 Initializing Supabase...
+[2026-05-09T17:17:36.502Z] [INFO] 📍 URL Present: true
+[2026-05-09T17:17:36.503Z] [INFO] 🔑 Keys Present: true (service: true)
+[2026-05-09T17:17:36.515Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /messaging, /chat, /notifications
+[2026-05-09T17:17:36.517Z] [INFO] ✅ Socket.IO initialized
+[2026-05-09T17:17:36.535Z] [INFO] 🚀 Backend API running on http://localhost:3001
+[2026-05-09T17:17:36.536Z] [INFO] 📊 Health check: http://localhost:3001/api/health
+[2026-05-09T17:17:37.815Z] [INFO] 🔌 Initializing Supabase...
+[2026-05-09T17:17:37.821Z] [INFO] 📍 URL Present: true
+[2026-05-09T17:17:37.826Z] [INFO] 🔑 Keys Present: true (service: true)
+[2026-05-09T17:17:37.834Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /messaging, /chat, /notifications
+[2026-05-09T17:17:37.835Z] [INFO] ✅ Socket.IO initialized
+[2026-05-09T17:17:37.811Z] [INFO] ℹ️ Firebase not configured (using Supabase fallback)
+[2026-05-09T17:17:39.356Z] [INFO] ✅ Supabase connected and users table accessible
+[2026-05-09T17:17:39.359Z] [INFO] ✅ Connected to Supabase PostgreSQL database
+[2026-05-09T17:17:39.360Z] [INFO] ✅ Database initialized in background
+[2026-05-09T17:17:40.145Z] [INFO] 🔌 Initializing Supabase...
+[2026-05-09T17:17:40.147Z] [INFO] 📍 URL Present: true
+[2026-05-09T17:17:40.148Z] [INFO] 🔑 Keys Present: true (service: true)
+[2026-05-09T17:17:40.160Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /messaging, /chat, /notifications
+[2026-05-09T17:17:40.162Z] [INFO] ✅ Socket.IO initialized
+[2026-05-09T17:17:41.797Z] [INFO] 🔌 Initializing Supabase...
+[2026-05-09T17:17:41.812Z] [INFO] 📍 URL Present: true
+[2026-05-09T17:17:41.832Z] [INFO] 🔑 Keys Present: true (service: true)
+[2026-05-09T17:17:41.853Z] [INFO] 🔌 Socket.IO initialized with namespaces: /tracking, /messaging, /chat, /notifications
+[2026-05-09T17:17:41.858Z] [INFO] ✅ Socket.IO initialized
+[2026-05-09T17:22:11.956Z] [INFO] 💚 Health: 304MB heap | 0h 5m uptime | 0 tracked errors
+[2026-05-09T17:27:11.957Z] [INFO] 💚 Health: 304MB heap | 0h 10m uptime | 0 tracked errors

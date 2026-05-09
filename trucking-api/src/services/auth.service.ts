@@ -1,4 +1,4 @@
-import bcrypt from 'bcrypt-nodejs'
+import bcrypt from 'bcryptjs'
 import jwt from 'jsonwebtoken'
 import supabase, { supabaseServiceRole } from '../utils/supabase'
 import { UserRole } from '../types'
@@ -41,9 +41,9 @@ export class AuthService {
    */
   async hashPassword(password: string): Promise<string> {
     return new Promise((resolve, reject) => {
-      bcrypt.genSalt(10, (err: any, salt: string) => {
+      bcrypt.genSalt(10, (err, salt) => {
         if (err) return reject(err)
-        bcrypt.hash(password, salt, null, (err: any, hash: string) => {
+        bcrypt.hash(password, salt, (err, hash) => {
           if (err) return reject(err)
           resolve(hash)
         })
